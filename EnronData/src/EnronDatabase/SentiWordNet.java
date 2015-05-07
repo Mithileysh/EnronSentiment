@@ -9,44 +9,30 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-import java.util.List;
 import java.util.Map;
-import java.util.Set;
 import java.util.Map.Entry;
-import java.util.TreeMap;
 
     public class SentiWordNet {
 
-        private Map<String, Double> sentiDictionary;
-        private Map<String,Double> sentiLexicon;
-        private Map<String, String> wordList;
-        private ArrayList<String> synList;
+        private Map<String, Double> dictionary;
         static HashMap<String, HashMap<Integer, Double>> tempDictionary;
-        
-        private double sigma;
 
-        public SentiWordNet(String filePath) throws IOException {
+        public SentiWordNet(String pathToSWN) throws IOException {
             // This is our main dictionary representation
-            sentiDictionary = new HashMap<String, Double>();
+            dictionary = new HashMap<String, Double>();
 
             // From String to list of doubles.
             tempDictionary = new HashMap<String, HashMap<Integer, Double>>();
             
 
-            BufferedReader sentiCSV = null;
+            BufferedReader csv = null;
             try {
-                sentiCSV = new BufferedReader(new FileReader(filePath));
+                csv = new BufferedReader(new FileReader(pathToSWN));
                 int lineNumber = 0;
 
                 String line;
-                while ((line = sentiCSV.readLine()) != null) {
+                while ((line = csv.readLine()) != null) {
                     lineNumber++;
 
                     // If it's a comment, skip this line.
@@ -61,7 +47,7 @@ import java.util.TreeMap;
                         // ascetic#2 practicing great self-denial;...etc
 
                         // Is it a valid line? Otherwise, through exception.
-                        if (data.length <= 5 ) {
+                        if (data.length != 6) {
                             throw new IllegalArgumentException(
                                     "Incorrect tabulation format in file, line: "
                                             + lineNumber);
@@ -118,20 +104,18 @@ import java.util.TreeMap;
                     }
                     score /= sum;
 
-                    sentiDictionary.put(word, score);
-                    //System.out.println(tempDictionary.keySet().toString());
+                    dictionary.put(word, score);
                 }
             } catch (Exception e) {
                 e.printStackTrace();
             } finally {
-                if (sentiCSV != null) {
-                    sentiCSV.close();
+                if (csv != null) {
+                    csv.close();
                 }
             }
         }
 
         public double extract(String word, String pos) {
-        	
         	double score = 0;
         	String wordLow = word.toLowerCase();
         	String[] termList = tempDictionary.keySet().toString().split(",");
@@ -140,56 +124,31 @@ import java.util.TreeMap;
         		String[] wordList = terms.split("#");
         		
         		for (String keyWord: wordList){
-        			
+        			//System.out.print(keyWord + ", ");
         			if ((terms.contains((wordLow + "#" + pos ))) && (keyWord.equals(" " + wordLow))){
                 		
-                		score = sentiDictionary.get(wordLow + "#" + pos);
+                		score = dictionary.get(wordLow + "#" + pos);
                 	    return score;
                 	}else {
                 	    score = 0;
                 	    
                 	}
         		}
-        	         			
+        		
+        		         			
         	}
                 return 0;
       
         }
-        
-        //Create sentiment lexicon based on scores + to -
-        public Map<String, Double> lexicon() {
-        	sigma = 0.0001;
-        	double score = 0;
-        	
-            String[] termDict = tempDictionary.keySet().toString().split(",");
-            
-            synList = new ArrayList<String>();
-        	for (String terms: termDict){
-                //System.out.println(terms);
-        		synList.add(terms);        
-        	}
-        	sentiLexicon = new HashMap<String, Double>();
-        	
-        	
-        	//System.out.println(synList.get(0).replace("[", "") );
-        	sentiLexicon.put(synList.get(0).replace("[", ""), sentiDictionary.get(synList.get(0).replace("[", "")));
-        	
-        	for (int i = 1; i< synList.size()-2;i++){
-    			score = sentiDictionary.get(synList.get(i).replace(" ", ""));
-    			//if (score > Math.abs(sigma))
-                //System.out.println(synList.get(i) + " " + score);    		
-        	    sentiLexicon.put(synList.get(i).replace(" ", ""), score);
-        	}
-        	sentiLexicon.put(synList.get(synList.size()-1).replace("]", ""), sentiDictionary.get(synList.get(synList.size()-1).replace("]", "")));
-        	//System.out.println(sentiLexicon.entrySet());
-        	
-        	
-
-        	return sentiLexicon;
+        public static void main (String[] args) throws IOException{
+        	String pathToSWN = "SentiWordNet_3.0.0_20130122.txt";
+    		SentiWordNet sentiwordnet = new SentiWordNet(pathToSWN);
+    		
+    		System.out.println(sentiwordnet.extract("good", "a"));
+    		System.out.println(sentiwordnet.extract("congratulations", "v"));
+    		System.out.println(sentiwordnet.extract("skills", "n"));
         	
         }
-        
-
         
 		
 
