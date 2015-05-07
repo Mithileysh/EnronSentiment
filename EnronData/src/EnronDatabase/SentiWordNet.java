@@ -129,6 +129,9 @@ import java.util.TreeMap;
                 }
             }
         }
+        public double extract (String synTerm){
+        	return sentiDictionary.get(synTerm.replace(" ", ""));
+        }
 
         public double extract(String word, String pos) {
         	
