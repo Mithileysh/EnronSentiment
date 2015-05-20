@@ -10,5 +10,7 @@
 	<classpathentry exported="true" kind="lib" path="lib/lucene-analyzers-common-5.1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/lucene-benchmark-5.1.0.jar"/>
 	<classpathentry exported="true" kind="lib" path="lib/lucene-core-5.1.0.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/LibSVM.jar"/>
+	<classpathentry exported="true" kind="lib" path="lib/weka.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
