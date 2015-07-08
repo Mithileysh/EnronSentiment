@@ -50,7 +50,7 @@ public class SentiKMeans {
 	static final String USER = "root";
 	static final String PASSWORD = "root";
 	
-	
+	//variables for retrieving data from database
 	static int id;
 	static String date;
 	static String body;
@@ -74,6 +74,7 @@ public class SentiKMeans {
 	static ArrayList<String> tempLexicon;
 	static ArrayList<String> tempDictionary;
 	
+	// create recursion method for finding the matching word
     public static ArrayList<Integer> recursion(int mIndex, String str, ArrayList<String> strList){
 		
 		ArrayList<Integer> hs = new ArrayList<Integer>();
@@ -117,6 +118,7 @@ public class SentiKMeans {
 		
 		return strList.indexOf(str);
 	}
+	//create method for min-max normalization
 	public static double normalize(int value, ArrayList<Integer> intList){
 		
 		double norValue = 0.0;
@@ -140,15 +142,16 @@ public class SentiKMeans {
 			return 0.0;
 		}
 		
-		
-		
 		return norValue;
 	}
+	
 	public static void main(String[] args) throws IOException {
 		Connection myConn = null;
 		Statement myStmt = null;
 		
 		Map<String, Double> sentiDictionary = new HashMap<String,Double>();
+		
+		//create empty arraylist for storing words from wordlist
 		tempLexicon = new ArrayList<String>();
 		try{
 			
@@ -158,26 +161,28 @@ public class SentiKMeans {
 			myConn = DriverManager.getConnection(URL,USER,PASSWORD);
 			System.out.println("connected");
 			
-			
+			// Query from database
 			myStmt = myConn.createStatement();
 			String sql;
 			sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE subject NOT LIKE 'Re%'OR subject NOT LIKE ('FW%' OR '%FW%') LIMIT 200 ";
 			ResultSet rs = myStmt.executeQuery(sql);
 			count = 0;
 			
-			String outputFile = "enronemail_kmeans_features_2h_normalized.csv";
+			//generate output file directory
+			String outputFile = "enronemail_kmeans_features_normalized.csv";
 			
 			FileWriter fileWriter = null;	
 			fileWriter = new FileWriter (outputFile);
 			
+			fileWriter.append("id, ");
+			
+			//stopwords normalization
 			StopAnalyzer stopAnalyzer = new StopAnalyzer();
 			CharArraySet stopWords= stopAnalyzer.ENGLISH_STOP_WORDS_SET;
-			//System.out.println(stopWords.toString());
-						
+			
+			//
 			swl = new SentiWordList();
 			
-			fileWriter.append("id, ");
-			int attrCount = 0;
 			
 			for (String word: swl.createList(POSLIST)){
 				tempLexicon.add(word);
@@ -187,6 +192,7 @@ public class SentiKMeans {
 				tempLexicon.add( words);
 			}
 			
+			int attrCount = 0;
 			for (String term:tempLexicon){
 				attrCount++;
 				fileWriter.append("attr_" + attrCount + ",");

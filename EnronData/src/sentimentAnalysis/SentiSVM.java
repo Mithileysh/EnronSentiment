@@ -168,7 +168,7 @@ import sentimentTools.simpleKMeans;
 				ResultSet rs = myStmt.executeQuery(sql);
 				count = 0;
 				
-				String outputFile = "enronemail_svmlight_features_swnlabel_2h.dat";
+				String outputFile = "enronemail_svmlight_features_kmeanslabel_#7.dat";
 				
 				FileWriter fileWriter = null;	
 				fileWriter = new FileWriter (outputFile);
@@ -178,7 +178,8 @@ import sentimentTools.simpleKMeans;
 				//System.out.println(stopWords.toString());
 							
 				swl = new SentiWordList();
-				/*
+				
+				//create kmeans labels
 				skm = new simpleKMeans();
 				
 				skm.cluster("enronemail_kmeans_features_2h_normalized.csv");
@@ -187,8 +188,10 @@ import sentimentTools.simpleKMeans;
 				for (int label: skm.classNum()){
 					classLabel.add(label);
 				}
-				*/
 				
+				
+				//SWN labels
+				/*
 				ArrayList<Integer> classLabel = new ArrayList<Integer>();
 				classLabel.add(1);
 				classLabel.add(1);
@@ -391,7 +394,7 @@ import sentimentTools.simpleKMeans;
 				classLabel.add(1);
 				classLabel.add(1);
 				classLabel.add(1);
-
+                */
 				
 				
 				for (String word: swl.createList(POSLIST)){
@@ -437,7 +440,7 @@ import sentimentTools.simpleKMeans;
 						
 						//fileWriter.append(id + ", ");
 						
-						fileWriter.append(classLabel.get(number-1)+ "  ");
+						fileWriter.append( classLabel.get(number-1) +" ");
 						
 						for (String token : tokens){
 							
@@ -527,6 +530,7 @@ import sentimentTools.simpleKMeans;
 								
 							
 				            }
+				            //create wordlist labels
 				            /*
 				            int label = 0;
 				            //System.out.println(sizeList.toString());

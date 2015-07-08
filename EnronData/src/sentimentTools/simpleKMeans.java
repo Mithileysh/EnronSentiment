@@ -9,18 +9,15 @@ import weka.filters.Filter;
 import weka.filters.unsupervised.attribute.Remove;
 
 public class simpleKMeans {
-	ClusterEvaluation eval;
+	// initialize variables
+	static ClusterEvaluation eval;
 	Instances data;
 	String[] options;
 	SimpleKMeans skm;
 	DataSource source;
 	Instances newData;
 	
-	public simpleKMeans () {
-		
-		
-	}
-	
+	// create cluster method
 	public String cluster (String filename)throws Exception{
 		source = new DataSource(filename);
 		data = new Instances(source.getDataSet());
@@ -33,12 +30,12 @@ public class simpleKMeans {
 		remove.setInputFormat(data);                          // inform filter about dataset **AFTER** setting options
 		newData = Filter.useFilter(data, remove);
 		
-		System.out.println("\n--> normal");
+		//System.out.println("\n--> normal");
 		options = new String[8];
 		options[0] = "-t";
 		options[1] = filename;
 		options[2] = "-N";
-		options[3] = "5";
+		options[3] = "3";
 		options[4] = "-S";
 		options[5] = "5000000";
 		options[6] = "-I";
@@ -46,16 +43,18 @@ public class simpleKMeans {
 		
 		return ClusterEvaluation.evaluateClusterer(new SimpleKMeans(), options);
 		
-	}	
+	}
+	//get cluster assignment for each instance
 	public int[] classNum () throws Exception{	
 	
 		System.out.println("\n--> manual");
 		skm = new SimpleKMeans();
 		
+		
 		skm.setDontReplaceMissingValues(true);
 		skm.setPreserveInstancesOrder(true);
-		skm.setNumClusters(3);
-		skm.setSeed(5000000);	
+		skm.setNumClusters(7);
+		skm.setSeed(3);	
 		
 		skm.buildClusterer(newData);
 		
@@ -65,11 +64,12 @@ public class simpleKMeans {
 		
 		return skm.getAssignments();
 	}	
-	
-	public int numClusters(){
+	//get cluster numbers
+	public static int numClusters(){
 		
 		return eval.getNumClusters();
 	}
+	//get sum of squared errors
 	public double sse(){
 		
 		return skm.getSquaredError();
@@ -83,12 +83,19 @@ public class simpleKMeans {
 			System.out.println("usage: " + simpleKMeans.class.getName() + " <csv-file>");
 			System.exit(0);
 		}
+		
 		simpleKMeans skm =  new simpleKMeans();
-		System.out.println(skm.cluster("enronemail_kmeans_features_2h_normalized.csv"));
+		skm.cluster("enronemail_kmeans_features_2h_normalized.csv");
 		for(int classNum: skm.classNum()){
 			System.out.println("#" + classNum);
 		}
-		System.out.println("#" + skm.sse());
+		
+		System.out.println(eval.clusterResultsToString());
+		System.out.println("# SSE: " + skm.sse());
+		System.out.println("# of clusters: " + numClusters());
+		for(int classNum: skm.classNum()){
+			System.out.println("#" + classNum);
+		}
 	}
 	*/
 
