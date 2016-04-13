@@ -1,2 +1,3 @@
 eclipse.preferences.version=1
 encoding//src/sentimentAnalysis/SentiBaseline.java=UTF-8
+encoding//src/sentimentClustering/AlgoDBSCAN.java=UTF-8

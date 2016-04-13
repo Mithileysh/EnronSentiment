@@ -1,0 +1,300 @@
+<1311, training, 1004054400000, []>
+<1415, training, 1014768000000, [good, free, ]>
+<1416, training, 1014768000000, [free, ]>
+<1418, training, 1014681600000, [-conflict, free, ]>
+<1420, training, 1014681600000, [well, ]>
+<1454, training, 1013731200000, []>
+<1497, training, 1012867200000, [-twist, work, ]>
+<1523, training, 1011225600000, []>
+<1622, training, 1006819200000, []>
+<1746, training, 1015286400000, []>
+<1804, training, 1014768000000, [free, ]>
+<1806, training, 1014768000000, [good, free, ]>
+<1808, training, 1014681600000, [free, ]>
+<1813, training, 1014681600000, [free, ]>
+<1814, training, 1014681600000, [well, ]>
+<2051, training, 1011657600000, [good, ]>
+<2444, training, 999734400000, []>
+<3054, training, 984614400000, [-hard, work, happy, celebrate, sweet, ]>
+<3294, training, 985305600000, []>
+<3444, training, 986342400000, [restructuring, ]>
+<3503, training, 986947200000, [-missed, -break, top, restructuring, ]>
+<3510, training, 987292800000, [-break, welcome, ]>
+<3516, training, 987379200000, [-break, welcome, ]>
+<3684, training, 991958400000, [like, pleased, like, ]>
+<3740, training, 994032000000, [happy, ]>
+<5213, training, 997056000000, [work, wonderful, -ruin, good, fun, work, -hard, creative, fun, ]>
+<5515, training, 1003708800000, []>
+<6286, training, 1001462400000, [-conflicting, trust, well, worth, better, thank, patience, ]>
+<6796, training, 1008115200000, [nice, great, happy, ]>
+<6849, training, 1001462400000, [-conflicting, trust, well, worth, better, thank, patience, ]>
+<8206, training, 975456000000, []>
+<8739, training, 956016000000, [masters, ]>
+<8784, training, 953856000000, [appreciated, ]>
+<8990, training, 947548800000, [good, celebrate, good, ]>
+<9202, training, 939081600000, [work, ]>
+<9239, training, 938044800000, [accurate, ]>
+<10177, training, 985305600000, [well, -prohibit, encourage, encourage, -rumor, appropriate, -sap, ease, success, ]>
+<10310, training, 987552000000, [love, -issues, ]>
+<10312, training, 987552000000, [love, -issues, ]>
+<11934, training, 957916800000, []>
+<12043, training, 956016000000, [-issues, like, ]>
+<12103, training, 954720000000, []>
+<18172, training, 1003968000000, [-sorry, -miss, -emergency, ]>
+<18421, training, 1001894400000, [exciting, ]>
+<18970, training, 1003968000000, [-sorry, -miss, -emergency, ]>
+<19037, training, 1002499200000, []>
+<19467, training, 994291200000, [-unable, fun, like, won, -lose, like, ready, ]>
+<19545, training, 1003881600000, [works, ]>
+<19586, training, 1002067200000, [-afraid, -conflict, ]>
+<19794, training, 1003190400000, [-limited, ]>
+<19947, training, 1004918400000, []>
+<20099, training, 1002672000000, [best, ]>
+<20141, training, 1003968000000, [works, works, ]>
+<20144, training, 1003968000000, [fine, -interfere, works, ]>
+<20164, training, 1003881600000, []>
+<21138, training, 957916800000, []>
+<22223, training, 960336000000, [like, -hate, -complain, -greasy, -smell, faith, ]>
+<22393, training, 971654400000, [good, ]>
+<22395, training, 971654400000, [good, dawn, ]>
+<22396, training, 971654400000, [dawn, -kill, dawn, good, dawn, ]>
+<22397, training, 971654400000, [good, ]>
+<22667, training, 979171200000, []>
+<22670, training, 979171200000, []>
+<22719, training, 980899200000, []>
+<22725, training, 981072000000, [important, good, ]>
+<22726, training, 981072000000, [right, ]>
+<22761, training, 981590400000, [good, ]>
+<22787, training, 982022400000, [luxury, ]>
+<22873, training, 983232000000, [-twisted, ]>
+<22874, training, 983232000000, [-trash, welcome, ]>
+<22906, training, 983836800000, [willing, ]>
+<22907, training, 983836800000, []>
+<22908, training, 983836800000, []>
+<25056, training, 963878400000, []>
+<27716, training, 1005782400000, []>
+<28157, training, 1005782400000, [works, ]>
+<28498, training, 1005782400000, []>
+<28556, training, 1004486400000, [-error, privileged, -strictly, -error, ]>
+<28557, training, 1004486400000, [-error, ]>
+<28614, training, 1001376000000, [promise, won, ]>
+<30474, training, 996710400000, []>
+<30476, training, 996710400000, []>
+<30501, training, 996105600000, []>
+<30513, training, 995932800000, [like, ]>
+<30564, training, 994809600000, [works, great, works, free, available, ]>
+<30565, training, 994809600000, [works, great, works, free, available, ]>
+<30567, training, 994809600000, [free, available, ]>
+<30593, training, 993686400000, [great, ]>
+<30821, training, 1000339200000, [like, fresh, -jerk, -fried, prefer, ]>
+<31048, training, 1002844800000, []>
+<31164, training, 1001980800000, []>
+<31169, training, 1001030400000, []>
+<31295, training, 1006214400000, [available, available, ]>
+<31296, training, 1006214400000, [available, available, ]>
+<31729, training, 1006214400000, [available, available, ]>
+<31784, training, 1005696000000, [-unwanted, ]>
+<32288, training, 948153600000, []>
+<32440, training, 947462400000, []>
+<32612, training, 934329600000, []>
+<32805, training, 990057600000, [like, sharp, ]>
+<32860, training, 989107200000, []>
+<32929, training, 987379200000, []>
+<33042, training, 984009600000, [good, ]>
+<33046, training, 983923200000, [like, great, -marginal, ]>
+<33077, training, 983404800000, [important, ]>
+<33099, training, 982800000000, [works, ]>
+<33103, training, 982713600000, [work, ]>
+<33105, training, 982713600000, [available, ]>
+<33114, training, 982195200000, [free, ]>
+<33160, training, 981244800000, [like, ]>
+<33193, training, 980121600000, [work, promised, ]>
+<33200, training, 979862400000, []>
+<33476, training, 972345600000, [won, ]>
+<33591, training, 969321600000, [lovely, available, ]>
+<33810, training, 959904000000, [right, good, ]>
+<33811, training, 959817600000, [good, ]>
+<33813, training, 959817600000, [nice, work, ]>
+<33818, training, 959644800000, [like, -complex, ]>
+<33820, training, 959212800000, [important, ]>
+<34058, training, 969321600000, [lovely, available, ]>
+<34062, training, 972259200000, [won, ]>
+<34658, training, 991958400000, []>
+<35472, training, 1002240000000, [won, ]>
+<35975, training, 973641600000, [-lonely, available, convenience, well, enjoyed, productive, like, thank, accomplished, great, ease, clearly, intelligent, attractive, interesting, -radical, won, won, clean, -concerned, -debt, ]>
+<35978, training, 973555200000, [available, convenience, well, enjoyed, productive, like, thank, accomplished, great, ease, clearly, intelligent, attractive, interesting, -radical, won, won, clean, -concerned, -debt, ]>
+<38010, training, 998352000000, [delightful, ]>
+<38038, training, 997315200000, []>
+<38156, training, 1003190400000, []>
+<38616, training, 1003708800000, [like, fun, ]>
+<39073, training, 974764800000, [-hate, -miss, ]>
+<41177, training, 1006905600000, []>
+<41361, training, 995241600000, [good, great, available, love, convenient, free, ]>
+<41368, training, 994982400000, [available, love, convenient, ]>
+<41660, training, 1002499200000, [ready, approve, ]>
+<41773, training, 1001030400000, [-conflicting, trust, well, worth, better, thank, patience, ]>
+<41785, training, 1000857600000, [pleased, -conflicting, -conflict, patience, like, -hard, work, sincerely, ]>
+<41835, training, 1000252800000, [liked, comfortable, satisfied, progress, ]>
+<41867, training, 999561600000, [thank, great, -conflicting, -conflict, patience, like, -hard, work, sincerely, ]>
+<42612, training, 1000857600000, [pleased, -conflicting, -conflict, patience, like, -hard, work, sincerely, ]>
+<42742, training, 993600000000, []>
+<42782, training, 993600000000, []>
+<42783, training, 993600000000, []>
+<42795, training, 993600000000, []>
+<42803, training, 993600000000, []>
+<42815, training, 993600000000, []>
+<42822, training, 993600000000, []>
+<42827, training, 993600000000, []>
+<42837, training, 993600000000, []>
+<42850, training, 993600000000, []>
+<42889, training, 993600000000, []>
+<42907, training, 993600000000, []>
+<42911, training, 993600000000, []>
+<42969, training, 993600000000, []>
+<42979, training, 993600000000, []>
+<42993, training, 993600000000, []>
+<43000, training, 993600000000, []>
+<43066, training, 993600000000, []>
+<43161, training, 993600000000, []>
+<43231, training, 993600000000, []>
+<43453, training, 993600000000, []>
+<43459, training, 993600000000, []>
+<43461, training, 993600000000, []>
+<43463, training, 993600000000, []>
+<43467, training, 993600000000, []>
+<43477, training, 993600000000, []>
+<43567, training, 993600000000, []>
+<43581, training, 993600000000, []>
+<43594, training, 993600000000, []>
+<43657, training, 993600000000, []>
+<43668, training, 993600000000, []>
+<43674, training, 993600000000, []>
+<43686, training, 993600000000, []>
+<43712, training, 993600000000, []>
+<43726, training, 993600000000, []>
+<43738, training, 993600000000, []>
+<43756, training, 993600000000, []>
+<43829, training, 993600000000, []>
+<43835, training, 993600000000, []>
+<43836, training, 993600000000, []>
+<44062, training, 1007942400000, [tough, worked, appreciate, commitment, -dire, like, ]>
+<44069, training, 1001548800000, [-sorry, wonderful, celebration, celebration, ]>
+<44249, training, 1016496000000, [jolly, rich, best, rich, worked, rich, like, well, ]>
+<44250, training, 1016496000000, [rich, jolly, rich, ]>
+<44487, training, 1013040000000, [work, ]>
+<44490, training, 1013040000000, [work, ]>
+<44850, training, 1010102400000, [like, free, appropriate, accurate, gold, ]>
+<45030, training, 1015286400000, []>
+<45320, training, 1012780800000, []>
+<45623, training, 1005523200000, []>
+<46082, training, 1005609600000, []>
+<46103, training, 1005264000000, [-sorry, good, luck, available, fine, ]>
+<46147, training, 1016755200000, [great, enjoy, love, smooth, available, ]>
+<46148, training, 1016755200000, [great, enjoy, love, smooth, available, ]>
+<46155, training, 1016582400000, [-sorry, -miss, worked, happy, like, work, ]>
+<46162, training, 1016496000000, [rich, jolly, rich, ]>
+<46265, training, 1012780800000, []>
+<46410, training, 1010361600000, [like, free, appropriate, accurate, gold, ]>
+<46425, training, 1010016000000, [like, free, appropriate, accurate, gold, ]>
+<46452, training, 1008720000000, [enjoy, -indulge, ]>
+<46484, training, 1008028800000, [tough, worked, appreciate, commitment, -dire, like, ]>
+<46630, training, 1001980800000, [glad, effectively, clear, like, ]>
+<46659, training, 1001462400000, [-conflicting, trust, well, worth, better, thank, patience, ]>
+<46673, training, 1001289600000, [available, work, available, ]>
+<46677, training, 1001203200000, [available, work, available, ]>
+<46699, training, 1000857600000, [pleased, -conflicting, -conflict, patience, like, -hard, work, sincerely, ]>
+<46756, training, 999216000000, [-hard, like, -hard, work, sincerely, ]>
+<46770, training, 999043200000, [like, -hard, work, sincerely, ]>
+<46798, training, 998956800000, [happy, free, works, best, ]>
+<46838, training, 998179200000, [like, like, -conflicts, ]>
+<46870, training, 997401600000, []>
+<46878, training, 997315200000, [like, happy, ]>
+<46879, training, 997315200000, [like, happy, ]>
+<46906, training, 996796800000, [free, works, best, ]>
+<46954, training, 996192000000, [available, ]>
+<46959, training, 996192000000, [available, ]>
+<46966, training, 996192000000, [available, ]>
+<46973, training, 996192000000, [available, ]>
+<47156, training, 1010016000000, [like, free, appropriate, accurate, gold, ]>
+<48796, training, 1004313600000, [good, competitive, advantage, ]>
+<48937, training, 1004400000000, [work, works, work, good, competitive, advantage, privileged, -strictly, thank, ]>
+<49146, training, 1005696000000, [good, ]>
+<49228, training, 1005091200000, [great, restructuring, better, -rhetoric, easier, -concede, support, winning, -inevitable, -concerns, -problem, -contaminated, -troubled, best, like, -concerned, -contamination, worked, -hard, endorse, support, proper, worked, -problems, work, -issues, -unlikely, -issues, -concerns, -problem, helpful, better, -issues, work, right, pleased, hopeful, -opposition, helpful, ]>
+<49334, training, 1002585600000, []>
+<49641, training, 997574400000, [convenience, thank, ]>
+<49728, training, 1004313600000, [works, work, good, competitive, advantage, ]>
+<49764, training, 1004313600000, []>
+<49880, training, 1003449600000, [well, good, good, ]>
+<50472, training, 1004313600000, []>
+<50772, training, 1003363200000, [like, delicious, ]>
+<50848, training, 1003449600000, [well, good, good, ]>
+<50865, training, 1003363200000, [well, good, good, ]>
+<51272, training, 1002672000000, [well, useful, encouraging, support, ]>
+<52033, training, 1006819200000, []>
+<52036, training, 1006819200000, []>
+<52709, training, 974678400000, [effective, thank, ]>
+<53905, training, 954201600000, []>
+<53969, training, 950572800000, []>
+<53971, training, 950572800000, [-goof, ]>
+<54243, training, 990057600000, []>
+<54287, training, 989193600000, []>
+<54313, training, 988156800000, []>
+<54314, training, 988156800000, [like, ]>
+<54328, training, 987465600000, []>
+<54331, training, 987379200000, [love, ]>
+<54377, training, 986169600000, [-sorry, ]>
+<54380, training, 986169600000, []>
+<54394, training, 985824000000, [great, ]>
+<54395, training, 985824000000, []>
+<54655, training, 974073600000, []>
+<54657, training, 974073600000, []>
+<54661, training, 974073600000, [love, ]>
+<54750, training, 970444800000, [happy, ]>
+<54760, training, 969926400000, [fine, ]>
+<54980, training, 989280000000, []>
+<55258, training, 975628800000, []>
+<55283, training, 975456000000, [-tentatively, ]>
+<55400, training, 990057600000, [great, ]>
+<57618, training, 990057600000, []>
+<57994, training, 950572800000, [-goof, ]>
+<58808, training, 1000080000000, []>
+<58811, training, 1000944000000, []>
+<58813, training, 1001376000000, []>
+<59064, training, 1013644800000, []>
+<59748, training, 999043200000, [like, -hard, work, sincerely, ]>
+<59954, training, 1001030400000, [-conflicting, trust, well, worth, better, thank, patience, ]>
+<60622, training, 999043200000, []>
+<60632, training, 996105600000, [-break, ]>
+<60663, training, 1003104000000, []>
+<60668, training, 1002153600000, []>
+<60669, training, 1001462400000, []>
+<60670, training, 1001462400000, [secure, ]>
+<60675, training, 1000944000000, [thank, ]>
+<62678, training, 949363200000, []>
+<62989, training, 961372800000, [free, ]>
+<63049, training, 964742400000, []>
+<63061, training, 966211200000, []>
+<63063, training, 966211200000, []>
+<63289, training, 971740800000, []>
+<63295, training, 971827200000, []>
+<63339, training, 972432000000, [good, ]>
+<63420, training, 975283200000, [works, ]>
+<63425, training, 975542400000, [good, ]>
+<69279, training, 971827200000, []>
+<69280, training, 972345600000, [like, ]>
+<69420, training, 972432000000, [best, good, ]>
+<69526, training, 1016755200000, [great, enjoy, love, smooth, available, ]>
+<69528, training, 1016755200000, [great, enjoy, love, smooth, available, ]>
+<69538, training, 1016582400000, [love, ]>
+<69539, training, 1016582400000, [-swamped, ]>
+<69624, training, 1014681600000, []>
+<69635, training, 1014595200000, [work, best, enjoyed, -chilly, loved, great, best, ]>
+<69671, training, 1013644800000, [great, -slow, lovely, best, happy, ]>
+<69678, training, 1013644800000, []>
+<69699, training, 1013385600000, [convenient, ]>
+<69703, training, 1013126400000, [convenient, ]>
+<69726, training, 1012348800000, [-sorry, -missed, fun, -missed, -belated, ]>
+<69784, training, 1007596800000, []>
+<69834, training, 1007337600000, [available, ]>
+<69894, training, 1007683200000, [-dust, best, -concerns, fun, -doubts, excited, -terribly, thrilled, work, safe, ]>
+<70075, training, 1003708800000, [available, ]>

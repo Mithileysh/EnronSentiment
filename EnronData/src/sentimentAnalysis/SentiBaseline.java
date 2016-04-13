@@ -29,6 +29,7 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.apache.lucene.analysis.util.CharArraySet;
@@ -39,6 +40,7 @@ import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import opennlp.tools.util.Span;
+import sentimentTools.DimensionReduce;
 import sentimentTools.SentiWordNet;
 
 
@@ -51,25 +53,74 @@ public class SentiBaseline {
 	//Database credentials
 	static final String USER = "root";
 	static final String PASSWORD = "root";
-	
-	
+		
 	static int id;
 	static String date;
 	static String body;
+	static String subject;
 	static ArrayList<String> bodyList;
 	static ArrayList<String> tokenList;
+	static ArrayList<String> tokenTag;
 	
 	static CharArraySet STOP_WORDS_SET;
+	
+	static DimensionReduce dr;
+	static String SWNLEXICON = "results/enronemail_swn_2001_01.txt";
+	static ArrayList<String> swnLexicon;
 	
 	static double sigma;
 	static double score;
 	
+    public static ArrayList<Integer> recursion(int mIndex, String str, ArrayList<String> strList){
+		
+		ArrayList<Integer> hs = new ArrayList<Integer>();
+		
+		ArrayList<String> subArray = new ArrayList<String>();
+		int index = findPosition(str, strList);
+		
+		if (index == -1){
+			
+			return hs;
+		}
+		
+		int nextIndex = 0;
+		
+		nextIndex += index;
+		
+		hs.add(mIndex + index);
+		
+		nextIndex += 1;
+		
+		if(index >= strList.size()-1) 
+			return hs;
+		
+	    List<String> subList = strList.subList(index+1,(strList.size()));
+	    
+	    
+	    if(subList.isEmpty())
+	    	return hs;
+	    for (String subItem: subList){
+	    	subArray.add(subItem);
+	    }
+	   	
+	    ArrayList<Integer> aa = recursion(mIndex+nextIndex,str,subArray);
+	    if(aa.isEmpty())
+	    	return hs;
+	    hs.addAll(aa);
+		return hs;
+	}
+	
+	public static int findPosition(String str, ArrayList<String> strList){
+		
+		return strList.indexOf(str);
+	}
 	
 	public static void main(String[] args) throws IOException {
 		Connection myConn = null;
 		Statement myStmt = null;
 		
 		Map<String, Double> sentiDictionary = new HashMap<String,Double>();
+		swnLexicon = new ArrayList<String>();
 		
 		try{
 			
@@ -82,192 +133,213 @@ public class SentiBaseline {
 			
 			myStmt = myConn.createStatement();
 			String sql;
-			sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE subject NOT LIKE 'Re%'OR subject NOT LIKE ('FW%' OR '%FW%') LIMIT 200 ";
-			ResultSet rs = myStmt.executeQuery(sql);
-			count = 0;
-			String outputFile = "enronemail_features_baseline_2h.csv";
+			// Select from database
+			sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
 			
-			FileWriter fileWriter = null;	
+			
+			ResultSet rs = myStmt.executeQuery(sql);
+			
+			String outputFile = "results/enronemail_swn_label_2001_01.dat";
+			
+			FileWriter fileWriter = null;
+			
 			fileWriter = new FileWriter (outputFile);
+			
+			//fileWriter.append("id, ");
+			
 			StopAnalyzer stopAnalyzer = new StopAnalyzer();
 			CharArraySet stopWords= stopAnalyzer.ENGLISH_STOP_WORDS_SET;
 			//System.out.println(stopWords.toString());
 			
+			//retrieve reduced swn lexicon
+			dr = new DimensionReduce();
+			for(String terms: dr.swnDictionary(SWNLEXICON).keySet()){
+				if (dr.swnDictionary(SWNLEXICON).get(terms) != 0.0){
+					swnLexicon.add(terms);
+					//fileWriter.append(terms + ", ");
+				
+				}
+			}
+			System.out.println(swnLexicon.size());
 			while (rs.next()){
 				
 				InputStream tokenmodelIn = new FileInputStream("en-token.bin");
 				InputStream posmodelIn = new FileInputStream("en-pos-maxent.bin");
-				String pathToSWN = "SentiWordNet_3.0.0_20130122.txt";
-				SentiWordNet sentiwordnet = new SentiWordNet(pathToSWN);
 				
 				EnglishStemmer stemmer = new EnglishStemmer();
 				
-		
 				id = rs.getInt("mid");
+				subject = rs.getString("subject").toLowerCase();
 				date = rs.getString("date");
-				body = rs.getString("body");
+				body = rs.getString("body").toLowerCase();
 				
-				String bodyStr = body.toLowerCase();
-				
-				bodyList = new ArrayList<String>();
-		        bodyList.add(bodyStr);
-		        
 		        //System.out.println(bodyList);
-		        
-		        try {
-		        	
+		        if (subject != "" && subject.contains("fw:") == false && subject != "re:"){	
+					try {
+						//fileWriter.append(id + ", ");
 						
-					TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
-					TokenizerME tokenizer = new TokenizerME(tokenModel);
-					  		  
-					String[] tokens = tokenizer.tokenize(bodyList.get(0));
-					double tokenProbs[] = tokenizer.getTokenProbabilities();
-					
-					POSModel posModel = new POSModel(posmodelIn);
-					POSTaggerME tagger = new POSTaggerME(posModel);
-					
-					System.out.print(id + ", ");	
-					
-					
-					fileWriter.append(id + ", ");
-					
-					for (String token : tokens){
-						tokenList= new ArrayList<String>();
-						tokenList.add(token);
-					
-						if (stopWords.toString().contains(token)){
-							tokenList.remove(token);
-						}else if (token.contains("=") | token.contains(".")){
-							token.replace("=","");
-							token.replace(",", "");
-							
-						}
-						else{
-							stemmer.setCurrent(token);
-							stemmer.stem();
-							
-							
-							tokenList.add(stemmer.getCurrent());
-							  
-						@SuppressWarnings("deprecation")
-						List<String> tags = tagger.tag(tokenList);
-						for(String tag: tags){
-							if ( tag.contains("VB")){
-								tag = "v";
-								if (sentiwordnet.extract(token, "v") == 0.0){
-									tokenList.remove(token);
-								}
-								else{
-									//System.out.print(token + "/ "+ tag + ": " + sentiwordnet.extract(token, "v") + ", ");
-							        fileWriter.append(sentiwordnet.extract(token, "v") + ", " );
-							        score = sentiwordnet.extract(token, "v");
-									sentiDictionary.put(token, sentiwordnet.extract(token, "v"));
-								}
-							}
-							else if (tag.contains("NN")){
-								tag = "n";
-								if (sentiwordnet.extract(token, "n") == 0.0){
-									tokenList.remove(token);
-								}else{
-									//System.out.print(token + "/ "+ tag + ": " + sentiwordnet.extract(token, "n") +", ");
-									fileWriter.append(sentiwordnet.extract(token, "n") + ", " );
-									score = sentiwordnet.extract(token, "n");
-									sentiDictionary.put(token, sentiwordnet.extract(token, "n"));
-								}
-				  
-							}
-							else if (tag.contains("JJ")){
-								tag = "a";
-								if (sentiwordnet.extract(token, "a") == 0.0){
-									tokenList.remove(token);
-								}else{
-									//System.out.print(token + "/ "+ tag + ": " + sentiwordnet.extract(token, "a") +", ");
-									fileWriter.append(sentiwordnet.extract(token, "a") + ", " );
-									score = sentiwordnet.extract(token, "a");
-									sentiDictionary.put(token, sentiwordnet.extract(token, "a"));
-								} 
-							}
-							else if (tag.contains("RB")){
-								tag = "r";
-								if (sentiwordnet.extract(token, "r") == 0.0){
-									tokenList.remove(token);
-								}else{
-									//System.out.print(token + "/ "+ tag + ": " + sentiwordnet.extract(token, "r") +", ");
-									fileWriter.append(sentiwordnet.extract(token, "r") + ", " );
-									score = sentiwordnet.extract(token, "r");
-									sentiDictionary.put(token, sentiwordnet.extract(token, "r"));
-								}  
-							}
-							else{
-								tokenList.remove(token);								  
-							}	 
-						}
+				        System.out.println(id + ", ");
+						bodyList = new ArrayList<String>();	
+				        bodyList.add(body);
+		                TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
+					    TokenizerME tokenizer = new TokenizerME(tokenModel);
+						  		  
+					    POSModel posModel = new POSModel(posmodelIn);
+						POSTaggerME tagger = new POSTaggerME(posModel);
 						
+					    String[] tokens = tokenizer.tokenize(bodyList.get(0));
+					    tokenList = new ArrayList<String>();
+					    tokenTag = new ArrayList<String>();
+					    for (String token : tokens){
+						    
+					    	if (token.contains("=") | token.contains(".")|token.contains("/")|token.contains(":")){ 
+					    	    token.replaceAll(".", "").replaceAll("/", "").replaceAll("=", "").replaceAll(":", "");
+					    		stemmer.setCurrent(token);
+						        stemmer.stem();
+								tokenList.add(stemmer.getCurrent());
+						        if (stopWords.contains(stemmer.getCurrent())){
+							       tokenList.remove(stemmer.getCurrent());
+						        }
+						
+					    	}else{
+							    stemmer.setCurrent(token);
+					    		tokenList.add(stemmer.getCurrent());
+					    	}
+					    }
+					    //System.out.println(tokenList.size());
+					    @SuppressWarnings("deprecation")
+					    List<String> tags = tagger.tag(tokenList);
+				        //System.out.println(tags.size());
+					    for (int i = 0; i< tokenList.size(); i++){
+					        //System.out.println(tokenList.get(i) + "/" + tags.get(i) + " ");
+							if ( tags.get(i).contains("VB")){
+								tokenTag.add(tokenList.get(i) + "#v");
+								
+							    
+							}
+							else if (tags.get(i).contains("NN")){
+								tokenTag.add(tokenList.get(i) + "#n");
+								//tokenList.remove(i);
+							    
+							}
+							else if (tags.get(i).contains("JJ")){
+								tokenTag.add(tokenList.get(i) + "#a");
+								//tokenList.remove(i);
+							    
+							}
+							else if (tags.get(i).contains("RB")){
+								tokenTag.add(tokenList.get(i) + "#r");
+								//tokenList.remove(i);
+							    
+							}else{
+								tokenList.remove(i);
+							}
+							    
+							
+					    }
+					    //System.out.println(tokenTag.toString() );
+					    ArrayList<Double> sizeList = new ArrayList<Double>();
+					    for(String tempTerm : swnLexicon) {
+							
+						    HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
+							synTerms.put(tempTerm, new ArrayList<Integer>(recursion(0,tempTerm, tokenTag)));
+					        int size;
+						    for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
+							
+							    size = entry.getValue().size();
+							    
+							    if (size != 0){
+							    	double value = size *(dr.swnDictionary(SWNLEXICON).get(tempTerm));
+								    sizeList.add(value);
+							    }
+							}
 						}
-						//sentiDictionary.put(token, score);
-					}
-					//System.out.println("");
-					fileWriter.append("\n");
-					
-					//}
-					}
+					    
+					    double label = 0.0;
+			            //System.out.println(sizeList.toString());
+			            for (double value: sizeList){
+							label += value;
+							
+			            }
+			            if (label > 0){
+			            	fileWriter.append("1" + " ");
+			            }else if (label < 0){
+			            	fileWriter.append("-1" + " ");
+			            }else{
+			            	fileWriter.append("0" + " ");
+			            }
+			            
+			            int count = 0;
+					    for(String tempTerm : swnLexicon) {
+						    count++;
+						    HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
+							synTerms.put(tempTerm, new ArrayList<Integer>(recursion(0,tempTerm, tokenTag)));
+					        int size;
+						    for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
+							
+							    size = entry.getValue().size();
+							    if (size != 0){
+								    fileWriter.append(count + ":" + size * (dr.swnDictionary(SWNLEXICON).get(tempTerm))+ " ");
+								    //fileWriter1.append(tempPosterm + ":" + size + ", ");
+							    }
+							}
+						}
+					    fileWriter.append(System.getProperty("line.separator"));
+		            }
 					catch (IOException e) {
-					  e.printStackTrace();
+						e.printStackTrace();
 					}
-		            finally {
-					  if (tokenmodelIn != null) {
-					    try {
-					      tokenmodelIn.close();
-					    }
-					    catch (IOException e) {
-					    }
-					  }
-					  if (posmodelIn != null) {
+				    finally {
+				    	if (tokenmodelIn != null) {
+				        }
+						try {
+							 tokenmodelIn.close();
+						}catch (IOException e) {
+						}
+					}
+					if (posmodelIn != null) {
 						try {
 						   posmodelIn.close();
 						}
-						   catch (IOException e) {
+					    catch (IOException e) {
 						}
-					  }
-					  
 					}
-				
-						
+				}
 			}
 			try{
-				  fileWriter.flush();
-				  fileWriter.close();
-				  stopAnalyzer.close();
-			  }catch (IOException e) {
-				  e.printStackTrace();
-			  }
-			
+			  fileWriter.flush();
+			  fileWriter.close();
+			  stopAnalyzer.close();
+			}catch (IOException e) {
+			  e.printStackTrace();
+			}
+					
 			rs.close();
 			myStmt.close();
 			myConn.close();
-		}catch (SQLException se){
-			se.printStackTrace();
-		}catch (Exception e){
-			e.printStackTrace();
-		}finally{
-			
-			try{
-				if (myStmt != null){
-					myStmt.close();
+			}catch (SQLException se){
+					se.printStackTrace();
+				}catch (Exception e){
+					e.printStackTrace();
+				}finally{
+					
+					try{
+						if (myStmt != null){
+							myStmt.close();
+						}
+					}catch (SQLException sse){
+							sse.printStackTrace();
+					}
+					try{
+						if (myConn != null)
+							myConn.close();
+					}catch (SQLException sqe){
+						sqe.printStackTrace();
+					}
+				
 				}
-			}catch (SQLException sse){
-					sse.printStackTrace();
-			}
-			try{
-				if (myConn != null)
-					myConn.close();
-			}catch (SQLException sqe){
-				sqe.printStackTrace();
-			}
-		
-		}
-		
+				
 
-	}
-
+			}
+	
 }

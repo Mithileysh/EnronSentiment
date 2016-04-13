@@ -1,0 +1,57 @@
+<1252, training, 1006732800000, [like, -cracked, happy, like, like, like]>
+<1255, training, 1006732800000, [like, like, like]>
+<1256, training, 1006732800000, [won, like, like, like]>
+<1257, training, 1006732800000, []>
+<1258, training, 1006732800000, [available, better, like, like, like]>
+<1259, training, 1006732800000, [like]>
+<1551, training, 1008115200000, []>
+<1555, training, 1008115200000, []>
+<1559, training, 1007942400000, [good]>
+<1561, training, 1007942400000, [good]>
+<1620, training, 1005868800000, [-sorry, -denied, right, grateful, guarantee, -concerns, free]>
+<1670, training, 1006732800000, [-poor, like, -cracked, happy, like, like, like]>
+<1682, training, 1006214400000, []>
+<1683, training, 1006646400000, [-sorry, won, like, like, like]>
+<1685, training, 1006732800000, [like]>
+<2177, training, 1010016000000, [nice, positive]>
+<2257, training, 1006300800000, [like, like, like]>
+<2260, training, 1008892800000, [good, motivated, work, good, -hate, like, free, happy, available]>
+<2261, training, 1008720000000, [-difficult, enough, better]>
+<2264, training, 1007683200000, [prompt]>
+<2267, training, 1007078400000, []>
+<2268, training, 1006300800000, []>
+<2269, training, 1006646400000, [appreciated, -terrible, positive]>
+<2270, training, 1006128000000, [-slow, glad]>
+<2271, training, 1005868800000, [free, improvements, -problems, -fell, wisely, -vice]>
+<2272, training, 1005091200000, [like, like]>
+<2277, training, 1000252800000, []>
+<2278, training, 994032000000, [welcome, free, master]>
+<2280, training, 990057600000, []>
+<2281, training, 990144000000, []>
+<2283, training, 989884800000, []>
+<2402, training, 1008720000000, [thank, appreciate, great]>
+<3689, training, 992131200000, [conveniently]>
+<41978, training, 1006300800000, [like, like, like]>
+<44154, training, 1006300800000, [like, like, like]>
+<45551, training, 1006300800000, [like, like, like]>
+<61168, training, 1005696000000, [generously, thank, contribution]>
+<61506, training, 1006214400000, []>
+<74925, training, 975888000000, [winners, available]>
+<75474, training, 992304000000, [conveniently, ready]>
+<76697, training, 992131200000, [conveniently, ready]>
+<83210, training, 976233600000, [great, like, available]>
+<83212, training, 976233600000, [great, like, available]>
+<83213, training, 976233600000, [-break]>
+<107933, training, 984700800000, [-fall, excited, grand]>
+<158485, training, 992131200000, [conveniently, ready]>
+<174409, training, 975369600000, [friendly, wonderful, sincerely, thank, right, enjoy, sincerely]>
+<175035, training, 1006300800000, [like, like, like]>
+<186316, training, 975369600000, [friendly, wonderful, sincerely, thank, right, enjoy, sincerely]>
+<187882, training, 1006300800000, [like, like, like]>
+<195836, training, 1006300800000, [like, like, like]>
+<197864, training, 992304000000, [conveniently, ready]>
+<197955, training, 966470400000, [like]>
+<198227, training, 973814400000, [-poverty, significant]>
+<199411, training, 973036800000, [like]>
+<235829, training, 992131200000, [conveniently, ready]>
+<239617, training, 975369600000, [friendly, wonderful, sincerely, thank, right, enjoy, sincerely]>

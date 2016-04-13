@@ -191,6 +191,16 @@ import java.util.TreeMap;
         	
         }
         
+        public Map<String, String> wordLexicon(){
+        	Map<String, String> swnLexicon = new HashMap<String, String>();
+        	
+        	for (String terms: lexicon().keySet()){
+        		String[] termList = terms.split("#");
+        		swnLexicon.put(termList[0], terms);
+        		
+        	}
+        	return swnLexicon;
+        }
 
         
 		

@@ -42,14 +42,48 @@ public class SentiWordList{
 	    }
 		return wordList;
 	}
-	/*
-	public static void main (String[] args) throws IOException{
-		SentiWordList swl = new SentiWordList();
+    public static String recursion(int mIndex, String str, ArrayList<String> strList){
 		
-		System.out.println(swl.createList("negative-words.txt").toString());
+		
+		int index = findPosition(str, strList);
+		
+		if (index == -1){
+			
+			return null;
+		}
+		else{
+			return str;
+		}
+		
 		
 	}
-    */
+	
+	public static int findPosition(String str, ArrayList<String> strList){
+		
+		return strList.indexOf(str);
+	}
+	
+	public static void main (String[] args) throws IOException{
+		SentiWordList swl = new SentiWordList();
+		ArrayList<String> list = new ArrayList<String>();
+		ArrayList<String> bodylist = new ArrayList<String>();
+		
+		for (String wl: swl.createList("negative-words.txt")){
+			list.add(wl);
+		}
+		String words = "a b c d bleak. e f c ds , bleed";
+		String[] newword = words.split(" ");
+		//String[] words = {"a","b","c","d","bleak", "e", "f", "g", "bleed"};
+		
+		
+		for (String word: newword){
+			System.out.println(word +", ");
+			System.out.println(recursion(0,word, list));
+		}
+		System.out.println(bodylist.toString());
+		
+	}
+    
 }
 
 

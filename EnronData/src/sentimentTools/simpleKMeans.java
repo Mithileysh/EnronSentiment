@@ -53,8 +53,8 @@ public class simpleKMeans {
 		
 		skm.setDontReplaceMissingValues(true);
 		skm.setPreserveInstancesOrder(true);
-		skm.setNumClusters(7);
-		skm.setSeed(3);	
+		skm.setNumClusters(3);
+		skm.setSeed(2);	
 		
 		skm.buildClusterer(newData);
 		

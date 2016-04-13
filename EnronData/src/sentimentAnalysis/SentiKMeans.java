@@ -28,6 +28,10 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.TimeZone;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.apache.lucene.analysis.util.CharArraySet;
@@ -38,6 +42,7 @@ import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import sentimentTools.SentiWordList;
+import sentimentTools.tfidfSimilarity;
 
 
 public class SentiKMeans {
@@ -53,7 +58,10 @@ public class SentiKMeans {
 	//variables for retrieving data from database
 	static int id;
 	static String date;
+	static Date datef;
+	static long datemilli;
 	static String body;
+	static String subject;
 	static ArrayList<String> bodyList;
 	static ArrayList<String> tokenList;
 	
@@ -67,13 +75,16 @@ public class SentiKMeans {
 	static List<String> subList;
 	static ArrayList<String> subArray;
 	
-	static String POSLIST = "positive-words.txt";
-	static String NEGLIST = "negative-words.txt";
+	static String POSIDFLIST = "results/enronemail_owl_2001_01_idf.txt";
+	static String NEGIDFLIST = "results/enronemail_owl_2001_01_idf_neg.txt";
+	
+	static tfidfSimilarity tfidf;
 	
 	static SentiWordList swl;
 	static ArrayList<String> tempLexicon;
 	static ArrayList<String> tempDictionary;
 	
+
 	// create recursion method for finding the matching word
     public static ArrayList<Integer> recursion(int mIndex, String str, ArrayList<String> strList){
 		
@@ -119,8 +130,11 @@ public class SentiKMeans {
 		return strList.indexOf(str);
 	}
 	//create method for min-max normalization
-	public static double normalize(int value, ArrayList<Integer> intList){
-		
+	
+	public static double normalize(int value){
+		ArrayList<Integer> intList = new ArrayList<Integer>();
+		intList.add(-30);
+		intList.add(17);
 		double norValue = 0.0;
 		Collections.sort(intList, new Comparator<Integer>() {
 			
@@ -164,42 +178,48 @@ public class SentiKMeans {
 			// Query from database
 			myStmt = myConn.createStatement();
 			String sql;
-			sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE subject NOT LIKE 'Re%'OR subject NOT LIKE ('FW%' OR '%FW%') LIMIT 200 ";
+			sql = "SELECT DISTINCT mid, date, subject, body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
+			//sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE sender = 'lorna.brennan@enron.com' LIMIT 200 ";
+			//sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE sender = 'christi.nicolay@enron.com' LIMIT 200 ";
+			
 			ResultSet rs = myStmt.executeQuery(sql);
 			count = 0;
 			
 			//generate output file directory
-			String outputFile = "enronemail_kmeans_features_normalized.csv";
+								
+			//String outputFile = "results/enronemail_owl_bow_kmeans_normalized_2001_01.csv";
+			//String outputFile1 = "results/enronemail_owl_bow_kmeans_normalized_2001_01.txt";
+			//String outputFile = "results/enronemail_owl_tp_kmeans_2001_01.csv";
+			String outputFile = "results/enronemail_owl_tfidf_kmeans_2001_01.csv";
 			
-			FileWriter fileWriter = null;	
+			FileWriter fileWriter = null;
+			//FileWriter fileWriter1 = null;
 			fileWriter = new FileWriter (outputFile);
+			//fileWriter1 = new FileWriter (outputFile1);
+			
 			
 			fileWriter.append("id, ");
+			//fileWriter.append("[id][date]");
 			
 			//stopwords normalization
 			StopAnalyzer stopAnalyzer = new StopAnalyzer();
 			CharArraySet stopWords= stopAnalyzer.ENGLISH_STOP_WORDS_SET;
 			
-			//
-			swl = new SentiWordList();
+			tfidf = new tfidfSimilarity();
 			
-			
-			for (String word: swl.createList(POSLIST)){
+			for (String word: tfidf.idfDictionary(POSIDFLIST).keySet()){
 				tempLexicon.add(word);
-				
+				fileWriter.append(word + ", ");
 			}
-			for (String words: swl.createList(NEGLIST)){
+			for (String words: tfidf.idfDictionary(NEGIDFLIST).keySet()){
 				tempLexicon.add( words);
+				fileWriter.append(words + ", ");
 			}
 			
-			int attrCount = 0;
-			for (String term:tempLexicon){
-				attrCount++;
-				fileWriter.append("attr_" + attrCount + ",");
-			}
 			fileWriter.append("\n");
+			//System.out.println(tempLexicon.size());
 			while (rs.next()){
-				tempDictionary = new ArrayList<String>();
+				
 				InputStream tokenmodelIn = new FileInputStream("en-token.bin");
 				InputStream posmodelIn = new FileInputStream("en-pos-maxent.bin");
 				
@@ -207,204 +227,157 @@ public class SentiKMeans {
 				
 		
 				id = rs.getInt("mid");
+				
 				date = rs.getString("date");
-				body = rs.getString("body");
-				
-				String bodyStr = body.toLowerCase();
-				
+				body = rs.getString("body").toLowerCase();
+				subject = rs.getString("subject").toLowerCase();
 				bodyList = new ArrayList<String>();
-		        bodyList.add(bodyStr);
+		        bodyList.add(body);
+		        
 		        
 		        //System.out.println(bodyList);
-		        
-		        try {
-		        	
+		        if (subject != "" && subject.contains("fw:") == false && subject != "re:"){	
+					try {
+						fileWriter.append(id + ", ");
+						//fileWriter1.append("<" + id + ", [");
 						
-					TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
-					TokenizerME tokenizer = new TokenizerME(tokenModel);
-					  		  
-					String[] tokens = tokenizer.tokenize(bodyList.get(0));
-										
-					POSModel posModel = new POSModel(posmodelIn);
-					POSTaggerME tagger = new POSTaggerME(posModel);
-					
-					System.out.print(id + ", ");	
-					
-					
-					fileWriter.append(id + ", ");
-					
-					for (String token : tokens){
+				        System.out.println(id + ", ");
+						bodyList = new ArrayList<String>();	
+				        bodyList.add(body);
+		                TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
+					    TokenizerME tokenizer = new TokenizerME(tokenModel);
+						  		  
+					    String[] tokens = tokenizer.tokenize(bodyList.get(0));
+					    tokenList = new ArrayList<String>();
+					    for (String token : tokens){
+						    
+					    	if (token.contains("=") | token.contains(".")|token.contains("/")|token.contains(":")){ 
+					    	    token.replaceAll(".", "").replaceAll("/", "").replaceAll("=", "").replaceAll(":", "");
+					    		stemmer.setCurrent(token);
+						        stemmer.stem();
+									
+						        tokenList.add(stemmer.getCurrent());
+						        
+						        if (stopWords.contains(stemmer.getCurrent())){
+							       tokenList.remove(stemmer.getCurrent());
+						        }
 						
-						//for (String synTerms: sentiwordNet.lexicon().keySet()){
-							
-							
-							tokenList= new ArrayList<String>();
-							tokenList.add(token);
-						
-							if (stopWords.toString().contains(token)){
-								tokenList.remove(token);
-							}else if (token.contains("=") | token.contains(".")){
-								token.replace("=","");
-								token.replace(",", "");
+					    	}else{
+							    stemmer.setCurrent(token);
+					    		tokenList.add(stemmer.getCurrent());
+						    }	  
 								
-							}
-							else{
-								stemmer.setCurrent(token);
-								stemmer.stem();
-															
-								tokenList.add(stemmer.getCurrent());
-								  
-							@SuppressWarnings("deprecation")
-							List<String> tags = tagger.tag(tokenList);
-							
-							for(String tag: tags){
-								if ( tag.contains("VB")){
-									tag = "v";
-									tempDictionary.add( token);
-								}
-								else if (tag.contains("NN")){
-									tag = "n";
-									tempDictionary.add(token);
-					  
-								}
-								else if (tag.contains("JJ")){
-									tag = "a";
-									tempDictionary.add(token);
-								}
-								else if (tag.contains("RB")){
-									tag = "r";
-									tempDictionary.add(token);
-								}
-								else{
-									tokenList.remove(token);								  
-								}	 
-							}
-							
-							//}
-					}
-					//System.out.println(tempDictionary.toString());
-						//sentiDictionary.put(token, score);
-					
-					}
-					
-					ArrayList<Integer> sizeList = new ArrayList<Integer>();
+					    }
+						/*   
+					    ArrayList<Integer> sizeList = new ArrayList<Integer>();
 				    
-						for(String tempPosterm : swl.createList(POSLIST)) {
+						for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
 							
 							HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 													
-							synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tempDictionary)));
+							synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tokenList)));
 							int size;
 							for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 								size = entry.getValue().size();
-								
-								if (size !=0){	
-									sizeList.add(size);
-									
-								}
-								
+								sizeList.add(size);
 							}
 							
 						}
 						
-			            for (String tempNegterm:swl.createList(NEGLIST)){
+			            for (String tempNegterm:tfidf.idfDictionary(NEGIDFLIST).keySet()){
 			            	
 			            	HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 							
-							synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tempDictionary)));
+							synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tokenList)));
 							int size;
 							for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 								size = -entry.getValue().size();
-								if (size != -0){
-									sizeList.add(size);
-									
-								}
-								   
+								sizeList.add(-size);   
 							}
-							
 						
 			            }
-			            
-			            for(String tempPosterm : swl.createList(POSLIST)) {
+			            */
+			            for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
 							
 							HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 													
-							synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tempDictionary)));
+							synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tokenList)));
 							
 							int size;
 							for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 								
 								size = entry.getValue().size();
-								if (size == 0){
-									fileWriter.append(size + ",");
+								if (size != 0){
+									//fileWriter.append("1, ");
+									//fileWriter1.append(tempPosterm + ":" + normalize(size) + " ");
+									fileWriter.append(size * tfidf.idfDictionary(POSIDFLIST).get(tempPosterm) + ", ");
+									
 								}else{
-									fileWriter.append(normalize(size, sizeList) + ",");
+									fileWriter.append("0, ");
 								}
 								
-								
+								//fileWriter.append(size + ", ");
 							}
 							
 						}
 						
-			            for (String tempNegterm:swl.createList(NEGLIST)){
+			            for (String tempNegterm:tfidf.idfDictionary(NEGIDFLIST).keySet()){
 			            	
 			            	HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 							
-							synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tempDictionary)));
+							synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tokenList)));
 							int size;
 							for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 								size = -entry.getValue().size();
-								if (size == -0){
-									fileWriter.append( "0,");
+								//fileWriter.append(size + ",");
+								if (size != 0 ){
+									//fileWriter.append("-1, ");
+									//fileWriter1.append(tempNegterm + ":" + normalize(size) + " ");
+									fileWriter.append(size * tfidf.idfDictionary(NEGIDFLIST).get(tempNegterm) + ", ");
 								}else{
-									fileWriter.append( -normalize(size, sizeList) + ",");
+									fileWriter.append("0, ");
 								}
 								
 									
 							}
-						
-			            }
-		            	
-					//System.out.println("");
-					fileWriter.append("\n");
+						}
+		            	//fileWriter1.append("]\n");
+					    fileWriter.append("\n");
 					
 					//}
-					}
-					catch (IOException e) {
-					  e.printStackTrace();
-					}
-		            finally {
-					  if (tokenmodelIn != null) {
-					    try {
-					      tokenmodelIn.close();
-					    }
-					    catch (IOException e) {
-					    }
-					  }
-					  if (posmodelIn != null) {
-						try {
-						   posmodelIn.close();
-						}
-						   catch (IOException e) {
-						}
-					  }
-					  
-					}
-				
-						
 			}
-			try{
-				  fileWriter.flush();
-				  fileWriter.close();
-				  stopAnalyzer.close();
-			  }catch (IOException e) {
-				  e.printStackTrace();
-			  }
+			catch (IOException e) {
+				e.printStackTrace();
+			}
+		    finally {
+		    	if (tokenmodelIn != null) {
+		        }
+				try {
+					 tokenmodelIn.close();
+				}catch (IOException e) {
+				}
+			}
+			if (posmodelIn != null) {
+				try {
+				   posmodelIn.close();
+				}
+			    catch (IOException e) {
+				}
+			}
+		}
+	}
+	try{
+	  fileWriter.flush();
+	  fileWriter.close();
+	  stopAnalyzer.close();
+	}catch (IOException e) {
+	  e.printStackTrace();
+	}
 			
-			rs.close();
-			myStmt.close();
-			myConn.close();
-		}catch (SQLException se){
+	rs.close();
+	myStmt.close();
+	myConn.close();
+	}catch (SQLException se){
 			se.printStackTrace();
 		}catch (Exception e){
 			e.printStackTrace();

@@ -29,7 +29,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-	import org.apache.lucene.analysis.core.StopAnalyzer;
+import org.apache.lucene.analysis.core.StopAnalyzer;
 import org.apache.lucene.analysis.util.CharArraySet;
 import org.tartarus.snowball.ext.EnglishStemmer;
 
@@ -39,7 +39,11 @@ import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 import sentimentTools.SentiWordList;
 import sentimentTools.simpleKMeans;
-
+import sentimentTools.tfidfSimilarity;
+import weka.core.Attribute;
+import weka.core.FastVector;
+import weka.core.Instance;
+import weka.core.Instances;
 
 	public class SentiSVM {
 		static int count;
@@ -51,10 +55,10 @@ import sentimentTools.simpleKMeans;
 		static final String USER = "root";
 		static final String PASSWORD = "root";
 		
-		
 		static int id;
 		static String date;
 		static String body;
+		static String subject;
 		static ArrayList<String> bodyList;
 		static ArrayList<String> tokenList;
 		
@@ -68,14 +72,15 @@ import sentimentTools.simpleKMeans;
 		static List<String> subList;
 		static ArrayList<String> subArray;
 		
-		static String POSLIST = "positive-words.txt";
-		static String NEGLIST = "negative-words.txt";
-		
-		static SentiWordList swl;
+		static String POSIDFLIST = "results/enronemail_owl_2001_01_idf.txt";
+		static String NEGIDFLIST = "results/enronemail_owl_2001_01_idf_neg.txt";
+			
+		static tfidfSimilarity tfidf;
 		static ArrayList<String> tempLexicon;
 		static ArrayList<String> tempDictionary;
 		
 		static simpleKMeans skm;
+		static ArrayList<Integer>classLabel;
 		
 	    public static ArrayList<Integer> recursion(int mIndex, String str, ArrayList<String> strList){
 			
@@ -120,38 +125,14 @@ import sentimentTools.simpleKMeans;
 			
 			return strList.indexOf(str);
 		}
-		public static double normalize(int value, ArrayList<Integer> intList){
-			
-			double norValue = 0.0;
-			Collections.sort(intList, new Comparator<Integer>() {
-				
-		        public int compare(Integer o1, Integer o2)
-		        {
-
-		            return  o1.compareTo(o2);
-		        }
-	
-		    });
-			if (! intList.isEmpty()){
-				double divident = (intList.get(intList.size()-1) - intList.get(0));
-				if (divident == 0 ){
-					divident = 0.5;
-					norValue = (value - intList.get(0)) / divident;
-				}
-				norValue = (value - intList.get(0)) / divident;	
-			}else{
-				return 0.0;
-			}
-			
-			
-			
-			return norValue;
-		}
+		
 		public static void main(String[] args) throws IOException {
 			Connection myConn = null;
 			Statement myStmt = null;
 			
 			Map<String, Double> sentiDictionary = new HashMap<String,Double>();
+			
+			//create empty arraylist for storing words from wordlist
 			tempLexicon = new ArrayList<String>();
 			try{
 				
@@ -161,253 +142,65 @@ import sentimentTools.simpleKMeans;
 				myConn = DriverManager.getConnection(URL,USER,PASSWORD);
 				System.out.println("connected");
 				
-				
+				// Query from database
 				myStmt = myConn.createStatement();
 				String sql;
-				sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE subject NOT LIKE 'Re%'OR subject NOT LIKE ('FW%' OR '%FW%') LIMIT 200 ";
+				sql = "SELECT DISTINCT mid, date, subject, body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
+				//sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE sender = 'lorna.brennan@enron.com' LIMIT 200 ";
+				//sql = "SELECT DISTINCT mid, date, body FROM enron.message WHERE sender = 'christi.nicolay@enron.com' LIMIT 200 ";
+				
 				ResultSet rs = myStmt.executeQuery(sql);
 				count = 0;
 				
-				String outputFile = "enronemail_svmlight_features_kmeanslabel_#7.dat";
+				//generate output file directory
+									
+				String outputFile = "results/enronemail_owl_bow_kmeans_label_2001_01.csv";
+				String outputFile1 = "results/enronemail_owl_bow_kmeans_label_2001_01.dat";
+				//String outputFile1 = "results/enronemail_owl_bow_kmeans_2001_01.txt";
 				
-				FileWriter fileWriter = null;	
+				FileWriter fileWriter = null;
+				FileWriter fileWriter1 = null;
 				fileWriter = new FileWriter (outputFile);
+				fileWriter1 = new FileWriter (outputFile1);
 				
+				fileWriter.append("class, ");
+				//fileWriter.append("[id][date]");
+				
+				//stopwords normalization
 				StopAnalyzer stopAnalyzer = new StopAnalyzer();
 				CharArraySet stopWords= stopAnalyzer.ENGLISH_STOP_WORDS_SET;
-				//System.out.println(stopWords.toString());
-							
-				swl = new SentiWordList();
 				
 				//create kmeans labels
 				skm = new simpleKMeans();
 				
-				skm.cluster("enronemail_kmeans_features_2h_normalized.csv");
+				//skm.cluster("data/enronemail_kmeans_set1_features.csv");
+				//skm.cluster("data/enronemail_kmeans_set2_features.csv");
+				//skm.cluster("data/enronemail_kmeans_set3_features.csv");
+				skm.cluster("results/enronemail_owl_bow_kmeans_2001_01.csv");
 				
-				ArrayList<Integer> classLabel = new ArrayList<Integer>();
+				classLabel = new ArrayList<Integer>();
 				for (int label: skm.classNum()){
 					classLabel.add(label);
 				}
-				
-				
-				//SWN labels
-				/*
-				ArrayList<Integer> classLabel = new ArrayList<Integer>();
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(0);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(0);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(0);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(-1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-				classLabel.add(1);
-                */
-				
-				
-				for (String word: swl.createList(POSLIST)){
-					tempLexicon.add(word);
 					
+				//
+				//swl = new SentiWordList();
+				tfidf = new tfidfSimilarity();
+				
+				for (String word: tfidf.idfDictionary(POSIDFLIST).keySet()){
+					tempLexicon.add(word);
+					fileWriter.append(word + ", ");
 				}
-				for (String words: swl.createList(NEGLIST)){
-					tempLexicon.add(words);
+				for (String words: tfidf.idfDictionary(NEGIDFLIST).keySet()){
+					tempLexicon.add( words);
+					fileWriter.append(words + ", ");
 				}
-				int number = 0;
+				
+				fileWriter.append("\n");
+				int count = 0;
+				//System.out.println(tempLexicon.size());
 				while (rs.next()){
-					number++;
-					tempDictionary = new ArrayList<String>();
+					
 					InputStream tokenmodelIn = new FileInputStream("en-token.bin");
 					InputStream posmodelIn = new FileInputStream("en-pos-maxent.bin");
 					
@@ -415,215 +208,159 @@ import sentimentTools.simpleKMeans;
 					
 			
 					id = rs.getInt("mid");
+					
 					date = rs.getString("date");
-					body = rs.getString("body");
-					
-					String bodyStr = body.toLowerCase();
-					
+					body = rs.getString("body").toLowerCase();
+					subject = rs.getString("subject").toLowerCase();
 					bodyList = new ArrayList<String>();
-			        bodyList.add(bodyStr);
+			        bodyList.add(body);
+			        
 			        
 			        //System.out.println(bodyList);
-			        
-			        try {
-			        	
+			        if (subject != "" && subject.contains("fw:") == false && subject != "re:"){	
+						try {
+							count++;
 							
-						TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
-						TokenizerME tokenizer = new TokenizerME(tokenModel);
-						  		  
-						String[] tokens = tokenizer.tokenize(bodyList.get(0));
-											
-						POSModel posModel = new POSModel(posmodelIn);
-						POSTaggerME tagger = new POSTaggerME(posModel);
-						
-						System.out.print(id + ", ");	
-						
-						//fileWriter.append(id + ", ");
-						
-						fileWriter.append( classLabel.get(number-1) +" ");
-						
-						for (String token : tokens){
+							if (count < classLabel.size())
+							    fileWriter.append(classLabel.get(count) + ", ");
+							    fileWriter1.append(classLabel.get(count) + " ");
 							
-							//for (String synTerms: sentiwordNet.lexicon().keySet()){
-								
-								
-								tokenList= new ArrayList<String>();
-								tokenList.add(token);
+					        System.out.println(id + ", ");
+							bodyList = new ArrayList<String>();	
+					        bodyList.add(body);
+			                TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
+						    TokenizerME tokenizer = new TokenizerME(tokenModel);
+							  		  
+						    String[] tokens = tokenizer.tokenize(bodyList.get(0));
+						    tokenList = new ArrayList<String>();
+						    for (String token : tokens){
+							    
+						    	if (token.contains("=") | token.contains(".")|token.contains("/")|token.contains(":")){ 
+						    	    token.replaceAll(".", "").replaceAll("/", "").replaceAll("=", "").replaceAll(":", "");
+						    		stemmer.setCurrent(token);
+							        stemmer.stem();
+										
+							        tokenList.add(stemmer.getCurrent());
+							        
+							        if (stopWords.contains(stemmer.getCurrent())){
+								       tokenList.remove(stemmer.getCurrent());
+							        }
 							
-								if (stopWords.toString().contains(token)){
-									tokenList.remove(token);
-								}else if (token.contains("=") | token.contains(".")){
-									token.replace("=","");
-									token.replace(",", "");
+						    	}else{
+								    stemmer.setCurrent(token);
+						    		tokenList.add(stemmer.getCurrent());
+							    }	  
 									
-								}
-								else{
-									stemmer.setCurrent(token);
-									stemmer.stem();
-																
-									tokenList.add(stemmer.getCurrent());
-									  
-								@SuppressWarnings("deprecation")
-								List<String> tags = tagger.tag(tokenList);
-								
-								for(String tag: tags){
-									if ( tag.contains("VB")){
-										tag = "v";
-										tempDictionary.add( token);
-									}
-									else if (tag.contains("NN")){
-										tag = "n";
-										tempDictionary.add(token);
-						  
-									}
-									else if (tag.contains("JJ")){
-										tag = "a";
-										tempDictionary.add(token);
-									}
-									else if (tag.contains("RB")){
-										tag = "r";
-										tempDictionary.add(token);
-									}
-									else{
-										tokenList.remove(token);								  
-									}	 
-								}
-								
-								//}
-						}
-						//System.out.println(tempDictionary.toString());
-							//sentiDictionary.put(token, score);
-						
-						}
-						int attr = 0;
-						
-						ArrayList<Integer> sizeList = new ArrayList<Integer>();
+						    }
+							/*   
+						    ArrayList<Integer> sizeList = new ArrayList<Integer>();
 					    
-							for(String tempPosterm : swl.createList(POSLIST)) {
-								attr++;
+							for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
+								
 								HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 														
-								synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tempDictionary)));
+								synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tokenList)));
 								int size;
 								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 									size = entry.getValue().size();
-						            sizeList.add(size);
-									
-									
+									sizeList.add(size);
 								}
 								
 							}
-							int count = attr;
 							
-				            for (String tempNegterm:swl.createList(NEGLIST)){
-				            	count++;
+				            for (String tempNegterm:tfidf.idfDictionary(NEGIDFLIST).keySet()){
+				            	
 				            	HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 								
-								synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tempDictionary)));
+								synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tokenList)));
 								int size;
 								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 									size = -entry.getValue().size();
-								    sizeList.add(size);
-									
-									   
+									sizeList.add(-size);   
 								}
-								
 							
 				            }
-				            //create wordlist labels
-				            /*
-				            int label = 0;
-				            //System.out.println(sizeList.toString());
-				            for (int value: sizeList){
-								label += value;
-								
-				            }
-				            if (label > 0){
-				            	fileWriter.append("+1" + " ");
-				            }else if (label < 0){
-				            	fileWriter.append("-1" + " ");
-				            }else{
-				            	fileWriter.append("0" + " ");
-				            }
-				            */  
-				   
-				            int attrAG = 0;
-				            for(String tempPosterm : swl.createList(POSLIST)) {
-								attrAG++;
+				            */
+						    int attCount = 0;
+				            for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
+								attCount++;
 								HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 														
-								synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tempDictionary)));
+								synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tokenList)));
 								
 								int size;
 								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 									
 									size = entry.getValue().size();
+									if (size != 0){
+										fileWriter.append(size + ",");
+										fileWriter1.append(attCount + ":" + size + " ");
+									}else{
+										fileWriter.append("0, ");
+									}
 									
-									if (size != 0 ){
-										
-									    fileWriter.append(attrAG + ":" + normalize(size, sizeList) + " ");
-									}	//System.out.println(size);
+									//fileWriter.append(size + ", ");
 								}
 								
 							}
-							int countAG = attrAG;
 							
-				            for (String tempNegterm:swl.createList(NEGLIST)){
-				            	countAG++;
+				            for (String tempNegterm:tfidf.idfDictionary(NEGIDFLIST).keySet()){
+				            	attCount++;
 				            	HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
 								
-								synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tempDictionary)));
+								synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tokenList)));
 								int size;
 								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
-										size = -entry.getValue().size();
-										if (size != -0){
-											fileWriter.append(countAG + ":" + -normalize(size, sizeList) + " ");
-										}
+									size = -entry.getValue().size();
+									//fileWriter.append(size + ",");
+									if (size != 0 ){
+										fileWriter.append( -size + ",");
+										fileWriter1.append(attCount + ":" + -size + " ");
+									}else{
+										fileWriter.append("0, ");
+									}
+									
 										
 								}
-								
-							
-				            }
+							}
+			            	
+						    fileWriter.append("\n");
+						    fileWriter1.append(System.getProperty("line.separator"));
 						
-				            
-				   }
-						
-			
-					catch (IOException e) {
-					  e.printStackTrace();
-					}
-		            finally {
-					  if (tokenmodelIn != null) {
-					    try {
-					      tokenmodelIn.close();
-					    }
-					    catch (IOException e) {
-					    }
-					  }
-		            }
-		            
-					  if (posmodelIn != null) {
-						try {
-						   posmodelIn.close();
-						}
-						   catch (IOException e) {
-						}
-					  }
-					
+						//}
 				}
+				catch (IOException e) {
+					e.printStackTrace();
+				}
+			    finally {
+			    	if (tokenmodelIn != null) {
+			        }
+					try {
+						 tokenmodelIn.close();
+					}catch (IOException e) {
+					}
+				}
+				if (posmodelIn != null) {
+					try {
+					   posmodelIn.close();
+					}
+				    catch (IOException e) {
+					}
+				}
+			}
+		}
+		try{
+		  fileWriter.flush();
+		  fileWriter.close();
+		  stopAnalyzer.close();
+		}catch (IOException e) {
+		  e.printStackTrace();
+		}
 				
-				try{
-					  fileWriter.flush();
-					  fileWriter.close();
-					  stopAnalyzer.close();
-				  }catch (IOException e) {
-					  e.printStackTrace();
-				  }
-				
-				rs.close();
-				myStmt.close();
-				myConn.close();
-			}catch (SQLException se){
+		rs.close();
+		myStmt.close();
+		myConn.close();
+		}catch (SQLException se){
 				se.printStackTrace();
 			}catch (Exception e){
 				e.printStackTrace();
@@ -644,9 +381,9 @@ import sentimentTools.simpleKMeans;
 				}
 			
 			}
-		
+			
+
 		}
-		
 	
 
 }
