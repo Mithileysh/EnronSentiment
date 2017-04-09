@@ -1,0 +1,15 @@
+size:14
+<89737:Other-[-unlikely, exceed, -improperly, clearly, -complex, -complex, -suspect, supporting, better, -delay, proper, -flaws, -frozen]>
+<34067:Other-[-tired, prodigy, -slow, -broke]>
+<89738:Other-[dynamic, dynamic, -expensive, -unavailable, clear, -unlikely, exceed, -improperly, clearly, -complex, -complex, -suspect, supporting, better, -delay, proper, -flaws, -frozen]>
+<119177:Other-[like, -hate]>
+<125984:Other-[like, -hate]>
+<135121:Other-[trust, -awkward, -difficult, trust]>
+<191685:Other-[top, good, -rejected, -rejected, -conflicted, likes]>
+<209825:Other-[appreciate, -crack, dawn, works, -sorry]>
+<174085:Other-[thank, painless, prompt, -penalty, trust, -sue, approval, -sue, trust, trust, trust, -sue, -issue, outstanding, kindly, best, kindly, trust]>
+<125982:Other-[congratulations, great, impressed, improve, -slave]>
+<209821:Other-[worth, -debt, paramount, win]>
+<216374:Other-[worth, -debt, paramount, win]>
+<216377:Other-[-worry, gains, paramount, paramount, improve, -debt, like, worth, -debt, paramount, win]>
+<216379:Other-[best, -implication, leverage, accurately, leverage, optimal, -difficulty, advanced, right, -worry, gains, paramount, paramount, improve, -debt, like, worth, -debt, paramount, win]>

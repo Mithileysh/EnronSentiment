@@ -239,13 +239,20 @@ public class tfidfSimilarity {
 				// Query from database
 				myStmt = myConn.createStatement();
 				String sql;
-				sql = "SELECT DISTINCT subject,body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
+				//sql = "SELECT DISTINCT subject,body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE sender = 'kevin.hyatt@enron.com' LIMIT 200 ";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE sender = 'lorna.brennan@enron.com' LIMIT 200 ";
+				sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE sender = 'christi.nicolay@enron.com' LIMIT 200 ";
 				
 				ResultSet rs = myStmt.executeQuery(sql);
 				
 				
 				//String outputFile = "results/enronemail_owl_2001_01_idf.txt";
-				String outputFile = "results/enronemail_swn_2001_01_idf.txt";
+				//String outputFile = "results/enronemail_swn_2001_01_idf.txt";
+				//String outputFile = "results/enronemail_owl_dataset1_idf.txt";
+				//String outputFile = "results/enronemail_owl_dataset2_idf.txt";
+				String outputFile = "results/enronemail_owl_dataset3_idf.txt";
+				
 				
 				FileWriter fileWriter = null;
 				//FileWriter fileWriter1 = null;
@@ -255,9 +262,7 @@ public class tfidfSimilarity {
 				StopAnalyzer stopAnalyzer = new StopAnalyzer();
 				CharArraySet stopWords= stopAnalyzer.ENGLISH_STOP_WORDS_SET;
 				
-				swn = new SentiWordNet(SWNLIST);
 				
-				/*
 				swl = new SentiWordList();
 				
 				
@@ -268,13 +273,7 @@ public class tfidfSimilarity {
 				for (String words: swl.createList(NEGLIST)){
 					tempLexicon.add( words);
 				}
-				*/
 				
-				for (String words: swn.lexicon().keySet()){
-					String[] swnList = words.split("#");
-					tempLexicon.add(swnList[0]);
-				}
-				System.out.println(tempLexicon.size() + " ");
 				
 				tokenList = new ArrayList<String>();
 				while (rs.next()){

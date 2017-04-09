@@ -50,8 +50,8 @@ public class SentimentClustering {
         EmailTemporalClassify emailClassify = new EmailTemporalClassify(emails);
         emailClassify.process();
         
-        //emailClassify.printSummary();
-              
+        emailClassify.printSummary();
+        /*      
         //for each temporal group, apply algoDBSCAN on its dataset
         int week;
         int day;
@@ -75,6 +75,7 @@ public class SentimentClustering {
             }
             
         }
+        */
     }
     
     

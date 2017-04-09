@@ -1,0 +1,67 @@
+size:7
+<9904:Logistic Issue-[appropriate, respect, -issues, -issues, -concerns]>
+<9906:Logistic Issue-[happy, diligence, respect, -issues, -issues, -concerns]>
+<9909:Logistic Issue-[-misunderstood, helpful, -inevitably, happy, trust, worth, exceeding, exceeding, supported, well, -issues, free, like, -unavailable, exceed, -unavailable, satisfied, -unavailable, exceed, -strained, -unavailable, -unavailable, -fails, -damages, -unable, -failure, -damages, important, -hang]>
+<73369:Logistic Issue-[-poor, -debt, exceeded, -debt, improve, -problems, -problems, -risk, -weak, recover, helping, -froze, fairly, competitive, competitive, recover, successfully, cooperative, -dispute, -threat]>
+<120073:Logistic Issue-[-negative, refine, -freeze, -complaint, right, best]>
+<129129:Logistic Issue-[-negative, refine, -freeze, -complaint, right, best]>
+<214443:Logistic Issue-[-sue, best, -sue, -shortage, perfectly, clear, -waste, -inappropriate, -hurt, -badly, helped, best, -hurting, -complicated, -lost, diplomatic, -crisis, -wrong, -terribly]>
+
+size:41
+<9908:Other-[-problems, correct, diligence, gold, gold, -fall, -concerns]>
+<9915:Other-[-issues, happy]>
+<35042:Other-[privileged, -destroy]>
+<78211:Other-[-problem, fun, like, -tired]>
+<81193:Other-[-penalty, thank]>
+<98660:Other-[clean, -straining, fast, ease, lead, -frustrating, -breaking, willing, -risk, -shortage, -burn, clean, -issue, integrated, -evil, -afraid, -complex, work, worked, -problem, good, simplifying, success, work, -severe, rich]>
+<98661:Other-[clean, -straining, fast, ease, lead, -frustrating, -breaking, willing, -risk, -shortage, -burn, clean, -issue, integrated, -evil, -afraid, -complex, work, worked, -problem, good, simplifying, success, work, -severe, rich]>
+<129126:Other-[-precariously, enough, gains, -emphatic, like, -debt, leading, -missed, -debt, -dump, -hard, -debt, -debt, -limited, -aggressive, like, smartest, well, -hedge, -frustration, works, gains, gain, quicker, -debt, well, sufficient, good, recovery, -missed, important, -debt, -troubled, protection, leading, -distressed, -weakness, -dump, savvy, -fallen, -debt, advocates, -crisis, -suffer, -bad, -suffer, appeal, -hard, -reluctant, -fear, won, enough, -losses, gain, -sharply, -steep, -declines]>
+<86210:Other-[wonder, -impede, -problems]>
+<197049:Other-[available, -drag, benefits, enhanced, -corrosion, -contamination, -issues, worked, -issues, -contamination, work]>
+<197045:Other-[-issue, -risk, -risk, effective, approval, effective, well]>
+<178940:Other-[-vice, qualified, available, supporting, available, -problems, qualified, -severe, -liability, diligence, -rejected, unmatched, -gross, appropriate, -strike, -strike, -strike, -strike, secure, cleared, -problem, cleared, cleared, cleared, available, -gross, -gross, -rejected, -strike, -strike, available, fast, -strike, recommended, available, ease, fast, fast, available, -gross, fast, fast, available, fast, fast, fast, fast, fast, fast, available]>
+<178941:Other-[-vice, approval, good, effective]>
+<78212:Other-[thank, work, respect, -issues, valuable]>
+<154629:Other-[promise, like, -grief, bonus, willing, promise]>
+<178945:Other-[-vice, qualified, work, promptly, supporting, well, available, -problems, top, -reject, available, available, available, fast, fast, fast, fast, fast, available, fast, fast, fast, fast, available, fast, angel]>
+<35041:Other-[clean]>
+<35043:Other-[exceeds, respect]>
+<78203:Other-[proactive]>
+<78206:Other-[happy, wonder, available]>
+<78209:Other-[helpful]>
+<78214:Other-[great]>
+<86209:Other-[interesting]>
+<86214:Other-[worked]>
+<98662:Other-[credible, progress]>
+<103203:Other-[clearly, like, like, appropriate]>
+<103205:Other-[outstanding, pretty, promptly]>
+<141541:Other-[well]>
+<159770:Other-[master, master, merit]>
+<159771:Other-[master, master, merit]>
+<159772:Other-[master, master, merit]>
+<159920:Other-[willing, best]>
+<164597:Other-[top, fast]>
+<214445:Other-[top, beauty, super, love, afford, -wild, popular, loved, free]>
+<220484:Other-[-sue, -sue, exciting, popular, dynamic, works, exciting, creative, bonuses, bonus, worked, led, -cold, celebrate, -breaking, favorite, easier, top, innovative, -falling, welcome, free, -hedge, like]>
+<220481:Other-[competitive, -interference, work, -interfere, variety, better, -limited, -limited, cheaper, secure, -problems, gaining, adequate, competitive]>
+<247364:Other-[like, -issue, effective, restructuring, works, like, -risk]>
+<248023:Other-[great, restructure, like, -issue, effective, restructuring, works, like, -risk]>
+<242030:Other-[assurance, like, ready]>
+<203279:Other-[pretty, good, -mad, -sick]>
+<238308:Other-[-limits, accomplish, -limits]>
+
+size:6
+<9914:General Operation-[-crude, -issue, -crude, -issue]>
+<35045:General Operation-[-lack]>
+<119845:General Operation-[-lack]>
+<129127:General Operation-[-lack]>
+<214450:General Operation-[-fall]>
+<214452:General Operation-[-fall]>
+
+size:6
+<35242:General Operation-[thank]>
+<35243:General Operation-[thank]>
+<197046:General Operation-[good]>
+<197469:General Operation-[popular, successful, successful, entertaining, popular, powerful, -resistance, clear, clarity, welcome]>
+<78204:General Operation-[great, well, fairly, -sorry, won]>
+<238310:General Operation-[respect, enrich]>

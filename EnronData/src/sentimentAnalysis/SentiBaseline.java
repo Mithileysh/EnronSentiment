@@ -65,13 +65,30 @@ public class SentiBaseline {
 	static CharArraySet STOP_WORDS_SET;
 	
 	static DimensionReduce dr;
-	static String SWNLEXICON = "results/enronemail_swn_2001_01.txt";
-	static ArrayList<String> swnLexicon;
+	static String SWNLEXICON = "SimpleTR/enronemail_swn_2001_01.txt";
+	static Map<String, Integer> swnLexicon;
+	static ArrayList<String> swnDictionary;
 	
 	static double sigma;
 	static double score;
 	
-    public static ArrayList<Integer> recursion(int mIndex, String str, ArrayList<String> strList){
+	public static String recursion(int mIndex, String str, ArrayList<String> strList){
+		
+		
+		int index = findPosition(str, strList);
+		
+		if (index == -1){
+			
+			return null;
+		}
+		else{
+			return str;
+		}
+		
+		
+	}
+	
+	public static ArrayList<Integer> recursionFreq(int mIndex, String str, ArrayList<String> strList){
 		
 		ArrayList<Integer> hs = new ArrayList<Integer>();
 		
@@ -103,7 +120,7 @@ public class SentiBaseline {
 	    	subArray.add(subItem);
 	    }
 	   	
-	    ArrayList<Integer> aa = recursion(mIndex+nextIndex,str,subArray);
+	    ArrayList<Integer> aa = recursionFreq(mIndex+nextIndex,str,subArray);
 	    if(aa.isEmpty())
 	    	return hs;
 	    hs.addAll(aa);
@@ -120,8 +137,8 @@ public class SentiBaseline {
 		Statement myStmt = null;
 		
 		Map<String, Double> sentiDictionary = new HashMap<String,Double>();
-		swnLexicon = new ArrayList<String>();
-		
+		swnLexicon = new HashMap<String, Integer>();
+		swnDictionary = new ArrayList<String>();
 		try{
 			
 			Class.forName(DB_DRIVER).newInstance();
@@ -139,7 +156,7 @@ public class SentiBaseline {
 			
 			ResultSet rs = myStmt.executeQuery(sql);
 			
-			String outputFile = "results/enronemail_swn_label_2001_01.dat";
+			String outputFile = "SimpleTR/results/enronemail_swn_ts_2001_01.tra";
 			
 			FileWriter fileWriter = null;
 			
@@ -155,10 +172,13 @@ public class SentiBaseline {
 			dr = new DimensionReduce();
 			for(String terms: dr.swnDictionary(SWNLEXICON).keySet()){
 				if (dr.swnDictionary(SWNLEXICON).get(terms) != 0.0){
-					swnLexicon.add(terms);
+					swnLexicon.put(terms, dr.keyDictionary(SWNLEXICON).get(terms));
 					//fileWriter.append(terms + ", ");
 				
 				}
+			}
+			for(String words: swnLexicon.keySet()){
+				swnDictionary.add(words);
 			}
 			System.out.println(swnLexicon.size());
 			while (rs.next()){
@@ -238,22 +258,24 @@ public class SentiBaseline {
 							
 					    }
 					    //System.out.println(tokenTag.toString() );
-					    ArrayList<Double> sizeList = new ArrayList<Double>();
+					    /*
+					    ArrayList<Integer> sizeList = new ArrayList<Integer>();
 					    for(String tempTerm : swnLexicon) {
 							
 						    HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
-							synTerms.put(tempTerm, new ArrayList<Integer>(recursion(0,tempTerm, tokenTag)));
+							synTerms.put(tempTerm, new ArrayList<Integer>(recursionFreq(0,tempTerm, tokenTag)));
 					        int size;
 						    for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 							
 							    size = entry.getValue().size();
 							    
 							    if (size != 0){
-							    	double value = size *(dr.swnDictionary(SWNLEXICON).get(tempTerm));
-								    sizeList.add(value);
+							    	//double value = size *(dr.swnDictionary(SWNLEXICON).get(tempTerm));
+								    sizeList.add(size);
 							    }
 							}
 						}
+					    
 					    
 					    double label = 0.0;
 			            //System.out.println(sizeList.toString());
@@ -284,8 +306,28 @@ public class SentiBaseline {
 							    }
 							}
 						}
-					    fileWriter.append(System.getProperty("line.separator"));
-		            }
+						*/
+					    int sizeList = 0;
+					    for (String temp: tokenTag){
+					    	
+					    	if (recursion(0,temp, swnDictionary) != null)
+								sizeList++;
+								
+					    }
+					    if (sizeList != 0){
+					    	fileWriter.append(id + " " + sizeList + " ");
+						    for (String tempTerm: tokenTag){
+						    	if (recursion(0,tempTerm, swnDictionary) != null){
+						    		fileWriter.append( swnLexicon.get(tempTerm)+ " " + dr.swnDictionary(SWNLEXICON).get(tempTerm)+ " ");
+									//fileWriter1.append(tempPosterm + ":" + size + ", ");
+								}
+							}
+						    
+						    
+						    fileWriter.append(System.getProperty("line.separator"));
+			            
+					    }
+					}
 					catch (IOException e) {
 						e.printStackTrace();
 					}

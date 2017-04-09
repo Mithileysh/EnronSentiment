@@ -1,0 +1,374 @@
+@relation 'C:\\Users\\Sisi\\Documents\\GitHub\\EnronSentiment\\EnronData\\results\\kmeans_results\\enronemail_owl_tfidf_kmeans_label#7_dataset1.dat'
+
+@attribute att_1 numeric
+@attribute att_2 numeric
+@attribute att_3 numeric
+@attribute att_4 numeric
+@attribute att_5 numeric
+@attribute att_6 numeric
+@attribute att_7 numeric
+@attribute att_8 numeric
+@attribute att_9 numeric
+@attribute att_10 numeric
+@attribute att_11 numeric
+@attribute att_12 numeric
+@attribute att_13 numeric
+@attribute att_14 numeric
+@attribute att_15 numeric
+@attribute att_16 numeric
+@attribute att_17 numeric
+@attribute att_18 numeric
+@attribute att_19 numeric
+@attribute att_20 numeric
+@attribute att_21 numeric
+@attribute att_22 numeric
+@attribute att_23 numeric
+@attribute att_24 numeric
+@attribute att_25 numeric
+@attribute att_26 numeric
+@attribute att_27 numeric
+@attribute att_28 numeric
+@attribute att_29 numeric
+@attribute att_30 numeric
+@attribute att_31 numeric
+@attribute att_32 numeric
+@attribute att_33 numeric
+@attribute att_34 numeric
+@attribute att_35 numeric
+@attribute att_36 numeric
+@attribute att_37 numeric
+@attribute att_38 numeric
+@attribute att_39 numeric
+@attribute att_40 numeric
+@attribute att_41 numeric
+@attribute att_42 numeric
+@attribute att_43 numeric
+@attribute att_44 numeric
+@attribute att_45 numeric
+@attribute att_46 numeric
+@attribute att_47 numeric
+@attribute att_48 numeric
+@attribute att_49 numeric
+@attribute att_50 numeric
+@attribute att_51 numeric
+@attribute att_52 numeric
+@attribute att_53 numeric
+@attribute att_54 numeric
+@attribute att_55 numeric
+@attribute att_56 numeric
+@attribute att_57 numeric
+@attribute att_58 numeric
+@attribute att_59 numeric
+@attribute att_60 numeric
+@attribute att_61 numeric
+@attribute att_62 numeric
+@attribute att_63 numeric
+@attribute att_64 numeric
+@attribute att_65 numeric
+@attribute att_66 numeric
+@attribute att_67 numeric
+@attribute att_68 numeric
+@attribute att_69 numeric
+@attribute att_70 numeric
+@attribute att_71 numeric
+@attribute att_72 numeric
+@attribute att_73 numeric
+@attribute att_74 numeric
+@attribute att_75 numeric
+@attribute att_76 numeric
+@attribute att_77 numeric
+@attribute att_78 numeric
+@attribute att_79 numeric
+@attribute att_80 numeric
+@attribute att_81 numeric
+@attribute att_82 numeric
+@attribute att_83 numeric
+@attribute att_84 numeric
+@attribute att_85 numeric
+@attribute att_86 numeric
+@attribute att_87 numeric
+@attribute att_88 numeric
+@attribute att_89 numeric
+@attribute att_90 numeric
+@attribute att_91 numeric
+@attribute att_92 numeric
+@attribute att_93 numeric
+@attribute att_94 numeric
+@attribute att_95 numeric
+@attribute att_96 numeric
+@attribute att_97 numeric
+@attribute att_98 numeric
+@attribute att_99 numeric
+@attribute att_100 numeric
+@attribute att_101 numeric
+@attribute att_102 numeric
+@attribute att_103 numeric
+@attribute att_104 numeric
+@attribute att_105 numeric
+@attribute att_106 numeric
+@attribute att_107 numeric
+@attribute att_108 numeric
+@attribute att_109 numeric
+@attribute att_110 numeric
+@attribute att_111 numeric
+@attribute att_112 numeric
+@attribute att_113 numeric
+@attribute att_114 numeric
+@attribute att_115 numeric
+@attribute att_116 numeric
+@attribute att_117 numeric
+@attribute att_118 numeric
+@attribute att_119 numeric
+@attribute att_120 numeric
+@attribute att_121 numeric
+@attribute att_122 numeric
+@attribute att_123 numeric
+@attribute att_124 numeric
+@attribute att_125 numeric
+@attribute att_126 numeric
+@attribute att_127 numeric
+@attribute att_128 numeric
+@attribute att_129 numeric
+@attribute att_130 numeric
+@attribute att_131 numeric
+@attribute att_132 numeric
+@attribute att_133 numeric
+@attribute att_134 numeric
+@attribute att_135 numeric
+@attribute att_136 numeric
+@attribute att_137 numeric
+@attribute att_138 numeric
+@attribute att_139 numeric
+@attribute att_140 numeric
+@attribute att_141 numeric
+@attribute att_142 numeric
+@attribute att_143 numeric
+@attribute att_144 numeric
+@attribute att_145 numeric
+@attribute att_146 numeric
+@attribute att_147 numeric
+@attribute att_148 numeric
+@attribute att_149 numeric
+@attribute att_150 numeric
+@attribute att_151 numeric
+@attribute att_152 numeric
+@attribute att_153 numeric
+@attribute att_154 numeric
+@attribute att_155 numeric
+@attribute att_156 numeric
+@attribute att_157 numeric
+@attribute att_158 numeric
+@attribute att_159 numeric
+@attribute att_160 numeric
+@attribute att_161 numeric
+@attribute att_162 numeric
+@attribute att_163 numeric
+@attribute att_164 numeric
+@attribute att_165 numeric
+@attribute att_166 numeric
+@attribute att_167 numeric
+@attribute att_168 numeric
+@attribute att_169 numeric
+@attribute class {0,1,2,3,4,5,6}
+
+@data
+{19 0.69897,64 1.518514,110 -2.30103,120 -2,169 1}
+{169 1}
+{19 0.69897,169 1}
+{169 1}
+{12 2,130 -0.845098,169 1}
+{35 1.60206,46 2,130 -1.690196,169 1}
+{130 -1.690196,169 1}
+{19 0.69897,21 2.30103,30 1.255273,35 1.60206,76 -2.30103,89 -2.30103,123 -2.30103,130 -0.845098,169 4}
+{57 1.39794,73 2.352183,130 -1.690196,165 -1.69897,169 1}
+{23 1.60206,130 -0.845098,169 1}
+{0 1.819544,33 2,57 1.39794,71 1.69897,100 -2.30103,130 -1.690196,167 -4.60206,169 1}
+{17 2,19 0.69897,70 2.30103,86 -1.447158,130 -0.845098,169 1}
+{130 -1.690196,169 1}
+{33 2,71 1.69897,130 -1.690196,169 1}
+{92 -1.60206,120 -2,165 -1.69897,169 3}
+{31 2,57 2.79588,130 -0.845098,169 1}
+{19 0.69897,72 0.778151,165 -1.69897,169 1}
+{30 1.255273,58 1.255273,130 -0.845098,169 1}
+{169 1}
+{11 2.227887,14 1.69897,19 0.69897,48 2.30103,55 3.639088,65 2,69 2.30103,81 -2.30103,92 -1.60206,93 -2.30103,149 -2.30103,169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{30 2.510545,169 1}
+{30 1.255273,169 1}
+{19 0.69897,169 1}
+{130 -1.690196,169 1}
+{169 1}
+{130 -0.845098,169 1}
+{130 -0.845098,169 1}
+{66 4.60206,78 -2,105 -4,169 1}
+{72 0.778151,169 1}
+{11 2.227887,15 1.69897,16 2.30103,19 0.69897,24 1.69897,28 2.30103,41 4.80618,46 2,73 1.176091,95 -2.30103,109 -16.10721,140 -2.30103,150 -2.30103,166 -4.60206,169 1}
+{169 1}
+{11 1.113943,19 2.79588,30 2.510545,126 -1.60206,169 1}
+{169 1}
+{169 1}
+{19 2.09691,30 2.510545,126 -1.60206,169 1}
+{15 1.69897,19 2.09691,30 2.510545,126 -1.60206,169 1}
+{169 1}
+{19 2.09691,30 2.510545,64 1.518514,126 -1.60206,169 1}
+{19 0.69897,169 1}
+{19 1.39794,71 1.69897,169 1}
+{87 -2.30103,106 -4.60206,169 1}
+{78 -2,105 -2,169 1}
+{169 1}
+{72 0.778151,169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{169 1}
+{19 0.69897,169 1}
+{169 1}
+{1 3.639088,11 1.113943,72 0.778151,141 -2}
+{19 0.69897,35 3.20412,60 2,72 1.556303}
+{13 2.30103,92 -1.60206,169 1}
+{1 1.819544,11 1.113943,72 0.778151,141 -2}
+{96 -2.30103,169 1}
+{86 -1.447158,116 -2,135 -2,169 1}
+{169 1}
+{130 -0.845098,169 1}
+{169 1}
+{130 -0.845098,169 1}
+{86 -1.447158,116 -2,169 1}
+{20 0.845098,61 1.447158,73 1.176091,169 1}
+{57 1.39794,130 -2.535294,169 1}
+{169 1}
+{130 -0.845098,169 1}
+{169 1}
+{130 -3.380392,169 1}
+{130 -3.380392,169 1}
+{47 2.30103,64 1.518514,72 0.778151}
+{19 1.39794,169 1}
+{158 -2.30103,169 1}
+{7 2.30103,45 3.20412,169 1}
+{169 1}
+{3 4,11 1.113943,45 1.60206,55 1.819544,61 1.447158,169 1}
+{14 1.69897,169 1}
+{130 -0.845098,169 1}
+{14 1.69897,169 1}
+{2 2,169 1}
+{169 1}
+{6 2,58 1.255273,165 -1.69897,169 1}
+{19 0.69897,52 2,63 2,169 1}
+{20 0.845098,58 1.255273,169 1}
+{169 1}
+{9 1.819544,11 2.227887,61 1.447158,64 1.518514,72 0.778151,155 -2.30103}
+{11 1.113943,12 2,19 0.69897,29 2.30103,30 1.255273,31 2,35 1.60206,55 1.819544,61 1.447158,85 -4.60206,98 -1.819544,169 1}
+{169 1}
+{169 1}
+{20 1.690196,130 -2.535294,169 1}
+{152 -2.30103,169 1}
+{169 1}
+{73 1.176091,169 1}
+{11 1.113943,130 -0.845098,169 1}
+{26 2.30103,169 1}
+{3 2,8 4.60206,11 2.227887,18 2,19 2.09691,20 0.845098,38 2.30103,41 1.60206,57 1.39794,58 3.765818,59 2.30103,61 1.447158,73 1.176091,79 -2,82 -2.30103,84 -2.30103,88 -4.60206,103 -2.30103,107 -4.60206,108 -2.30103,114 -2.30103,118 -2,121 -2.30103,131 -2.30103,134 -2.30103,138 -2.30103,139 -2.30103,142 -2.30103,145 -4.60206,157 -2.30103,159 -2,160 -4.60206,161 -2.30103,162 -1.819544,164 -2.30103,168 -2.30103,169 5}
+{20 0.845098,35 1.60206,169 1}
+{169 1}
+{4 2,58 1.255273,169 1}
+{1 1.819544,11 1.113943,130 -1.690196,169 1}
+{57 1.39794,73 2.352183,101 -2.30103,119 -2.30103,130 -1.690196,135 -2,143 -2.30103,162 -1.819544,169 1}
+{169 1}
+{24 1.69897,45 1.60206,50 2.30103,58 1.255273,137 -2.30103,169 1}
+{19 0.69897,73 1.176091,169 1}
+{20 0.845098,22 2.30103,72 0.778151,73 2.352183,90 -2,147 -2}
+{0 1.819544,19 0.69897,56 4.60206,169 1}
+{11 1.113943,15 1.69897,18 2,25 2.30103,39 2.30103,52 2,73 1.176091,75 1.819544,115 -2.30103,169 1}
+{11 1.113943,41 1.60206,49 2,57 4.19382,73 1.176091,98 -1.819544,169 1}
+{41 1.60206,49 2,57 4.19382,73 1.176091,98 -1.819544,169 1}
+{4 2,27 2.30103,37 2.30103,129 -2,169 1}
+{169 1}
+{169 1}
+{169 1}
+{75 1.819544,169 1}
+{169 1}
+{24 1.69897,72 0.778151,129 -2,153 -6.90309,169 2}
+{9 3.639088,11 1.113943,64 1.518514}
+{19 0.69897,169 1}
+{19 0.69897,169 1}
+{162 -1.819544,169 1}
+{169 1}
+{169 1}
+{169 1}
+{20 0.845098,169 1}
+{30 1.255273,45 1.60206,61 1.447158,63 4,64 1.518514,147 -2,156 -2.30103,169 6}
+{0 1.819544,6 2,11 1.113943,15 1.69897,23 1.60206,92 -1.60206,112 -4.60206,130 -0.845098,163 -2,169 1}
+{58 1.255273,73 1.176091,75 1.819544,169 1}
+{169 1}
+{169 1}
+{19 0.69897,169 1}
+{19 0.69897,58 1.255273,169 1}
+{169 1}
+{41 1.60206,45 1.60206,169 1}
+{9 1.819544,30 1.255273,34 1.819544,92 -1.60206,151 -2.30103,163 -2,169 1}
+{169 1}
+{169 1}

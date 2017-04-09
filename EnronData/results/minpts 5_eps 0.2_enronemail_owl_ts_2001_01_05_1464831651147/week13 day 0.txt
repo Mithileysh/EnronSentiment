@@ -1,0 +1,36 @@
+size:11
+<3342:Other-[strongest, competitive, intelligence, welcome]>
+<3344:Other-[improve, improve, work, better, inexpensive, recommendations, thank]>
+<10180:Other-[privileged]>
+<24231:Other-[thank]>
+<24835:Other-[progress]>
+<107761:Other-[strongest, competitive, intelligence, welcome]>
+<140738:Other-[better, good, prefer, nice, like, better, privileged]>
+<158723:Other-[work, work]>
+<183756:Other-[strongest, competitive, intelligence, welcome]>
+<238882:Other-[strongest, competitive, intelligence, welcome]>
+<238883:Other-[comfort, cool, breeze, hot, well, beautiful, distinction, easy, ideal, romantic, luxury, versatility, exquisite, elegance, solid]>
+
+size:13
+<32999:Other-[-hell, love]>
+<33001:Other-[refunded, -unlikely]>
+<73691:Other-[right, love, -liability, -limited, -liability]>
+<73719:Other-[-sorry, like]>
+<81350:Other-[right, love, -liability, -limited, -liability]>
+<95241:Other-[-bearish, bullish, -bearish, -hesitant, clearer, -idiots, bullish, -shit, faith, -bias, hot, -cold, stellar, -hawkish, pretty, -bearish]>
+<95242:Other-[-dumps, -loss, -fear, decent, enough, -weak, -weakness, -risk, decent, -bearish, bullish, -bearish, -hesitant, clearer, bullish, -shit, faith, -bias, hot, -cold, stellar, -hawkish, pretty, -bearish]>
+<125882:Other-[-problem, -hogs, top, -warned, well, -wildly, -irony, -lost, blessing, like, -mess, like, good, willing, like, like, like, willing, willing, -threats, -vice, -lukewarm, -critics, prompt, -dishonest, -loud, success, -threat, fair, promised, advocates, renewed, restructuring, convenience]>
+<125887:Other-[-sorry, good, better, -damaging, like, nice, nicely, -issue, encourage]>
+<73692:Other-[available, better, -problem, work, good, support, work, -liability]>
+<210331:Other-[-hogs, top, -warned, well, -wildly, -irony, -lost, blessing, like, -mess, like, good, willing, like, like, like, willing, willing, -threats, -vice, -lukewarm, -critics, prompt, -dishonest, -loud, success, -threat, fair, promised, advocates, renewed, restructuring, convenience]>
+<215499:Other-[leading, support, integrated, bullish, blockbuster, -unacceptable, joy, blockbuster, -limited, -struggling, intelligent, -lonely, better, -broken, better, blockbuster, worth, blockbuster, clearly, -disappointment, great, confidence, leading, proven, free, -unable, available, -risk, advanced]>
+<215500:Other-[-problem, -hogs, top, -warned, well, -wildly, -irony, -lost, blessing, like, -mess, like, good, willing, like, like, like, willing, willing, -threats, -vice, -lukewarm, -critics, prompt, -dishonest, -loud, success, -threat, fair, promised, advocates, renewed, restructuring, convenience]>
+
+size:7
+<125885:Private Issue-[good, comprehensive, like, -issue, -sorry, consistent, well, good, support, clean, important, -ill-advised, -unworkable, -concerned, -provoke, -negative, -concerned, important, -issue, well-positioned, -risk, work, efficient, flexibility, cost-effective, meaningful, progress, constructive, -issue, respect, well, -issue, lead, -problems, -issue, favor]>
+<140733:Private Issue-[-hard, appreciate]>
+<140741:Private Issue-[works, free, -miss, work]>
+<32997:Private Issue-[upgraded, sweet, -mar, available, thank, thank]>
+<125886:Private Issue-[congratulations, like, rich, -sue, enjoyed, best]>
+<140742:Private Issue-[free, -miss, work]>
+<241833:Private Issue-[best, work, well, -prohibit, encourage, encourage, -rumor, appropriate, -sap, ease, success]>

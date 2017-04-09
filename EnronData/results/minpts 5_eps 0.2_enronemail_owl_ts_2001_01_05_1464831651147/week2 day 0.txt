@@ -1,0 +1,16 @@
+size:15
+<9805:Other-[sweet, like]>
+<33246:Other-[privileged, correct, reasonably, correct, prefer]>
+<33247:Other-[right]>
+<125597:Other-[work]>
+<125598:Other-[recommendations, pretty, recommendations, ideal, recommend, great, -issues, great, respect, like, -curt, great, good, support, good, interesting, great]>
+<78116:Other-[nice, -missed, regard, -limited, confident, attractive, regard, pure]>
+<78120:Other-[nice, -missed, regard, -limited, confident, attractive, regard, pure]>
+<78122:Other-[great, free, fun, -blow, ready, happy, great]>
+<203261:Other-[incredible, like, -disappointed, -sorry, fun, better, great, like]>
+<127984:Other-[fairly, helpful, work, outstanding, work, trust, -inability, clear, outstanding, worth, -criticism, -threatening, -desperate]>
+<211300:Other-[-bothering, approval, variety, fairly, protect, -wild, well]>
+<211301:Other-[approval, variety, fairly, protect, -wild, well]>
+<214343:Other-[privileged, approval, variety, fairly, protect, -wild, well]>
+<125599:Other-[support]>
+<214341:Other-[good, welcome, awards, golden]>

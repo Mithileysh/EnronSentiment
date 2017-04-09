@@ -73,6 +73,8 @@ import sentimentTools.tfidfSimilarity;
 		static tfidfSimilarity tfidf;
 		static String POSIDFLIST = "results/enronemail_owl_2001_01_idf.txt";
 		static String NEGIDFLIST = "results/enronemail_owl_2001_01_idf_neg.txt";
+		//static String POSIDFLIST = "results/enronemail_owl_dataset3_idf.txt";
+		//static String NEGIDFLIST = "results/enronemail_owl_dataset3_idf_neg.txt";
 		
 		static ArrayList<String> tempLexicon;
 		static ArrayList<String> tempDictionary;
@@ -160,14 +162,32 @@ import sentimentTools.tfidfSimilarity;
 				String sql;
 				
 				sql = "SELECT DISTINCT mid, date, subject, body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE sender = 'kevin.hyatt@enron.com' LIMIT 200 ";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE sender = 'lorna.brennan@enron.com' LIMIT 200 ";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE sender = 'christi.nicolay@enron.com' LIMIT 200 ";
 				
 				
 				ResultSet rs = myStmt.executeQuery(sql);
 				count = 0;
 				
-				String outputFile = "results/enronemail_owl_tfidf_polarity_label_2001_01.dat";
+				//String outputFile = "results/enronemail_owl_tfidf_polarity_label_2001_01.dat";
 				//String outputFile1 = "results/enronemail_owl_bow_polarity_label_2001_01.csv";
 				//String outputFile = "results/enronemail_owl_tp_polarity_label_2001_01.dat";				
+				
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_tp_polarity_dataset1.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_bow_polarity_dataset2.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_tfidf_polarity_dataset3.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_tp_polarity_dataset2.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_bow_polarity_dataset3.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_tfidf_polarity_dataset1.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_tp_polarity_dataset3.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_bow_polarity_dataset1.dat";
+				//String outputFile = "results/polarity_dat_files/enronemail_owl_tfidf_polarity_dataset2.dat";
+				
+				//String outputFile = "results/results_enronemail_2001_01/dat_files/enronemail_owl_tfidf_polarity_wtnoise.dat";
+				//String outputFile = "results/results_enronemail_2001_01/dat_files/enronemail_owl_bow_polarity_wtnoise.dat";
+				String outputFile = "results/results_enronemail_2001_01/dat_files/enronemail_owl_tp_polarity_wtnoise.dat";
+				
 				FileWriter fileWriter = null;
 				//FileWriter fileWriter1 = null;
 				fileWriter = new FileWriter (outputFile);
@@ -214,7 +234,7 @@ import sentimentTools.tfidfSimilarity;
 			        if (subject != "" && subject.contains("fw:") == false && subject != "re:"){	
 						try {
 							
-					        System.out.println(id + ", ");
+					        
 							bodyList = new ArrayList<String>();	
 					        bodyList.add(body);
 			                TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
@@ -245,7 +265,8 @@ import sentimentTools.tfidfSimilarity;
 						    int attr = 0;
 						
 						    ArrayList<Double> sizeList = new ArrayList<Double>();
-					    
+					        ArrayList<Integer> sizeListInt = new ArrayList<Integer>();
+					        
 							for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
 								attr++;
 								HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
@@ -254,14 +275,12 @@ import sentimentTools.tfidfSimilarity;
 								int size;
 								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 									size = entry.getValue().size();
-						            sizeList.add(size * tfidf.idfDictionary(POSIDFLIST).get(tempPosterm));
-									/*
-									if (size == 0){
-										sizeList.add(size);
-									}else{
-										sizeList.add(1);
+						            
+									if (size != 0){
+										sizeListInt.add(1);
+										//sizeListInt.add(size);
+										//sizeList.add(size * tfidf.idfDictionary(POSIDFLIST).get(tempPosterm));
 									}
-									*/
 								}
 								
 							}
@@ -275,98 +294,87 @@ import sentimentTools.tfidfSimilarity;
 								int size;
 								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 									size = -entry.getValue().size();
-								    sizeList.add(size*tfidf.idfDictionary(NEGIDFLIST).get(tempNegterm));
-									/*
-									if(size == 0){
-										sizeList.add(size);
-									}else{
-										sizeList.add(-1);
+								    
+									if(size != -0){
+										sizeListInt.add(-1);
+										//sizeListInt.add(size);
+										//sizeList.add(size*tfidf.idfDictionary(NEGIDFLIST).get(tempNegterm));
+										
 									}
-									*/
 								}
 								
 							
 				            }
-				            //create wordlist labels
 				            
-				            double label = 0.0;
-				            //System.out.println(sizeList.toString());
-				            for (double value: sizeList){
-								label += value;
-								
-				            }
-				            if (label > 0){
-				            	fileWriter.append("1" + " ");
-				            	//fileWriter1.append("1" + ", ");
-				            }else if (label < 0){
-				            	fileWriter.append("-1" + " ");
-				            	//fileWriter1.append("-1" + ", ");
-				            }else{
-				            	fileWriter.append("0" + " ");
-				            	//fileWriter1.append("0" + ", ");
-				            }
-				              
-				   
-				            int attrAG = 0;
-				            for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
-								attrAG++;
-								HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
-														
-								synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tokenList)));
-								
-								int size;
-								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
+				            if (sizeListInt.size() != 0){
+				            	System.out.println(id + ", ");
+				            	
+				            	//create wordlist labels
+					            
+					            double label = 0.0;
+					            //System.out.println(sizeList.toString());
+					            for (double value: sizeListInt){
+									label += value;
 									
-									size = entry.getValue().size();
+					            }
+					            if (label > 0.0){
+					            	fileWriter.append("1" + " ");
+					            	//fileWriter1.append("1" + ", ");
+					            }else if (label < 0.0){
+					            	fileWriter.append("-1" + " ");
+					            	//fileWriter1.append("-1" + ", ");
+					            }else{
+					            	fileWriter.append("0" + " ");
+					            	//fileWriter1.append("0" + ", ");
+					            }
+					            
+					            int attrAG = 0;
+					            for(String tempPosterm : tfidf.idfDictionary(POSIDFLIST).keySet()) {
+									attrAG++;
+									HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
+															
+									synTerms.put(tempPosterm, new ArrayList<Integer>(recursion(0,tempPosterm, tokenList)));
 									
-									if (size !=0){
-										fileWriter.append(attrAG + ":" + size * tfidf.idfDictionary(POSIDFLIST).get(tempPosterm) + " ");
-										//fileWriter.append(attrAG+ ":1 ");
-										//fileWriter1.append(size + ", ");
-									}else{
-										//fileWriter1.append("0, ");
-									}
-									
-									/*
-									if (size != 0 ){
+									int size;
+									for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
 										
-									    fileWriter.append(attrAG + ":" + normalize(size) + " ");
-									}
-									*/
-										//System.out.println(size);
-								}
-								
-							}
-							int countAG = attrAG;
-							
-				            for (String tempNegterm:tfidf.idfDictionary(NEGIDFLIST).keySet()){
-				            	countAG++;
-				            	HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
-								
-								synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tokenList)));
-								int size;
-								for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
-										size = -entry.getValue().size();
+										size = entry.getValue().size();
 										
-										if (size != -0){
-											//fileWriter.append(countAG + ":-1 ");
-											fileWriter.append(countAG + ":"  + size * tfidf.idfDictionary(NEGIDFLIST).get(tempNegterm) + " ");
+										if (size !=0){
+											//fileWriter.append(attrAG + ":" + size * tfidf.idfDictionary(POSIDFLIST).get(tempPosterm) + " ");
+											fileWriter.append(attrAG+ ":1 ");
+											//fileWriter.append(attrAG + ":" + size + " ");
 											//fileWriter1.append(size + ", ");
-										}else{
-											//fileWriter1.append("0, ");
 										}
-										
-										/*
-										if (size != -0){
-											fileWriter.append(countAG + ":" + normalize(size) + " ");
-										}
-										*/		
+										//System.out.println(size);
+									}
+									
 								}
-							
+								int countAG = attrAG;
+								
+					            for (String tempNegterm:tfidf.idfDictionary(NEGIDFLIST).keySet()){
+					            	countAG++;
+					            	HashMap<String, ArrayList<Integer>> synTerms = new HashMap<String, ArrayList<Integer>>();
+									
+									synTerms.put(tempNegterm, new ArrayList<Integer>(recursion(0,tempNegterm, tokenList)));
+									int size;
+									for(Entry<String, ArrayList<Integer>> entry : synTerms.entrySet()) {
+											size = -entry.getValue().size();
+											
+											if (size != -0){
+												fileWriter.append(countAG + ":-1 ");
+												//fileWriter.append(countAG + ":"  + size * tfidf.idfDictionary(NEGIDFLIST).get(tempNegterm) + " ");
+												//fileWriter.append(countAG + ":" + size + " ");
+												//fileWriter1.append(size + ", ");
+											}	
+									}
+								
+					            }
+					            fileWriter.append(System.getProperty("line.separator"));
+					            
 				            }
-				            fileWriter.append(System.getProperty("line.separator"));
-				            //fileWriter1.append("\n");
-						
+				   
+				            
 						}
 			      
 						catch (IOException e) {

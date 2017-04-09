@@ -1,0 +1,3955 @@
+@relation 'C:\\Users\\Sisi\\Documents\\GitHub\\EnronSentiment\\EnronData\\results\\results_enronemail_2001_01\\dat_files\\enronemail_owl_bow_kmeans_wtnoise_label_2001_01.dat'
+
+@attribute att_1 numeric
+@attribute att_2 numeric
+@attribute att_3 numeric
+@attribute att_4 numeric
+@attribute att_5 numeric
+@attribute att_6 numeric
+@attribute att_7 numeric
+@attribute att_8 numeric
+@attribute att_9 numeric
+@attribute att_10 numeric
+@attribute att_11 numeric
+@attribute att_12 numeric
+@attribute att_13 numeric
+@attribute att_14 numeric
+@attribute att_15 numeric
+@attribute att_16 numeric
+@attribute att_17 numeric
+@attribute att_18 numeric
+@attribute att_19 numeric
+@attribute att_20 numeric
+@attribute att_21 numeric
+@attribute att_22 numeric
+@attribute att_23 numeric
+@attribute att_24 numeric
+@attribute att_25 numeric
+@attribute att_26 numeric
+@attribute att_27 numeric
+@attribute att_28 numeric
+@attribute att_29 numeric
+@attribute att_30 numeric
+@attribute att_31 numeric
+@attribute att_32 numeric
+@attribute att_33 numeric
+@attribute att_34 numeric
+@attribute att_35 numeric
+@attribute att_36 numeric
+@attribute att_37 numeric
+@attribute att_38 numeric
+@attribute att_39 numeric
+@attribute att_40 numeric
+@attribute att_41 numeric
+@attribute att_42 numeric
+@attribute att_43 numeric
+@attribute att_44 numeric
+@attribute att_45 numeric
+@attribute att_46 numeric
+@attribute att_47 numeric
+@attribute att_48 numeric
+@attribute att_49 numeric
+@attribute att_50 numeric
+@attribute att_51 numeric
+@attribute att_52 numeric
+@attribute att_53 numeric
+@attribute att_54 numeric
+@attribute att_55 numeric
+@attribute att_56 numeric
+@attribute att_57 numeric
+@attribute att_58 numeric
+@attribute att_59 numeric
+@attribute att_60 numeric
+@attribute att_61 numeric
+@attribute att_62 numeric
+@attribute att_63 numeric
+@attribute att_64 numeric
+@attribute att_65 numeric
+@attribute att_66 numeric
+@attribute att_67 numeric
+@attribute att_68 numeric
+@attribute att_69 numeric
+@attribute att_70 numeric
+@attribute att_71 numeric
+@attribute att_72 numeric
+@attribute att_73 numeric
+@attribute att_74 numeric
+@attribute att_75 numeric
+@attribute att_76 numeric
+@attribute att_77 numeric
+@attribute att_78 numeric
+@attribute att_79 numeric
+@attribute att_80 numeric
+@attribute att_81 numeric
+@attribute att_82 numeric
+@attribute att_83 numeric
+@attribute att_84 numeric
+@attribute att_85 numeric
+@attribute att_86 numeric
+@attribute att_87 numeric
+@attribute att_88 numeric
+@attribute att_89 numeric
+@attribute att_90 numeric
+@attribute att_91 numeric
+@attribute att_92 numeric
+@attribute att_93 numeric
+@attribute att_94 numeric
+@attribute att_95 numeric
+@attribute att_96 numeric
+@attribute att_97 numeric
+@attribute att_98 numeric
+@attribute att_99 numeric
+@attribute att_100 numeric
+@attribute att_101 numeric
+@attribute att_102 numeric
+@attribute att_103 numeric
+@attribute att_104 numeric
+@attribute att_105 numeric
+@attribute att_106 numeric
+@attribute att_107 numeric
+@attribute att_108 numeric
+@attribute att_109 numeric
+@attribute att_110 numeric
+@attribute att_111 numeric
+@attribute att_112 numeric
+@attribute att_113 numeric
+@attribute att_114 numeric
+@attribute att_115 numeric
+@attribute att_116 numeric
+@attribute att_117 numeric
+@attribute att_118 numeric
+@attribute att_119 numeric
+@attribute att_120 numeric
+@attribute att_121 numeric
+@attribute att_122 numeric
+@attribute att_123 numeric
+@attribute att_124 numeric
+@attribute att_125 numeric
+@attribute att_126 numeric
+@attribute att_127 numeric
+@attribute att_128 numeric
+@attribute att_129 numeric
+@attribute att_130 numeric
+@attribute att_131 numeric
+@attribute att_132 numeric
+@attribute att_133 numeric
+@attribute att_134 numeric
+@attribute att_135 numeric
+@attribute att_136 numeric
+@attribute att_137 numeric
+@attribute att_138 numeric
+@attribute att_139 numeric
+@attribute att_140 numeric
+@attribute att_141 numeric
+@attribute att_142 numeric
+@attribute att_143 numeric
+@attribute att_144 numeric
+@attribute att_145 numeric
+@attribute att_146 numeric
+@attribute att_147 numeric
+@attribute att_148 numeric
+@attribute att_149 numeric
+@attribute att_150 numeric
+@attribute att_151 numeric
+@attribute att_152 numeric
+@attribute att_153 numeric
+@attribute att_154 numeric
+@attribute att_155 numeric
+@attribute att_156 numeric
+@attribute att_157 numeric
+@attribute att_158 numeric
+@attribute att_159 numeric
+@attribute att_160 numeric
+@attribute att_161 numeric
+@attribute att_162 numeric
+@attribute att_163 numeric
+@attribute att_164 numeric
+@attribute att_165 numeric
+@attribute att_166 numeric
+@attribute att_167 numeric
+@attribute att_168 numeric
+@attribute att_169 numeric
+@attribute att_170 numeric
+@attribute att_171 numeric
+@attribute att_172 numeric
+@attribute att_173 numeric
+@attribute att_174 numeric
+@attribute att_175 numeric
+@attribute att_176 numeric
+@attribute att_177 numeric
+@attribute att_178 numeric
+@attribute att_179 numeric
+@attribute att_180 numeric
+@attribute att_181 numeric
+@attribute att_182 numeric
+@attribute att_183 numeric
+@attribute att_184 numeric
+@attribute att_185 numeric
+@attribute att_186 numeric
+@attribute att_187 numeric
+@attribute att_188 numeric
+@attribute att_189 numeric
+@attribute att_190 numeric
+@attribute att_191 numeric
+@attribute att_192 numeric
+@attribute att_193 numeric
+@attribute att_194 numeric
+@attribute att_195 numeric
+@attribute att_196 numeric
+@attribute att_197 numeric
+@attribute att_198 numeric
+@attribute att_199 numeric
+@attribute att_200 numeric
+@attribute att_201 numeric
+@attribute att_202 numeric
+@attribute att_203 numeric
+@attribute att_204 numeric
+@attribute att_205 numeric
+@attribute att_206 numeric
+@attribute att_207 numeric
+@attribute att_208 numeric
+@attribute att_209 numeric
+@attribute att_210 numeric
+@attribute att_211 numeric
+@attribute att_212 numeric
+@attribute att_213 numeric
+@attribute att_214 numeric
+@attribute att_215 numeric
+@attribute att_216 numeric
+@attribute att_217 numeric
+@attribute att_218 numeric
+@attribute att_219 numeric
+@attribute att_220 numeric
+@attribute att_221 numeric
+@attribute att_222 numeric
+@attribute att_223 numeric
+@attribute att_224 numeric
+@attribute att_225 numeric
+@attribute att_226 numeric
+@attribute att_227 numeric
+@attribute att_228 numeric
+@attribute att_229 numeric
+@attribute att_230 numeric
+@attribute att_231 numeric
+@attribute att_232 numeric
+@attribute att_233 numeric
+@attribute att_234 numeric
+@attribute att_235 numeric
+@attribute att_236 numeric
+@attribute att_237 numeric
+@attribute att_238 numeric
+@attribute att_239 numeric
+@attribute att_240 numeric
+@attribute att_241 numeric
+@attribute att_242 numeric
+@attribute att_243 numeric
+@attribute att_244 numeric
+@attribute att_245 numeric
+@attribute att_246 numeric
+@attribute att_247 numeric
+@attribute att_248 numeric
+@attribute att_249 numeric
+@attribute att_250 numeric
+@attribute att_251 numeric
+@attribute att_252 numeric
+@attribute att_253 numeric
+@attribute att_254 numeric
+@attribute att_255 numeric
+@attribute att_256 numeric
+@attribute att_257 numeric
+@attribute att_258 numeric
+@attribute att_259 numeric
+@attribute att_260 numeric
+@attribute att_261 numeric
+@attribute att_262 numeric
+@attribute att_263 numeric
+@attribute att_264 numeric
+@attribute att_265 numeric
+@attribute att_266 numeric
+@attribute att_267 numeric
+@attribute att_268 numeric
+@attribute att_269 numeric
+@attribute att_270 numeric
+@attribute att_271 numeric
+@attribute att_272 numeric
+@attribute att_273 numeric
+@attribute att_274 numeric
+@attribute att_275 numeric
+@attribute att_276 numeric
+@attribute att_277 numeric
+@attribute att_278 numeric
+@attribute att_279 numeric
+@attribute att_280 numeric
+@attribute att_281 numeric
+@attribute att_282 numeric
+@attribute att_283 numeric
+@attribute att_284 numeric
+@attribute att_285 numeric
+@attribute att_286 numeric
+@attribute att_287 numeric
+@attribute att_288 numeric
+@attribute att_289 numeric
+@attribute att_290 numeric
+@attribute att_291 numeric
+@attribute att_292 numeric
+@attribute att_293 numeric
+@attribute att_294 numeric
+@attribute att_295 numeric
+@attribute att_296 numeric
+@attribute att_297 numeric
+@attribute att_298 numeric
+@attribute att_299 numeric
+@attribute att_300 numeric
+@attribute att_301 numeric
+@attribute att_302 numeric
+@attribute att_303 numeric
+@attribute att_304 numeric
+@attribute att_305 numeric
+@attribute att_306 numeric
+@attribute att_307 numeric
+@attribute att_308 numeric
+@attribute att_309 numeric
+@attribute att_310 numeric
+@attribute att_311 numeric
+@attribute att_312 numeric
+@attribute att_313 numeric
+@attribute att_314 numeric
+@attribute att_315 numeric
+@attribute att_316 numeric
+@attribute att_317 numeric
+@attribute att_318 numeric
+@attribute att_319 numeric
+@attribute att_320 numeric
+@attribute att_321 numeric
+@attribute att_322 numeric
+@attribute att_323 numeric
+@attribute att_324 numeric
+@attribute att_325 numeric
+@attribute att_326 numeric
+@attribute att_327 numeric
+@attribute att_328 numeric
+@attribute att_329 numeric
+@attribute att_330 numeric
+@attribute att_331 numeric
+@attribute att_332 numeric
+@attribute att_333 numeric
+@attribute att_334 numeric
+@attribute att_335 numeric
+@attribute att_336 numeric
+@attribute att_337 numeric
+@attribute att_338 numeric
+@attribute att_339 numeric
+@attribute att_340 numeric
+@attribute att_341 numeric
+@attribute att_342 numeric
+@attribute att_343 numeric
+@attribute att_344 numeric
+@attribute att_345 numeric
+@attribute att_346 numeric
+@attribute att_347 numeric
+@attribute att_348 numeric
+@attribute att_349 numeric
+@attribute att_350 numeric
+@attribute att_351 numeric
+@attribute att_352 numeric
+@attribute att_353 numeric
+@attribute att_354 numeric
+@attribute att_355 numeric
+@attribute att_356 numeric
+@attribute att_357 numeric
+@attribute att_358 numeric
+@attribute att_359 numeric
+@attribute att_360 numeric
+@attribute att_361 numeric
+@attribute att_362 numeric
+@attribute att_363 numeric
+@attribute att_364 numeric
+@attribute att_365 numeric
+@attribute att_366 numeric
+@attribute att_367 numeric
+@attribute att_368 numeric
+@attribute att_369 numeric
+@attribute att_370 numeric
+@attribute att_371 numeric
+@attribute att_372 numeric
+@attribute att_373 numeric
+@attribute att_374 numeric
+@attribute att_375 numeric
+@attribute att_376 numeric
+@attribute att_377 numeric
+@attribute att_378 numeric
+@attribute att_379 numeric
+@attribute att_380 numeric
+@attribute att_381 numeric
+@attribute att_382 numeric
+@attribute att_383 numeric
+@attribute att_384 numeric
+@attribute att_385 numeric
+@attribute att_386 numeric
+@attribute att_387 numeric
+@attribute att_388 numeric
+@attribute att_389 numeric
+@attribute att_390 numeric
+@attribute att_391 numeric
+@attribute att_392 numeric
+@attribute att_393 numeric
+@attribute att_394 numeric
+@attribute att_395 numeric
+@attribute att_396 numeric
+@attribute att_397 numeric
+@attribute att_398 numeric
+@attribute att_399 numeric
+@attribute att_400 numeric
+@attribute att_401 numeric
+@attribute att_402 numeric
+@attribute att_403 numeric
+@attribute att_404 numeric
+@attribute att_405 numeric
+@attribute att_406 numeric
+@attribute att_407 numeric
+@attribute att_408 numeric
+@attribute att_409 numeric
+@attribute att_410 numeric
+@attribute att_411 numeric
+@attribute att_412 numeric
+@attribute att_413 numeric
+@attribute att_414 numeric
+@attribute att_415 numeric
+@attribute att_416 numeric
+@attribute att_417 numeric
+@attribute att_418 numeric
+@attribute att_419 numeric
+@attribute att_420 numeric
+@attribute att_421 numeric
+@attribute att_422 numeric
+@attribute att_423 numeric
+@attribute att_424 numeric
+@attribute att_425 numeric
+@attribute att_426 numeric
+@attribute att_427 numeric
+@attribute att_428 numeric
+@attribute att_429 numeric
+@attribute att_430 numeric
+@attribute att_431 numeric
+@attribute att_432 numeric
+@attribute att_433 numeric
+@attribute att_434 numeric
+@attribute att_435 numeric
+@attribute att_436 numeric
+@attribute att_437 numeric
+@attribute att_438 numeric
+@attribute att_439 numeric
+@attribute att_440 numeric
+@attribute att_441 numeric
+@attribute att_442 numeric
+@attribute att_443 numeric
+@attribute att_444 numeric
+@attribute att_445 numeric
+@attribute att_446 numeric
+@attribute att_447 numeric
+@attribute att_448 numeric
+@attribute att_449 numeric
+@attribute att_450 numeric
+@attribute att_451 numeric
+@attribute att_452 numeric
+@attribute att_453 numeric
+@attribute att_454 numeric
+@attribute att_455 numeric
+@attribute att_456 numeric
+@attribute att_457 numeric
+@attribute att_458 numeric
+@attribute att_459 numeric
+@attribute att_460 numeric
+@attribute att_461 numeric
+@attribute att_462 numeric
+@attribute att_463 numeric
+@attribute att_464 numeric
+@attribute att_465 numeric
+@attribute att_466 numeric
+@attribute att_467 numeric
+@attribute att_468 numeric
+@attribute att_469 numeric
+@attribute att_470 numeric
+@attribute att_471 numeric
+@attribute att_472 numeric
+@attribute att_473 numeric
+@attribute att_474 numeric
+@attribute att_475 numeric
+@attribute att_476 numeric
+@attribute att_477 numeric
+@attribute att_478 numeric
+@attribute att_479 numeric
+@attribute att_480 numeric
+@attribute att_481 numeric
+@attribute att_482 numeric
+@attribute att_483 numeric
+@attribute att_484 numeric
+@attribute att_485 numeric
+@attribute att_486 numeric
+@attribute att_487 numeric
+@attribute att_488 numeric
+@attribute att_489 numeric
+@attribute att_490 numeric
+@attribute att_491 numeric
+@attribute att_492 numeric
+@attribute att_493 numeric
+@attribute att_494 numeric
+@attribute att_495 numeric
+@attribute att_496 numeric
+@attribute att_497 numeric
+@attribute att_498 numeric
+@attribute att_499 numeric
+@attribute att_500 numeric
+@attribute att_501 numeric
+@attribute att_502 numeric
+@attribute att_503 numeric
+@attribute att_504 numeric
+@attribute att_505 numeric
+@attribute att_506 numeric
+@attribute att_507 numeric
+@attribute att_508 numeric
+@attribute att_509 numeric
+@attribute att_510 numeric
+@attribute att_511 numeric
+@attribute att_512 numeric
+@attribute att_513 numeric
+@attribute att_514 numeric
+@attribute att_515 numeric
+@attribute att_516 numeric
+@attribute att_517 numeric
+@attribute att_518 numeric
+@attribute att_519 numeric
+@attribute att_520 numeric
+@attribute att_521 numeric
+@attribute att_522 numeric
+@attribute att_523 numeric
+@attribute att_524 numeric
+@attribute att_525 numeric
+@attribute att_526 numeric
+@attribute att_527 numeric
+@attribute att_528 numeric
+@attribute att_529 numeric
+@attribute att_530 numeric
+@attribute att_531 numeric
+@attribute att_532 numeric
+@attribute att_533 numeric
+@attribute att_534 numeric
+@attribute att_535 numeric
+@attribute att_536 numeric
+@attribute att_537 numeric
+@attribute att_538 numeric
+@attribute att_539 numeric
+@attribute att_540 numeric
+@attribute att_541 numeric
+@attribute att_542 numeric
+@attribute att_543 numeric
+@attribute att_544 numeric
+@attribute att_545 numeric
+@attribute att_546 numeric
+@attribute att_547 numeric
+@attribute att_548 numeric
+@attribute att_549 numeric
+@attribute att_550 numeric
+@attribute att_551 numeric
+@attribute att_552 numeric
+@attribute att_553 numeric
+@attribute att_554 numeric
+@attribute att_555 numeric
+@attribute att_556 numeric
+@attribute att_557 numeric
+@attribute att_558 numeric
+@attribute att_559 numeric
+@attribute att_560 numeric
+@attribute att_561 numeric
+@attribute att_562 numeric
+@attribute att_563 numeric
+@attribute att_564 numeric
+@attribute att_565 numeric
+@attribute att_566 numeric
+@attribute att_567 numeric
+@attribute att_568 numeric
+@attribute att_569 numeric
+@attribute att_570 numeric
+@attribute att_571 numeric
+@attribute att_572 numeric
+@attribute att_573 numeric
+@attribute att_574 numeric
+@attribute att_575 numeric
+@attribute att_576 numeric
+@attribute att_577 numeric
+@attribute att_578 numeric
+@attribute att_579 numeric
+@attribute att_580 numeric
+@attribute att_581 numeric
+@attribute att_582 numeric
+@attribute att_583 numeric
+@attribute att_584 numeric
+@attribute att_585 numeric
+@attribute att_586 numeric
+@attribute att_587 numeric
+@attribute att_588 numeric
+@attribute att_589 numeric
+@attribute att_590 numeric
+@attribute att_591 numeric
+@attribute att_592 numeric
+@attribute att_593 numeric
+@attribute att_594 numeric
+@attribute att_595 numeric
+@attribute att_596 numeric
+@attribute att_597 numeric
+@attribute att_598 numeric
+@attribute att_599 numeric
+@attribute att_600 numeric
+@attribute att_601 numeric
+@attribute att_602 numeric
+@attribute att_603 numeric
+@attribute att_604 numeric
+@attribute att_605 numeric
+@attribute att_606 numeric
+@attribute att_607 numeric
+@attribute att_608 numeric
+@attribute att_609 numeric
+@attribute att_610 numeric
+@attribute att_611 numeric
+@attribute att_612 numeric
+@attribute att_613 numeric
+@attribute att_614 numeric
+@attribute att_615 numeric
+@attribute att_616 numeric
+@attribute att_617 numeric
+@attribute att_618 numeric
+@attribute att_619 numeric
+@attribute att_620 numeric
+@attribute att_621 numeric
+@attribute att_622 numeric
+@attribute att_623 numeric
+@attribute att_624 numeric
+@attribute att_625 numeric
+@attribute att_626 numeric
+@attribute att_627 numeric
+@attribute att_628 numeric
+@attribute att_629 numeric
+@attribute att_630 numeric
+@attribute att_631 numeric
+@attribute att_632 numeric
+@attribute att_633 numeric
+@attribute att_634 numeric
+@attribute att_635 numeric
+@attribute att_636 numeric
+@attribute att_637 numeric
+@attribute att_638 numeric
+@attribute att_639 numeric
+@attribute att_640 numeric
+@attribute att_641 numeric
+@attribute att_642 numeric
+@attribute att_643 numeric
+@attribute att_644 numeric
+@attribute att_645 numeric
+@attribute att_646 numeric
+@attribute att_647 numeric
+@attribute att_648 numeric
+@attribute att_649 numeric
+@attribute att_650 numeric
+@attribute att_651 numeric
+@attribute att_652 numeric
+@attribute att_653 numeric
+@attribute att_654 numeric
+@attribute att_655 numeric
+@attribute att_656 numeric
+@attribute att_657 numeric
+@attribute att_658 numeric
+@attribute att_659 numeric
+@attribute att_660 numeric
+@attribute att_661 numeric
+@attribute att_662 numeric
+@attribute att_663 numeric
+@attribute att_664 numeric
+@attribute att_665 numeric
+@attribute att_666 numeric
+@attribute att_667 numeric
+@attribute att_668 numeric
+@attribute att_669 numeric
+@attribute att_670 numeric
+@attribute att_671 numeric
+@attribute att_672 numeric
+@attribute att_673 numeric
+@attribute att_674 numeric
+@attribute att_675 numeric
+@attribute att_676 numeric
+@attribute att_677 numeric
+@attribute att_678 numeric
+@attribute att_679 numeric
+@attribute att_680 numeric
+@attribute att_681 numeric
+@attribute att_682 numeric
+@attribute att_683 numeric
+@attribute att_684 numeric
+@attribute att_685 numeric
+@attribute att_686 numeric
+@attribute att_687 numeric
+@attribute att_688 numeric
+@attribute att_689 numeric
+@attribute att_690 numeric
+@attribute att_691 numeric
+@attribute att_692 numeric
+@attribute att_693 numeric
+@attribute att_694 numeric
+@attribute att_695 numeric
+@attribute att_696 numeric
+@attribute att_697 numeric
+@attribute att_698 numeric
+@attribute att_699 numeric
+@attribute att_700 numeric
+@attribute att_701 numeric
+@attribute att_702 numeric
+@attribute att_703 numeric
+@attribute att_704 numeric
+@attribute att_705 numeric
+@attribute att_706 numeric
+@attribute att_707 numeric
+@attribute att_708 numeric
+@attribute att_709 numeric
+@attribute att_710 numeric
+@attribute att_711 numeric
+@attribute att_712 numeric
+@attribute att_713 numeric
+@attribute att_714 numeric
+@attribute att_715 numeric
+@attribute att_716 numeric
+@attribute att_717 numeric
+@attribute att_718 numeric
+@attribute att_719 numeric
+@attribute att_720 numeric
+@attribute att_721 numeric
+@attribute att_722 numeric
+@attribute att_723 numeric
+@attribute att_724 numeric
+@attribute att_725 numeric
+@attribute att_726 numeric
+@attribute att_727 numeric
+@attribute att_728 numeric
+@attribute att_729 numeric
+@attribute att_730 numeric
+@attribute att_731 numeric
+@attribute att_732 numeric
+@attribute att_733 numeric
+@attribute att_734 numeric
+@attribute att_735 numeric
+@attribute att_736 numeric
+@attribute att_737 numeric
+@attribute att_738 numeric
+@attribute att_739 numeric
+@attribute att_740 numeric
+@attribute att_741 numeric
+@attribute att_742 numeric
+@attribute att_743 numeric
+@attribute att_744 numeric
+@attribute att_745 numeric
+@attribute att_746 numeric
+@attribute att_747 numeric
+@attribute att_748 numeric
+@attribute att_749 numeric
+@attribute att_750 numeric
+@attribute att_751 numeric
+@attribute att_752 numeric
+@attribute att_753 numeric
+@attribute att_754 numeric
+@attribute att_755 numeric
+@attribute att_756 numeric
+@attribute att_757 numeric
+@attribute att_758 numeric
+@attribute att_759 numeric
+@attribute att_760 numeric
+@attribute att_761 numeric
+@attribute att_762 numeric
+@attribute att_763 numeric
+@attribute att_764 numeric
+@attribute att_765 numeric
+@attribute att_766 numeric
+@attribute att_767 numeric
+@attribute att_768 numeric
+@attribute att_769 numeric
+@attribute att_770 numeric
+@attribute att_771 numeric
+@attribute att_772 numeric
+@attribute att_773 numeric
+@attribute att_774 numeric
+@attribute att_775 numeric
+@attribute att_776 numeric
+@attribute att_777 numeric
+@attribute att_778 numeric
+@attribute att_779 numeric
+@attribute att_780 numeric
+@attribute att_781 numeric
+@attribute att_782 numeric
+@attribute att_783 numeric
+@attribute att_784 numeric
+@attribute att_785 numeric
+@attribute att_786 numeric
+@attribute att_787 numeric
+@attribute att_788 numeric
+@attribute att_789 numeric
+@attribute att_790 numeric
+@attribute att_791 numeric
+@attribute att_792 numeric
+@attribute att_793 numeric
+@attribute att_794 numeric
+@attribute att_795 numeric
+@attribute att_796 numeric
+@attribute att_797 numeric
+@attribute att_798 numeric
+@attribute att_799 numeric
+@attribute att_800 numeric
+@attribute att_801 numeric
+@attribute att_802 numeric
+@attribute att_803 numeric
+@attribute att_804 numeric
+@attribute att_805 numeric
+@attribute att_806 numeric
+@attribute att_807 numeric
+@attribute att_808 numeric
+@attribute att_809 numeric
+@attribute att_810 numeric
+@attribute att_811 numeric
+@attribute att_812 numeric
+@attribute class {0,1,2}
+
+@data
+{117 1,192 1,225 1,812 2}
+{225 3,768 -6,812 2}
+{117 1,128 1,225 3,768 -6,812 2}
+{59 1,372 -1}
+{122 1,225 1,640 -1,768 -1,812 2}
+{59 1,117 1,122 1,128 1,142 1,225 2,372 -2,812 2}
+{71 1,142 1,225 1,355 -1,812 2}
+{40 1,49 1,64 1,96 2,117 2,128 1,142 4,190 1,206 1,225 3,239 2,381 -1,527 -1,528 -1,642 -1,644 -1,812 2}
+{40 1,49 1,64 1,96 2,117 3,128 2,142 4,190 1,206 1,225 3,239 2,261 1,381 -1,527 -1,528 -1,642 -1,644 -1,686 -1,723 -2,812 2}
+{40 1,49 1,64 1,73 1,96 2,117 3,128 2,142 5,190 1,206 1,225 4,239 2,260 1,261 1,381 -1,527 -1,528 -1,642 -1,644 -1,686 -1,723 -2,812 2}
+{691 -2}
+{117 1,429 -2,494 -1}
+{117 1}
+{225 1,314 -1,315 -1,546 -1,812 2}
+{217 1,310 -1}
+{260 1,743 -1}
+{246 1}
+{246 1}
+{246 1}
+{246 1}
+{270 1,310 -2,438 -1,682 -2,691 -2,697 -1}
+{60 1}
+{40 2,41 1,64 1,142 2}
+{29 1,40 1,51 1,70 1,74 1,88 1,91 1,113 1,130 1,142 1,155 2,193 1,195 1,225 1,376 -1,394 -1,409 -1,428 -1,648 -1,683 -1,693 -1,697 -1,789 -1,812 2}
+{5 1,26 1,70 1,111 1,128 1,130 1,224 1,239 1,266 1,388 -1,723 -2}
+{32 1,60 7,70 3,119 1,128 3,142 1,155 3,225 2,227 1,282 -1,294 -1,440 -1,648 -4,725 -1,812 2}
+{60 1,128 1,239 1}
+{26 3,51 1,70 3,96 3,142 2,146 1,149 7,170 2,238 1,310 -1,377 -3,394 -1,552 -1,688 -1}
+{40 2,168 1}
+{70 1}
+{70 1,142 1,193 1,247 1}
+{142 1}
+{413 -1}
+{239 1}
+{2 4,117 1,128 1,135 1,142 1,239 1,309 -1,321 -10,394 -1,572 -1,738 -1}
+{51 1,142 1,239 1,797 -1}
+{586 -1}
+{74 1,142 1}
+{88 2,142 1,225 3,812 2}
+{40 1,73 2,128 1,142 1,225 1,317 -1,812 2}
+{142 1,783 -1}
+{51 1,104 1,128 1,142 3}
+{70 1}
+{112 1,113 1,157 1,225 1,783 -1,812 2}
+{40 1,128 1,265 1}
+{641 -1}
+{128 1}
+{60 1}
+{70 1}
+{60 1,265 2,783 -1}
+{73 2,85 1,487 -1,672 -2,787 -1}
+{73 2,85 1,487 -1,672 -2,787 -1}
+{66 1,73 2,96 2,293 -1,377 -7,394 -1,484 -1,739 -1,795 -2}
+{73 2,96 2,293 -1,377 -7,484 -1,739 -1,795 -2}
+{225 1,812 2}
+{127 1,225 1,812 2}
+{66 1,190 1,203 1,225 5,271 1,290 -1,293 -1,783 -2,812 2}
+{66 1,190 1,203 1,225 3,271 1,290 -1,293 -1,783 -1,812 2}
+{70 2,225 1,282 -2,812 2}
+{66 1,203 1,225 1,293 -1,812 2}
+{70 1,262 1,265 1}
+{70 1,225 1,812 2}
+{142 1,225 1,239 1,812 2}
+{217 1}
+{70 1,797 -1}
+{108 1,122 2,142 1,168 1,613 -1}
+{394 -1}
+{265 2}
+{85 1,128 1,225 2,394 -1,812 2}
+{142 3,225 1,812 2}
+{192 1,686 -1}
+{66 1,142 1}
+{40 2,321 -2,682 -1}
+{149 1}
+{66 1,128 1,190 1,203 1,225 4,271 1,290 -1,293 -1,783 -2,812 2}
+{122 1,239 1}
+{60 1}
+{33 2,70 1,122 1,190 1,235 1,239 1,390 -1}
+{63 1,225 1,783 -1,812 2}
+{122 1,239 1}
+{96 1,225 1,265 2,495 -1,812 2}
+{265 3}
+{265 1}
+{60 1,394 -1,546 -1,783 -1}
+{60 1,783 -1}
+{20 1,548 -1}
+{70 1,122 1,142 1,723 -1}
+{128 1,225 1,546 -2,588 -1,686 -1,812 2}
+{40 1}
+{63 1,453 -30}
+{60 1,190 1,783 -1}
+{40 1}
+{11 1,20 1,225 1,812 2}
+{11 1,20 1,142 1,225 1,812 2}
+{699 -1}
+{265 1}
+{40 2,51 1,59 1,92 1,108 1,216 1,225 2,812 2}
+{60 1,265 2,783 -1}
+{130 1,783 -1}
+{65 1,85 1,122 1,686 -1}
+{60 1,117 1,265 4,783 -1}
+{43 1,51 2,125 1,198 1}
+{60 1,277 1,783 -1}
+{43 1,51 2,125 1,198 1}
+{588 -3}
+{142 1,225 1,812 2}
+{310 -1}
+{85 1,265 1}
+{20 1,51 1,60 1,97 1,170 1,235 1}
+{142 1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{40 4,60 1,70 2,96 1,104 1,111 1,130 1,157 1,190 1,201 1,206 1,217 2,225 1,310 -1,388 -1,494 -1,563 -1,812 2}
+{40 1,128 1,265 1}
+{66 1,122 1,193 1,225 2,812 2}
+{265 1}
+{51 1,128 1,225 1,453 -1,812 2}
+{70 2,128 1,191 2,223 1,225 4,239 3,294 -1,440 -1,548 -1,723 -1,812 2}
+{60 1,255 1,783 -1}
+{70 2,128 1,191 2,223 1,225 4,239 4,294 -1,440 -1,548 -1,723 -1,812 2}
+{33 2,723 -1}
+{108 1,239 1}
+{60 1,255 1,783 -1}
+{40 1,128 1}
+{60 1,97 1,168 1,256 1,463 -2,588 -1}
+{85 1,107 1}
+{108 1,239 1}
+{40 1}
+{33 2,64 1,723 -1}
+{232 1}
+{64 1,104 1,265 1}
+{51 1,104 1,128 1,142 3}
+{85 1,128 1,225 3,265 6,812 2}
+{40 1}
+{59 1,142 2}
+{141 4}
+{60 1,117 1,265 1,783 -1}
+{60 1,117 1,265 4,783 -1}
+{282 -1}
+{142 1,644 -1,672 -1}
+{63 1}
+{85 1}
+{51 1}
+{783 -1}
+{85 1}
+{11 1,20 1,128 1,225 2,683 -1,812 2}
+{85 1}
+{33 2,64 1,723 -1}
+{32 1,40 1,73 2,96 1,97 1,128 1,142 1,225 1,317 -1,471 -1,672 -2,812 2}
+{11 1,20 1,186 1,190 2,225 1,812 2}
+{128 1,157 1,168 1,295 -1,548 -1,672 -1,774 -1}
+{146 1,239 1}
+{32 1,40 1,70 1,73 2,96 1,97 1,128 1,142 1,225 1,265 1,317 -1,471 -1,672 -2,812 2}
+{63 1,453 -2}
+{142 1}
+{40 3,60 1,70 2,96 1,104 1,116 1,130 1,157 1,201 1,206 1,217 2,224 1,225 2,310 -1,388 -2,483 -2,494 -1,563 -1,723 -1,767 -1,812 2}
+{783 -1}
+{96 1,108 1,380 -1}
+{262 1,643 -2}
+{85 1,142 1,239 1}
+{85 1,96 2,265 5}
+{40 1,85 1}
+{101 1,619 -1}
+{33 2,128 1,260 1,723 -1}
+{51 1,70 1,88 2,122 1,142 1,161 1,225 3,596 -1,784 -1,812 2}
+{70 1,85 1,142 1,225 2,260 1,528 -1,672 -1,812 2}
+{70 2,85 1,142 2,225 2,260 1,528 -1,672 -1,812 2}
+{70 1,85 1,142 1,204 1,225 2,260 1,528 -1,672 -1,812 2}
+{128 1,225 1,812 2}
+{60 1,783 -1}
+{60 1}
+{70 2,128 1,191 2,223 1,225 5,239 3,294 -1,440 -1,548 -1,686 -1,723 -1,812 2}
+{51 1,70 1,128 2,168 3,260 1,394 -1,494 -1}
+{225 1,265 1,812 2}
+{56 1,225 1,812 2}
+{239 1}
+{265 5,578 -1,589 -1}
+{128 1,225 1,265 2,812 2}
+{113 1,128 1,294 -1,386 -1,783 -1}
+{1 1,27 1,100 2,190 1,225 2,402 -1,494 -1,672 -4,812 2}
+{60 1,111 1,142 1,797 -2}
+{225 1,812 2}
+{225 1,812 2}
+{225 1,812 2}
+{128 1}
+{225 2,812 2}
+{672 -1}
+{60 1}
+{111 1}
+{122 1,494 -1}
+{70 1}
+{51 1,128 1,686 -1}
+{85 1,377 -1}
+{51 1,64 1,74 1,225 1,260 1,743 -1,812 2}
+{142 1}
+{60 1}
+{85 1,142 1,217 1,377 -1}
+{260 1}
+{128 2,168 1,588 -1,672 -9}
+{40 2,41 1,64 1,142 2}
+{225 1,812 2}
+{40 2,168 1}
+{394 -1}
+{70 1,744 -3,750 -1}
+{36 1}
+{262 1}
+{59 1,85 3,128 1,142 1,198 1,632 -1}
+{122 1,190 1,201 1}
+{193 1,376 -1,692 -2}
+{36 1,317 -1,394 -1}
+{142 1,225 1,241 1,812 2}
+{122 1,190 1}
+{672 -1}
+{241 1}
+{225 1,812 2}
+{455 -1}
+{317 -1}
+{204 1,428 -1}
+{40 1,70 1,225 1,743 -1,812 2}
+{217 1}
+{64 1,743 -1}
+{66 1,155 1}
+{142 4,155 1,204 1,217 1,225 1,290 -1,559 -1,686 -1,812 2}
+{51 1,70 2,108 1,201 2,206 1,261 1,282 -1,519 -1,589 -1,743 -1}
+{64 1,225 3,463 -2,812 2}
+{455 -1}
+{122 1}
+{70 1,128 1,201 1,743 -1}
+{142 1,190 1,273 1,400 -1}
+{193 1}
+{70 1,142 1,260 1,686 -1}
+{40 1}
+{519 -1}
+{783 -1}
+{225 1,442 -1,783 -2,812 2}
+{190 1}
+{190 1,743 -1}
+{122 1,142 1,282 -1,292 -1,734 -1}
+{40 1,68 1,122 1,128 1,142 2,155 1,156 1,160 1,190 1,193 1,201 1,239 2,255 1,261 1,267 1,273 2,280 -1,589 -1,648 -1,672 -1,686 -1,734 -1,743 -2}
+{70 1}
+{672 -1,683 -1}
+{39 1,60 2,670 -1}
+{70 1}
+{29 2,51 1,70 3,142 1,413 -1}
+{29 3,51 1,70 1,413 -1}
+{155 1,704 -1}
+{225 1,812 2}
+{64 1,225 3,463 -2,812 2}
+{64 4,225 3,463 -2,686 -1,812 2}
+{767 -1}
+{64 1}
+{142 3}
+{51 1}
+{142 3}
+{142 1,217 1,408 -1,413 -1}
+{51 1,142 1,225 1,262 2,509 -1,743 -1,812 2}
+{73 1,96 1,260 1,648 -1}
+{20 1,40 1,135 1,225 2,486 -2,812 2}
+{295 -1}
+{142 1}
+{20 1,192 1,195 1,267 1,672 -1,686 -1}
+{40 1}
+{1 1,29 1,51 1,122 1,128 1,170 1,196 1,225 1,259 1,273 1,376 -1,409 -1,430 -1,588 -2,648 -1,672 -2,686 -1,697 -1,723 -2,812 2}
+{225 2,812 2}
+{51 1,63 2}
+{217 1,260 1}
+{393 -1}
+{60 1,225 1,812 2}
+{142 1,154 1,216 1,225 1,260 1,320 -1,494 -1,812 2}
+{122 1,135 1}
+{142 2,239 1}
+{20 1,40 1,135 1,225 2,486 -2,812 2}
+{51 1,66 1,70 2,97 1,142 1,207 1,225 2,812 2}
+{51 1}
+{58 1,554 -1}
+{15 1,85 1,377 -1}
+{66 1,225 1,812 2}
+{40 1}
+{128 1}
+{225 1,672 -1,812 2}
+{699 -1}
+{40 1,66 1,70 1}
+{60 1,128 1,225 1,572 -1,812 2}
+{96 1}
+{1 1,125 1,128 1,225 1,310 -1,403 -1,699 -1}
+{27 3}
+{142 1}
+{125 2,403 -2}
+{85 1,128 1,225 1,394 -1,711 -2,774 -2,812 2}
+{51 1,66 1,70 1,96 1,238 1,239 1,255 1,494 -2,795 -1}
+{157 1,805 -1}
+{125 2,403 -2}
+{27 1,432 -1}
+{699 -1}
+{20 1,27 1,142 2,198 1,225 1,239 2,546 -1,641 -3,812 2}
+{22 1,40 1,63 1,74 1,92 1,148 1,168 1,388 -1}
+{40 1}
+{122 1,190 1,225 2,644 -1,812 2}
+{60 1,691 -1,783 -1}
+{128 1}
+{60 3,128 1,142 1,193 1,683 -1,783 -2}
+{74 1,122 1}
+{60 2,128 1,783 -1}
+{40 1}
+{60 1,260 1,486 -1,607 -1,783 -2,804 -1}
+{60 1,128 1,239 1}
+{128 1,225 1,812 2}
+{190 1}
+{686 -1}
+{60 1,270 1,386 -1,783 -1}
+{26 1,60 1,70 1,128 1,190 1,215 1,225 1,239 1,812 2}
+{63 1,85 1}
+{125 1,403 -3,672 -3}
+{225 1,812 2}
+{63 1}
+{60 1,783 -1}
+{50 2}
+{60 1}
+{43 1,97 1}
+{51 2,225 2,686 -1,812 2}
+{142 1,192 1,225 1,686 -1,812 2}
+{225 1,812 2}
+{190 1,193 1}
+{136 1,190 1,192 2,255 1,697 -1}
+{190 1}
+{32 1,60 1,261 1,599 -1,672 -3}
+{64 2,207 1}
+{51 2}
+{70 2,157 1,225 1,317 -1,783 -1,812 2}
+{70 2,157 1,225 1,317 -1,783 -1,812 2}
+{63 1,107 1,225 1,812 2}
+{70 1,96 1,235 1,270 1,405 -1,686 -1,767 -1}
+{60 1,225 1,239 1,260 1,377 -1,678 -1,783 -1,812 2}
+{60 1,669 -1,783 -1}
+{60 1,260 1,783 -1}
+{96 1}
+{142 1,686 -1}
+{310 -1}
+{142 2}
+{26 1,60 1,70 2}
+{60 1,70 2}
+{60 1,122 1,783 -1}
+{60 1,85 1,96 1,97 13,198 1,225 1,396 -1,699 -1,750 -2,783 -1}
+{51 2,60 1,64 1,85 1,97 17,170 1,198 1,396 -1,699 -1,750 -2,783 -3}
+{40 1,60 1,97 2,225 3,354 -1,699 -1,783 -3,812 2}
+{60 1,97 1,128 1,155 1,699 -1,783 -1}
+{51 1,70 1,108 1,174 1,225 1,239 2,262 1,282 -1,453 -2,463 -1,494 -2,546 -1,641 -1,702 -1,812 2}
+{64 1,239 3,372 -1,453 -1,493 -3,743 -1}
+{60 1,70 1,783 -1}
+{60 1,783 -1}
+{60 1,783 -1}
+{50 2,372 -1,403 -1,783 -1}
+{60 1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{128 1,783 -1}
+{60 1}
+{699 -1}
+{85 1,128 1,334 -1,460 -2,783 -1}
+{128 1}
+{40 1}
+{239 1,588 -1}
+{699 -1}
+{699 -1}
+{699 -1}
+{20 1,85 1,190 2,217 1,225 1,603 -1,812 2}
+{40 1,96 1}
+{699 -1}
+{403 -1,699 -1}
+{142 1,783 -1}
+{51 1,64 1,108 1,122 1,631 -1}
+{403 -1,699 -1}
+{262 1}
+{699 -1}
+{85 1,438 -1}
+{372 -1,572 -1}
+{699 -1}
+{699 -1}
+{239 1,691 -1}
+{40 1}
+{59 1,142 2,672 -1}
+{27 1,59 1,142 2,255 1,427 -1,546 -1,672 -1}
+{56 1}
+{40 1,142 1,192 1,239 1,257 1,319 -1,377 -2,501 -1,572 -1,672 -1}
+{427 -1,546 -1,660 -1}
+{100 1,142 1,154 1}
+{699 -1}
+{699 -1}
+{699 -1}
+{51 1,70 1,74 1,135 1,142 4,192 1,238 1,260 1,660 -1,682 -1,686 -2,697 -1,738 -1,758 -1}
+{51 1,85 1,261 1,403 -3,697 -1,699 -1}
+{51 1,139 1,259 3,282 -1,546 -1,686 -1,783 -1}
+{122 1,128 1,142 1,259 1,372 -1,546 -1,660 -2,697 -1}
+{330 -1,699 -1}
+{31 1,32 1,52 1,66 4,70 2,96 1,100 1,117 4,122 1,128 2,142 2,149 1,154 1,217 1,225 1,403 -2,453 -3,511 -1,588 -1,672 -3,686 -1,691 -1,699 -1,774 -1,795 -2,812 2}
+{40 1,59 1,66 1,154 1,198 1,255 3,261 1,386 -1,672 -1,697 -1,783 -1,787 -1}
+{2 1,36 1,51 2,238 1,282 -1,310 -4,610 -1,672 -1,682 -1}
+{51 1,128 1,209 2}
+{60 1}
+{60 1}
+{26 1,28 1,51 2,64 1,73 1,74 1,96 2,139 1,142 1,154 1,190 1,217 1,224 1,225 2,239 1,245 1,250 1,259 1,260 1,356 -1,369 -1,403 -3,417 -1,546 -1,644 -1,669 -2,672 -1,682 -2,686 -1,691 -1,723 -1,758 -1,812 2}
+{70 1,142 1,168 1,261 1}
+{96 1,610 -1,650 -1}
+{59 1,125 1,403 -4,672 -4}
+{59 2,70 1,128 2,225 1,239 1,255 2,261 1,631 -1,812 2}
+{32 1,40 1,70 3,74 1,108 1,135 1,142 1,150 2,190 1,198 1,238 1,255 1,261 1,270 1,546 -1,641 -1,672 -4,686 -1,812 2}
+{51 1,66 1,225 2,245 2,686 -1,696 -1,812 2}
+{40 1,51 1,60 1,70 1,142 1,245 2,315 -1,631 -1,641 -1}
+{566 -1,683 -1}
+{85 1,217 3,270 1,546 -1}
+{70 1,686 -1}
+{190 1,195 1,225 1,812 2}
+{235 2}
+{154 1,225 2,812 2}
+{92 1,96 3,139 1,588 -2,672 -3}
+{70 1,128 3,132 4,190 2,225 4,463 -1,599 -1,672 -3,812 2}
+{60 1}
+{70 1,128 3,132 4,190 2,225 4,463 -1,599 -1,672 -3,812 2}
+{490 -1}
+{142 1,225 2,812 2}
+{60 1,128 1,225 1,812 2}
+{60 1}
+{128 1}
+{60 1,128 1}
+{686 -1}
+{208 1}
+{554 -1}
+{132 1}
+{70 1,142 1,527 -1}
+{225 1,321 -1,413 -1,812 2}
+{60 1}
+{142 5}
+{142 3}
+{142 1}
+{142 2,164 1,797 -1}
+{40 1}
+{572 -1}
+{40 1}
+{66 1,201 1,225 1,812 2}
+{142 1,265 1,377 -1}
+{195 1}
+{170 1}
+{70 1,142 3}
+{265 1}
+{155 1}
+{128 1}
+{128 1,225 1,812 2}
+{672 -1}
+{190 1,225 1,812 2}
+{27 1,239 1,783 -1}
+{51 2,85 1,142 1,265 5,394 -1}
+{265 1}
+{265 1}
+{64 1,265 2,566 -1}
+{38 1,85 1,96 1,142 3,201 1,239 1}
+{265 1}
+{265 1,607 -1}
+{128 2,217 1,265 1,607 -1}
+{225 1,812 2}
+{197 1,265 2}
+{122 2,225 1,486 -1,686 -1,812 2}
+{225 2,812 2}
+{74 1,225 1,812 2}
+{74 1,193 1,225 2,812 2}
+{51 1,70 1,128 2,190 1,225 2,265 2,644 -1,812 2}
+{70 1,414 -1}
+{70 1,204 1}
+{24 1,290 -1}
+{96 1}
+{259 2,294 -1,377 -2,536 -1,583 -1,672 -1,716 -1}
+{259 2,294 -1,377 -2,536 -1,583 -1,672 -1,716 -1}
+{259 2,294 -1,377 -2,536 -1,583 -1,672 -1,716 -1}
+{377 -1}
+{70 1,225 1,812 2}
+{545 -1}
+{60 1,198 1}
+{60 1,128 1}
+{511 -1}
+{70 1}
+{372 -1,761 -1}
+{487 -1}
+{60 1,64 1,487 -1,494 -1}
+{225 1,686 -1,812 2}
+{40 1,628 -1}
+{40 1}
+{40 1}
+{224 1,723 -1}
+{672 -1}
+{190 1,192 1,225 1,812 2}
+{51 1}
+{40 1,225 1,812 2}
+{595 -1}
+{453 -1}
+{453 -1}
+{141 1,743 -1,750 -1}
+{190 1,225 3,260 1,262 1,487 -1,528 -1,634 -1,672 -1,812 2}
+{60 2,96 1,190 1,235 1,394 -1}
+{59 1,142 1,225 1,672 -2,812 2}
+{142 1,190 1}
+{96 1,108 1,225 1,239 1,672 -1,812 2}
+{60 1,225 1,812 2}
+{60 1,239 1}
+{53 1}
+{60 1,225 1,244 1,812 2}
+{142 1,225 1,566 -1,812 2}
+{225 1,812 2}
+{453 -1}
+{70 3,225 2,239 1,487 -2,812 2}
+{225 1,812 2}
+{66 1,70 1,155 1,225 1,812 2}
+{32 1,142 1,394 -1,686 -1}
+{40 1,142 1,190 2,201 1,763 -1}
+{64 2,330 -1}
+{225 1,453 -1,546 -1,812 2}
+{207 1,217 1,225 1,812 2}
+{61 1}
+{572 -1}
+{84 1,142 3,225 1,546 -1,812 2}
+{84 1,142 3,546 -1}
+{70 1,199 1}
+{32 1}
+{101 1,193 1,198 2}
+{51 1,70 2,238 2,453 -4,487 -3,586 -3,774 -3}
+{101 1,193 1,198 2}
+{30 1,40 1,142 1,190 2,201 1,763 -1}
+{142 1}
+{40 2,51 1,56 1,321 -8,394 -2,418 -1,682 -1}
+{30 1,40 1,142 2,190 4,201 1,239 1,294 -1,428 -1,763 -1,767 -1,812 2}
+{276 1}
+{10 1,70 1,128 1,142 1,150 1,199 1,225 1,812 2}
+{26 1,190 1,207 2,486 -1}
+{51 1,119 1,225 1,812 2}
+{40 1,60 1,132 1,225 3,310 -1,672 -3,812 2}
+{128 1,190 1,631 -1}
+{40 1}
+{739 -1}
+{128 2,159 1,184 1}
+{142 1,394 -1}
+{30 1,40 1,51 1,142 2,155 1,190 4,201 1,239 1,294 -1,428 -1,763 -1,767 -1,812 2}
+{39 1,70 3,190 1,225 3,261 1,812 2}
+{60 1}
+{142 1}
+{28 1,128 1,161 1,225 2,239 1,256 1,260 1,812 2}
+{28 1,128 1,161 1,225 2,239 1,256 1,260 1,812 2}
+{28 1,40 1,70 1,122 2,128 1,161 1,193 1,225 2,239 3,256 1,260 1,341 -1,812 2}
+{51 1}
+{64 1,128 1,142 1,239 1,260 1,383 -1,494 -1,546 -1}
+{28 1,40 1,70 1,122 2,128 1,161 1,193 1,217 1,225 2,239 3,256 1,260 1,341 -1,812 2}
+{40 1,60 1,132 1,225 4,310 -1,672 -3,812 2}
+{225 1,812 2}
+{225 1,812 2}
+{36 1,70 2,239 1}
+{38 1,168 1,250 1,282 -1,449 -1,494 -1,682 -3,690 -3,789 -1}
+{38 1,142 1,168 1,250 1,282 -1,449 -1,494 -1,682 -3,690 -3,789 -1}
+{111 2,128 1,142 1}
+{64 1,190 1,208 1,225 1,812 2}
+{225 1,812 2}
+{51 1,64 1,225 1,812 2}
+{51 1,225 1,812 2}
+{60 1,70 1,155 1}
+{40 1,208 1}
+{36 3,70 1,190 1,239 1,686 -1,715 -1}
+{60 1,190 1}
+{190 1}
+{208 1}
+{208 1,229 1,686 -1}
+{26 2,39 1,66 2,117 1,128 1,430 -1,466 -2,493 -1,563 -1,566 -1,613 -1,669 -2,691 -1,716 -1,721 -1,723 -1,812 2}
+{26 1,40 2,51 1,59 1,66 2,191 1,225 1,226 1,239 1,260 1,282 -1,377 -8,386 -1,686 -1,812 2}
+{453 -1}
+{641 -1}
+{239 1,783 -1}
+{40 4,51 1,128 1,192 1,381 -1,672 -1}
+{128 2}
+{124 1,190 1,723 -1}
+{190 1,310 -1}
+{142 1,155 1,184 1,280 -1,733 -1,743 -1,766 -1,789 -1}
+{92 1}
+{70 2,96 1,193 1,239 1}
+{190 1}
+{672 -2}
+{128 1,190 1}
+{128 1,239 1}
+{74 1,128 1,190 1}
+{36 1,65 1,588 -1}
+{108 1,128 1}
+{96 1,128 1}
+{142 1,190 1,201 1,225 1,686 -1,812 2}
+{13 1,60 1,85 1,111 1,142 1}
+{190 2}
+{201 1}
+{201 1}
+{201 1}
+{142 1,201 1,225 3,812 2}
+{70 1,201 1,225 1,723 -1,812 2}
+{61 2,92 1,96 1,128 1}
+{394 -1}
+{64 1}
+{51 1,64 1,142 2}
+{66 1,130 1,260 1,330 -1,453 -1,494 -1}
+{9 1,40 2,51 1,70 3,97 1,142 1,144 1,155 1,190 1,201 1,204 1,225 1,463 -1,631 -1,686 -1,812 2}
+{51 1,70 2,97 1,128 1,239 1,602 -1}
+{60 1}
+{453 -1}
+{70 1,204 1,463 -1}
+{122 1,142 2,225 2,287 -1,672 -1,812 2}
+{142 1,292 -1,463 -1}
+{128 1,463 -1}
+{56 1,122 1,142 3,225 2,287 -1,672 -1,812 2}
+{51 1,128 1,463 -1}
+{51 1,128 2,463 -1}
+{128 1,190 1,201 1,660 -1}
+{201 1}
+{51 1,56 1,128 2,225 1,463 -1,686 -1,693 -1,705 -1,812 2}
+{13 1,96 1,225 3,640 -1,763 -2,812 2}
+{70 1,672 -1}
+{40 1,51 1,56 1,128 2,142 1,225 1,463 -1,686 -1,693 -1,705 -1,812 2}
+{70 1,217 1,547 -1,672 -2}
+{70 2,190 1,217 1,225 1,547 -1,672 -3,812 2}
+{13 1,96 1,225 3,640 -1,763 -2,812 2}
+{74 1,128 1}
+{128 1,225 1,812 2}
+{155 1}
+{225 1,521 -1,723 -1,734 -1,812 2}
+{51 1,128 1,225 2,599 -1,663 -1,812 2}
+{96 1}
+{60 1}
+{161 1,190 1,282 -1}
+{60 1,128 1}
+{142 1,168 1,225 1,235 1,686 -1,812 2}
+{60 1}
+{128 1,225 1,672 -3,697 -1,812 2}
+{51 1,128 1,225 2,453 -4,515 -1,812 2}
+{190 1}
+{190 1,341 -1}
+{201 1}
+{60 1}
+{51 1,60 2,92 1,96 1,128 1,142 1,190 2}
+{453 -1}
+{128 1}
+{56 1,70 5,100 1,122 1,128 1,276 1,328 -1,349 -1,372 -1,494 -1,665 -1,669 -1,672 -1,723 -1,812 2}
+{290 -1,453 -2,672 -1}
+{26 2,70 1,88 1,135 1,142 2,190 1,423 -1,494 -1,527 -1,559 -1,708 -1}
+{26 2,70 1,88 1,135 1,142 2,423 -1,494 -1,527 -1,559 -1,708 -1}
+{156 1}
+{128 1}
+{168 1,225 1,812 2}
+{128 1}
+{128 1}
+{92 1,142 1}
+{184 1,201 1}
+{225 1,812 2}
+{70 1,184 1,201 2,267 1}
+{453 -2,783 -1}
+{184 1,201 2,267 1}
+{184 1,190 1,201 2,267 1}
+{51 1,186 1,190 1}
+{85 1,96 1,128 1,686 -1}
+{155 1,225 2,453 -1,812 2}
+{225 2,812 2}
+{70 2}
+{122 1,142 1}
+{60 1}
+{128 1,190 1,239 2}
+{204 1,239 1}
+{300 -1}
+{59 3,70 2,122 1,142 1,190 1,218 3,225 3,257 2,372 -1,400 -1,672 -1,686 -1,812 2}
+{70 1,106 1,122 1,225 1,599 -1,812 2}
+{70 1,106 1,122 1,225 1,599 -1,812 2}
+{128 2,142 1,225 1,812 2}
+{70 1,74 1,128 1,142 1,261 1,394 -1}
+{155 1}
+{70 1,128 2}
+{51 1,128 1,225 2,453 -4,515 -1,812 2}
+{96 1}
+{128 1,190 1,201 1,660 -1}
+{74 1,128 1}
+{128 1}
+{1 1,190 3,225 2,239 1,259 1,282 -1,294 -1,394 -1,427 -1,547 -5,640 -1,698 -1,715 -2,812 2}
+{20 1,40 1,128 1,225 3,812 2}
+{15 1,70 2,128 1,198 2,239 1}
+{26 1}
+{70 1,239 1}
+{64 1,142 1,239 1,260 1,383 -1,494 -1,546 -1}
+{28 1,40 1,70 1,122 1,128 1,161 1,193 1,225 2,239 2,256 1,260 1,812 2}
+{28 1,128 1,161 1,225 2,239 1,256 1,260 1,812 2}
+{60 1,225 1,265 2,812 2}
+{142 1,394 -1}
+{128 1,190 1,631 -1}
+{101 1,193 1,198 2}
+{70 1,273 1,599 -1}
+{60 1,225 1,244 1,812 2}
+{92 1}
+{60 1,225 1,812 2}
+{60 1,142 1}
+{70 1}
+{60 1,184 1}
+{60 1}
+{60 1}
+{60 1}
+{40 1,83 1,92 1,125 1,128 2,146 1,161 1,168 1,208 1,218 2,239 1,260 1,293 -2,494 -1}
+{64 1}
+{51 1,186 1,190 1}
+{40 1,60 1}
+{64 2,225 1,330 -1,812 2}
+{60 1}
+{60 2,96 3,142 1,154 1,225 1,310 -1,812 2}
+{49 1,686 -1,750 -1}
+{60 1,96 1,186 2,394 -1}
+{49 1}
+{122 1,142 1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{40 1,487 -1}
+{130 1,142 1}
+{494 -1}
+{60 1,225 1,812 2}
+{60 1}
+{96 1,225 1,812 2}
+{70 1,282 -1}
+{513 -1}
+{513 -1}
+{51 1,70 4,168 1,238 1,255 1,320 -1,360 -1,388 -1,542 -1,559 -2,578 -2,580 -1,581 -1,648 -1,686 -2,733 -1}
+{188 1}
+{60 1}
+{40 1,51 1,225 1,812 2}
+{225 3,812 2}
+{225 3,812 2}
+{24 2,51 1,117 1,135 1,140 1,142 1,147 1,155 3,224 1,225 1,246 1,289 -1,292 -10,338 -3,386 -1,394 -1,572 -2,599 -1,609 -1,660 -1,739 -1,743 -1,803 -1,812 2}
+{60 1,428 -1}
+{686 -1}
+{168 1,691 -1}
+{310 -1}
+{128 1,142 1,155 1,190 1,225 2,812 2}
+{70 1}
+{51 1,70 1,155 1,206 1,209 1,225 1,317 -1,691 -1,812 2}
+{51 1,206 1}
+{142 1}
+{74 1}
+{51 1,79 1,128 2,142 1,155 2,190 2,225 2,276 1,691 -1,723 -1,812 2}
+{59 1}
+{26 1,51 2,64 2,128 2,192 1,631 -1,695 -1}
+{64 1,85 1,142 1,310 -1,682 -1,686 -1,691 -1}
+{64 1,85 1,142 1,310 -1,682 -1,686 -1,691 -1}
+{64 1,85 1,142 1,310 -1,682 -1,686 -1,691 -1}
+{60 1,260 1}
+{70 1,96 1,128 1,225 2,812 2}
+{190 1,239 1,763 -1}
+{239 1}
+{320 -1,686 -1,691 -1,750 -1}
+{589 -1}
+{239 1}
+{51 2,70 1,85 1,108 1,128 1,142 3,208 1,217 1,225 3,239 1,315 -2,494 -1,800 -2,812 2}
+{96 1,111 1,295 -1,494 -1,777 -1}
+{111 1,295 -1,494 -1}
+{108 1}
+{40 1,96 2,128 1}
+{122 1,128 1,142 1,572 -1}
+{26 1,128 1,142 3,225 1,641 -4,812 2}
+{1 1,190 1,430 -1}
+{51 1,255 2,310 -2}
+{225 1,812 2}
+{142 3,225 1,641 -3,812 2}
+{142 1,225 1,572 -1,812 2}
+{40 1,60 2,70 1,128 1,262 1,783 -2}
+{40 1,142 1}
+{142 1,225 1,572 -1,812 2}
+{60 1,142 1,190 1,783 -1}
+{26 1,59 1,60 1,70 3,85 1,260 1,262 1,463 -1,783 -1}
+{70 1}
+{225 1,812 2}
+{225 1,812 2}
+{217 1}
+{51 1,70 1,74 1,142 2,225 1,686 -1,812 2}
+{142 1,170 1,191 1,310 -1,546 -1}
+{217 1}
+{26 1,250 1,270 1,377 -2,394 -1}
+{26 1,128 1}
+{70 1,81 1,128 2,193 1,282 -1,691 -1,811 -1}
+{217 1}
+{155 1,190 1}
+{155 1,190 1}
+{155 1,190 1}
+{23 1,40 1,122 1,142 2,225 2,363 -2,672 -1,716 -1,812 2}
+{217 1,631 -1}
+{217 1}
+{40 1,70 5,135 1,142 1,320 -1}
+{117 2,196 1,487 -1,686 -2}
+{20 1}
+{59 1,85 1,111 1,128 1,142 2,225 2,249 1,262 2,328 -1,405 -1,494 -1,546 -2,548 -1,686 -1,723 -1,812 2}
+{70 1,117 2,142 1,217 1,239 1,261 1,282 -1,310 -1,672 -1,717 -1,800 -1}
+{265 1}
+{117 1,142 1,225 3,260 1,812 2}
+{117 2,196 1,487 -1,686 -2}
+{395 -2}
+{59 1,85 1,111 1,128 1,142 2,225 2,249 1,262 2,328 -1,405 -1,494 -1,546 -2,548 -1,686 -1,723 -1,812 2}
+{60 1,64 1,225 1,812 2}
+{128 1,142 1,216 1,783 -1}
+{38 4,40 1,96 1,128 1,225 1,686 -1,812 2}
+{225 1,812 2}
+{40 1}
+{128 1,130 1,155 1,157 1,190 1,193 1,239 1,273 1,282 -1}
+{64 1}
+{66 3,168 1,225 1,394 -1,631 -1,812 2}
+{225 1,812 2}
+{60 1,197 1}
+{394 -1,447 -1,705 -1}
+{29 2}
+{59 2,142 1,192 1,273 1}
+{26 1,51 1,70 1,96 1,128 1,182 1,239 2,289 -1,372 -1,463 -1,466 -1,648 -2,678 -1}
+{40 2}
+{225 1,812 2}
+{225 1,812 2}
+{66 1,155 1,190 1}
+{225 1,812 2}
+{111 1,135 1,572 -1,723 -2}
+{142 1,239 2,267 2}
+{217 1}
+{70 1,453 -1,487 -1}
+{70 2,198 1,239 1,331 -1}
+{142 1}
+{29 2}
+{51 1}
+{510 -1}
+{142 1}
+{60 2,225 1,569 -1,812 2}
+{70 1,270 1,394 -1}
+{74 1,128 1,193 1,314 -1,394 -1,672 -1,682 -1,716 -2}
+{70 1,428 -2}
+{40 1,155 1}
+{26 2,32 1,128 5,168 3}
+{120 1,225 1,239 1,812 2}
+{26 2,32 1,128 5,168 3}
+{1 1,60 2,207 1,225 1,683 -1,812 2}
+{60 1,261 1}
+{60 1,225 1,812 2}
+{40 1}
+{168 1,225 1,812 2}
+{70 1}
+{40 1}
+{70 1,225 1,239 1,812 2}
+{276 1}
+{40 1,70 1,258 1}
+{225 2,812 2}
+{94 1,100 1,128 1,168 1,372 -1,456 -1,487 -4,672 -1,686 -1}
+{142 1}
+{225 1,812 2}
+{190 1}
+{92 1,239 1}
+{168 1,225 1,812 2}
+{92 1,96 3,139 1,588 -2,672 -3}
+{225 1,812 2}
+{85 1}
+{40 1}
+{225 1,239 1,812 2}
+{276 1}
+{40 1,70 1,258 1}
+{225 2,812 2}
+{20 1,94 1,100 1,128 1,168 1,372 -1,456 -1,487 -4,566 -1,672 -1,686 -1,787 -1}
+{142 1}
+{225 1,812 2}
+{85 1,142 1,190 3,672 -1}
+{70 2,122 1,128 3,142 4,166 1,190 1,192 1,225 3,260 1,265 1,511 -1,528 -1,812 2}
+{142 1,225 1,812 2}
+{142 1,225 1,238 1,812 2}
+{217 1}
+{208 1}
+{225 1,750 -1,812 2}
+{142 1,225 3,812 2}
+{128 1}
+{686 -1}
+{59 1,66 3,128 1,142 1,158 1,261 1,494 -1,615 -1,686 -1,722 -1}
+{51 1,70 1,101 1,128 1,225 1,261 1,487 -1,812 2}
+{26 2,51 1,122 1,190 1,225 1,282 -1,672 -1,812 2}
+{26 2,142 1,190 1,282 -1,672 -1}
+{70 1,128 1,208 1,225 1,239 1,812 2}
+{128 2,138 1,168 1,376 -1,381 -1,686 -2}
+{65 1,78 1,142 2,144 1,155 1,180 1,190 1,225 1,672 -1,812 2}
+{15 1,111 1,198 1,208 3,225 1,349 -1,607 -1,672 -2,812 2}
+{40 1}
+{70 1,225 2,672 -1,812 2}
+{92 1}
+{70 1}
+{65 1,78 1,142 2,144 1,155 1,180 1,190 1,225 1,672 -1,812 2}
+{96 1}
+{25 1,66 1,73 1,122 1,142 1,207 1,225 3,502 -1,812 2}
+{70 1}
+{51 1,56 1,66 1,70 1,71 1,92 1,117 1,142 2,192 1,217 1,262 2,295 -1,504 -1,527 -1,599 -1,672 -1,678 -1,686 -1}
+{51 1,56 1,66 1,70 1,71 1,92 1,117 1,142 2,192 1,217 1,262 2,295 -1,504 -1,527 -1,599 -1,672 -1,678 -1,686 -1}
+{59 1}
+{60 1}
+{51 1,198 1,486 -1,723 -1}
+{55 2,70 2,128 2,225 1,239 1,812 2}
+{55 2,70 2,128 2,225 1,812 2}
+{70 1,225 1,812 2}
+{51 1,198 1,486 -1,494 -1,723 -1}
+{51 1,142 1,198 1,486 -1,494 -1,723 -1}
+{59 1,66 1,294 -1,682 -5}
+{225 2,812 2}
+{128 1}
+{51 1,92 1,122 3,225 1,310 -1,631 -1,812 2}
+{394 -2}
+{60 1}
+{225 1,265 2,812 2}
+{40 1,128 1}
+{40 1}
+{128 1,190 2}
+{198 1,487 -8,588 -1}
+{29 8,51 1,723 -1}
+{29 8,51 1,265 1,723 -1}
+{29 8,51 1,723 -1}
+{811 -1}
+{265 1}
+{225 1,812 2}
+{619 -1}
+{588 -1}
+{239 1}
+{60 1,217 1,225 1,461 -4,812 2}
+{64 1}
+{29 6,51 1}
+{60 1,217 1,225 1,461 -4,812 2}
+{128 1,265 2}
+{461 -4}
+{265 3}
+{20 1,60 1,100 1,128 2}
+{239 1}
+{239 1}
+{51 1}
+{197 1}
+{70 2,122 1,225 4,265 5,394 -1,686 -1,812 2}
+{225 1,812 2}
+{225 1,812 2}
+{12 1}
+{70 1,122 1,225 3,265 4,686 -1,812 2}
+{70 1,122 1,225 3,265 1,686 -1,812 2}
+{198 1,206 1,225 1,672 -1,812 2}
+{64 1,262 1}
+{783 -1}
+{128 1,225 1,265 2,812 2}
+{239 1}
+{265 5,578 -1,589 -1}
+{265 1}
+{56 1,225 1,812 2}
+{70 1,190 1,216 1,648 -1,672 -1}
+{239 1}
+{56 1,225 1,812 2}
+{265 2,578 -1}
+{190 1}
+{225 3,812 2}
+{262 1}
+{265 1}
+{60 1,783 -1}
+{265 1,619 -1,672 -2,686 -1}
+{262 1}
+{204 1}
+{588 -1}
+{225 1,265 2,812 2}
+{225 1,812 2}
+{619 -1}
+{394 -1}
+{225 2,812 2}
+{32 1}
+{97 1,128 1,190 1,265 1}
+{104 1,797 -1}
+{104 1,797 -1}
+{142 1,239 1,450 -1,588 -1,738 -1}
+{338 -1}
+{265 2}
+{96 1,265 1}
+{128 1,225 1,812 2}
+{743 -1}
+{40 1,217 1,310 -1}
+{155 1}
+{51 1,59 1,132 1}
+{546 -1,644 -1}
+{142 1,686 -1}
+{225 1,812 2}
+{70 1,85 1,225 2,255 3,795 -1,812 2}
+{128 1}
+{70 1,85 1,225 2,255 3,795 -1,812 2}
+{85 1,225 2,255 3,795 -1,812 2}
+{40 1,85 1,225 2,255 3,298 -1,795 -1,812 2}
+{85 1,225 1,812 2}
+{178 1,225 1,812 2}
+{225 1,812 2}
+{217 1,265 1}
+{96 1,265 4}
+{132 1}
+{51 1,460 -1}
+{265 2}
+{96 1,225 1,239 1,812 2}
+{178 1,225 1,812 2}
+{225 2,812 2}
+{51 1,464 -4,528 -1,723 -1}
+{51 1}
+{70 1}
+{85 1,225 1,812 2}
+{64 1}
+{142 1}
+{588 -1,672 -3}
+{225 1,812 2}
+{619 -1}
+{70 1,262 1,265 1}
+{225 2,812 2}
+{265 1,797 -1}
+{142 1,225 1,265 2,812 2}
+{265 1}
+{239 1,265 1}
+{265 1}
+{487 -1}
+{225 2,812 2}
+{193 1,282 -2}
+{60 1,265 1,270 1}
+{70 1,489 -1}
+{489 -1}
+{282 -1}
+{40 1}
+{322 -1}
+{128 1,225 1,812 2}
+{225 1,812 2}
+{85 2,96 1,225 2,265 13,315 -2,812 2}
+{170 1,217 1}
+{265 1,703 -1}
+{225 2,812 2}
+{51 1,528 -1}
+{60 1,70 2}
+{265 1}
+{487 -1}
+{186 1}
+{128 1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{1 1,61 3,70 1,128 1,224 2,572 -1,672 -5,767 -1}
+{26 1,128 1}
+{122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{24 1,36 1,60 1,92 2,225 1,588 -1,812 2}
+{59 1}
+{51 2,56 1,528 -1}
+{122 1,217 1,239 1}
+{20 1,192 1,195 1,267 1,672 -1,686 -1}
+{40 1,128 1,192 1}
+{225 1,812 2}
+{201 1,463 -1}
+{51 1,438 -1}
+{56 1}
+{716 -1}
+{96 1}
+{60 1}
+{66 1,181 1,225 1,812 2}
+{225 1,607 -1,812 2}
+{64 1,691 -1}
+{225 1,607 -1,812 2}
+{225 1,607 -1,812 2}
+{142 1,217 1}
+{427 -1,546 -1,660 -1}
+{40 1,125 1,128 1,225 1,253 1,812 2}
+{572 -1}
+{70 1,142 1}
+{96 1,128 1}
+{51 1,198 2,225 2,403 -1,812 2}
+{128 1,142 2}
+{372 -1,572 -1}
+{59 1,142 2,672 -1}
+{32 1,47 1,97 1,142 2,146 1,192 1,225 1,259 1,260 1,309 -2,377 -3,380 -1,536 -1,544 -1,702 -1,776 -1,812 2}
+{128 1,142 1}
+{40 1,96 1,128 1,142 1}
+{572 -1}
+{225 1,812 2}
+{70 1}
+{51 1,239 1,403 -1}
+{797 -1}
+{26 1,122 1,128 1}
+{60 1,225 1,607 -1,812 2}
+{60 1,783 -1}
+{260 1}
+{260 1}
+{20 1,59 1,142 1,220 1,460 -1,494 -1}
+{225 1,607 -1,812 2}
+{85 1,128 1,334 -1,460 -2,783 -1}
+{40 1}
+{438 -1}
+{15 1,26 1,32 1,122 1,161 1,225 3,546 -1,708 -1,812 2}
+{60 1,197 1}
+{40 1,92 1,96 1,161 1,536 -1,697 -1}
+{783 -1}
+{40 1,66 1,81 1,83 1,92 1,96 1,122 1,142 1,161 1,190 1,536 -1,697 -1}
+{70 1}
+{60 1,783 -1}
+{4 1,20 1,28 1,40 3,53 1,64 1,70 1,96 1,111 5,128 3,139 1,142 2,161 1,170 1,177 1,179 1,203 1,225 2,228 3,239 2,256 1,259 1,260 2,262 1,266 1,672 -1,739 -1,812 2}
+{225 1,812 2}
+{60 1,783 -1}
+{70 1,460 -1,572 -1}
+{261 2,294 -1}
+{70 1,460 -1,572 -1}
+{64 1,330 -2,485 -1,797 -3}
+{59 1}
+{572 -1}
+{137 1}
+{225 1,812 2}
+{60 1,783 -1}
+{60 1,70 1,460 -2,487 -1,783 -1}
+{40 2,128 1,192 1}
+{239 1,695 -3}
+{225 1,812 2}
+{128 2}
+{117 1,554 -1}
+{24 2,197 1,225 1,276 1,572 -2,797 -1,812 2}
+{96 2,572 -1,723 -1}
+{64 1,70 4,207 1,225 3,260 2,812 2}
+{128 1}
+{122 1}
+{51 1,70 1,80 2,122 1,225 1,256 1,461 -1,563 -5,675 -1,686 -3,697 -1,812 2}
+{40 1,394 -1}
+{225 2,605 -1,812 2}
+{117 1}
+{32 1,70 1,198 1,260 1,494 -1}
+{66 1,181 1,225 1,812 2}
+{11 1,32 1,42 1,51 3,70 2,111 1,128 1,142 3,204 1,217 1,225 2,228 1,261 1,262 2,270 1,271 1,310 -1,334 -1,372 -1,376 -1,377 -1,460 -2,467 -1,546 -2,551 -1,572 -1,590 -1,670 -2,672 -2,686 -1,694 -1,812 2}
+{11 1,32 1,42 1,51 3,70 2,128 1,142 2,204 1,217 1,225 2,262 1,270 1,271 1,310 -1,334 -1,372 -1,376 -1,377 -1,460 -1,467 -1,546 -1,551 -1,572 -1,590 -1,670 -2,672 -2,686 -1,694 -1,812 2}
+{783 -1}
+{20 1,40 1,96 1,122 1,142 1,259 1,372 -1,686 -1}
+{85 1,128 1,334 -1,460 -2,783 -1}
+{51 2,70 1,128 1,142 2,146 1,334 -3,460 -1,572 -1,697 -2,723 -1}
+{12 1,20 1,96 1,170 1,376 -1,686 -1,702 -1,731 -1}
+{43 1,59 1,142 1,220 1,225 1,672 -1,812 2}
+{117 1,554 -1}
+{1 1,59 1,142 1,177 1,225 1,403 -2,548 -1,755 -1,812 2}
+{70 1,111 1,546 -2}
+{142 1,223 1,225 1,595 -1,812 2}
+{64 1}
+{96 2,393 -1}
+{66 1,393 -1}
+{128 3,168 2,376 -1,586 -1}
+{70 1,128 2,142 1,192 1,193 1,225 2,812 2}
+{190 1}
+{128 1,142 1}
+{225 1,812 2}
+{192 1,686 -1,735 -1,792 -1}
+{70 1,261 1,276 1,697 -1,726 -2,743 -1}
+{137 1}
+{225 1,812 2}
+{70 1,111 1,122 1,128 2,142 1,155 1,225 1,239 1,273 1,310 -1,413 -1,494 -1,529 -1,596 -1,739 -1,750 -2,812 2}
+{40 2,128 1,192 1}
+{26 3,96 2,128 1,142 2,207 1,359 -1,546 -1,588 -2,686 -1}
+{40 1,128 1,192 1}
+{122 1,135 1,190 1,220 1,259 1,403 -1,672 -3,675 -1}
+{73 1,192 2,225 1,812 2}
+{85 1,225 2,812 2}
+{260 1}
+{261 2,294 -1}
+{20 3,32 2,40 2,66 1,70 1,107 1,124 1,128 1,140 1,170 1,225 1,282 -1,427 -1,460 -1,536 -1,613 -1,648 -2,672 -4,691 -1,812 2}
+{260 1}
+{40 1,66 2,70 1,96 2}
+{70 1}
+{64 1,330 -2,485 -1,797 -3}
+{1 2,23 1,40 2,41 1,111 1,128 2,142 1,190 1,195 1,225 2,261 4,377 -2,383 -1,388 -1,407 -1,430 -1,443 -1,506 -1,513 -1,546 -1,631 -1,663 -1,684 -1,686 -2,746 -1,812 2}
+{225 1,812 2}
+{20 1,47 1,59 2,96 1,128 3,136 1,142 1,190 1,225 3,255 1,675 -1,686 -1,812 2}
+{60 1,66 1,70 1,190 1,195 1,494 -1,546 -1}
+{26 1,50 1,111 1,128 1,655 -1}
+{70 1,142 1}
+{142 2}
+{27 1,70 2,85 1,96 1,128 1,190 4,223 1,225 1,239 1,554 -1,812 2}
+{96 1,128 1,755 -1}
+{59 2,66 1,70 1,259 1,686 -1}
+{32 1,225 1,734 -1,812 2}
+{27 1}
+{60 1,70 1,460 -2,487 -1,783 -1}
+{59 1,142 2,672 -1}
+{122 1,237 1,260 1,654 -3}
+{111 1,142 1,225 1,261 1,812 2}
+{32 1,51 1,64 2,66 1,92 1,96 5,100 1,107 1,122 1,128 2,130 1,142 6,190 1,217 1,225 1,258 1,260 1,265 1,463 -1,546 -2,572 -1,588 -1,686 -2,767 -1,779 -1,812 2}
+{225 1,812 2}
+{51 1,395 -2,472 -1}
+{142 1}
+{122 1,225 1,394 -1,686 -1,812 2}
+{460 -1}
+{60 1}
+{122 1,135 1,190 1,220 1,259 1,403 -1,672 -3,675 -1}
+{142 1,554 -1}
+{59 1,67 1,132 1,261 1,394 -1,450 -1,472 -1,548 -1,656 -1,672 -1}
+{51 2,56 1,528 -1}
+{122 1,217 1,239 1}
+{142 1,554 -1}
+{572 -1}
+{40 1,66 1,81 1,83 1,92 1,96 1,122 1,142 1,161 1,190 1,536 -1,697 -1}
+{70 1,85 1,225 1,812 2}
+{51 2,74 1,122 1,225 1,588 -1,812 2}
+{142 1,306 -1}
+{51 1,70 3,122 1,473 -1,554 -1,572 -1}
+{70 1}
+{128 1,149 1,198 1,686 -1}
+{572 -1}
+{60 1,225 2,310 -1,812 2}
+{239 1,695 -3}
+{572 -1}
+{66 1,74 1,122 1,142 1}
+{70 1,122 1,128 1,142 2,192 1,572 -1}
+{372 -1,463 -1}
+{92 1,122 1,128 3,190 1}
+{15 1,26 1,32 1,122 1,161 1,225 3,546 -1,708 -1,812 2}
+{40 1,51 1,135 2,225 1,315 -1,812 2}
+{40 1,125 1,128 1,225 1,253 1,812 2}
+{716 -1}
+{201 1,463 -1}
+{59 1,70 1,96 1,142 2,282 -1}
+{26 1,122 1,128 1}
+{26 2,128 2,209 1}
+{128 2}
+{225 1,607 -1,812 2}
+{225 1,607 -1,812 2}
+{225 1,607 -1,812 2}
+{225 1,607 -1,812 2}
+{60 1,225 1,607 -1,812 2}
+{26 1,128 1}
+{122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{1 1,15 1,26 1,74 1,83 2,142 3,143 1,198 1,214 1,218 1,353 -1,394 -1,396 -1,403 -4,486 -1,546 -1,588 -1,620 -4,808 -1}
+{60 1,783 -1}
+{40 1,394 -1}
+{60 1,783 -1}
+{60 1,783 -1}
+{122 1}
+{41 1,225 1,812 2}
+{64 3,70 1,142 8,198 1,797 -15}
+{24 2,197 1,225 1,276 1,572 -2,797 -1,812 2}
+{128 1,151 1,181 2,225 1,239 2,494 -1,557 -1,672 -2,812 2}
+{59 1,85 1,161 1,207 1,225 1,258 1,797 -1,812 2}
+{20 1,59 1,142 1,220 1,460 -1,494 -1}
+{40 1,142 1,239 1}
+{168 2}
+{32 1,97 1,142 2,260 1}
+{32 1,47 1,97 1,142 2,146 1,192 1,225 1,259 1,260 1,309 -2,377 -3,380 -1,536 -1,544 -1,702 -1,776 -1,812 2}
+{96 1}
+{96 1,128 1}
+{128 1,149 1,198 1,686 -1}
+{797 -1}
+{270 1,310 -2,438 -1,682 -2,691 -2,697 -1}
+{51 1,438 -1}
+{438 -1}
+{149 1}
+{40 1,73 1,96 1,225 1,812 2}
+{26 1,27 2,70 8,92 1,142 1,204 1,216 1,218 1,239 1,293 -1,599 -1,686 -1,748 -1}
+{60 1,783 -1}
+{59 1}
+{51 1,198 2,225 2,403 -1,812 2}
+{142 1,192 1,282 -1,306 -1,372 -1}
+{59 1,96 8,128 4,135 1,142 6,190 2,256 1,258 1,295 -2,372 -1,387 -1,496 -2,598 -1,671 -1,672 -1,722 -1,812 2}
+{32 1,51 1,64 2,66 1,92 1,96 5,100 1,107 1,122 1,128 2,130 1,142 6,190 1,217 1,225 1,258 1,260 1,265 1,463 -1,546 -2,588 -1,686 -2,767 -1,779 -1,812 2}
+{59 1}
+{60 1,605 -1}
+{225 2,605 -1,812 2}
+{60 1,197 1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{70 1}
+{59 1,142 2,672 -1}
+{142 1,554 -1}
+{40 1,66 1,81 1,83 1,92 1,96 1,122 1,142 1,161 1,190 1,536 -1,697 -1}
+{20 3,32 2,40 2,66 1,70 1,107 1,124 1,128 1,140 1,170 1,225 1,282 -1,427 -1,460 -1,536 -1,613 -1,648 -1,672 -4,691 -1,812 2}
+{20 3,32 2,40 2,66 1,70 1,107 1,124 1,128 1,140 1,170 1,225 1,282 -1,427 -1,460 -1,536 -1,613 -1,648 -2,672 -4,691 -1,812 2}
+{26 1,27 4,128 2,176 1,182 1,192 1,261 2,270 1,314 -1,333 -1,377 -2,492 -1,536 -1,640 -1,672 -6,686 -4,716 -1,760 -1,767 -1}
+{618 -1}
+{26 1,51 1,74 1,111 1,122 1,128 1,139 1,160 1,161 1,170 1,178 1,225 2,239 1,258 2,261 1,295 -1,376 -1,453 -9,494 -1,578 -1,588 -1,602 -1,660 -1,672 -2,697 -1,737 -1,743 -1,763 -1,811 -1,812 2}
+{295 -1,672 -2,686 -1}
+{74 1,139 2,168 1,225 1,261 1,314 -1,414 -1,464 -1,513 -1,631 -1,675 -1,760 -1,767 -3,812 2}
+{427 -1,546 -1,660 -1}
+{51 2,142 1,304 -1,494 -1,572 -1}
+{27 1,92 1,96 1,162 1,225 1,812 2}
+{40 1,142 1,192 1,239 1,257 1,319 -1,377 -2,501 -1,572 -1,672 -1}
+{56 1}
+{59 2,66 1,70 1,259 1,686 -1}
+{66 1,128 1,546 -1,769 -1}
+{59 2,66 1,70 1,259 1,686 -1}
+{70 1,96 2,150 1,572 -1,641 -1,686 -1}
+{96 1,192 1,262 1,546 -1,548 -1}
+{27 1,59 1,142 2,255 1,427 -1,546 -1,672 -1}
+{20 1,40 2,45 1,122 1,225 1,282 -1,454 -1,536 -1,563 -1,603 -1,686 -2,734 -1,812 2}
+{117 1}
+{51 1,70 1,80 2,122 1,225 1,256 1,461 -1,563 -5,675 -1,686 -3,697 -1,812 2}
+{26 2,40 1,239 2,248 1,660 -1,672 -8,686 -1,723 -1}
+{19 1,41 1,54 1,70 1,82 1,142 2,184 1,225 1,235 1,261 2,262 1,281 -1,282 -2,292 -1,304 -1,322 -1,364 -1,376 -1,433 -1,464 -1,465 -1,466 -1,536 -1,544 -2,559 -1,640 -2,677 -1,682 -1,719 -1,812 2}
+{142 1}
+{60 1}
+{96 1}
+{96 2,572 -1,723 -1}
+{59 1,142 2,672 -1}
+{128 1,161 4,377 -1}
+{20 1,192 1,195 1,267 1,672 -1,686 -1}
+{70 1,460 -1,572 -1}
+{70 1,460 -1,572 -1}
+{42 1,66 2,142 1,239 1,377 -1,686 -2}
+{4 1,20 1,28 1,40 3,53 1,64 1,70 1,96 1,111 5,128 3,139 1,142 2,161 1,170 1,177 1,179 1,203 1,225 2,228 3,239 2,256 1,259 1,260 2,262 1,266 1,672 -1,739 -1,812 2}
+{59 1}
+{15 1,46 1,50 1,70 1,74 1,128 3,144 1,161 2,225 2,261 2,282 -1,293 -2,333 -1,377 -12,394 -2,430 -1,513 -1,523 -2,622 -1,669 -1,708 -1,812 2}
+{372 -1,572 -1}
+{51 1,239 1,403 -1}
+{40 1,92 1,96 1,161 1,536 -1,697 -1}
+{511 -1,572 -1}
+{207 1,295 -1,394 -1}
+{51 1,337 -1,368 -1,645 -1,691 -1,723 -1}
+{142 1,554 -1}
+{27 1,73 1,96 1,108 1,198 1,274 1,310 -1,374 -1,460 -1,497 -1,563 -1,607 -2,699 -1,781 -2,787 -1,810 -1}
+{225 1,812 2}
+{19 1,26 1,64 1,88 1,110 2,168 1,170 2,218 1,239 1,453 -1,472 -1,494 -1,665 -1,672 -1,691 -5}
+{51 1,64 1,108 1,122 1,631 -1}
+{40 1}
+{96 1,97 1,111 1,128 1,225 1,250 1,259 1,511 -1,812 2}
+{96 1,97 1,111 1,128 1,225 1,250 1,259 1,511 -1,812 2}
+{142 1,217 1}
+{572 -1}
+{128 1,142 2}
+{15 1,20 1,23 1,26 2,29 2,38 1,41 2,51 1,57 1,67 1,70 6,74 1,96 1,99 1,122 7,125 3,128 3,137 2,142 5,146 1,148 1,157 1,160 2,165 1,167 1,168 3,190 1,195 2,201 1,204 1,209 1,225 7,239 1,248 1,258 2,260 1,261 3,263 1,266 1,270 1,278 -1,294 -3,308 -1,334 -1,338 -1,348 -1,359 -1,370 -1,376 -1,385 -1,386 -1,388 -4,394 -2,430 -1,456 -1,463 -1,465 -1,466 -3,468 -1,513 -2,525 -1,546 -1,547 -1,571 -1,578 -4,588 -3,629 -1,631 -1,641 -1,671 -1,675 -1,686 -3,691 -1,718 -1,759 -1,795 -1,807 -1,812 1}
+{26 10,54 1,67 1,73 1,88 3,96 2,128 4,196 3,261 1,332 -1,487 -2,527 -2,536 -1,648 -2,672 -5,758 -1}
+{239 1,588 -1}
+{40 1,96 1,128 1,142 1}
+{15 1,85 1,377 -1}
+{128 1}
+{51 1,96 2,142 1,259 1,262 1,394 -1,559 -1,572 -1,672 -1,686 -1}
+{51 1}
+{142 2,445 -1,631 -1,670 -1,672 -2,682 -5,686 -1,755 -1}
+{70 1,85 1,225 3,239 1,494 -1,682 -1,812 2}
+{330 -1}
+{330 -1}
+{85 1,128 1}
+{128 1,783 -1}
+{128 1,783 -1}
+{122 1,225 2,812 2}
+{225 1,494 -1,812 2}
+{595 -1}
+{74 1,122 1,142 1,276 1,394 -1,686 -2}
+{193 1,261 1,686 -1}
+{225 1,391 -1,394 -2,812 2}
+{128 1,783 -1}
+{64 1,74 1,225 2,686 -1,812 2}
+{225 1,691 -1,812 2}
+{128 1,225 2,812 2}
+{2 1,20 1,40 1,60 1,70 1,190 2,198 1}
+{128 1,225 2,812 2}
+{40 1,783 -1}
+{394 -1}
+{60 2}
+{60 1,394 -1}
+{225 1,812 2}
+{225 1,812 2}
+{128 1,276 1,394 -1,783 -1}
+{51 1,122 1,282 -1}
+{128 1,783 -1}
+{40 1,128 1,142 1,193 1,225 1,812 2}
+{225 2,812 2}
+{128 2,225 2,428 -1,726 -1,812 2}
+{128 1,225 1,428 -1,726 -1,812 2}
+{201 1}
+{672 -1}
+{672 -1}
+{39 1,51 1,135 1,142 1,225 1,755 -1,812 2}
+{60 1,70 1,122 1,128 2,142 2,155 1,193 1,217 1,225 1,812 2}
+{5 1}
+{51 2,59 1,85 1,418 -4,672 -5,682 -7,787 -1}
+{1 1,61 3,70 1,128 1,224 2,572 -1,672 -5,767 -1}
+{28 1,128 2,262 2,672 -1}
+{225 4,812 2}
+{225 4,812 2}
+{225 2,812 2}
+{73 1}
+{40 1,142 1,225 2,812 2}
+{225 2,812 2}
+{33 1,70 1,190 1,743 -2}
+{273 1,743 -2}
+{128 1,795 -1}
+{10 1,60 1,70 3,128 1,142 1,155 1,394 -1,631 -1,686 -1,703 -1,738 -1,783 -1}
+{10 1,70 2,128 1,394 -1,738 -1}
+{282 -1,388 -3}
+{225 1,812 2}
+{783 -1}
+{108 1,142 1,157 1,679 -1,686 -1}
+{60 1,74 1,128 1}
+{225 1,812 2}
+{217 1}
+{142 1,672 -1}
+{217 1,783 -1}
+{33 1}
+{217 1}
+{51 1,394 -1,691 -1,699 -1,783 -1}
+{142 1,225 1,812 2}
+{51 1,394 -1,691 -1,699 -1,783 -1}
+{225 1,239 1,812 2}
+{60 1,783 -1}
+{330 -1}
+{100 1,128 1,225 1,320 -1,547 -1,738 -1}
+{60 1,217 1}
+{60 1,225 1,669 -1,812 2}
+{122 2,128 1,142 1,190 1}
+{60 1,276 1,783 -1}
+{276 1}
+{190 1}
+{60 1,783 -1}
+{60 1,783 -1}
+{70 1,128 1,157 1,190 1}
+{85 1,128 1}
+{27 1,155 1,190 1,225 2,394 -1,405 -1,693 -1,697 -1,743 -1,812 2}
+{40 1}
+{588 -3}
+{193 1}
+{225 1,588 -3,812 2}
+{142 1,190 1,783 -1}
+{30 1,60 1,217 1,783 -1}
+{30 1,60 1,225 1,783 -1,812 2}
+{30 1,60 1,217 1,783 -1}
+{30 1}
+{60 2,190 1}
+{60 2,190 1}
+{60 2}
+{217 1}
+{122 1}
+{40 1,70 1,155 1,767 -1}
+{116 1,483 -2,767 -1}
+{20 1,66 1,74 1}
+{40 1,60 1,96 1,225 1,290 -1,494 -1,738 -1,812 2}
+{70 1,128 1}
+{142 1,273 1,783 -1}
+{276 1}
+{128 1,388 -1,755 -1}
+{70 1,128 1,155 1,204 1,225 1,812 2}
+{70 1,128 1,204 1,225 1,812 2}
+{155 1}
+{128 1,193 1,210 1,267 2,408 -1}
+{97 1,783 -1}
+{66 1}
+{128 1}
+{64 1,97 1,783 -1}
+{97 1,783 -1}
+{79 1}
+{225 1,261 1,812 2}
+{70 1,168 1,225 1,641 -1,672 -1,682 -1,812 2}
+{64 1}
+{168 1,225 1,641 -1,672 -1,682 -1,812 2}
+{51 2,142 1,155 1,225 1,262 1,743 -1,783 -2,812 2}
+{64 1}
+{64 1}
+{168 1,225 1,672 -1,682 -1,812 2}
+{225 1,812 2}
+{70 1}
+{60 2,125 1,738 -1}
+{152 1,511 -1,595 -1}
+{59 1}
+{265 1,273 1}
+{40 1,192 1,225 1,812 2}
+{265 2}
+{60 1}
+{70 1,142 1,445 -1}
+{60 1,119 1,179 2,431 -1}
+{162 1,225 1,812 2}
+{198 1,217 1,464 -1,686 -1,783 -1}
+{162 1,225 1,812 2}
+{415 -1}
+{225 1,812 2}
+{59 1}
+{162 1,225 1,812 2}
+{70 2,225 1,265 1,783 -1,812 2}
+{122 2,204 1,207 1,239 1}
+{122 1}
+{51 1,142 1}
+{142 1}
+{70 1,155 2,168 1,190 1,612 -1}
+{60 2,125 1}
+{128 1}
+{463 -1}
+{70 1,190 1}
+{70 1,225 1,812 2}
+{40 1,105 1,217 1,225 1,783 -1,812 2}
+{225 1,812 2}
+{487 -1}
+{74 1,239 1,366 -1}
+{92 1,192 1,239 1,388 -1}
+{70 1,225 1,783 -1,812 2}
+{225 1,783 -1,812 2}
+{74 1,239 1,366 -1}
+{74 1,239 1,366 -1}
+{273 1}
+{74 1,239 1,366 -1}
+{70 1,142 1,265 1,310 -1,546 -1}
+{317 -1}
+{225 1,265 2,812 2}
+{198 1}
+{70 2,142 1,155 1,190 1,686 -1}
+{60 1,128 1,783 -1}
+{32 1,70 1,225 1,265 1,783 -1,812 2}
+{262 1}
+{70 2,142 1,155 1,686 -1}
+{262 1}
+{85 1,128 2,142 1,179 1,199 1,262 1}
+{70 2,142 1,686 -1}
+{85 1,128 1,142 1,199 1,262 1}
+{70 1,225 1,265 1,783 -1,812 2}
+{70 2,686 -1}
+{265 2}
+{85 1,128 1,142 1,199 1,262 1}
+{60 1,723 -1,783 -1}
+{128 1}
+{128 1}
+{60 1,70 1,128 1,217 1,783 -1}
+{60 1,70 1,128 1,783 -1}
+{60 1,70 1,783 -1}
+{60 1,783 -1}
+{225 1,812 2}
+{70 1,783 -1}
+{70 1}
+{60 1,783 -1}
+{60 1,783 -1}
+{70 1,225 1,239 1,260 1,812 2}
+{64 1,128 1,262 1}
+{60 1}
+{60 1,783 -1}
+{265 1}
+{60 1,783 -1}
+{208 1}
+{142 1,198 1,225 2,812 2}
+{60 1,225 1,812 2}
+{728 -1}
+{283 -1}
+{170 1,190 1,193 1,225 1,261 1,483 -1,491 -1,513 -1,812 2}
+{128 1,262 1}
+{60 1,225 1,394 -1,812 2}
+{60 1,394 -1}
+{142 1}
+{261 1,463 -1}
+{128 1,262 1}
+{60 1,262 2,783 -1}
+{155 1,262 1}
+{70 1,100 3,198 1}
+{225 1,812 2}
+{51 1,128 1}
+{128 1}
+{225 1,812 2}
+{128 1}
+{155 1,262 1}
+{100 3}
+{74 1,142 1,155 1,225 2,428 -1,812 2}
+{74 1}
+{155 1,262 1}
+{70 1,155 1,198 1,225 1,262 1,812 2}
+{283 -1}
+{70 1}
+{122 1}
+{198 1}
+{51 1,60 1,225 1,783 -1,812 2}
+{59 1,184 1}
+{783 -1}
+{70 1,142 1}
+{51 1,60 1,783 -1}
+{225 1,812 2}
+{225 1,812 2}
+{27 1,61 1,262 2,783 -2}
+{225 1,812 2}
+{27 1,61 1,262 2,783 -2}
+{27 1,61 1,262 2,783 -2}
+{225 1,812 2}
+{225 1,812 2}
+{128 1}
+{783 -1}
+{128 1}
+{59 1,239 1}
+{27 1,217 1,783 -1}
+{59 1,70 1}
+{128 1,262 1}
+{128 1}
+{122 1,128 1,225 1,691 -1,812 2}
+{128 1,225 1,812 2}
+{74 1}
+{128 1}
+{783 -1}
+{128 1}
+{40 1,70 1,91 1,128 1,155 2,202 1,207 1,225 5,338 -1,812 2}
+{320 -1}
+{60 1,273 1,320 -1,551 -1}
+{40 1,70 1,207 1,225 2,812 2}
+{193 1,269 1}
+{70 2,238 2,261 1,290 -1,494 -1,627 -1}
+{70 2,238 2,261 1,290 -1,494 -1,627 -1}
+{35 1,599 -1}
+{142 1,185 1,190 1,207 1,225 1,239 1,812 2}
+{225 1,812 2}
+{35 1}
+{190 1,201 1,225 1,812 2}
+{40 1,217 1}
+{74 1,239 1,366 -1}
+{70 1,92 1,273 1}
+{366 -1}
+{100 1,128 1,320 -1,547 -1,738 -1}
+{70 1,92 1,273 1}
+{320 -1,551 -1}
+{320 -1}
+{128 1,692 -1,743 -1}
+{60 1,128 1,129 1,142 1,225 1,267 1,388 -1,783 -2,812 2}
+{64 1,96 1,258 1}
+{60 1,70 1,783 -1}
+{128 1,262 1,270 1}
+{128 1}
+{235 1}
+{60 1,128 1,142 1,225 1,783 -2,812 2}
+{74 1}
+{686 -1}
+{60 1,631 -1,783 -2}
+{60 1,783 -2}
+{60 1,783 -1}
+{60 1,128 1,783 -1}
+{51 2,128 1,133 1,193 1,261 1,686 -1,783 -1}
+{40 1}
+{60 1,783 -1}
+{60 1,70 1,128 2,225 1,783 -1,812 2}
+{295 -1}
+{40 1}
+{70 3,128 1,273 1}
+{128 1}
+{198 1,783 -1}
+{40 1}
+{142 1}
+{60 1,783 -1}
+{51 1,60 1,783 -1}
+{128 1}
+{128 1}
+{70 1,74 1,239 1,366 -1}
+{100 1,128 1,320 -1,547 -1,738 -1}
+{394 -1}
+{128 1}
+{51 1,186 1,190 1}
+{40 2,41 1,64 1,142 2}
+{60 1,783 -1}
+{122 2,128 1,142 1}
+{64 1,142 1,261 1}
+{15 1,225 1,241 1,262 2,812 2}
+{92 1,96 3,139 1,588 -2,672 -3}
+{60 3}
+{40 1}
+{122 1,239 1}
+{225 1,812 2}
+{80 1,641 -1}
+{80 1}
+{128 1,783 -1}
+{97 1,273 1,783 -2}
+{97 1,783 -1}
+{783 -1}
+{60 1,217 1,783 -1}
+{142 1}
+{783 -1}
+{142 1}
+{60 1,262 2,783 -1}
+{225 1,812 2}
+{262 1,783 -1}
+{783 -1}
+{320 -1}
+{64 1,96 1,258 1}
+{60 1,783 -1}
+{60 1,783 -1}
+{128 1,262 1}
+{60 1,631 -1,783 -2}
+{60 1,783 -2}
+{60 1,783 -1}
+{60 1,783 -1}
+{60 1,128 1,783 -1}
+{225 1,812 2}
+{225 1,812 2}
+{40 1,783 -1}
+{60 1,783 -1}
+{60 1,225 1,669 -1,812 2}
+{60 1,225 1,669 -1,812 2}
+{225 1,262 1,812 2}
+{262 1}
+{70 2,225 1,265 1,783 -1,812 2}
+{783 -1}
+{208 1}
+{155 1,262 1}
+{155 1,262 1}
+{207 1,217 1,225 2,623 -1,686 -1,812 2}
+{235 1}
+{572 -1,654 -1,750 -1}
+{40 1}
+{128 1,225 2,812 2}
+{64 1,262 1,513 -1}
+{225 1,812 2}
+{192 1}
+{70 2,413 -1}
+{225 1,812 2}
+{225 2,261 1,295 -1,296 -1,453 -1,686 -1,812 2}
+{168 1,492 -1,672 -1}
+{155 1}
+{27 1,190 1}
+{217 1}
+{157 1}
+{70 2}
+{225 1,812 2}
+{26 1}
+{739 -1}
+{96 1,225 1,572 -1,686 -1,774 -1,812 2}
+{686 -2}
+{570 -1}
+{190 2}
+{225 1,812 2}
+{208 1,239 1}
+{225 2,261 1,295 -1,296 -1,453 -1,686 -1,812 2}
+{168 1,492 -1,672 -1}
+{155 1}
+{27 1,190 1}
+{217 1}
+{157 1}
+{70 2}
+{225 1,812 2}
+{26 1}
+{739 -1}
+{60 1,96 1,225 1,572 -1,686 -1,774 -1,812 2}
+{686 -2}
+{570 -1}
+{70 1}
+{40 1,190 1}
+{190 1,207 1,225 1,239 1,785 -1,812 2}
+{70 1}
+{40 1,190 1}
+{66 1,128 1,142 1,208 1,225 1,300 -1,812 2}
+{225 1,812 2}
+{26 1,83 2,125 2,225 3,812 2}
+{60 1}
+{672 -1,757 -1}
+{208 1,239 1}
+{142 1,797 -2}
+{51 1,122 2,225 1,672 -1,812 2}
+{225 1,812 2}
+{239 1,695 -2}
+{377 -2}
+{70 1,204 1}
+{27 1,122 1,631 -1,682 -1,733 -1}
+{1 2,26 2,66 1,135 1,136 1,192 1,394 -1,554 -1,686 -1,772 -1}
+{125 1,190 1,225 1,812 2}
+{51 1,59 1,60 1,74 1,122 1,168 1,254 3,273 1,487 -1}
+{142 1}
+{783 -1}
+{56 1,70 2,111 1,128 3,142 2,190 1,192 1,225 1,273 1,682 -1,812 2}
+{413 -1}
+{376 -1}
+{155 1}
+{60 1}
+{190 2}
+{40 1,96 1,157 1,201 1,235 2,239 1}
+{97 1,199 1,225 2,239 1,295 -1,812 2}
+{403 -1}
+{122 1}
+{208 3,427 -1}
+{190 1,207 1,225 1,239 1,785 -1,812 2}
+{74 1,682 -1,697 -1}
+{453 -2}
+{697 -1}
+{697 -1}
+{672 -1}
+{21 1,26 3,69 1,70 2,74 1,96 3,128 1,135 1,149 1,170 1,222 1,224 1,245 1,252 2,362 -2,743 -1}
+{373 -1}
+{59 1,178 1,596 -1,686 -6}
+{239 1,388 -1}
+{64 1}
+{40 1,70 1,150 1,225 1,535 -1,812 2}
+{122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{139 1,160 1,225 1,239 1,347 -1,597 -1,726 -1,766 -1,812 2}
+{265 1}
+{40 1,70 1,142 1,217 2,577 -1,683 -1}
+{40 3,60 1,70 2,96 1,104 1,116 1,157 2,201 1,224 1,310 -1,388 -1,483 -2,494 -1,563 -1,723 -1,767 -1}
+{27 1,39 1,51 4,70 1,239 1,648 -1,733 -1}
+{128 1,168 1}
+{672 -1,682 -1,783 -1}
+{24 2,190 1}
+{70 1,128 1,142 1}
+{59 1,60 1}
+{83 1,265 2}
+{83 1,265 2}
+{83 1,265 2}
+{265 2}
+{51 1}
+{265 2}
+{686 -1}
+{265 2}
+{265 2}
+{265 3}
+{101 1,225 1,812 2}
+{265 1}
+{66 1,239 1}
+{96 1,265 2,381 -1}
+{64 1}
+{672 -1}
+{70 1,122 1,225 1,298 -1,310 -1,812 2}
+{70 1,122 1,225 1,812 2}
+{70 1,225 1,812 2}
+{70 1,225 2,812 2}
+{225 1,812 2}
+{225 1,812 2}
+{225 1,812 2}
+{27 1,66 1}
+{66 1}
+{60 1,191 1,225 1,294 -1,812 2}
+{31 1,74 1,225 1,254 1,812 2}
+{128 1,225 1,260 1,549 -1,672 -1,812 2}
+{32 1,128 1,142 1}
+{32 1}
+{310 -1,672 -1}
+{128 1,142 1,298 -1}
+{132 1,225 1,672 -2,812 2}
+{40 2,51 3,96 1,97 1,239 1,392 -1}
+{40 2,225 1,281 -1,812 2}
+{217 1}
+{702 -1}
+{128 1}
+{142 2,494 -1}
+{128 1}
+{225 1,556 -1,686 -1,812 2}
+{70 1,142 1}
+{70 1,146 1,239 1,290 -1,394 -1,546 -1,686 -1}
+{686 -1,763 -1}
+{128 1}
+{26 1,41 1,70 1,74 1,122 1,125 3,128 2,142 3,160 1,168 3,225 2,261 1,270 1,394 -2,578 -1,588 -1,686 -2,812 2}
+{490 -1}
+{408 -1}
+{631 -1}
+{142 1,171 1}
+{128 1,142 1,201 1}
+{282 -1}
+{70 1}
+{193 1,225 1,282 -1,286 -1,812 2}
+{70 1,142 1,190 1}
+{270 1}
+{693 -1}
+{225 1,273 1,400 -1,538 -1,812 2}
+{601 -1}
+{601 -1}
+{624 -1}
+{225 1,812 2}
+{317 -1}
+{142 1}
+{304 -1}
+{225 1,624 -1,812 2}
+{142 1}
+{55 1,246 1,343 -1,667 -1,743 -1}
+{659 -1}
+{51 1,86 1,168 1,527 -1,642 -1}
+{128 1,155 1,256 1,282 -1,584 -1,726 -1}
+{142 1}
+{70 1,239 1}
+{447 -1}
+{394 -1}
+{70 1}
+{225 1,812 2}
+{79 1}
+{239 1}
+{184 1}
+{168 1,193 1}
+{597 -1,672 -1}
+{56 1,168 1}
+{70 1,128 1,193 2,780 -1}
+{490 -1}
+{388 -1}
+{51 1}
+{201 1,320 -1}
+{64 1}
+{51 1}
+{70 1}
+{197 1,675 -1}
+{225 1,812 2}
+{204 1}
+{51 1}
+{29 1,260 2,513 -1,691 -1}
+{201 1}
+{70 1,292 -1,466 -1}
+{64 1,70 1,85 2,92 1,155 3,157 1,190 3,204 1,227 1,239 1,522 -1,549 -1,672 -1,697 -2,812 2}
+{168 1}
+{70 1,225 1,812 2}
+{70 1,74 2,90 1,204 1,256 1,697 -1}
+{17 1,70 1,74 1,256 1,691 -2,788 -1,809 -1}
+{239 1}
+{190 1}
+{70 1,225 2,273 1,597 -1,812 2}
+{193 1}
+{239 1}
+{146 2,682 -1}
+{70 1,201 1,235 1,262 1}
+{320 -1}
+{76 1,201 1}
+{56 1,225 3,812 2}
+{70 1,122 1,672 -9}
+{262 1}
+{71 1,96 2,217 1,225 1,377 -1,595 -1,812 2}
+{136 1,190 1,192 2,255 1,697 -1}
+{136 1,190 1,192 2,255 1,697 -1}
+{84 1,142 3,546 -1}
+{50 2,372 -1,403 -1,783 -1}
+{85 1,142 2,195 1,372 -1,672 -2,682 -1}
+{239 1,588 -1}
+{2 1,26 1,36 1,51 4,56 2,59 2,66 2,70 2,74 1,96 3,111 1,122 2,128 4,136 1,142 1,149 3,163 1,170 1,190 1,203 1,225 3,255 1,259 2,260 1,261 11,294 -3,295 -1,313 -1,333 -5,375 -1,376 -1,377 -16,382 -1,397 -1,427 -2,454 -1,457 -1,460 -1,463 -1,466 -1,472 -2,485 -1,486 -1,487 -1,494 -1,511 -1,536 -2,546 -2,563 -2,578 -1,583 -1,588 -1,627 -1,651 -1,675 -2,682 -1,686 -1,691 -1,723 -1,745 -2,764 -1,783 -1,809 -1,812 1}
+{70 1,225 1,812 2}
+{70 1,142 1,155 1}
+{190 1}
+{190 1}
+{259 1,385 -1,732 -1}
+{259 1,732 -1}
+{225 1,812 2}
+{142 1,225 2,487 -1,812 2}
+{494 -1}
+{225 1,812 2}
+{167 1,207 1,295 -1,672 -8}
+{108 1,239 1}
+{108 1,239 1}
+{225 2,812 2}
+{96 1}
+{60 1,225 1,239 2,812 2}
+{66 1,128 1,190 1,546 -1,672 -1,769 -1}
+{85 2,96 3,225 1,556 -1,672 -1,702 -1,774 -1,812 2}
+{85 2,96 3,556 -1,672 -1,774 -1}
+{265 1}
+{60 1,239 1}
+{265 1}
+{11 1,20 1,142 1,225 1,812 2}
+{32 1,40 2,64 1,85 2,128 2,142 1,217 1,225 3,235 1,239 1,245 8,270 1,394 -2,546 -2,640 -1,743 -1,812 2}
+{70 1,74 1,128 2,225 1,812 2}
+{51 1,198 1,208 4,686 -1}
+{51 1,225 1,812 2}
+{70 1,136 1,190 1,192 2,204 1,255 1,697 -1}
+{70 1,142 1,225 2,546 -1,548 -1,588 -1,715 -1,723 -1,812 2}
+{27 1,259 2,454 -3,487 -1,536 -1,672 -2}
+{217 1}
+{59 1,66 3,128 1,142 1,158 1,261 1,277 1,615 -1,686 -1}
+{59 1,66 3,128 1,142 1,158 1,261 1,615 -1,686 -1}
+{70 1,128 1,142 2}
+{70 1,122 1,672 -12}
+{225 1,672 -2,812 2}
+{225 2,812 2}
+{208 2}
+{225 1,672 -1,812 2}
+{56 10,128 1,142 1,168 1,211 1,588 -1,787 -1}
+{588 -1}
+{56 11,464 -7,588 -1,686 -1,767 -4}
+{56 11,464 -7,588 -1,686 -1,767 -4}
+{70 1,588 -1}
+{588 -1,672 -5}
+{56 10,128 1,142 1,168 1,211 1,588 -1,787 -1}
+{24 2,85 1,239 2,257 2}
+{225 1,812 2}
+{60 1,225 1,812 2}
+{132 1,265 1}
+{51 1,265 2,686 -1}
+{163 1,168 1,225 1,812 2}
+{260 1}
+{372 -1}
+{198 1,217 1,239 1,262 2}
+{225 1,812 2}
+{198 1,217 1,262 1}
+{85 2,217 1}
+{70 1,260 1}
+{85 1}
+{60 2}
+{128 2}
+{70 1,204 1}
+{60 1}
+{672 -1}
+{60 1}
+{168 1,265 2,682 -1}
+{51 1,70 1,128 2,168 3,260 1,394 -1,494 -1}
+{548 -1}
+{70 1,260 1}
+{96 1}
+{128 1}
+{70 1}
+{225 1,812 2}
+{70 2,225 1,238 2,682 -1,812 2}
+{56 1,783 -2}
+{111 1,190 1,225 2,812 2}
+{128 1}
+{142 1,265 1}
+{142 1,190 1,225 1,812 2}
+{111 1,190 1,225 2,812 2}
+{128 1}
+{265 2}
+{265 2}
+{265 2}
+{70 1}
+{70 1,225 2,261 1,282 -7,321 -1,394 -1,413 -1,421 -1,505 -1,524 -1,559 -1,578 -1,586 -1,612 -1,733 -1,778 -1,811 -1,812 2}
+{293 -1}
+{142 1}
+{60 1,64 1,85 1,225 1,812 2}
+{265 1}
+{85 1,217 3}
+{225 1,812 2}
+{64 1,85 3,265 2,270 1}
+{225 1,812 2}
+{239 1}
+{142 1,377 -1}
+{225 1,812 2}
+{61 1,122 1,225 1,588 -3,672 -4,812 2}
+{67 2,85 1,96 8,104 3,128 1,192 3,198 1,218 2,258 1,453 -1,486 -1,588 -4}
+{51 1,90 1,168 1,208 1,225 3,388 -1,487 -1,812 2}
+{40 2,96 3,128 1,265 3}
+{40 1,321 -1,783 -2}
+{51 1,128 1,225 1,453 -1,812 2}
+{207 1}
+{206 1}
+{161 1,225 2,812 2}
+{90 1}
+{142 1}
+{20 1,51 1,60 1,97 1,170 1,235 1}
+{40 1,265 1,321 -1,783 -2}
+{70 1,225 2,487 -1,640 -1,775 -1,812 2}
+{225 2,812 2}
+{51 1,96 1,388 -1}
+{96 1}
+{190 1}
+{64 1,85 3,265 2,270 1}
+{40 1,66 2,70 2,85 1,96 1,108 1,190 1,207 2,225 3,239 1,249 1,265 8,310 -1,319 -1,394 -1,487 -2,494 -1,545 -1,734 -1,812 2}
+{207 1}
+{564 -1}
+{225 1,265 2,812 2}
+{96 1}
+{265 2}
+{265 1}
+{64 1,686 -1}
+{225 1,812 2}
+{225 1,812 2}
+{60 1,265 1,377 -2}
+{265 1}
+{32 1,60 1,225 1,261 1,599 -1,672 -3,812 2}
+{64 1,265 1}
+{20 1,548 -1}
+{265 2}
+{265 1}
+{588 -1,672 -3}
+{168 1}
+{142 1,377 -1,413 -1}
+{40 1,265 1,321 -1,783 -2}
+{168 1,330 -1,686 -1}
+{225 1,812 2}
+{96 2,265 2}
+{207 1,225 1,265 1,812 2}
+{168 1,330 -1}
+{85 1,217 1,750 -1}
+{64 1,225 4,394 -1,812 2}
+{85 1,750 -1}
+{190 1,225 1,812 2}
+{85 1,97 1,128 1,265 1,487 -1}
+{168 1,330 -1}
+{168 1,330 -1}
+{56 1,64 1,265 2}
+{265 2}
+{198 2,232 1,242 1,427 -1,495 -1,582 -1}
+{64 1}
+{691 -1}
+{40 1}
+{96 1,122 1,225 1,265 2,750 -2,812 2}
+{40 1}
+{260 1}
+{96 1,122 1,225 1,265 2,750 -1,812 2}
+{40 1,265 1,390 -2}
+{92 1,96 3,139 1,588 -2,672 -3}
+{26 1,128 1}
+{122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{198 1,487 -8,588 -1}
+{588 -2}
+{132 1,265 1}
+{686 -1}
+{105 1,190 1}
+{783 -1}
+{96 4}
+{70 1}
+{26 1,64 1,70 1,223 1}
+{40 1,42 1,85 1,92 1,108 1,122 1,128 3,142 1,225 1,239 1,260 1,261 1,262 1,295 -1,315 -1,372 -2,394 -1,691 -1,812 2}
+{32 1,122 2,128 1,142 1,190 1,686 -3}
+{96 1,295 -1,672 -1}
+{192 1}
+{60 1,282 -1,546 -1}
+{739 -1}
+{298 -1,326 -1,450 -1,487 -1,548 -1,753 -1}
+{192 2,588 -1}
+{59 1,70 1,88 1,96 1,128 1,142 1,204 1,572 -1}
+{117 4,142 1,168 1}
+{572 -1}
+{40 1,572 -1}
+{70 1,204 1}
+{128 1,225 1,461 -1,812 2}
+{122 1,128 1,225 1,261 1,812 2}
+{128 1,225 1,777 -1,812 2}
+{64 1,128 2,672 -1}
+{64 1,128 2,672 -1}
+{225 1,812 2}
+{59 1,70 1,74 1,117 6,128 5,142 2,225 1,797 -1,812 2}
+{225 1,239 1,812 2}
+{128 1,225 1,461 -1,812 2}
+{461 -1}
+{59 1,70 1,74 1,111 1,117 6,128 6,142 2,192 1,225 2,797 -1,812 2}
+{225 1,239 1,812 2}
+{59 1,70 1,74 1,117 6,128 5,142 2,225 1,797 -1,812 2}
+{225 1,812 2}
+{64 1,128 2,672 -1}
+{64 1,128 2,672 -1}
+{128 1,225 1,777 -1,812 2}
+{128 1,225 2,812 2}
+{461 -1}
+{122 1,128 1,225 1,261 1,812 2}
+{40 1,56 1,190 1,225 1,262 1,812 2}
+{128 1,225 1,461 -1,812 2}
+{128 1,225 1,461 -1,812 2}
+{9 1,142 1,170 1,545 -1,546 -1,795 -1}
+{461 -1}
+{128 1,494 -1,672 -2}
+{70 1}
+{59 1,70 1,117 3,128 3,142 1,225 1,812 2}
+{142 1,429 -1}
+{60 2}
+{225 2,812 2}
+{193 1}
+{580 -1}
+{70 1,198 1,546 -1}
+{101 1,142 1,546 -1,672 -1}
+{546 -1}
+{464 -2,804 -1}
+{128 2,142 2,190 1,225 1,691 -1,812 2}
+{40 1,73 2,85 1,495 -1,672 -3}
+{51 1,157 1}
+{142 1}
+{96 1,128 2,142 1,262 1}
+{51 1}
+{70 1}
+{41 2,111 2,260 1}
+{70 1,96 1,128 1,142 2,161 1,198 1,223 1,294 -1,372 -1,626 -1}
+{27 1,273 1}
+{572 -1}
+{40 1,111 1,181 1,697 -1}
+{59 1,60 1}
+{38 1,59 1,60 1,96 5,122 1,142 4,192 1,258 1,572 -1}
+{51 1,132 1,321 -2}
+{566 -1,582 -1}
+{142 2,181 1}
+{111 1,225 1,460 -1,812 2}
+{59 1,70 1,74 1,111 1,117 6,128 6,142 2,192 1,225 2,797 -1,812 2}
+{225 1,232 1,444 -1,572 -1,812 2}
+{461 -1}
+{128 1,225 1,461 -1,812 2}
+{461 -1}
+{225 1,607 -1,812 2}
+{225 1,232 1,444 -1,572 -1,812 2}
+{168 1}
+{225 1,607 -1,812 2}
+{51 1}
+{70 1,204 1}
+{59 1,70 1,74 1,111 1,117 6,128 6,142 2,192 1,225 2,797 -1,812 2}
+{40 1}
+{40 1}
+{31 1,40 2,128 2,150 1,190 3,201 1,217 1,388 -1,812 2}
+{40 1,96 1,236 1,256 2,394 -1,588 -1}
+{40 1,157 1,190 1,217 1,388 -1}
+{26 1,40 1,60 1,85 2,92 1,122 1,142 2,239 1,261 1,546 -2,588 -1,723 -1}
+{40 1,96 2,122 2,128 1}
+{128 1,641 -1}
+{128 1,641 -1}
+{40 1,96 2,122 2,128 1}
+{40 1,60 1,85 2,92 1,122 1,142 2,239 1,546 -2,723 -1}
+{29 1,51 4,168 1,276 1}
+{1 1,96 1,104 1,122 1,192 2,672 -1}
+{40 1}
+{239 1,388 -1}
+{27 1,426 -2,672 -5}
+{26 1,128 1}
+{40 1,128 1,142 1,225 2,812 2}
+{51 1,186 1,190 1}
+{60 1,96 1,255 8,414 -1,546 -1,778 -1}
+{40 2,41 1,64 1,142 2}
+{111 1}
+{40 1}
+{40 3,60 1,70 2,96 1,104 1,116 1,157 2,201 1,224 1,310 -1,388 -1,483 -2,494 -1,563 -1,723 -1,767 -1}
+{60 1}
+{388 -1,686 -2}
+{265 1}
+{40 3,60 1,70 2,96 1,104 1,116 1,130 1,157 1,201 1,206 1,217 2,224 1,225 2,310 -1,388 -2,483 -2,494 -1,563 -1,723 -1,767 -1,812 2}
+{41 1,74 1,157 1,528 -1}
+{29 1,70 1,179 1,184 1,225 1,812 2}
+{60 1,96 1,255 7,414 -1,546 -1,778 -1}
+{142 1,225 1,239 1,812 2}
+{40 4,60 1,70 2,96 1,104 1,111 1,130 1,157 1,190 1,201 1,206 1,217 2,225 1,310 -1,388 -1,494 -1,563 -1,812 2}
+{92 1,96 3,139 1,588 -2,672 -3}
+{224 1,723 -1}
+{494 -1}
+{209 1}
+{168 2,204 1,256 1}
+{40 1,60 1,111 1,190 1,217 2,225 1,812 2}
+{70 3,92 1}
+{122 1,239 1}
+{70 1,142 1}
+{20 1,96 2,106 2,111 3,128 1,192 7,198 2,225 1,235 1,239 1,260 2,586 -1,672 -2,750 -1,812 2}
+{168 2,245 1,672 -1}
+{40 1,96 1,225 1,812 2}
+{168 1}
+{22 1,70 2,239 2,548 -1}
+{29 1,40 1}
+{59 1,96 1,107 1,128 2,142 1,261 1,319 -1,349 -1,377 -1,488 -1,511 -1,691 -1,706 -1}
+{108 1,128 1}
+{26 3,32 1,161 1,168 2,195 1,238 1,262 1,294 -1,314 -1,546 -1,618 -1,669 -1,682 -1,691 -1,767 -1}
+{66 1,96 2,453 -1,494 -1,588 -1}
+{48 1}
+{20 1,190 1,588 -2}
+{26 1,96 2,122 1,161 1,294 -1,548 -2,686 -1,759 -1}
+{12 1,26 1,56 1,122 1,186 1,199 1,394 -1,556 -1,588 -1,672 -1}
+{396 -1,403 -3}
+{199 1,372 -1,536 -1,546 -1}
+{15 1,26 1,99 1,287 -1,457 -1,648 -1,669 -1}
+{8 1,29 1,142 1,697 -1}
+{265 1,295 -1,453 -1}
+{255 1,453 -1,494 -2}
+{142 1}
+{66 1,71 1,184 1,239 1}
+{29 1,280 -1,292 -1,294 -1,413 -1,423 -1,538 -1}
+{128 2,142 1,201 1,282 -1,784 -1}
+{142 1,394 -1}
+{51 3,79 1,239 1}
+{40 1,70 1,193 1,447 -1,597 -1,740 -1}
+{40 1,142 1}
+{40 1,193 1,597 -1}
+{128 1}
+{128 1}
+{51 1,393 -1}
+{60 1,100 1}
+{70 2,201 1}
+{40 1,88 1,146 1,190 3}
+{70 1,128 1,142 1,282 -1,429 -1}
+{70 2,128 1,273 1,784 -1}
+{128 1,394 -1}
+{201 1}
+{142 1}
+{56 1,70 2,128 1,193 1,211 1}
+{51 1,609 -1}
+{331 -1,356 -1,387 -1,597 -1,640 -1,743 -1,783 -1}
+{40 1,51 1,197 1,207 1,225 5,317 -1,406 -1,428 -1,463 -1,487 -1,670 -1,812 2}
+{142 1,559 -1}
+{122 1,128 3,142 1,225 1,282 -4,447 -2,597 -1,644 -1,692 -1,734 -1,783 -1,800 -1,812 2}
+{20 1,40 7,70 2,142 3,179 2,190 2,205 2,207 1,225 2,236 1,254 1,295 -1,414 -1,543 -1,812 2}
+{40 1,70 2,128 1,217 1}
+{73 1,74 1,122 1,128 2,142 1,184 1,190 1,225 2,388 -1,391 -1,511 -1,612 -1,812 2}
+{73 1,128 2,142 1,190 1,225 1,388 -1,612 -1,812 2}
+{60 1,225 1,672 -1,812 2}
+{239 1,811 -1}
+{122 1,190 1,201 1,678 -1}
+{122 1,190 1,201 1,225 1,310 -1,812 2}
+{2 1,64 2,70 2,96 5,161 2,193 1,225 1,249 1,295 -1,310 -1,565 -2,643 -1,682 -1,812 2}
+{70 1,186 3,204 1,224 1,239 1,245 2}
+{40 1,60 2,142 1,169 1,190 1,225 1,594 -1,812 2}
+{122 1}
+{190 1}
+{190 1,225 1,812 2}
+{66 2,85 1,225 1,812 2}
+{122 1,184 1,190 1,201 1,225 2,256 1,310 -1,812 2}
+{70 2,186 6,204 2,239 1,245 2}
+{32 1,64 2,122 1,142 3,190 1,225 4,394 -1,812 2}
+{225 1,812 2}
+{128 1}
+{74 3,256 1,320 -1,394 -1,494 -1}
+{267 2}
+{273 1,310 -1}
+{40 1,60 1,607 -1}
+{60 1,70 1,142 1,225 1,723 -1,812 2}
+{70 1,413 -1,455 -1}
+{70 1,157 1,413 -1,455 -1}
+{70 1,413 -1,455 -1}
+{100 1,142 1,225 4,812 2}
+{64 1,70 1,239 1,413 -1,455 -1,640 -1,682 -1}
+{64 1,70 2,157 1,239 1,413 -1,455 -1,640 -1,682 -1,766 -1}
+{40 1,60 1,142 1,190 2,607 -1}
+{190 1,198 1,494 -1}
+{51 1,190 1,198 1,494 -2}
+{64 1,70 1,239 1,413 -1,455 -1,640 -1,682 -1,766 -2}
+{104 2,225 2,453 -1,686 -1,812 2}
+{225 1,453 -1,812 2}
+{74 1,239 1,695 -3}
+{190 1,225 2,812 2}
+{106 3,128 2,142 7,168 1,190 2,197 3,239 2,270 1,588 -2,691 -1,812 2}
+{122 1,192 1}
+{723 -1}
+{225 2,453 -1,812 2}
+{60 1,122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{70 2,128 1,135 1,372 -1}
+{122 1}
+{142 1,546 -1}
+{142 1}
+{128 1}
+{225 1,812 2}
+{51 1,142 3,258 1,672 -1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{32 1,96 1,259 1,377 -7,546 -1,675 -2,691 -1}
+{84 1,142 3,546 -1}
+{85 2,96 3,225 1,556 -1,672 -1,702 -1,774 -1,812 2}
+{32 1}
+{217 1,310 -1}
+{26 1,51 5,60 1,88 1,130 2,156 1,217 5}
+{595 -1}
+{100 1}
+{32 1,128 1,195 1,259 1,762 -1}
+{128 1,273 1}
+{51 1,96 2,142 1,259 1,262 1,394 -1,559 -1,572 -1,672 -1,686 -1}
+{225 1,239 1,290 -1,812 2}
+{15 1,85 1,377 -1}
+{51 1,217 1,686 -1}
+{142 1}
+{60 1,388 -1}
+{26 1,27 1,32 1,74 1,92 1,190 1,225 1,239 2,413 -1,725 -1,812 2}
+{388 -1}
+{51 1,260 1,723 -1}
+{73 1,100 1,107 1,255 1}
+{51 1,260 1,723 -1}
+{67 1,89 1,128 1,394 -1,588 -1,686 -2,750 -1}
+{73 1,100 1,107 1,255 1}
+{51 1,261 1,262 1}
+{51 1,128 1,239 1,260 1,314 -2,723 -1}
+{51 1}
+{60 1}
+{20 1,523 -1,546 -1,572 -1}
+{85 1,128 1,334 -1,460 -1,572 -1}
+{60 1,190 1}
+{128 1,142 2}
+{487 -3}
+{128 1,334 -1,460 -1,572 -1}
+{128 2,334 -1,460 -1,572 -1}
+{40 2,128 1,151 1,190 1}
+{40 2,128 1,151 1,190 1}
+{40 2,128 1,151 1,190 1,239 1}
+{40 2,128 1,151 1,190 1}
+{128 1,142 2}
+{572 -1}
+{40 2}
+{74 1}
+{66 1,225 1,812 2}
+{225 1,812 2}
+{66 1}
+{58 1,117 1,554 -1}
+{96 1,225 1,259 1,377 -1,511 -1,812 2}
+{20 1,27 1,85 1,190 2,217 1,225 1,445 -1,603 -1,812 2}
+{1 1,59 2,60 4,64 1,70 8,111 1,122 2,128 7,142 1,170 1,198 1,225 3,239 7,248 1,255 2,260 1,261 3,275 1,424 -1,494 -1,554 -1,572 -1,715 -1,723 -1,812 2}
+{58 1,554 -1}
+{92 1,207 1,267 1,381 -1,672 -1}
+{128 2,142 1,190 1,238 1,511 -1}
+{128 1,238 1,511 -1}
+{59 1}
+{83 1,122 1,190 1,193 1,294 -1,314 -1,580 -1,686 -1,723 -1,743 -1}
+{26 1,51 1,66 1,128 1,142 3,225 2,239 1,486 -1,812 2}
+{32 1,225 2,466 -1,812 2}
+{683 -1}
+{51 1,66 1,70 1,142 2,225 2,239 1,812 2}
+{70 1,117 1,190 1,204 1,445 -1}
+{26 1,27 1,32 1,74 1,92 1,190 1,225 1,239 1,725 -1,812 2}
+{12 1,51 1}
+{51 1,59 2,190 1,260 1,310 -1,377 -1,588 -2,723 -1}
+{96 1,98 2,200 1,214 1,572 -3,686 -1}
+{96 1,98 2,201 2,214 1,261 1,388 -1,572 -3,686 -1}
+{32 1,70 1,142 1}
+{96 1,98 2,214 1,572 -1}
+{190 1}
+{26 1,259 1,572 -1,682 -1}
+{128 1,225 3,572 -1,812 2}
+{225 1,812 2}
+{225 1,812 2}
+{40 1,66 1,70 1}
+{204 1}
+{672 -1}
+{554 -1}
+{128 2,142 1,225 1,372 -1,812 2}
+{155 1,168 1,572 -1}
+{128 2,225 1,372 -1,812 2}
+{239 1,572 -1}
+{190 1}
+{686 -1}
+{128 1,513 -2}
+{27 1,60 1,557 -1}
+{85 1,122 1,238 1,464 -1,703 -1}
+{225 1,812 2}
+{225 1,812 2}
+{96 1}
+{554 -1,572 -2}
+{40 1,92 1,96 1,161 1,536 -1,697 -1}
+{95 1,142 1}
+{369 -1}
+{142 1,554 -1}
+{225 2,239 1,572 -1,812 2}
+{142 1,554 -1}
+{207 1,295 -1,394 -1}
+{60 1,200 1}
+{511 -1,572 -1}
+{40 1,92 1,96 1,161 1,536 -1,697 -1}
+{40 1,92 1,96 1,161 1,536 -1,697 -1}
+{70 1}
+{40 1,128 1}
+{40 1,60 1}
+{60 1,117 2,128 1,190 1}
+{261 1,511 -1}
+{70 1,460 -1,572 -1}
+{117 1,554 -1,572 -1,755 -1}
+{128 1,225 1,812 2}
+{155 1,783 -1}
+{96 2,572 -1,723 -1}
+{96 1}
+{122 1,239 2}
+{96 1,192 1,262 1,546 -1,548 -1}
+{70 1,96 2,150 1,572 -1,641 -1,686 -1}
+{51 1,142 1,225 1,812 2}
+{142 1,192 1,198 1,572 -1}
+{70 2,190 2,193 1,201 3,235 1,290 -1,428 -1,743 -1}
+{70 2,193 1,201 2,235 1,290 -1,428 -1,743 -1}
+{70 1,90 1,217 1,743 -1}
+{644 -1}
+{60 1,225 1,703 -1,812 2}
+{60 1,225 2,812 2}
+{32 3,51 1,96 1,122 1,135 1,142 2,164 2,198 1,225 2,261 1,276 1,372 -1,394 -1,548 -8,551 -1,572 -1,812 2}
+{60 1}
+{270 1}
+{70 1,225 1,812 2}
+{122 2,128 1,135 1,225 1,394 -1,548 -3,812 2}
+{142 1,239 1}
+{128 1}
+{26 1,51 1,61 1,70 1,96 1,122 1,190 1,686 -1}
+{14 1,26 1,28 1,67 1,70 1,105 2,122 1,128 2,135 1,142 2,150 1,168 2,190 1,192 2,217 1,225 2,239 1,256 1,288 -1,369 -1,394 -2,414 -1,448 -2,482 -1,494 -1,566 -1,588 -1,675 -1,687 -1,691 -1,787 -1,812 2}
+{51 1,109 1,142 1,149 1,379 -1,548 -1,554 -1,572 -2,631 -1,743 -1}
+{128 1,170 1,811 -1}
+{128 1,170 1,811 -1}
+{70 1,142 1}
+{70 1,122 1,128 1,154 1,225 1,812 2}
+{128 1,142 1,225 1,572 -1,812 2}
+{295 -1,672 -2,686 -1}
+{298 -1,326 -1,450 -1,487 -1,548 -1,753 -1}
+{207 1,225 2,812 2}
+{207 1,225 1,812 2}
+{128 1,225 1,812 2}
+{60 1,70 1,96 1,107 1,135 1,239 1,333 -1}
+{73 2,92 1,96 1,128 1,142 1,170 1,207 1,304 -1,513 -1,618 -1,631 -1,735 -1,743 -1,771 -1}
+{142 1}
+{128 1}
+{60 1}
+{26 1,50 1,111 1,128 1,655 -1}
+{26 1,50 1,111 1,128 1,655 -1}
+{310 -1}
+{51 1,122 1,128 1,276 1,588 -1}
+{122 1,128 1,142 1,259 1,372 -1,546 -1,660 -2,697 -1}
+{239 1}
+{190 2}
+{128 1,572 -2}
+{146 1,204 1,239 1}
+{122 1}
+{32 1,60 1,75 1,142 1,154 1,190 1,225 1,294 -1,310 -1,333 -3,377 -3,394 -1,494 -3,578 -1,723 -2,812 2}
+{225 1,294 -1,333 -3,377 -4,494 -2,716 -1,723 -2,812 2}
+{142 1,154 1,190 1,225 1,239 1,294 -1,310 -1,333 -3,377 -4,394 -1,494 -3,716 -1,723 -2,812 2}
+{128 1,190 1,225 1,572 -2,812 2}
+{208 1,551 -1}
+{142 1,310 -1}
+{60 1,85 1,128 1,228 1,260 1,572 -3}
+{128 1,190 1,572 -1}
+{391 -1}
+{190 1}
+{190 1}
+{190 1}
+{273 1,276 1,317 -1}
+{225 1,812 2}
+{225 1,812 2}
+{394 -1}
+{394 -1}
+{40 1,70 1,92 1,342 -1}
+{156 1}
+{648 -2}
+{70 1,97 1,239 1,546 -1}
+{107 1,122 1,142 1}
+{190 1,201 3,218 1}
+{64 1}
+{133 1,190 1,486 -1,487 -1}
+{122 1,225 1,812 2}
+{122 1,225 2,812 2}
+{20 3,32 2,40 2,66 1,70 1,107 1,124 1,128 1,140 1,170 1,225 1,282 -1,427 -1,460 -1,536 -1,613 -1,648 -1,672 -4,691 -1,812 2}
+{85 1,225 3,812 2}
+{122 1,225 2,812 2}
+{51 1,111 1,259 1,572 -1,750 -3}
+{70 1,96 1,298 -1,414 -2,548 -1,572 -1,723 -1}
+{122 1,225 1,394 -1,572 -4,812 2}
+{128 1,225 1,672 -1,812 2}
+{9 1,20 1,47 1,59 2,96 1,122 1,128 3,136 1,142 2,190 1,217 1,225 3,255 1,376 -1,675 -1,686 -3,812 2}
+{85 1,225 2,812 2}
+{122 1}
+{70 2,96 1,298 -1,414 -2,548 -1,572 -2,723 -2}
+{96 1,235 1,239 1,273 1,648 -1}
+{12 1,70 1,190 3,225 1,232 1,812 2}
+{20 2,27 1,73 1,260 1}
+{70 1,92 1}
+{12 1,70 1,190 3,225 1,232 1,812 2}
+{156 1}
+{260 1}
+{607 -1}
+{167 1,225 2,560 -1,572 -1,812 2}
+{83 1}
+{70 1}
+{107 1,122 1}
+{107 1,122 1}
+{107 1,122 2,494 -1}
+{190 1,201 2,218 2}
+{20 1,51 1,70 3,107 1,122 1,125 1,190 2,494 -1,513 -1,566 -1,672 -4,686 -1,812 2}
+{70 1,97 1,239 1,546 -1}
+{40 1,51 2,67 1,70 1,101 1,122 1,170 1,225 4,276 1,310 -1,463 -1,572 -3,812 2}
+{83 1,554 -1,572 -1}
+{40 1,41 1,70 1,89 2,146 1,190 2,202 1,282 -2,294 -1,316 -1,333 -1,376 -3,377 -1,458 -1,513 -1,563 -2,644 -1,686 -1,756 -1,796 -1,812 2}
+{156 1,413 -1}
+{276 1}
+{225 1,812 2}
+{572 -1}
+{195 1}
+{40 1,70 1,96 1,122 1,128 1,142 1,176 1,239 1,255 1,261 1,320 -1,394 -1,419 -1,466 -1,563 -1,590 -1,640 -1,672 -1,674 -1,686 -1,793 -1}
+{128 1}
+{60 1,142 1,190 1,310 -1}
+{32 1,142 1,154 1,190 1,225 1,294 -1,310 -1,333 -3,377 -3,394 -1,494 -3,723 -2,812 2}
+{60 1,572 -1,783 -2}
+{60 1,572 -1,783 -2}
+{51 1,56 1,70 1,155 1,190 1,239 1,588 -1}
+{243 1,572 -1}
+{64 1,70 3,259 2,377 -4,723 -2}
+{97 1,128 1}
+{51 1}
+{276 1}
+{60 1,190 1,572 -1,783 -2}
+{128 1}
+{26 1,50 1,111 1,128 1,655 -1}
+{26 1,50 1,111 1,128 1,655 -1}
+{26 1,50 1,111 1,128 1,655 -1}
+{122 1,225 1,394 -1,572 -6,812 2}
+{128 1}
+{122 1,641 -1,783 -1}
+{60 2,117 1,554 -1,783 -6}
+{128 1,190 2,225 1,572 -3,812 2}
+{70 1,142 1}
+{60 2,117 1,554 -1,783 -6}
+{60 1,70 1,73 2,92 1,96 3,128 1,135 1,142 1,170 1,192 1,239 1,304 -1,513 -1,618 -1,631 -1,735 -1,771 -1}
+{261 1,723 -1}
+{60 1,70 1,128 1,225 2,812 2}
+{618 -1}
+{207 1,225 2,812 2}
+{60 1,217 1,239 1,572 -1,783 -2}
+{59 1,128 1,190 1}
+{239 1,572 -1}
+{27 1,142 1,225 4,270 1,812 2}
+{40 1,105 1,270 1,472 -1,572 -1}
+{618 -1}
+{225 1,284 -1,812 2}
+{40 1}
+{1 1,12 2,128 1,139 1,170 1,196 1,280 -1,282 -2,376 -2,578 -1,624 -1,648 -2,686 -1,691 -2,723 -1}
+{298 -1,326 -1,450 -1,487 -1,548 -1,753 -1}
+{83 1,554 -2,572 -2}
+{97 1,128 1}
+{572 -1}
+{122 1,128 1,154 1}
+{70 1,139 1}
+{128 1,170 1,811 -1}
+{70 1,128 1,170 1,204 1,572 -1,811 -1}
+{70 1,198 1,265 3,487 -1,686 -1}
+{128 1}
+{726 -1}
+{155 1}
+{85 1,239 1}
+{128 1}
+{142 1,572 -1}
+{55 1,67 1,70 1,198 1,265 3,487 -1,572 -1,686 -1,753 -1}
+{40 2,70 1,201 1}
+{122 2,128 1,190 1,282 -1}
+{55 1,67 1,70 1,128 1,198 1,239 1,265 3,487 -1,572 -2,672 -2,686 -1,753 -1}
+{572 -1}
+{96 2,546 -1,548 -1,572 -1}
+{225 1,812 2}
+{225 1,812 2}
+{85 1,122 1,128 1,239 1,377 -1,572 -1,686 -1}
+{84 1,217 1,572 -1}
+{60 1}
+{70 2,225 1,239 1,812 2}
+{70 2,190 2,193 1,201 3,235 1,290 -1,428 -1,743 -1}
+{40 1}
+{128 1,239 1,403 -1}
+{70 2,190 2,193 1,201 3,235 1,290 -1,428 -1,743 -1}
+{49 1,225 2,812 2}
+{59 2,66 1,70 1,259 1,686 -1}
+{60 1,117 2,554 -2,572 -2,641 -1}
+{60 1,117 1,225 1,554 -1,572 -1,641 -1,812 2}
+{12 1,41 1,51 1,88 1,101 1,115 1,155 1,184 1,190 1,193 1,206 1,217 2,225 1,267 1,343 -1,561 -5,609 -1,656 -1,669 -1,726 -1,812 2}
+{1 1,32 1,51 2,66 3,70 5,92 1,96 2,122 1,128 4,135 1,137 2,139 1,146 1,190 2,193 1,195 1,203 1,204 1,225 7,239 1,245 1,257 2,261 1,280 -1,314 -1,319 -1,320 -1,376 -2,388 -1,394 -1,395 -1,428 -2,439 -1,466 -1,482 -1,486 -2,487 -1,494 -2,513 -1,660 -1,670 -1,672 -1,678 -2,686 -1,702 -1,726 -1,743 -4,749 -1,778 -2,795 -1,800 -1,804 -1,812 1}
+{142 1,225 1,783 -1,812 2}
+{51 1,70 1,80 2,122 1,225 1,256 1,461 -1,563 -5,675 -1,686 -3,697 -1,812 2}
+{142 1,192 1,198 1,572 -1}
+{224 1,225 2,812 2}
+{19 1,41 1,54 1,70 1,82 1,142 2,184 1,225 1,235 1,261 2,262 1,281 -1,282 -2,292 -1,304 -1,322 -1,364 -1,376 -1,433 -1,464 -1,465 -1,466 -1,536 -1,544 -2,559 -1,640 -2,677 -1,682 -1,719 -1,812 2}
+{40 1}
+{1 1,23 3,28 1,32 3,38 1,51 2,59 1,70 1,74 6,96 2,127 2,135 1,142 2,168 1,170 1,187 1,195 1,207 1,260 1,263 1,270 1,319 -1,394 -1,395 -1,434 -1,486 -2,546 -1,574 -1,588 -2,723 -1,767 -1,800 -1,812 1}
+{128 1,239 1}
+{572 -2}
+{40 1,60 1,460 -1}
+{12 1,70 1,190 4,225 1,232 1,812 2}
+{572 -3}
+{97 1}
+{59 1,65 1,74 2,127 1,128 2,165 1,207 1,239 1,257 1,260 1,377 -4,395 -1,588 -1,672 -1,758 -1}
+{783 -1}
+{26 1,128 1,142 1,239 1,403 -1,530 -1,726 -1}
+{783 -1}
+{723 -1}
+{70 1,460 -1,572 -1}
+{40 1,51 1,255 1,259 1,403 -1,472 -3,726 -1,781 -1,787 -1}
+{71 1,95 1,117 1,142 1,154 2,214 1,260 1,299 -1,338 -1,414 -1,472 -2,536 -1,588 -1,595 -2}
+{40 1,41 1,122 1,160 5,161 1,176 1,207 1,215 1,276 1,404 -1,672 -3}
+{149 2}
+{0 1,15 1}
+{11 1,12 1,27 1,29 1,46 1,51 1,63 2,78 1,88 1,108 1,117 1,122 2,123 1,128 2,130 1,142 1,155 10,157 1,173 1,183 1,190 3,217 1,225 3,231 1,258 1,266 1,267 2,314 -1,315 -1,410 -1,671 -1,743 -1,812 2}
+{64 1,70 1,74 1,96 2,125 5,127 1,192 1,217 1,239 1,255 1,259 2,277 1,294 -1,315 -1,379 -1,386 -1,403 -4,414 -1,472 -4,536 -1,548 -2,682 -1,723 -1,734 -1,765 -1,774 -1}
+{51 1}
+{1 1,32 1,314 -1,388 -1,527 -1,566 -1,682 -2,691 -1,748 -1}
+{267 2}
+{51 1,96 3,170 1,255 4,321 -3,366 -1,459 -4,472 -2,486 -2,487 -2,551 -1,691 -1}
+{239 3,260 1,314 -1,513 -1,572 -2,691 -1,743 -2}
+{31 1,160 1,161 3,259 1,450 -3,459 -1,472 -3,487 -2,682 -1}
+{40 1,41 1,150 1,155 1,168 1,267 1,811 -1}
+{66 1,70 1,111 1,142 1,238 1,260 1,372 -1}
+{723 -1}
+{723 -1}
+{142 1}
+{225 1,239 1,733 -1,812 2}
+{23 3,26 2,27 1,38 1,40 2,50 1,51 1,59 1,62 1,66 1,70 1,73 1,74 1,85 1,95 1,96 1,125 2,127 1,128 2,132 2,142 2,149 1,165 4,168 6,170 1,190 1,198 1,239 1,255 1,257 1,261 2,310 -2,377 -3,386 -2,395 -2,403 -3,405 -3,410 -1,487 -2,498 -1,530 -1,536 -1,545 -1,546 -2,572 -1,588 -4,604 -1,644 -1,672 -1,697 -1,723 -1,755 -1,812 1}
+{142 1,554 -1}
+{40 1,66 1,81 1,83 1,92 1,96 1,122 1,142 1,161 1,190 1,536 -1,697 -1}
+{59 1,190 1,225 1,239 1,733 -1,812 2}
+{40 1,204 1,315 -1}
+{70 2,96 4,142 1,225 1,812 2}
+{70 2,122 1,473 -1,554 -1}
+{40 1,66 1,70 1,81 1,83 1,92 1,96 1,122 1,142 1,161 1,190 1,536 -1,697 -1}
+{73 1,135 1,149 1,403 -2,472 -2,494 -1,554 -1,691 -1,726 -4,774 -2}
+{40 1,572 -1}
+{95 1,142 1}
+{168 1,225 1,588 -1,812 2}
+{70 1,122 1,128 1,170 1}
+{225 1,812 2}
+{225 1,812 2}
+{468 -1}
+{40 1,670 -1}
+{60 2,225 1,572 -1,783 -2,812 2}
+{142 2,217 3,255 1,386 -1,450 -3,472 -2,486 -2,531 -1}
+{686 -1}
+{26 1,142 1,260 1,266 1,454 -1,546 -1,578 -1,767 -1}
+{92 1}
+{92 1}
+{26 1,142 1,260 1,266 1,454 -1,546 -1,578 -1,767 -1}
+{40 1,239 2}
+{355 -1}
+{29 1,40 1,51 1,168 1,190 1,534 -1,553 -1}
+{29 1,40 2,51 1,168 1,190 1,534 -1,553 -1}
+{34 2,62 1,96 2,117 1,135 1,142 1,170 1,198 1,217 1,260 1,393 -1,403 -2,414 -1,497 -1,587 -1,774 -3}
+{121 1,142 1}
+{40 1,128 1,225 1,239 2,414 -1,723 -1,812 2}
+{207 1}
+{70 1,128 1,513 -2}
+{128 2,225 1,372 -1,812 2}
+{168 1}
+{128 2,225 1,372 -1,812 2}
+{128 2,142 1,225 1,257 1,372 -1,812 2}
+{60 1,70 1,117 1,128 2,142 1,155 1,190 1,282 -2}
+{70 1}
+{225 1,812 2}
+{1 1,26 1,28 1,136 1,142 2,672 -1,686 -1,702 -1}
+{51 1,59 2,190 1,260 1,310 -1,377 -1,588 -2,723 -1}
+{128 2,225 1,372 -1,812 2}
+{96 1,98 2,201 1,214 1,261 1,572 -2,686 -1}
+{34 2,40 2,60 1,70 2,96 1,113 1,122 1,127 1,128 2,149 1,190 1,192 1,198 1,207 1,225 2,239 1,245 1,255 1,260 1,270 2,391 -1,394 -1,420 -1,487 -1,546 -2,588 -9,682 -2,686 -1,754 -1,805 -1,812 1}
+{51 1}
+{74 1,190 1,225 1,239 1,812 2}
+{32 1,63 1,70 1,142 1}
+{26 1,70 4,96 5,128 1,142 1,198 1,225 1,812 2}
+{12 1,51 1}
+{29 1,51 1,70 1,128 1,190 1}
+{12 1,51 1}
+{686 -1}
+{74 1,190 2,225 1,239 1,812 2}
+{225 1,239 1,812 2}
+{142 1,225 1,239 1,812 2}
+{572 -2}
+{26 1,74 1,190 1,225 2,239 1,546 -1,812 2}
+{29 1,108 1,122 2,127 1,128 1,142 1,190 1,242 1,494 -1,572 -2}
+{51 1,142 1,225 1,239 1,812 2}
+{26 1,27 1,32 1,74 1,92 1,190 1,225 1,239 2,725 -1,812 2}
+{29 1,108 1,122 2,127 1,128 1,142 1,190 1,242 1,494 -1,572 -3}
+{142 1,190 1,199 1}
+{190 1,225 1,499 -1,812 2}
+{60 1}
+{566 -1}
+{225 1,572 -2,672 -15,812 2}
+{32 1,96 1,98 2,201 2,214 1,261 1,388 -1,572 -4,686 -1}
+{142 1,190 1,193 1,225 1,812 2}
+{83 1,122 1,190 1,294 -1,314 -1,580 -1,686 -1,723 -1,743 -1}
+{121 1}
+{168 1,225 1,812 2}
+{70 1,734 -2}
+{40 1}
+{96 1,122 1,217 1,225 1,660 -1,812 2}
+{40 1,51 1,64 1,150 1,170 3,217 3,259 1,270 1,310 -1,403 -1,414 -1,430 -1,472 -3,573 -1,588 -1,672 -1}
+{5 1,115 1}
+{92 1,207 1,267 1,381 -1,672 -1}
+{146 1,260 1}
+{20 1,66 1,287 -1,294 -2,578 -12,682 -5,691 -1,767 -1}
+{74 1}
+{70 2,310 -3,377 -1}
+{96 5,128 3,142 1,186 1,218 1,221 1,260 1,265 1,306 -1,323 -1,548 -2,588 -8,672 -1}
+{1 1,96 5,128 4,142 1,186 1,218 1,221 1,239 1,260 1,265 1,306 -1,323 -1,414 -1,548 -2,588 -8,672 -1,726 -1}
+{157 1}
+{249 1}
+{40 1,59 1,142 1}
+{73 1,96 1,119 1,192 2,495 -1}
+{96 1,572 -2,672 -11}
+{70 1,128 1}
+{70 1,128 1}
+{128 1}
+{29 1,60 1,92 1,225 1,812 2}
+{572 -2}
+{51 1,96 4,133 1,142 1,170 1,235 1,255 1,260 1,261 1,376 -1,377 -1,472 -1,566 -1,572 -2}
+{256 1,294 -1,416 -1,641 -1}
+{142 1,293 -1,686 -1}
+{64 1}
+{38 1,135 1,165 1,225 1,372 -1,548 -2,812 2}
+{40 2}
+{40 2,128 1,151 1}
+{190 1}
+{128 1,334 -1,572 -1}
+{96 2,414 -1,438 -1,459 -1,486 -3,641 -1,760 -1}
+{15 1,70 1,96 1,128 3,142 3,190 1,225 1,812 2}
+{60 1,128 1,783 -1}
+{12 1,20 1,96 1,170 1,376 -1,686 -1,702 -1,731 -1}
+{51 2,70 1,128 1,142 2,146 1,334 -3,460 -1,572 -1,697 -2,723 -1}
+{225 1,487 -3,812 2}
+{192 1}
+{27 1,128 1}
+{70 1,155 1,739 -1}
+{40 1,96 1,128 1,142 1}
+{1 4,20 2,22 1,34 2,38 1,40 1,51 1,64 1,70 2,74 1,82 1,96 11,97 1,104 1,128 2,135 1,142 4,149 3,150 1,154 1,165 1,168 4,170 1,188 1,192 1,198 1,225 1,235 1,239 3,243 1,255 1,260 7,266 1,270 1,310 -11,357 -1,372 -1,394 -3,405 -1,429 -1,430 -1,448 -1,464 -1,487 -3,497 -1,546 -4,548 -1,558 -1,566 -1,588 -3,670 -1,682 -1,686 -2,723 -2,787 -1,812 1}
+{51 1,261 2,262 1,686 -2}
+{111 1,201 1}
+{26 1,27 1,32 1,74 1,92 1,190 1,225 1,239 2,413 -1,725 -1,812 2}
+{85 1,128 1,334 -1,460 -2,783 -1}
+{70 1,128 1,631 -1}
+{388 -1}
+{40 4,126 2,142 1,170 1,217 2,259 1,394 -1,472 -1,486 -2,546 -1,702 -1}
+{783 -1}
+{11 1,32 1,42 1,51 3,70 2,128 1,142 2,204 1,217 1,225 2,262 1,270 1,271 1,310 -1,334 -1,372 -1,376 -1,377 -1,460 -1,467 -1,546 -1,551 -1,572 -1,590 -1,670 -2,672 -2,686 -1,694 -1,812 2}
+{108 1}
+{142 1}
+{38 1,70 1,207 1,225 1,461 -1,812 2}
+{142 1,706 -1,743 -1}
+{1 1,51 1,97 3,217 1,259 1,495 -1,682 -1,781 -1}
+{96 1}
+{70 1,108 1,225 2,262 1,812 2}
+{40 2,85 1,207 1,487 -1,528 -1,783 -1}
+{40 1,96 1,743 -1}
+{56 2,70 1,259 1,314 -1,472 -1,487 -2}
+{641 -1}
+{56 1}
+{26 1,74 1,128 3,149 1,168 3,218 1,239 1,256 1,377 -1,497 -1,578 -1,588 -1,669 -1,672 -1,715 -1}
+{36 1,51 2,672 -1}
+{63 1,128 1,225 1,246 1,273 1,388 -1,812 2}
+{290 -1}
+{73 1,100 1,107 1,108 1,255 1}
+{142 1,290 -2}
+{51 1,96 2,142 1,259 1,262 1,394 -1,559 -1,572 -1,672 -1,686 -1}
+{142 1}
+{40 1}
+{40 1,190 1,225 2,290 -2,812 2}
+{51 1,225 1,812 2}
+{26 1,168 1,225 2,812 2}
+{74 1,92 2,97 1,117 1,142 1,189 3,299 -1,315 -1,380 -1,386 -1,403 -3,450 -2,610 -1}
+{265 1}
+{15 1,40 1,70 1,192 1,261 2}
+{70 1,122 1,128 1,142 2,192 1,572 -1}
+{463 -1}
+{40 1,70 1,142 1,190 1,225 2,290 -2,812 2}
+{64 1}
+{1 1,2 1,51 1,73 4,80 1,135 1,149 1,157 2,170 1,195 1,225 1,241 1,261 1,334 -1,377 -2,386 -1,428 -1,438 -1,458 -1,507 -3,545 -1,547 -1,578 -1,588 -1,725 -1,743 -2,759 -1,779 -1,786 -1,806 -1,812 2}
+{122 1,190 1}
+{672 -1}
+{310 -1}
+{122 1,142 1,203 1,363 -1}
+{572 -3}
+{40 1}
+{1 1,40 1,41 1,96 1,168 1,208 1,225 1,262 1,276 1,572 -2,648 -1,723 -1,812 2}
+{122 1,135 1,190 1,220 1,259 1,403 -1,672 -3,675 -1}
+{32 4,39 1,128 1,177 1,239 1,261 1,481 -4,540 -1,575 -2,673 -2,751 -1}
+{27 1,239 1,783 -1}
+{51 1}
+{128 1,142 1,190 1,217 1}
+{204 1}
+{125 2,142 1}
+{70 1,128 1,142 1,190 1,201 1,400 -1,553 -3}
+{64 1,217 1}
+{104 1}
+{128 1,190 1,201 1,553 -2}
+{201 2,394 -1,413 -1,644 -1}
+{640 -1}
+{70 1,128 1,142 2,190 1}
+{85 1,691 -2}
+{51 1,310 -1,686 -2}
+{85 1,190 1,691 -2}
+{644 -2}
+{85 1,132 1,142 1,225 2,812 2}
+{265 1}
+{51 1,60 1,64 1,198 1,225 1,265 4,812 2}
+{74 1,641 -1}
+{241 1}
+{70 1,413 -1}
+{644 -1}
+{128 1}
+{157 1,190 1,692 -1}
+{261 1}
+{70 1,686 -1}
+{27 1,70 1,128 2,192 1,262 1,394 -1,395 -4,546 -3,623 -1,640 -1,686 -2}
+{260 1}
+{672 -1}
+{128 1,225 2,812 2}
+{168 2,245 1,672 -1}
+{262 1,310 -1}
+{51 1,265 1}
+{111 1,190 1,282 -1}
+{262 1}
+{262 1,310 -1}
+{128 3,225 2,812 2}
+{186 1,486 -1}
+{201 1,225 1,257 1,812 2}
+{128 1}
+{29 1,128 1,168 1,290 -3,394 -2,572 -1}
+{96 1,495 -1,672 -1}
+{40 1,60 1,85 1,96 1,113 1,128 1,190 2,225 1,239 1,267 1,339 -1,812 2}
+{574 -1}
+{32 1,599 -1,672 -3}
+{225 1,812 2}
+{225 1,812 2}
+{70 1,142 1,191 1,330 -1,672 -1}
+{40 1}
+{70 1,142 1}
+{122 1,239 1}
+{70 3,92 1}
+{40 1,96 1,142 1,495 -1,672 -1,697 -1}
+{40 1,60 1,111 1,190 1,217 2,225 1,812 2}
+{225 1,812 2}
+{310 -1,320 -1}
+{672 -1}
+{310 -1,320 -1,672 -1}
+{241 1}
+{32 1,60 1,261 1,599 -1,672 -3}
+{40 1,85 2}
+{59 1,142 1}
+{128 1}
+{51 1,60 1,64 1,198 1,265 4}
+{225 1,812 2}
+{128 1,191 1}
+{641 -1}
+{70 1,122 1,413 -2}
+{641 -1}
+{155 1,241 1,408 -1}
+{20 1,122 1,128 1,142 1,259 1,372 -1,644 -1,798 -1}
+{644 -1}
+{128 1,424 -1}
+{168 2,204 1,256 1}
+{209 1}
+{51 1,265 1}
+{45 1,204 1,487 -1}
+{40 1,51 1,265 1}
+{225 1,424 -1,812 2}
+{265 1}
+{51 1,60 1,64 1,198 1,225 1,265 4,812 2}
+{574 -1}
+{51 2,60 1,64 1,198 1,225 1,265 4,812 2}
+{51 1,60 1,64 1,198 1,225 1,251 1,265 4,812 2}
+{85 1,132 1,142 1,225 1,812 2}
+{494 -1}
+{85 1,132 1,142 1,225 1,812 2}
+{122 1}
+{51 1,60 1,64 1,198 1,225 1,265 4,812 2}
+{51 1,260 1}
+{29 1,201 1,424 -1}
+{201 1,225 1,812 2}
+{607 -1,743 -1}
+{40 1,225 1,812 2}
+{29 1,128 2,137 1,142 1,190 1,193 2,202 1,258 1}
+{40 2,691 -1}
+{142 1,239 1,783 -1}
+{491 -1}
+{92 1,96 3,139 1,588 -2,672 -3}
+{85 1,691 -1}
+{128 1,239 1,783 -1}
+{686 -1}
+{239 1,310 -1}
+{60 1,96 1,186 2,394 -1}
+{128 1,190 1,553 -1}
+{142 3}
+{60 1,117 1}
+{85 1,217 1,691 -3}
+{73 1,142 3}
+{142 4}
+{60 1,85 1,219 1}
+{491 -1}
+{295 -1,461 -1,750 -1}
+{640 -1}
+{15 1,225 1,241 1,262 2,812 2}
+{64 2}
+{70 1,394 -1,631 -1,640 -1}
+{201 1,413 -1}
+{60 2,96 3,142 1,154 1,225 1,310 -1,812 2}
+{70 1,96 1,128 1,142 2,161 1,198 1,223 1,294 -1,372 -1,626 -1}
+{128 1,225 1,812 2}
+{104 1}
+{64 1,217 1}
+{85 1,157 1,219 1}
+{29 1,104 1,135 1}
+{64 1,217 1}
+{40 1,142 2,310 -1}
+{260 1}
+{260 1}
+{60 1,96 2,168 1,190 1,588 -1}
+{122 2,128 1,142 1}
+{225 1,812 2}
+{60 1}
+{70 1,128 1,190 1,201 1,400 -1,553 -3}
+{45 1,672 -1}
+{225 1,812 2}
+{125 1}
+{239 1,783 -1}
+{104 1}
+{217 1,239 1,783 -1}
+{117 1}
+{27 1,128 1}
+{239 1,783 -1}
+{27 1,273 1}
+{70 1}
+{60 1}
+{40 1,96 2,122 2,128 1}
+{40 1}
+{111 1}
+{40 1,66 1,257 1}
+{111 1,201 1}
+{70 1}
+{265 1}
+{265 1}
+{70 1,155 2,190 1,225 1,812 2}
+{70 1}
+{572 -1}
+{463 -1}
+{51 1}
+{783 -1}
+{40 2,41 1,64 1,142 2}
+{60 1,96 1,255 8,414 -1,546 -1,778 -1}
+{51 1,186 1,190 1}
+{225 2,812 2}
+{122 1,161 1}
+{2 1,20 1,40 1,60 1,70 1,190 2,198 1}
+{257 1}
+{27 1,239 1,783 -1}
+{27 1,239 1,783 -1}
+{128 1}
+{256 2,314 -1}
+{36 1}
+{394 -1,783 -1}
+{26 1,128 1}
+{122 2,128 3,190 1,192 2,393 -1,453 -3,672 -1,767 -1}
+{128 1}
+{40 1,66 1,257 1}
+{40 1,60 1}
+{51 1,60 1}
+{96 1}
+{204 1}
+{40 1,225 2,812 2}
+{201 1}
+{34 1,96 2,270 1,482 -1}
+{119 1}
+{70 1,204 1}
+{225 1,260 1,812 2}
+{66 1,691 -1}
+{74 1}
+{672 -3,734 -1}
+{66 1}
+{60 1,128 1,783 -1}
+{27 1,142 1,262 1}
+{672 -3,734 -1}
+{96 1,207 1,443 -2,546 -2,620 -1}
+{142 1,262 1}
+{51 1,122 1,207 1,282 -1}
+{190 1}
+{225 1,686 -1,812 2}
+{132 1,142 2}
+{198 1,239 1,255 1,377 -1}
+{394 -1}
+{122 1,128 1,142 1,198 2,672 -4,755 -1}
+{70 3,142 3,198 1,238 3,261 1,310 -3,372 -1}
+{70 3,142 2,198 1,238 3,261 1,310 -3,372 -1}
+{686 -1}
+{70 3,122 1,142 2,198 1,238 3,310 -3,372 -1,686 -1}
+{51 1,128 1,239 1,255 1,260 1,377 -1,702 -1,795 -4}
+{74 1,128 1,225 1,255 1,686 -1,812 2}
+{70 2,217 1,697 -1}
+{70 2,217 1,697 -1}
+{70 3,142 2,198 1,238 3,310 -3,372 -1}
+{190 1}
+{692 -1}
+{225 1,812 2}
+{190 1}
+{225 1,239 1,298 -1,599 -1,812 2}
+{70 1,546 -1}
+{51 1,66 1,70 1,96 5,631 -1,686 -1}
+{239 1,686 -1}
+{225 1,261 1,686 -2,812 2}
+{20 1,41 1,128 1,168 1,225 2,397 -1,812 2}
+{51 1,323 -1,678 -1,800 -1}
+{40 1,190 1}
+{41 1,225 2,812 2}
+{41 1,225 2,812 2}
+{70 1,192 1}
+{70 1,546 -1}
+{70 3,85 1,104 1,142 1,170 1,225 1,238 2,277 1,310 -1,323 -1,494 -2,672 -1,683 -1,710 -1,723 -1,812 2}
+{22 1,225 1,732 -1,812 2}
+{207 1}
+{40 1,122 1}
+{51 1,155 1,623 -1,670 -1}
+{26 1,40 2,70 2,111 1,167 1,207 1,225 1,239 1,270 1,572 -1,812 2}
+{51 1,70 1,107 1,142 1,154 1,265 1,455 -1,526 -2,640 -1,672 -1,686 -1,714 -1,723 -2}
+{74 1,122 1,394 -1,544 -1}
+{128 1}
+{70 1}
+{60 1}
+{70 1,122 1}
+{70 1,122 1}
+{85 1,487 -1}
+{265 2}
+{128 1,142 1}
+{265 1}
+{40 1,265 1}
+{20 2,51 6,73 2,85 3,122 1,198 1,206 1,265 2,270 1,291 -1,310 -1,372 -1,438 -2,487 -5,691 -1,702 -1,812 1}
+{20 2,51 6,73 2,85 3,122 1,198 1,206 1,265 2,270 1,291 -1,310 -1,372 -1,438 -2,487 -5,691 -1,702 -1,812 1}
+{128 1}
+{217 1}
+{265 1}
+{265 1}
+{70 1,142 1,155 1,388 -1,726 -1}
+{70 1,190 1,225 1,812 2}
+{225 1,265 1,812 2}
+{265 1}
+{265 1}
+{265 1}
+{70 1,607 -1}
+{265 1}
+{265 1}
+{128 1}
+{70 1}
+{413 -1}
+{265 1}
+{60 1,64 1,265 1}
+{97 1}
+{265 1}
+{64 1}
+{64 1}
+{64 1}
+{70 1}
+{60 1}
+{70 1,122 1}
+{70 1,122 1}
+{64 1,743 -1}
+{494 -1}
+{265 1}
+{683 -1}
+{225 1,265 5,812 2}
+{273 1}
+{74 1,217 1,262 1}
+{217 1,262 1}
+{783 -1}
+{225 1,265 6,812 2}
+{225 1,700 -1,812 2}
+{70 1}
+{70 1}
+{51 1}
+{64 2,128 1,239 1,260 1,265 2,602 -1,732 -1,734 -1,761 -1}
+{64 1,128 1,239 1,260 1,265 2,602 -1,732 -1,734 -1,761 -1}
+{190 1,225 2,672 -1,812 2}
+{265 1}
+{142 1,260 1,265 1,602 -1,734 -1,761 -1}
+{377 -1}
+{225 2,672 -1,812 2}
+{265 2,394 -1}
+{51 1,66 1,100 1,225 1,239 1,270 1,546 -1,812 2}
+{265 1}
+{96 1}
+{60 1,265 2,487 -1,683 -1}
+{27 1,60 2,142 1,201 1}
+{27 1,60 2,70 1,122 1,214 1}
+{217 1,262 1}
+{27 1,60 2,122 1,214 1}
+{239 2}
+{60 3,167 1}
+{60 3,167 1}
+{265 4}
+{60 1,265 3}
+{119 1}
+{142 1,273 1}
+{262 1}
+{265 3}
+{265 1}
+{198 1}
+{198 1}
+{51 1,282 -1}
+{60 1,142 1}
+{27 1,60 2}
+{60 3}
+{60 2,393 -1}
+{60 3}
+{122 1,239 1}
+{265 1}
+{142 1,265 2,273 1}
+{142 1,265 2,273 1}
+{265 2}
+{265 2}
+{265 1}
+{60 1,265 2,487 -1,683 -1}
+{60 1,64 1,117 1,697 -1}
+{265 1}
+{190 1,225 2,672 -1,812 2}
+{259 2,294 -1,377 -2,536 -1,583 -1,672 -1,716 -1}
+{190 1,225 2,672 -1,812 2}
+{239 1,265 2}
+{100 1}
+{265 1}
+{64 1,128 1,239 1,260 1,265 1,602 -1,732 -1,734 -1,761 -1}
+{260 1,602 -1,734 -1,761 -1}
+{217 1,262 1}
+{64 2,128 1,239 1,260 1,265 2,602 -1,732 -1,734 -1,761 -1}
+{64 2,128 1,239 1,260 1,265 3,602 -1,732 -1,734 -1,761 -1}
+{265 3}
+{208 1}
+{70 1}
+{239 1}
+{26 1,70 1,80 1}
+{26 1,60 1,80 1,122 1,128 1,201 1,217 1,225 1,261 1,267 1,333 -1,812 2}
+{26 1,51 1,60 1,80 1,122 2,128 1,201 1,213 3,217 2,225 1,246 1,261 1,273 1,294 -1,333 -1,812 2}
+{510 -1}
+{74 1,682 -1,697 -1}
+{453 -2}
+{697 -1}
+{697 -1}
+{672 -1}
+{21 1,26 3,69 1,70 2,74 1,96 3,128 1,135 1,149 1,170 1,222 1,224 1,245 1,252 2,362 -2,743 -1}
+{373 -1}
+{59 1,178 1,596 -1,686 -6}

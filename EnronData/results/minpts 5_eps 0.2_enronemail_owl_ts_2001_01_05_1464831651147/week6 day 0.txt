@@ -1,0 +1,27 @@
+size:26
+<33144:Other-[promised]>
+<33156:Other-[outstanding, work, like, grateful, like, appreciate, goodwill, -delay, goodwill, wonder, best, recommend, fair, satisfied, fair, work, -hefty, trust]>
+<33157:Other-[good, decent]>
+<141370:Other-[good]>
+<154584:Other-[good, well, good]>
+<214732:Other-[beloved]>
+<214733:Other-[awesome, good, beloved, personalized]>
+<95089:Other-[hot, accurate, available, hot, -unable]>
+<33159:Other-[-unable, good, right, leads, good, -complain, -wrong, comfortable, award]>
+<33146:Other-[like, -suffered, available, reliable, comprehensive, -coerce, right, cleverly, -volatility, -limitations, variety, -interference, -interference, -breach, good, -conspiracy, -difficult, relief, -damages, willing, happy, -conflicted, recommendation, best]>
+<33147:Other-[like, -suffered, available, reliable, comprehensive, -coerce, right, cleverly, -volatility, -limitations, variety, -interference, -interference, -breach, good, -conspiracy, -difficult, relief, -damages, willing, happy, -conflicted, recommendation, best]>
+<33148:Other-[like, -suffered, available, reliable, comprehensive, -coerce, right, cleverly, -volatility, -limitations, variety, -interference, -interference, -breach, good, -conspiracy, -difficult, relief, -damages, willing, happy, -conflicted, recommendation, best]>
+<33163:Other-[-crisis, like, -strictly, thank]>
+<33168:Other-[-strictly, thank]>
+<95087:Other-[-missed, worth, worth, exceptionally, strong, -lag, right, -blow, right, like, -mad, -crappy, like, -panic, -hell, -blow, -panicked, good, win, win, -damn, -killed, -hate, -hate, good]>
+<95090:Other-[good, -waste, good, -wild, good, swanky, -disappoints, -missed, worth, worth, exceptionally, strong, -lag, right, -blow, like, -mad, -crappy, like, -panic, -hell, -blow, -panicked, good, win, win, -damn, -killed, -hate, -hate, good]>
+<141366:Other-[-problem, diligence, like, -unclear, interests, like, tough, -unavailable, -issues, easier, -problem, -hard, -problem, -issue, won]>
+<33150:Other-[-overdue, fine, -overdue]>
+<33151:Other-[-overdue, fine, -overdue]>
+<33155:Other-[-complaint, -destroy, thank]>
+<34750:Other-[-overdue, fine, -overdue]>
+<34772:Other-[-overdue, fine, -overdue]>
+<214730:Other-[free, -strictly]>
+<214731:Other-[-skinny, like, -sue, like]>
+<141365:Other-[won, exceed, -rusty]>
+<141369:Other-[love, won, wonderful, -worse, happy, luck, miraculous, improvement, won, great, -hogs]>

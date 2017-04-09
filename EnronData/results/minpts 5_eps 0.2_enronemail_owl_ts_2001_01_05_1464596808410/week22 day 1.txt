@@ -1,0 +1,30 @@
+size:11
+<3658:Company Strategy-[talents, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, support, available, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, miracles, miracles, -concerned, -problems, love, miracles, -miss, proud, work]>
+<106640:Company Strategy-[talents, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, support, available, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, miracles, miracles, -concerned, -problems, love, miracles, -miss, proud, work]>
+<144515:Company Strategy-[talents, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, support, available, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, miracles, miracles, -concerned, -problems, love, miracles, -miss, proud, work]>
+<153751:Company Strategy-[talents, fun, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, -disabled, support, available, commitment, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, like, miracles, miracles, -concerned, -problems, -fall, love, miracles, -miss, proud, available, work]>
+<160233:Company Strategy-[talents, fun, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, -disabled, support, available, commitment, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, like, miracles, miracles, -concerned, -problems, -fall, love, miracles, -miss, proud, available, work]>
+<161055:Company Strategy-[talents, fun, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, -disabled, support, available, commitment, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, like, miracles, miracles, -concerned, -problems, -fall, love, miracles, -miss, proud, available, work]>
+<162646:Company Strategy-[talents, fun, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, -disabled, support, available, commitment, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, like, miracles, miracles, -concerned, -problems, -fall, love, miracles, -miss, proud, available, work]>
+<169695:Company Strategy-[talents, fun, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, -disabled, support, available, commitment, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, like, miracles, miracles, -concerned, -problems, -fall, love, miracles, -miss, proud, available, work]>
+<170083:Company Strategy-[talents, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, support, available, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, miracles, miracles, -concerned, -problems, love, miracles, -miss, proud, work]>
+<171574:Company Strategy-[talents, fun, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, -disabled, support, available, commitment, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, like, miracles, miracles, -concerned, -problems, -fall, love, miracles, -miss, proud, available, work]>
+<184392:Company Strategy-[talents, like, fun, fun, -cancer, fresh, enjoy, delicious, dedicated, peace, support, available, good, talent, -obstacle, work, work, -stranger, -danger, willing, great, miracles, miracles, -concerned, -problems, love, miracles, -miss, proud, work]>
+
+size:16
+<158612:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158613:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158614:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158615:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158616:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158617:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158618:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<158619:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159508:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159509:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159510:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159511:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159512:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159513:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159514:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>
+<159515:Commercial/Advertising-[great, easy, fun, high-quality, free, free, support]>

@@ -1,0 +1,98 @@
+size:27
+<3598:Other-[revolutionary, respect, respect]>
+<39377:Other-[revolutionary, respect, respect]>
+<39381:Other-[lighter, strongest, free]>
+<52632:Other-[revolutionary, respect, respect]>
+<80605:Other-[revolutionary, respect, respect]>
+<89881:Other-[revolutionary, respect, respect]>
+<94257:Other-[win]>
+<94261:Other-[win]>
+<94263:Other-[win]>
+<94266:Other-[win]>
+<94268:Other-[win]>
+<95400:Other-[win]>
+<95404:Other-[win]>
+<95406:Other-[win]>
+<95409:Other-[win]>
+<95411:Other-[win]>
+<106942:Other-[revolutionary, respect, respect]>
+<144081:Other-[work]>
+<157634:Other-[fast]>
+<160288:Other-[revolutionary, respect, respect]>
+<162660:Other-[revolutionary, respect, respect]>
+<168353:Other-[revolutionary, respect, respect]>
+<169961:Other-[revolutionary, respect, respect]>
+<170062:Other-[revolutionary, respect, respect]>
+<170425:Other-[good, recommended]>
+<171624:Other-[revolutionary, respect, respect]>
+<184253:Other-[revolutionary, respect, respect]>
+
+size:11
+<3599:Daily Greeting-[bloom, -hollow, like]>
+<39378:Daily Greeting-[bloom, -hollow, like]>
+<52633:Daily Greeting-[bloom, -hollow, like]>
+<80606:Daily Greeting-[bloom, -hollow, like]>
+<89882:Daily Greeting-[bloom, -hollow, like]>
+<94246:Daily Greeting-[worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>
+<106941:Daily Greeting-[bloom, -hollow, like]>
+<168354:Daily Greeting-[bloom, -hollow, like]>
+<169962:Daily Greeting-[bloom, -hollow, like]>
+<170063:Daily Greeting-[bloom, -hollow, like]>
+<171623:Daily Greeting-[bloom, -hollow, like]>
+
+size:16
+<3600:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<39379:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<52634:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<80607:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<89883:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<94247:Other-[appreciate, won, mighty, top, -break]>
+<94250:Other-[significant, lead, -shit, work, work]>
+<95391:Other-[appreciate, won, mighty, top, -break]>
+<95393:Other-[significant, lead, -shit, work, work]>
+<113103:Other-[leading, obsessions, -gullible]>
+<119639:Other-[honoring, well, -bother]>
+<126046:Other-[honoring, well, -bother]>
+<168355:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<169963:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<170064:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+<171622:Other-[wonder, like, gaining, bloom, bloom, strong, advocate, -injury, bloom, -risks]>
+
+size:19
+<39372:Other-[happy, -dumped, like, -unnecessary, precious, led, -monster, -terrible, -blow, like, -concern, supreme, -tumble, lean, passion, reputation, -hardball, handy, -blow, enough, -trouble, like, -trouble, -regret, -fell, -deaf, -loss, -freezing, -hefty, wise, wise, -losses, wise, interests, enough, smart, advantage, advantage, -suspicions, -losing, stunned, great, -disastrous, -complaints, -lapse, -wound, -overwhelmed, -rebuke, -wrong, -allegations, -badly, -expensive, like, -problem, -emergency, wise, -debt, relief, -cloud, -suspect, happy, -oversight, -dragged, top, wise, -accusations, -blow, -hostage, -conspiracy, -exorbitant, -pry, -hard, -resistance, -proprietary, -complaint, -complaint, -moot, -scathing, regard, approval, protect, -unjust, -unreasonable, -refused, -critics, -damage, -fear, -unlikely, -mess, -forbidden, recover, better, right, -denying, -limit, good, smart, -dirt, pretty, -faulty, right, pleasure, -bad, right, better, -fault, lead, right, right, famous, -risk]>
+<89879:Other-[-limitation, -fall, -limited, fastest, -issue, -simplistic, -lacking, -emergency, unaffected, respect, -emergency, clear, guarantee, proper, -limit, -limit, -limit, -failure, -limit, -emergency, -emergency, -limitation, -emergency, -emergency, -unclear, -emergency, qualify, assure, recommend, -limit, -problems, fairly, -unknown, -waste, grateful, -kill, -emergency, best, -emergency, -limits, -limit, ready, -limit, effectiveness, worked, -strictly, great, best, -issues, respect, -problems, -concern, -emergency, right, -ignore, -upset, -emergency, -limit, -emergency, -problems, -emergency, equitable, -problem, -emergency, -issue, work, great, creative, constructive, right]>
+<94249:Other-[intelligence, simplified, -bias, -bias, work, exceed, -dead, -dead, -dead, -dead, respect, -violate, work, -garbage, -warning, -failure, -warning, -failure, top]>
+<94260:Other-[-missed, win]>
+<94265:Other-[bullish, -slowed, good, -concern, like, -break]>
+<95403:Other-[-missed, win]>
+<95408:Other-[bullish, -slowed, good, -concern, like, -break]>
+<95807:Other-[intelligence, simplified, -bias, -bias, work, exceed, -dead, -dead, -dead, -dead, respect, -violate, work, -garbage, -warning, -failure, -warning, -failure, top]>
+<94267:Other-[bullish, -slowed, -concern, -break]>
+<94269:Other-[bullish, -slowed, -concern, -break]>
+<94270:Other-[bullish, -slowed, -concern, -break]>
+<95410:Other-[bullish, -slowed, -concern, -break]>
+<95412:Other-[bullish, -slowed, -concern, -break]>
+<95413:Other-[bullish, -slowed, -concern, -break]>
+<153120:Other-[-conservative, -toll, love, -crack, -wild]>
+<126040:Other-[reasonable, -decline]>
+<126042:Other-[-troubled, comprehensive, -troubled, -limited, significant, defeat, success, -limited, -threats]>
+<126043:Other-[-overwhelmed, work]>
+<126049:Other-[bonus, -concerned, -odd, better, -issue]>
+
+size:8
+<39380:Other-[-limited]>
+<52635:Other-[-limited]>
+<80608:Other-[-limited]>
+<89884:Other-[-limited]>
+<89886:Other-[-error, -error]>
+<126041:Other-[-error]>
+<168356:Other-[-limited]>
+<184254:Other-[-limited]>
+
+size:6
+<94251:Logistic Issue-[worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>
+<94254:Logistic Issue-[-crap, worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>
+<94262:Logistic Issue-[-crap, worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>
+<95394:Logistic Issue-[worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>
+<95397:Logistic Issue-[-crap, worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>
+<95405:Logistic Issue-[-crap, worth, grand, -problem, ready, tender, tender, -unsure, -complication, worth, worth, worth, happy, -reject, tender]>

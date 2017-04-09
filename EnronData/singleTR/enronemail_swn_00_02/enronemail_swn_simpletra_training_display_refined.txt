@@ -1,0 +1,691 @@
+<88, [friendly#a: 0.19, different#a: 0.23723, a#n: -0.0241, training#n: 0.29167, interested#a: 0.375, ]>
+<119, [please#v: 0.34091, date#n: 0.0115, know#n: 0.625, training#n: 0.29167, ]>
+<167, [please#v: 0.34091, training#n: 0.29167, training#n: 0.29167, functionality#n: 0.625, contact#n: 0.13256, ]>
+<485, [please#v: 0.34091, read#v: 0.00414, training#n: 0.29167, training#n: 0.29167, template#n: 0.125, e#n: 0.16423, certified#a: 0.27273, number#n: -0.11826, please#v: 0.34091, forward#r: 0.10949, e#n: 0.16423, reason#v: 0.02273, interest#v: 0.26136, address#n: 0.01725, ]>
+<1800, [face#n: -0.00715, face#n: -0.00715, color#a: 0.625, early#a: -0.01701, times#n: 0.33333, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, buy#n: 0.5, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, fact#n: 0.045, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, bull#n: -0.0476, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, a#n: -0.0241, style#n: 0.01894, face#n: -0.00715, ms#n: -0.05474, face#n: -0.00715, align#v: -0.045, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, face#n: -0.00715, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, go#a: 0.25, style#n: 0.01894, style#n: 0.01894, training#n: 0.29167, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, ]>
+<2360, [regularly#r: 0.06818, on#r: 0.03409, accuracy#n: 0.33333, have#v: 0.05021, system#n: 0.01718, sole#n: 0.03, do#n: 0.02273, a#n: -0.0241, contract#v: -0.02209, ]>
+<2513, [name#n: 0.01531, style#n: 0.01894, color#a: 0.625, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, color#a: 0.625, style#n: 0.01894, introduction#n: 0.01928, experienced#a: 0.5, logical#a: 0.43, a#n: -0.0241, align#v: -0.045, style#n: 0.01894, face#n: -0.00715, find#n: 0.41667, award#n: 0.13636, style#n: 0.01894, face#n: -0.00715, divergence#n: -0.105, size#a: -0.125, face#n: -0.00715, wave#n: 0.00552, face#n: -0.00715, size#a: -0.125, now#r: 0.01928, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, size#a: -0.125, ]>
+<2514, [energy#n: 0.10847, read#v: 0.00414, format#v: 0.04545, by#r: -0.16667, color#a: 0.625, face#n: -0.00715, option#n: -0.17045, exposure#n: -0.05975, align#v: -0.045, provide#v: 0.03099, energy#n: 0.10847, risk#v: -0.04167, information#n: 0.02737, size#a: -0.125, size#a: -0.125, color#a: 0.625, color#a: 0.625, information#n: 0.02737, face#n: -0.00715, face#n: -0.00715, oxford#n: -0.03, align#v: -0.045, face#n: -0.00715, information#n: 0.02737, face#n: -0.00715, size#a: -0.125, face#n: -0.00715, oxford#n: -0.03, energy#n: 0.10847, ]>
+<3454, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, reserve#v: 0.03, e#n: 0.16423, taylor#n: 0.06818, please#v: 0.34091, bring#v: -0.01725, ]>
+<3456, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, am#n: -0.03409, reserve#v: 0.03, taylor#n: 0.06818, please#v: 0.34091, ]>
+<3476, [fill#v: -0.0243, please#v: 0.34091, call#n: 0.01965, be#v: 0.03931, a#n: -0.0241, be#v: 0.03931, ]>
+<3524, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<3530, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, taylor#n: 0.06818, be#v: 0.03931, don#n: 0.05952, training#n: 0.29167, ]>
+<3587, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<3588, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<3589, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<3593, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<3649, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<3671, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<3677, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<3723, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, custom#n: 0.21, custom#n: 0.21, be#v: 0.03931, am#n: -0.03409, jones#n: 0.0102, a#n: -0.0241, ]>
+<3727, [talk#n: -0.06569, legal#a: 0.0365, information#n: 0.02737, on#r: 0.03409, such#a: -0.125, a#n: -0.0241, a#n: -0.0241, please#v: 0.34091, don#n: 0.05952, ]>
+<5249, [a#n: -0.0241, time#n: 0.12092, see#v: 0.0271, fortune#n: 0.04, information#n: 0.02737, contact#n: 0.13256, receive#v: 0.03517, ]>
+<5474, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<5549, [must#n: 0.04545, have#v: 0.05021, extra#a: -0.27273, a#n: -0.0241, know#n: 0.625, ]>
+<5715, [division#n: 0.00671, have#v: 0.05021, compensation#n: -0.13636, a#n: -0.0241, have#v: 0.05021, ]>
+<5738, [need#v: -0.04545, a#n: -0.0241, high#n: 0.03214, jones#n: 0.0102, donna#n: 0.25, center#v: 0.03409, don#n: 0.05952, variance#n: -0.03822, due#n: 0.25, don#n: 0.05952, different#a: 0.23723, jones#n: 0.0102, call#n: 0.01965, ]>
+<5783, [training#n: 0.29167, please#v: 0.34091, ]>
+<5813, [frost#n: -0.03, frost#n: -0.03, ability#n: 0.33333, ]>
+<6370, [every#a: 0.04167, contact#n: 0.13256, become#v: 0.015, be#v: 0.03931, an#n: -0.125, a#n: -0.0241, a#n: -0.0241, gold#n: 0.00365, be#v: 0.03931, ]>
+<6432, [around#r: 0.02317, gold#n: 0.00365, a#n: -0.0241, love#v: 0.61, hope#n: 0.08929, do#n: 0.02273, ]>
+<6478, [might#n: -0.125, a#n: -0.0241, touch#n: 0.01129, ticket#n: 0.03285, friend#n: 0.10949, amour#n: 0.25, not#r: -0.625, a#n: -0.0241, ]>
+<6607, [save#v: 0.12787, gold#n: 0.00365, an#n: -0.125, best#v: 0.125, protection#n: -0.18561, do#n: 0.02273, help#n: 0.2, a#n: -0.0241, help#n: 0.2, a#n: -0.0241, ]>
+<6736, [moment#n: 0.02551, spend#v: 0.11364, become#v: 0.015, find#n: 0.41667, interest#v: 0.26136, find#n: 0.41667, hope#n: 0.08929, do#n: 0.02273, help#n: 0.2, a#n: -0.0241, help#n: 0.2, a#n: -0.0241, ]>
+<7094, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<7357, [a#n: -0.0241, transmission#n: 0.02737, business#n: 0.03314, tool#v: -0.12, audience#n: 0.015, a#n: -0.0241, review#n: 0.05335, reliability#n: 0.625, obligation#n: 0.01825, obligation#n: 0.01825, capacity#n: 0.03866, regency#n: -0.03409, available#a: 0.20455, do#n: 0.02273, have#v: 0.05021, training#n: 0.29167, form#n: 0.00792, ]>
+<8049, [wall#n: -0.05749, training#n: 0.29167, by#r: -0.16667, training#n: 0.29167, a#n: -0.0241, be#v: 0.03931, be#v: 0.03931, possible#n: 0.25, ]>
+<8368, [am#n: -0.03409, required#a: 0.16667, approval#n: 0.255, send#v: 0.01314, times#n: 0.33333, call#n: 0.01965, ]>
+<8372, [mark#v: 0.02314, might#n: -0.125, room#n: 0.06, feel#n: 0.105, observe#v: 0.08595, ]>
+<8380, [various#a: -0.1, manipulation#n: 0.08333, ]>
+<11061, [reserve#v: 0.03, call#n: 0.01965, ]>
+<11078, [name#n: 0.01531, times#n: 0.33333, have#v: 0.05021, ]>
+<11475, [times#n: 0.33333, am#n: -0.03409, a#n: -0.0241, please#v: 0.34091, ]>
+<11775, [times#n: 0.33333, call#n: 0.01965, ]>
+<11911, [about#r: 0.09642, best#v: 0.125, mark#v: 0.02314, training#n: 0.29167, process#n: -0.03827, have#v: 0.05021, ]>
+<12454, [going#n: -0.06818, date#n: 0.0115, template#n: 0.125, know#n: 0.625, ]>
+<18608, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<18947, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<20506, [name#n: 0.01531, times#n: 0.33333, have#v: 0.05021, ]>
+<21120, [about#r: 0.09642, best#v: 0.125, mark#v: 0.02314, training#n: 0.29167, process#n: -0.03827, have#v: 0.05021, ]>
+<21248, [going#n: -0.06818, date#n: 0.0115, template#n: 0.125, know#n: 0.625, ]>
+<22254, [number#n: -0.11826, day#n: 0.03794, be#v: 0.03931, droppings#n: -0.125, lump#n: -0.09, a#n: -0.0241, might#n: -0.125, all#r: 0.5, earn#v: 0.04167, asshole#n: -0.45833, asshole#n: -0.45833, on#r: 0.03409, time#n: 0.12092, eyes#n: 0.25, heart#n: 0.01707, panic#n: -0.33333, work#v: 0.01574, need#v: -0.04545, dung#n: -0.125, a#n: -0.0241, shit#v: -0.16667, keep#v: -0.01129, ]>
+<22384, [just#r: 0.06973, thanks#n: 0.04167, ]>
+<23507, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<23662, [a#n: -0.0241, flight#n: 0.01473, a#n: -0.0241, comparison#n: -0.125, ]>
+<23688, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, energy#n: 0.10847, day#n: 0.03794, refresher#n: -0.13636, a#n: -0.0241, buy#n: 0.5, high#n: 0.03214, logical#a: 0.43, cut#v: 0.04284, strategy#n: 0.08333, best#v: 0.125, training#n: 0.29167, ]>
+<24189, [not#r: -0.625, able#a: 0.14, due#n: 0.25, times#n: 0.33333, ]>
+<24194, [know#n: 0.625, far#r: 0.01369, ]>
+<24209, [a#n: -0.0241, good#r: 0.25, ]>
+<24492, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<24588, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<24632, [consider#v: 0.14623, price#n: 0.06026, delete#v: -0.06818, go#a: 0.25, ]>
+<26928, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<27609, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, an#n: -0.125, physical#a: -0.00321, cut#v: 0.04284, a#n: -0.0241, direction#n: 0.00491, wave#n: 0.00552, regular#n: -0.03, by#r: -0.16667, information#n: 0.02737, call#n: 0.01965, ]>
+<27945, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<28399, [a#n: -0.0241, a#n: -0.0241, be#v: 0.03931, turkey#n: -0.0219, a#n: -0.0241, lump#n: -0.09, dung#n: -0.125, strength#n: 0.16298, reach#n: 0.15, first#n: 0.02721, day#n: 0.03794, on#r: 0.03409, asshole#n: -0.45833, idea#n: 0.02007, work#v: 0.01574, heart#n: 0.01707, panic#n: -0.33333, asshole#n: -0.45833, a#n: -0.0241, asshole#n: -0.45833, number#n: -0.11826, a#n: -0.0241, not#r: -0.625, ]>
+<28881, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<29966, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<30618, [available#a: 0.20455, please#v: 0.34091, let#v: -0.02041, ]>
+<31221, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<31830, [food#n: -0.02273, training#n: 0.29167, by#r: -0.16667, an#n: -0.125, ]>
+<31832, [just#r: 0.06973, start#v: -0.00641, opportunity#n: 0.5, sun#n: 0.01825, advanced#a: 0.03504, won#a: -0.625, masters#n: 0.375, age#v: 0.19318, talented#a: 0.5, gold#n: 0.00365, record#n: 0.023, ]>
+<32879, [thanks#n: 0.04167, crisis#n: -0.08333, ]>
+<33088, [system#n: 0.01718, approval#n: 0.255, grant#v: 0.19685, a#n: -0.0241, name#n: 0.01531, number#n: -0.11826, system#n: 0.01718, fee#n: 0.125, training#n: 0.29167, ]>
+<33134, [superior#n: 0.34014, court#n: 0.01505, action#n: 0.02027, statement#n: 0.00689, action#n: 0.02027, suit#n: 0.02041, involved#a: 0.02737, an#n: -0.125, have#v: 0.05021, ]>
+<33201, [george#n: 0.00528, a#n: -0.0241, peter#n: -0.04167, information#n: 0.02737, ]>
+<33497, [e#n: 0.16423, james#n: 0.0061, mark#v: 0.02314, h#n: -0.10949, training#n: 0.29167, training#n: 0.29167, place#n: 0.00053, seeing#a: -0.25, know#n: 0.625, ]>
+<33836, [am#n: -0.03409, james#n: 0.0061, elizabeth#n: -0.08333, please#v: 0.34091, let#v: -0.02041, ]>
+<34424, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<34934, [a#n: -0.0241, call#n: 0.01965, name#n: 0.01531, strategy#n: 0.08333, effort#n: 0.04, please#v: 0.34091, know#n: 0.625, strategy#n: 0.08333, sorry#a: -0.535, a#n: -0.0241, strategy#n: 0.08333, am#n: -0.03409, williams#n: 0.07653, ]>
+<35075, [know#n: 0.625, electricity#n: 0.06818, reason#v: 0.02273, action#n: 0.02027, a#n: -0.0241, electricity#n: 0.06818, essence#n: 0.12, agree#v: 0.17677, know#n: 0.625, pattern#n: 0.05979, be#v: 0.03931, have#v: 0.05021, sense#v: -0.075, ]>
+<35374, [e#n: 0.16423, date#n: 0.0115, ]>
+<35566, [please#v: 0.34091, note#v: 0.04, apologize#v: -0.41667, ]>
+<35772, [bag#v: 0.05474, review#n: 0.05335, add#v: 0.03401, ask#v: 0.01205, say#v: 0.0069, ]>
+<36000, [information#n: 0.02737, training#n: 0.29167, training#n: 0.29167, talk#n: -0.06569, a#n: -0.0241, do#n: 0.02273, e#n: 0.16423, ]>
+<36002, [harassment#n: -0.375, be#v: 0.03931, maximize#v: 0.16667, ]>
+<36120, [now#r: 0.01928, date#n: 0.0115, know#n: 0.625, hesitant#a: -0.625, just#r: 0.06973, thanks#n: 0.04167, ]>
+<36261, [save#v: 0.12787, save#v: 0.12787, am#n: -0.03409, know#n: 0.625, let#v: -0.02041, surprise#n: -0.02273, training#n: 0.29167, review#n: 0.05335, administrator#n: -0.10227, ]>
+<37176, [meeting#n: -0.01701, description#n: -0.02273, vanessa#n: 0.125, ]>
+<37177, [training#n: 0.29167, wall#n: -0.05749, ]>
+<37573, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<37673, [like#v: 0.38047, confidential#a: 0.14, other#a: -0.36, notice#n: 0.04017, receive#v: 0.03517, process#n: -0.03827, a#n: -0.0241, know#n: 0.625, ]>
+<37759, [need#v: -0.04545, an#n: -0.125, think#v: 0.06378, used#a: 0.07955, call#n: 0.01965, focusing#n: 0.08333, have#v: 0.05021, harassment#n: -0.375, job#v: -0.015, first#n: 0.02721, ]>
+<37780, [training#n: 0.29167, retention#n: 0.01136, h#n: -0.10949, production#n: -0.00767, have#v: 0.05021, avoidance#n: 0.5, training#n: 0.29167, job#v: -0.015, ]>
+<38059, [forward#r: 0.10949, on#r: 0.03409, date#n: 0.0115, possible#n: 0.25, ]>
+<38223, [soon#r: -0.125, move#n: -0.01825, training#n: 0.29167, on#r: 0.03409, please#v: 0.34091, ]>
+<38454, [performance#n: 0.08212, process#n: -0.03827, information#n: 0.02737, training#n: 0.29167, shift#n: 0.01707, process#n: -0.03827, action#n: 0.02027, focus#n: 0.1141, wish#n: 0.275, refresh#v: -0.03, contact#n: 0.13256, news#n: 0.04653, first#n: 0.02721, time#n: 0.12092, training#n: 0.29167, training#n: 0.29167, be#v: 0.03931, advance#v: 0.08064, process#n: -0.03827, process#n: -0.03827, inclusion#n: 0.06, ]>
+<39296, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<39297, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<39312, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<39333, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<40617, [think#v: 0.06378, use#v: 0.05442, business#n: 0.03314, goal#n: 0.015, ]>
+<40619, [don#n: 0.05952, complex#n: -0.02, ]>
+<40620, [difficulty#n: -0.415, training#n: 0.29167, complex#n: -0.02, pipe#v: 0.045, ]>
+<40678, [please#v: 0.34091, send#v: 0.01314, control#n: 0.01035, pep#n: 0.25, have#v: 0.05021, training#n: 0.29167, lead#n: 0.05508, pep#n: 0.25, a#n: -0.0241, a#n: -0.0241, advantage#n: 0.34091, ]>
+<40685, [an#n: -0.125, job#v: -0.015, definite#a: 0.5, future#a: -0.02, training#n: 0.29167, training#n: 0.29167, know#n: 0.625, ]>
+<40687, [true#n: 0.5, think#v: 0.06378, know#n: 0.625, training#n: 0.29167, address#n: 0.01725, ]>
+<40839, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<40842, [let#v: -0.02041, recommend#v: 0.13636, ]>
+<40960, [thanks#n: 0.04167, training#n: 0.29167, process#n: -0.03827, ]>
+<41439, [james#n: 0.0061, training#n: 0.29167, help#n: 0.2, ]>
+<41676, [bag#v: 0.05474, need#v: -0.04545, bag#v: 0.05474, williams#n: 0.07653, training#n: 0.29167, berg#n: 0.04167, theresa#n: -0.25, rosemary#n: -0.16667, williams#n: 0.07653, refresher#n: -0.13636, williams#n: 0.07653, training#n: 0.29167, time#n: 0.12092, ]>
+<41677, [fowler#n: -0.04167, training#n: 0.29167, berg#n: 0.04167, theresa#n: -0.25, rosemary#n: -0.16667, don#n: 0.05952, thomas#n: -0.04106, refresher#n: -0.13636, williams#n: 0.07653, training#n: 0.29167, time#n: 0.12092, ]>
+<41684, [a#n: -0.0241, like#v: 0.38047, ]>
+<42398, [problem#n: -0.38636, a#n: -0.0241, ]>
+<42408, [training#n: 0.29167, a#n: -0.0241, ]>
+<42472, [proud#a: 0.33333, training#n: 0.29167, introduction#n: 0.01928, industry#n: 0.02273, electricity#n: 0.06818, industry#n: 0.02273, information#n: 0.02737, contact#n: 0.13256, ]>
+<42475, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, an#n: -0.125, physical#a: -0.00321, cut#v: 0.04284, a#n: -0.0241, direction#n: 0.00491, wave#n: 0.00552, regular#n: -0.03, by#r: -0.16667, information#n: 0.02737, call#n: 0.01965, ]>
+<43288, [meet#a: 0.625, description#n: -0.02273, ]>
+<43459, [training#n: 0.29167, room#n: 0.06, ]>
+<43653, [business#n: 0.03314, am#n: -0.03409, ]>
+<43886, [training#n: 0.29167, be#v: 0.03931, ]>
+<43973, [sound#a: 0.58739, voluntary#a: 0.08333, ]>
+<44270, [display#v: 0.08333, browser#n: -0.33333, ]>
+<44406, [face#n: -0.00715, face#n: -0.00715, color#a: 0.625, early#a: -0.01701, times#n: 0.33333, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, buy#n: 0.5, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, fact#n: 0.045, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, bull#n: -0.0476, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, a#n: -0.0241, style#n: 0.01894, face#n: -0.00715, ms#n: -0.05474, face#n: -0.00715, align#v: -0.045, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, face#n: -0.00715, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, go#a: 0.25, style#n: 0.01894, style#n: 0.01894, training#n: 0.29167, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, ]>
+<44413, [energy#n: 0.10847, buy#n: 0.5, not#r: -0.625, not#r: -0.625, hedge#v: -0.075, not#r: -0.625, hedge#v: -0.075, basis#n: 0.04545, strategy#n: 0.08333, risk#v: -0.04167, custom#n: 0.21, a#n: -0.0241, information#n: 0.02737, an#n: -0.125, information#n: 0.02737, ]>
+<44453, [now#r: 0.01928, provide#v: 0.03099, a#n: -0.0241, a#n: -0.0241, organization#n: 0.01928, ]>
+<44515, [have#v: 0.05021, buy#n: 0.5, ]>
+<44818, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<45116, [energy#n: 0.10847, buy#n: 0.5, not#r: -0.625, not#r: -0.625, hedge#v: -0.075, not#r: -0.625, hedge#v: -0.075, basis#n: 0.04545, strategy#n: 0.08333, risk#v: -0.04167, custom#n: 0.21, a#n: -0.0241, information#n: 0.02737, an#n: -0.125, information#n: 0.02737, ]>
+<45117, [energy#n: 0.10847, buy#n: 0.5, not#r: -0.625, not#r: -0.625, hedge#v: -0.075, not#r: -0.625, hedge#v: -0.075, basis#n: 0.04545, strategy#n: 0.08333, risk#v: -0.04167, custom#n: 0.21, a#n: -0.0241, information#n: 0.02737, an#n: -0.125, information#n: 0.02737, ]>
+<45122, [face#n: -0.00715, face#n: -0.00715, color#a: 0.625, early#a: -0.01701, times#n: 0.33333, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, buy#n: 0.5, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, fact#n: 0.045, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, bull#n: -0.0476, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, a#n: -0.0241, style#n: 0.01894, face#n: -0.00715, ms#n: -0.05474, face#n: -0.00715, align#v: -0.045, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, face#n: -0.00715, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, go#a: 0.25, style#n: 0.01894, style#n: 0.01894, training#n: 0.29167, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, ]>
+<45204, [have#v: 0.05021, buy#n: 0.5, ]>
+<45205, [have#v: 0.05021, buy#n: 0.5, ]>
+<45216, [now#r: 0.01928, provide#v: 0.03099, a#n: -0.0241, a#n: -0.0241, organization#n: 0.01928, ]>
+<45278, [information#n: 0.02737, note#v: 0.04, change#n: 0.03028, ]>
+<45681, [face#n: -0.00715, face#n: -0.00715, color#a: 0.625, face#n: -0.00715, style#n: 0.01894, full#a: 0.023, style#n: 0.01894, date#n: 0.0115, color#a: 0.625, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, color#a: 0.625, style#n: 0.01894, face#n: -0.00715, black#a: -0.36052, style#n: 0.01894, a#n: -0.0241, hedged#a: -0.125, style#n: 0.01894, know#n: 0.625, exposure#n: -0.05975, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, behavior#n: 0.12, style#n: 0.01894, style#n: 0.01894, strategy#n: 0.08333, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, style#n: 0.01894, bull#n: -0.0476, style#n: 0.01894, a#n: -0.0241, ms#n: -0.05474, style#n: 0.01894, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, face#n: -0.00715, night#n: -0.0276, align#v: -0.045, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, information#n: 0.02737, training#n: 0.29167, go#a: 0.25, ]>
+<45713, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<45729, [training#n: 0.29167, training#n: 0.29167, a#n: -0.0241, energy#n: 0.10847, directed#a: 0.16667, a#n: -0.0241, safety#n: 0.05102, a#n: -0.0241, safety#n: 0.05102, obtain#v: 0.06818, production#n: -0.00767, consortium#n: 0.125, decision#n: 0.0219, under#a: -0.125, sea#n: -0.02273, feasible#a: 0.375, ]>
+<45876, [allow#v: 0.04481, must#n: 0.04545, ]>
+<45882, [believe#v: 0.10219, follow#v: 0.02431, be#v: 0.03931, cover#v: 0.00956, cover#v: 0.00956, an#n: -0.125, exceptional#a: 0.06818, help#n: 0.2, necessary#n: -0.125, clear#v: 0.03576, make#v: 0.02063, read#v: 0.00414, see#v: 0.0271, wish#n: 0.275, effectiveness#n: 0.25, please#v: 0.34091, note#v: 0.04, use#v: 0.05442, a#n: -0.0241, have#v: 0.05021, reason#v: 0.02273, require#v: 0.03, an#n: -0.125, training#n: 0.29167, ]>
+<45940, [please#v: 0.34091, read#v: 0.00414, be#v: 0.03931, be#v: 0.03931, periodically#r: 0.25, pleasure#n: 0.1396, an#n: -0.125, training#n: 0.29167, direct#v: 0.01965, be#v: 0.03931, regular#n: -0.03, make#v: 0.02063, figure#v: 0.0219, thinking#n: 0.125, a#n: -0.0241, determine#v: -0.00575, improvement#n: 0.27273, selected#a: 0.125, deliver#v: 0.03021, improve#v: 0.375, received#a: 0.25, must#n: 0.04545, feel#n: 0.105, create#v: 0.03827, training#n: 0.29167, ]>
+<46625, [let#v: -0.02041, thanks#n: 0.04167, ]>
+<46666, [be#v: 0.03931, by#r: -0.16667, cover#v: 0.00956, training#n: 0.29167, manage#v: 0.03444, find#n: 0.41667, training#n: 0.29167, a#n: -0.0241, see#v: 0.0271, report#v: 0.04762, be#v: 0.03931, direct#v: 0.01965, scoring#n: 0.125, direct#v: 0.01965, note#v: 0.04, be#v: 0.03931, an#n: -0.125, training#n: 0.29167, ]>
+<46760, [thanks#n: 0.04167, patience#n: 0.5, training#n: 0.29167, training#n: 0.29167, be#v: 0.03931, donna#n: 0.25, wish#n: 0.275, ]>
+<46768, [training#n: 0.29167, thanks#n: 0.04167, training#n: 0.29167, be#v: 0.03931, still#a: -0.26276, possible#n: 0.25, training#n: 0.29167, time#n: 0.12092, am#n: -0.03409, inconvenience#n: -0.76136, h#n: -0.10949, drive#v: 0.01935, ]>
+<46807, [legal#a: 0.0365, possible#n: 0.25, available#a: 0.20455, am#n: -0.03409, inconvenience#n: -0.76136, h#n: -0.10949, assistance#n: 0.25, ]>
+<46831, [legal#a: 0.0365, following#a: 0.015, drive#v: 0.01935, contact#n: 0.13256, ]>
+<47104, [face#n: -0.00715, size#a: -0.125, face#n: -0.00715, color#a: 0.625, size#a: -0.125, color#a: 0.625, color#a: 0.625, color#a: 0.625, face#n: -0.00715, size#a: -0.125, color#a: 0.625, information#n: 0.02737, call#n: 0.01965, ]>
+<47155, [don#n: 0.05952, unconfirmed#a: -0.625, ]>
+<47316, [problem#n: -0.38636, training#n: 0.29167, thanks#n: 0.04167, thanks#n: 0.04167, be#v: 0.03931, legal#a: 0.0365, training#n: 0.29167, time#n: 0.12092, am#n: -0.03409, wish#n: 0.275, contact#n: 0.13256, ]>
+<47358, [information#n: 0.02737, vacation#v: 0.125, charged#a: 0.115, description#n: -0.02273, performance#n: 0.08212, last#a: -0.11932, high#n: 0.03214, ]>
+<47410, [proud#a: 0.33333, training#n: 0.29167, industry#n: 0.02273, competency#n: 0.375, a#n: -0.0241, ]>
+<47674, [please#v: 0.34091, respond#v: 0.04545, a#n: -0.0241, thanks#n: 0.04167, help#n: 0.2, tasting#n: 0.01136, card#n: 0.00828, only#r: -0.03214, meeting#n: -0.01701, do#n: 0.02273, all#r: 0.5, tasting#n: 0.01136, demonstration#n: 0.0438, dear#n: 0.08333, card#n: 0.00828, a#n: -0.0241, forgive#v: 0.16667, information#n: 0.02737, a#n: -0.0241, a#n: -0.0241, tasting#n: 0.01136, demonstration#n: 0.0438, possible#n: 0.25, change#n: 0.03028, ]>
+<47676, [please#v: 0.34091, respond#v: 0.04545, a#n: -0.0241, credit#v: 0.075, have#v: 0.05021, do#n: 0.02273, send#v: 0.01314, stop#n: 0.00517, up#r: 0.05657, forgive#v: 0.16667, on#r: 0.03409, a#n: -0.0241, a#n: -0.0241, ]>
+<48778, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<49968, [talk#n: -0.06569, a#n: -0.0241, crisis#n: -0.08333, influential#a: 0.125, authority#n: 0.0241, do#n: 0.02273, use#v: 0.05442, ]>
+<50018, [thomas#n: -0.04106, now#r: 0.01928, think#v: 0.06378, pick#n: 0.02946, james#n: 0.0061, d#n: -0.06818, thanks#n: 0.04167, specialty#n: 0.20455, thomas#n: -0.04106, be#v: 0.03931, scene#n: -0.04573, james#n: 0.0061, d#n: -0.06818, a#n: -0.0241, a#n: -0.0241, a#n: -0.0241, on#r: 0.03409, talking#n: -0.125, ]>
+<51178, [a#n: -0.0241, let#v: -0.02041, know#n: 0.625, electricity#n: 0.06818, first#n: 0.02721, disaster#n: -0.34091, electricity#n: 0.06818, a#n: -0.0241, experience#v: -0.01369, heart#n: 0.01707, competitive#a: 0.06818, electricity#n: 0.06818, industry#n: 0.02273, capacity#n: 0.03866, encourage#v: 0.13636, wholesale#a: 0.25, better#v: 0.57955, reliability#n: 0.625, high-tech#a: 0.5, heat#n: 0.02812, a#n: -0.0241, recognize#v: 0.1571, possible#n: 0.25, varying#a: -0.25, wholesale#a: 0.25, energy#n: 0.10847, energy#n: 0.10847, be#v: 0.03931, ]>
+<51554, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<51803, [tom#n: 0.03409, don#n: 0.05952, smith#n: 0.00533, representation#n: 0.0061, price#n: 0.06026, congestion#n: -0.25, tom#n: 0.03409, am#n: -0.03409, room#n: 0.06, smith#n: 0.00533, ]>
+<52311, [name#n: 0.01531, style#n: 0.01894, color#a: 0.625, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, color#a: 0.625, style#n: 0.01894, introduction#n: 0.01928, experienced#a: 0.5, logical#a: 0.43, a#n: -0.0241, align#v: -0.045, style#n: 0.01894, face#n: -0.00715, find#n: 0.41667, award#n: 0.13636, style#n: 0.01894, face#n: -0.00715, divergence#n: -0.105, size#a: -0.125, face#n: -0.00715, wave#n: 0.00552, face#n: -0.00715, size#a: -0.125, now#r: 0.01928, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, size#a: -0.125, ]>
+<52595, [technical#a: 0.16423, a#n: -0.0241, manner#n: 0.15909, profit#v: 0.29167, probable#a: -0.375, buy#n: 0.5, wave#n: 0.00552, a#n: -0.0241, ]>
+<52614, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<52615, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<52618, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<52622, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<52757, [training#n: 0.29167, now#r: 0.01928, stop#n: 0.00517, by#r: -0.16667, just#r: 0.06973, a#n: -0.0241, such#a: -0.125, energy#n: 0.10847, industry#n: 0.02273, energy#n: 0.10847, activity#n: 0.04932, submit#v: 0.04268, ]>
+<53398, [place#n: 0.00053, a#n: -0.0241, description#n: -0.02273, have#v: 0.05021, contact#n: 0.13256, training#n: 0.29167, report#v: 0.04762, ]>
+<53435, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, logical#a: 0.43, buy#n: 0.5, real#a: -0.01915, cut#v: 0.04284, wave#n: 0.00552, information#n: 0.02737, ]>
+<53519, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, energy#n: 0.10847, day#n: 0.03794, refresher#n: -0.13636, a#n: -0.0241, buy#n: 0.5, high#n: 0.03214, logical#a: 0.43, cut#v: 0.04284, strategy#n: 0.08333, best#v: 0.125, training#n: 0.29167, ]>
+<53534, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<53961, [am#n: -0.03409, an#n: -0.125, mark#v: 0.02314, business#n: 0.03314, call#n: 0.01965, ]>
+<55507, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<57897, [elizabeth#n: -0.08333, training#n: 0.29167, unable#a: -0.53409, time#n: 0.12092, contact#n: 0.13256, ]>
+<58528, [please#v: 0.34091, note#v: 0.04, change#n: 0.03028, ]>
+<58797, [training#n: 0.29167, meeting#n: -0.01701, fitzgerald#n: 0.13636, ]>
+<59097, [now#r: 0.01928, training#n: 0.29167, save#v: 0.12787, ]>
+<59153, [works#n: 0.03, know#n: 0.625, meeting#n: -0.01701, meeting#n: -0.01701, d#n: -0.06818, going#n: -0.06818, freeman#n: -0.625, preparation#n: 0.00767, training#n: 0.29167, day#n: 0.03794, time#n: 0.12092, ]>
+<59154, [works#n: 0.03, work#v: 0.01574, a#n: -0.0241, better#v: 0.57955, trainer#n: -0.16667, a#n: -0.0241, a#n: -0.0241, contact#n: 0.13256, last#a: -0.11932, please#v: 0.34091, ]>
+<59157, [arranged#a: -0.02273, floor#v: 0.25, ]>
+<59225, [training#n: 0.29167, right#n: 0.03285, thanks#n: 0.04167, a#n: -0.0241, mind#n: 0.13154, training#n: 0.29167, trainer#n: -0.16667, last#a: -0.11932, please#v: 0.34091, ]>
+<59440, [hedge#v: -0.075, make#v: 0.02063, need#v: -0.04545, strategy#n: 0.08333, otc#a: -0.625, bull#n: -0.0476, impact#v: 0.04167, risk#v: -0.04167, night#n: -0.0276, information#n: 0.02737, training#n: 0.29167, please#v: 0.34091, ]>
+<59646, [works#n: 0.03, know#n: 0.625, meeting#n: -0.01701, d#n: -0.06818, going#n: -0.06818, freeman#n: -0.625, preparation#n: 0.00767, training#n: 0.29167, day#n: 0.03794, time#n: 0.12092, ]>
+<59790, [elizabeth#n: -0.08333, byron#n: -0.125, coon#n: -0.06818, edward#n: 0.01423, training#n: 0.29167, ]>
+<60017, [training#n: 0.29167, training#n: 0.29167, ]>
+<60073, [training#n: 0.29167, split#n: -0.0207, ]>
+<60314, [a#n: -0.0241, going#n: -0.06818, know#n: 0.625, ]>
+<60611, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, an#n: -0.125, physical#a: -0.00321, cut#v: 0.04284, a#n: -0.0241, direction#n: 0.00491, wave#n: 0.00552, regular#n: -0.03, by#r: -0.16667, information#n: 0.02737, call#n: 0.01965, ]>
+<60832, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<61312, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<61716, [ride#n: -0.04167, find#n: 0.41667, sun#n: 0.01825, ride#n: -0.04167, be#v: 0.03931, on#r: 0.03409, a#n: -0.0241, check#n: 0.0292, am#n: -0.03409, block#n: -0.02877, do#n: 0.02273, am#n: -0.03409, memorial#n: 0.20455, go#a: 0.25, young#a: 0.0219, meet#a: 0.625, some#r: 0.25, meet#a: 0.625, know#n: 0.625, ]>
+<61719, [training#n: 0.29167, ride#n: -0.04167, memorial#n: 0.20455, running#n: 0.01825, call#n: 0.01965, ]>
+<61723, [a#n: -0.0241, voice#n: 0.0092, ride#n: -0.04167, a#n: -0.0241, start#v: -0.00641, jr#n: 0.125, high#n: 0.03214, ride#n: -0.04167, ride#n: -0.04167, about#r: 0.09642, ride#n: -0.04167, go#a: 0.25, see#v: 0.0271, ]>
+<61735, [might#n: -0.125, on#r: 0.03409, training#n: 0.29167, ride#n: -0.04167, various#a: -0.1, appreciate#v: 0.08212, head#n: -0.00051, high#n: 0.03214, a#n: -0.0241, back#v: 0.19442, big#r: 0.08, late#a: -0.02583, do#n: 0.02273, ]>
+<61738, [strong#a: 0.1136, drive#v: 0.01935, food#n: -0.02273, a#n: -0.0241, let#v: -0.02041, right#n: 0.03285, ride#n: -0.04167, ride#n: -0.04167, be#v: 0.03931, have#v: 0.05021, various#a: -0.1, water#n: 0.0085, bend#n: 0.01276, ]>
+<63259, [looking#n: 0.08333, go#a: 0.25, ]>
+<67775, [training#n: 0.29167, world#a: -0.375, strong#a: 0.1136, life#n: 0.00854, strength#n: 0.16298, peak#n: 0.08035, offering#n: 0.015, running#n: 0.01825, bloom#n: 0.11139, burn#n: -0.37591, threshold#n: 0.02737, acid#a: -0.47727, a#n: -0.0241, retain#v: 0.045, fitness#n: 0.42, active#n: 0.20455, hope#n: 0.08929, future#a: -0.02, ]>
+<67801, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<67842, [world#a: -0.375, running#n: 0.01825, an#n: -0.125, injury#n: -0.43796, training#n: 0.29167, success#n: 0.27, a#n: -0.0241, successful#a: 0.625, shoot#n: 0.08333, extreme#n: 0.08333, feel#n: 0.105, training#n: 0.29167, order#v: -0.00491, a#n: -0.0241, running#n: 0.01825, day#n: 0.03794, center#v: 0.03409, bell#n: 0.00854, day#n: 0.03794, help#n: 0.2, makeover#n: 0.16667, a#n: -0.0241, training#n: 0.29167, do#n: 0.02273, check#n: 0.0292, club#n: 0.01607, continually#r: 0.125, grab#v: -0.0085, active#n: 0.20455, ]>
+<68564, [date#n: 0.0115, security#n: 0.14483, standard#a: 0.07755, certain#a: -0.13889, process#n: -0.03827, risk#v: -0.04167, downside#n: 0.125, a#n: -0.0241, leverage#n: 0.03409, have#v: 0.05021, consider#v: 0.14623, carefully#r: -0.08333, on#r: 0.03409, interest#v: 0.26136, grant#v: 0.19685, need#v: -0.04545, compliance#n: 0.27273, eliminate#v: 0.01205, paid#a: 0.32955, ]>
+<68567, [admission#n: 0.12, application#n: 0.01607, time#n: 0.12092, room#n: 0.06, through#r: 0.0219, approval#n: 0.255, ]>
+<69195, [a#n: -0.0241, fool#n: 0.34091, stuff#n: -0.05096, change#n: 0.03028, fool#n: 0.34091, know#n: 0.625, amazon#n: 0.06, profitability#n: 0.75, a#n: -0.0241, pink#n: -0.06818, on#r: 0.03409, puzzle#n: 0.29167, latest#a: 0.08333, win#n: 0.08333, special#a: 0.05223, friend#n: 0.10949, an#n: -0.125, a#n: -0.0241, fool#n: 0.34091, a#n: -0.0241, a#n: -0.0241, trial#n: 0.0085, a#n: -0.0241, fool#n: 0.34091, d#n: -0.06818, ]>
+<69215, [a#n: -0.0241, fool#n: 0.34091, stuff#n: -0.05096, change#n: 0.03028, fool#n: 0.34091, thomas#n: -0.04106, threat#n: -0.24, shake#n: -0.03061, look#n: -0.03, patent#a: 0.375, suit#n: 0.02041, a#n: -0.0241, rule#n: 0.08422, guide#n: 0.01276, little#a: -0.27212, a#n: -0.0241, upheaval#n: -0.15, extraordinary#a: 0.27273, stunning#a: -0.18, focus#n: 0.1141, essential#n: -0.125, success#n: 0.27, a#n: -0.0241, trial#n: 0.0085, change#n: 0.03028, address#n: 0.01725, delivery#n: -0.0241, fool#n: 0.34091, d#n: -0.06818, use#v: 0.05442, consent#v: 0.25, benjamin#n: -0.04167, ]>
+<69333, [be#v: 0.03931, do#n: 0.02273, ]>
+<69938, [please#v: 0.34091, send#v: 0.01314, apologize#v: -0.41667, decision#n: 0.0219, form#n: 0.00792, training#n: 0.29167, cancelled#a: -0.375, ]>
+<70186, [now#r: 0.01928, provide#v: 0.03099, a#n: -0.0241, a#n: -0.0241, organization#n: 0.01928, ]>
+<70369, [a#n: -0.0241, not#r: -0.625, face#n: -0.00715, avoid#v: -0.04653, match#n: 0.08248, option#n: -0.17045, go#a: 0.25, training#n: 0.29167, training#n: 0.29167, information#n: 0.02737, technical#a: 0.16423, ]>
+<70377, [energy#n: 0.10847, a#n: -0.0241, buy#n: 0.5, lose#v: -0.34906, appetite#n: -0.25, option#n: -0.17045, information#n: 0.02737, training#n: 0.29167, an#n: -0.125, information#n: 0.02737, learn#v: 0.03231, ]>
+<70378, [energy#n: 0.10847, a#n: -0.0241, buy#n: 0.5, lose#v: -0.34906, appetite#n: -0.25, option#n: -0.17045, information#n: 0.02737, training#n: 0.29167, an#n: -0.125, information#n: 0.02737, learn#v: 0.03231, by#r: -0.16667, ]>
+<70410, [business#n: 0.03314, a#n: -0.0241, permit#v: -0.04545, contact#n: 0.13256, address#n: 0.01725, like#v: 0.38047, ]>
+<70452, [know#n: 0.625, elizabeth#n: -0.08333, system#n: 0.01718, system#n: 0.01718, call#n: 0.01965, ]>
+<70505, [please#v: 0.34091, see#v: 0.0271, capacity#n: 0.03866, ]>
+<70541, [maximum#a: 0.25, opportunity#n: 0.5, information#n: 0.02737, register#v: 0.03201, ]>
+<70567, [now#r: 0.01928, provide#v: 0.03099, a#n: -0.0241, a#n: -0.0241, organization#n: 0.01928, ]>
+<70664, [have#v: 0.05021, price#n: 0.06026, understand#v: 0.17518, credit#v: 0.075, learn#v: 0.03231, technical#a: 0.16423, energy#n: 0.10847, do#n: 0.02273, center#v: 0.03409, privacy#n: 0.29167, ]>
+<70665, [have#v: 0.05021, price#n: 0.06026, understand#v: 0.17518, credit#v: 0.075, learn#v: 0.03231, technical#a: 0.16423, energy#n: 0.10847, do#n: 0.02273, shelley#n: 0.04167, ]>
+<70892, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<71040, [technical#a: 0.16423, energy#n: 0.10847, technical#a: 0.16423, buy#n: 0.5, buy#n: 0.5, by#r: -0.16667, ]>
+<71041, [technical#a: 0.16423, energy#n: 0.10847, technical#a: 0.16423, buy#n: 0.5, buy#n: 0.5, shelley#n: 0.04167, ]>
+<71198, [training#n: 0.29167, training#n: 0.29167, training#n: 0.29167, ]>
+<71671, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<73202, [sorry#a: -0.535, number#n: -0.11826, night#n: -0.0276, don#n: 0.05952, think#v: 0.06378, an#n: -0.125, a#n: -0.0241, ]>
+<74355, [want#v: 0.05474, information#n: 0.02737, ]>
+<75137, [am#n: -0.03409, an#n: -0.125, assistance#n: 0.25, ]>
+<75179, [must#n: 0.04545, excuse#n: -0.27273, friend#n: 0.10949, legs#n: 0.25, running#n: 0.01825, time#n: 0.12092, scores#n: -0.25, about#r: 0.09642, a#n: -0.0241, buddy#n: 0.125, gripe#v: -0.5, unsuitable#a: -0.70396, man#n: 0.0069, moral#a: 0.33333, man#n: 0.0069, watch#v: 0.14256, demonstrate#v: 0.12, set#v: 0.03943, a#n: -0.0241, better#v: 0.57955, buddy#n: 0.125, sex#v: 0.25, a#n: -0.0241, man#n: 0.0069, a#n: -0.0241, nod#v: -0.01095, need#v: -0.04545, hang#v: -0.00879, a#n: -0.0241, hangover#n: -0.40909, brightness#n: 0.07955, ]>
+<75197, [hoover#v: -0.125, better#v: 0.57955, find#n: 0.41667, hoover#v: -0.125, prospect#v: 0.25, qualify#v: 0.3214, ]>
+<75199, [global#a: -0.20833, training#n: 0.29167, intelligence#n: 0.21898, a#n: -0.0241, business#n: 0.03314, international#a: -0.375, charged#a: 0.115, ]>
+<75202, [training#n: 0.29167, intelligence#n: 0.21898, a#n: -0.0241, record#n: 0.023, entire#a: 0.12, review#n: 0.05335, reserve#v: 0.03, taylor#n: 0.06818, ]>
+<75250, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<75259, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<75405, [harassment#n: -0.375, avoidance#n: 0.5, harassment#n: -0.375, avoid#v: -0.04653, address#n: 0.01725, a#n: -0.0241, have#v: 0.05021, call#n: 0.01965, a#n: -0.0241, ]>
+<75492, [about#r: 0.09642, night#n: -0.0276, an#n: -0.125, ]>
+<77412, [thanks#n: 0.04167, advantage#n: 0.34091, appreciated#a: 0.375, classic#n: 0.5, undergraduate#n: -0.125, idea#n: 0.02007, ]>
+<77413, [an#n: -0.125, find#n: 0.41667, ]>
+<77465, [put#v: 0.00552, e#n: 0.16423, crisis#n: -0.08333, oil#n: -0.06, force#n: 0.00406, training#n: 0.29167, have#v: 0.05021, a#n: -0.0241, a#n: -0.0241, future#a: -0.02, training#n: 0.29167, ]>
+<77547, [please#v: 0.34091, a#n: -0.0241, daniel#n: 0.10227, crisis#n: -0.08333, oil#n: -0.06, thanks#n: 0.04167, ]>
+<78220, [daniel#n: 0.10227, a#n: -0.0241, oil#n: -0.06, crisis#n: -0.08333, chance#v: 0.10227, success#n: 0.27, know#n: 0.625, add#v: 0.03401, ]>
+<78412, [please#v: 0.34091, put#v: 0.00552, ]>
+<79095, [make#v: 0.02063, happy#a: 0.695, view#v: 0.13636, do#n: 0.02273, have#v: 0.05021, a#n: -0.0241, ]>
+<79103, [late#a: -0.02583, gold#n: 0.00365, high#n: 0.03214, please#v: 0.34091, help#n: 0.2, wonder#v: 0.22727, become#v: 0.015, make#v: 0.02063, day#n: 0.03794, ]>
+<79196, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<79610, [now#r: 0.01928, fun#n: 0.06, help#n: 0.2, hero#n: 0.16391, touch#n: 0.01129, a#n: -0.0241, a#n: -0.0241, on#r: 0.03409, help#n: 0.2, help#n: 0.2, help#n: 0.2, ]>
+<80055, [number#n: -0.11826, have#v: 0.05021, ]>
+<80689, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<81163, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, an#n: -0.125, physical#a: -0.00321, cut#v: 0.04284, a#n: -0.0241, direction#n: 0.00491, wave#n: 0.00552, regular#n: -0.03, by#r: -0.16667, information#n: 0.02737, call#n: 0.01965, ]>
+<81370, [times#n: 0.33333, review#n: 0.05335, have#v: 0.05021, call#n: 0.01965, center#v: 0.03409, ]>
+<81894, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<82644, [training#n: 0.29167, training#n: 0.29167, track#v: 0.01095, voice#n: 0.0092, accepted#a: 0.5, know#n: 0.625, ]>
+<83009, [have#v: 0.05021, go#a: 0.25, know#n: 0.625, like#v: 0.38047, on#r: 0.03409, ]>
+<83164, [address#n: 0.01725, time#n: 0.12092, must#n: 0.04545, be#v: 0.03931, name#n: 0.01531, ]>
+<83165, [system#n: 0.01718, times#n: 0.33333, must#n: 0.04545, contact#n: 0.13256, ]>
+<83724, [address#n: 0.01725, time#n: 0.12092, must#n: 0.04545, be#v: 0.03931, name#n: 0.01531, ]>
+<83725, [system#n: 0.01718, times#n: 0.33333, must#n: 0.04545, contact#n: 0.13256, ]>
+<84387, [tom#n: 0.03409, james#n: 0.0061, wheeler#n: 0.01825, process#n: -0.03827, training#n: 0.29167, be#v: 0.03931, please#v: 0.34091, contact#n: 0.13256, ]>
+<84436, [a#n: -0.0241, a#n: -0.0241, am#n: -0.03409, be#v: 0.03931, information#n: 0.02737, established#a: 0.13686, evaluation#n: 0.08333, conclusion#n: 0.00884, an#n: -0.125, effort#n: 0.04, receive#v: 0.03517, best#v: 0.125, be#v: 0.03931, day#n: 0.03794, everyday#a: 0.22727, day#n: 0.03794, order#v: -0.00491, ]>
+<84437, [training#n: 0.29167, time#n: 0.12092, production#n: -0.00767, ]>
+<84588, [excel#v: -0.25, like#v: 0.38047, ]>
+<84668, [please#v: 0.34091, be#v: 0.03931, sure#a: -0.00197, ]>
+<84761, [note#v: 0.04, don#n: 0.05952, ]>
+<84850, [name#n: 0.01531, style#n: 0.01894, color#a: 0.625, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, color#a: 0.625, style#n: 0.01894, introduction#n: 0.01928, experienced#a: 0.5, logical#a: 0.43, a#n: -0.0241, align#v: -0.045, style#n: 0.01894, face#n: -0.00715, find#n: 0.41667, award#n: 0.13636, style#n: 0.01894, face#n: -0.00715, divergence#n: -0.105, size#a: -0.125, face#n: -0.00715, wave#n: 0.00552, face#n: -0.00715, size#a: -0.125, now#r: 0.01928, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, size#a: -0.125, ]>
+<85262, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<85904, [a#n: -0.0241, training#n: 0.29167, practical#a: 0.14, apply#v: 0.03673, fee#n: 0.125, learning#n: 0.125, effectiveness#n: 0.25, meeting#n: -0.01701, education#n: 0.20408, ]>
+<85933, [place#n: 0.00053, a#n: -0.0241, description#n: -0.02273, have#v: 0.05021, contact#n: 0.13256, training#n: 0.29167, report#v: 0.04762, ]>
+<86618, [system#n: 0.01718, standardize#v: -0.25, information#n: 0.02737, ]>
+<86729, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<87102, [verify#v: 0.255, remains#n: -0.08333, ]>
+<87265, [have#v: 0.05021, thanks#n: 0.04167, time#n: 0.12092, ]>
+<87860, [am#n: -0.03409, an#n: -0.125, assistance#n: 0.25, ]>
+<87921, [order#v: -0.00491, reserve#v: 0.03, taylor#n: 0.06818, training#n: 0.29167, ]>
+<87950, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, custom#n: 0.21, custom#n: 0.21, be#v: 0.03931, key#n: 0.01884, jones#n: 0.0102, use#v: 0.05442, training#n: 0.29167, ]>
+<87979, [am#n: -0.03409, reserve#v: 0.03, taylor#n: 0.06818, bring#v: -0.01725, ]>
+<88018, [frost#n: -0.03, frost#n: -0.03, ability#n: 0.33333, ]>
+<88051, [order#v: -0.00491, a#n: -0.0241, special#a: 0.05223, news#n: 0.04653, custom#n: 0.21, business#n: 0.03314, introduction#n: 0.01928, fill#v: -0.0243, a#n: -0.0241, training#n: 0.29167, ]>
+<88121, [information#n: 0.02737, information#n: 0.02737, learn#v: 0.03231, advanced#a: 0.03504, cover#v: 0.00956, charged#a: 0.115, don#n: 0.05952, set#v: 0.03943, jones#n: 0.0102, bring#v: -0.01725, training#n: 0.29167, ]>
+<88153, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<88167, [thanks#n: 0.04167, gift#n: 0.17045, plus#a: 0.25, plus#a: 0.25, day#n: 0.03794, touch#n: 0.01129, a#n: -0.0241, gold#n: 0.00365, a#n: -0.0241, gold#n: 0.00365, looking#n: 0.08333, best#v: 0.125, don#n: 0.05952, hope#n: 0.08929, question#v: 0.34672, ]>
+<88480, [hoover#v: -0.125, better#v: 0.57955, hoover#v: -0.125, hoover#v: -0.125, taylor#n: 0.06818, training#n: 0.29167, am#n: -0.03409, please#v: 0.34091, e#n: 0.16423, taylor#n: 0.06818, training#n: 0.29167, ]>
+<88594, [harassment#n: -0.375, avoidance#n: 0.5, harassment#n: -0.375, avoid#v: -0.04653, address#n: 0.01725, a#n: -0.0241, have#v: 0.05021, call#n: 0.01965, a#n: -0.0241, ]>
+<88660, [note#v: 0.04, force#n: 0.00406, manual#a: -0.11364, ]>
+<88711, [a#n: -0.0241, million#n: -0.04167, set#v: 0.03943, e#n: 0.16423, energy#n: 0.10847, energy#n: 0.10847, energy#n: 0.10847, an#n: -0.125, energy#n: 0.10847, oil#n: -0.06, industry#n: 0.02273, key#n: 0.01884, foreign#a: -0.22, environmentalism#n: 0.04167, e#n: 0.16423, taylor#n: 0.06818, ]>
+<89352, [a#n: -0.0241, training#n: 0.29167, ]>
+<89429, [need#v: -0.04545, do#n: 0.02273, assistance#n: 0.25, manage#v: 0.03444, on#r: 0.03409, training#n: 0.29167, possible#n: 0.25, wish#n: 0.275, bargain#n: 0.16667, reality#n: 0.08, stated#a: 0.5, up#r: 0.05657, day#n: 0.03794, training#n: 0.29167, ]>
+<89594, [need#v: -0.04545, do#n: 0.02273, assistance#n: 0.25, manage#v: 0.03444, on#r: 0.03409, training#n: 0.29167, possible#n: 0.25, wish#n: 0.275, bargain#n: 0.16667, reality#n: 0.08, stated#a: 0.5, up#r: 0.05657, day#n: 0.03794, training#n: 0.29167, ]>
+<89828, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<89829, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<89838, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<89854, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<89913, [training#n: 0.29167, now#r: 0.01928, design#v: 0.0241, all#r: 0.5, a#n: -0.0241, track#v: 0.01095, system#n: 0.01718, dynamic#n: 0.5, hours#n: -0.16667, education#n: 0.20408, an#n: -0.125, assistance#n: 0.25, philosophy#n: 0.03409, finishing#n: -0.08333, assistance#n: 0.25, point#v: 0.01538, work#v: 0.01574, day#n: 0.03794, break#v: -0.01787, fantastic#a: 0.26004, a#n: -0.0241, request#v: 0.04545, ]>
+<89967, [dead#r: 0.16667, a#n: -0.0241, become#v: 0.015, now#r: 0.01928, not#r: -0.625, an#n: -0.125, ]>
+<89971, [training#n: 0.29167, respond#v: 0.04545, training#n: 0.29167, a#n: -0.0241, tool#v: -0.12, description#n: -0.02273, a#n: -0.0241, available#a: 0.20455, form#n: 0.00792, ]>
+<90362, [training#n: 0.29167, now#r: 0.01928, stop#n: 0.00517, by#r: -0.16667, just#r: 0.06973, a#n: -0.0241, such#a: -0.125, energy#n: 0.10847, industry#n: 0.02273, energy#n: 0.10847, activity#n: 0.04932, submit#v: 0.04268, ]>
+<90607, [training#n: 0.29167, training#n: 0.29167, training#n: 0.29167, rely#v: 0.375, ]>
+<94466, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<95078, [check#n: 0.0292, training#n: 0.29167, hours#n: -0.16667, ]>
+<95603, [h#n: -0.10949, don#n: 0.05952, ed#n: -0.5, edward#n: 0.01423, d#n: -0.06818, a#n: -0.0241, d#n: -0.06818, paul#n: -0.04167, theresa#n: -0.25, tom#n: 0.03409, troy#n: -0.08333, training#n: 0.29167, call#n: 0.01965, ]>
+<101220, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<102405, [pinto#n: -0.125, frank#a: 0.125, ]>
+<103135, [williams#n: 0.07653, a#n: -0.0241, training#n: 0.29167, meeting#n: -0.01701, training#n: 0.29167, ]>
+<103164, [pinto#n: -0.125, go#a: 0.25, introduction#n: 0.01928, ]>
+<105327, [please#v: 0.34091, be#v: 0.03931, training#n: 0.29167, ]>
+<105370, [fun#n: 0.06, training#n: 0.29167, ]>
+<106719, [public#a: -0.08333, springer#n: -0.06818, room#n: 0.06, springer#n: -0.06818, ]>
+<107018, [have#v: 0.05021, please#v: 0.34091, attention#n: 0.01531, financial#a: 0.25, ]>
+<107347, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, taylor#n: 0.06818, be#v: 0.03931, don#n: 0.05952, training#n: 0.29167, ]>
+<107395, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<107563, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, reserve#v: 0.03, e#n: 0.16423, taylor#n: 0.06818, please#v: 0.34091, bring#v: -0.01725, ]>
+<107686, [format#v: 0.04545, moved#a: -0.5, fitness#n: 0.42, ]>
+<107701, [a#n: -0.0241, bit#n: -0.04731, floor#v: 0.25, ]>
+<107715, [have#v: 0.05021, change#n: 0.03028, time#n: 0.12092, ]>
+<107926, [a#n: -0.0241, a#n: -0.0241, works#n: 0.03, today#r: 0.16667, ]>
+<107938, [works#n: 0.03, talk#n: -0.06569, thanks#n: 0.04167, be#v: 0.03931, information#n: 0.02737, a#n: -0.0241, best#v: 0.125, might#n: -0.125, case#n: 0.00461, works#n: 0.03, time#n: 0.12092, have#v: 0.05021, time#n: 0.12092, training#n: 0.29167, ]>
+<107941, [training#n: 0.29167, room#n: 0.06, first#n: 0.02721, works#n: 0.03, training#n: 0.29167, please#v: 0.34091, smith#n: 0.00533, ]>
+<108137, [e#n: 0.16423, charge#v: 0.01956, training#n: 0.29167, ]>
+<108223, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, a#n: -0.0241, bring#v: -0.01725, have#v: 0.05021, a#n: -0.0241, ]>
+<108312, [international#a: -0.375, cover#v: 0.00956, business#n: 0.03314, have#v: 0.05021, training#n: 0.29167, training#n: 0.29167, ]>
+<108985, [am#n: -0.03409, business#n: 0.03314, have#v: 0.05021, do#n: 0.02273, let#v: -0.02041, protect#v: -0.5, bottom#n: -0.04821, fact#n: 0.045, a#n: -0.0241, name#n: 0.01531, question#v: 0.34672, tool#v: -0.12, information#n: 0.02737, insight#n: 0.09, risk#v: -0.04167, on#r: 0.03409, go#a: 0.25, ]>
+<108998, [notice#n: 0.04017, training#n: 0.29167, only#r: -0.03214, have#v: 0.05021, browser#n: -0.33333, address#n: 0.01725, return#n: -0.00189, ]>
+<109079, [legal#a: 0.0365, contract#v: -0.02209, am#n: -0.03409, request#v: 0.04545, an#n: -0.125, solution#n: 0.01095, news#n: 0.04653, name#n: 0.01531, tool#v: -0.12, distress#n: -0.59, a#n: -0.0241, approval#n: 0.255, display#v: 0.08333, ]>
+<109864, [have#v: 0.05021, do#n: 0.02273, see#v: 0.0271, am#n: -0.03409, by#r: -0.16667, ]>
+<109913, [please#v: 0.34091, be#v: 0.03931, legal#a: 0.0365, times#n: 0.33333, ]>
+<110341, [room#n: 0.06, training#n: 0.29167, encourage#v: 0.13636, a#n: -0.0241, time#n: 0.12092, ]>
+<111406, [admission#n: 0.12, application#n: 0.01607, time#n: 0.12092, room#n: 0.06, through#r: 0.0219, approval#n: 0.255, ]>
+<111617, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<111697, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, an#n: -0.125, physical#a: -0.00321, cut#v: 0.04284, a#n: -0.0241, direction#n: 0.00491, wave#n: 0.00552, regular#n: -0.03, by#r: -0.16667, information#n: 0.02737, call#n: 0.01965, ]>
+<111726, [energy#n: 0.10847, a#n: -0.0241, buy#n: 0.5, hedged#a: -0.125, today#r: 0.16667, behavior#n: 0.12, price#n: 0.06026, behavior#n: 0.12, price#n: 0.06026, a#n: -0.0241, strategy#n: 0.08333, training#n: 0.29167, ]>
+<111844, [effective#a: 0.22789, communication#n: 0.02273, first#n: 0.02721, offering#n: 0.015, day#n: 0.03794, meeting#n: -0.01701, training#n: 0.29167, encouraged#a: 0.375, effective#a: 0.22789, communication#n: 0.02273, consultation#n: 0.06818, available#a: 0.20455, a#n: -0.0241, focus#n: 0.1141, day#n: 0.03794, mastery#n: 0.17045, training#n: 0.29167, style#n: 0.01894, style#n: 0.01894, day#n: 0.03794, training#n: 0.29167, meeting#n: -0.01701, an#n: -0.125, day#n: 0.03794, improve#v: 0.375, communication#n: 0.02273, importance#n: 0.45833, necessary#n: -0.125, work#v: 0.01574, need#v: -0.04545, ]>
+<112705, [form#n: 0.00792, payable#n: 0.125, ]>
+<112709, [verify#v: 0.255, remains#n: -0.08333, ]>
+<112723, [form#n: 0.00792, payable#n: 0.125, up#r: 0.05657, ]>
+<112724, [form#n: 0.00792, payable#n: 0.125, up#r: 0.05657, ]>
+<115400, [please#v: 0.34091, reserve#v: 0.03, training#n: 0.29167, am#n: -0.03409, ]>
+<115492, [star#a: 0.125, pain#v: -0.45833, amiss#r: -0.05682, rumbling#n: -0.375, craving#n: -0.125, night#n: -0.0276, havoc#n: -0.5, bowels#n: -0.125, even#r: -0.005, a#n: -0.0241, a#n: -0.0241, girl#n: 0.02737, gag#n: 0.25, right#n: 0.03285, water#n: 0.0085, a#n: -0.0241, style#n: 0.01894, a#n: -0.0241, shoot#n: 0.08333, have#v: 0.05021, d#n: -0.06818, remember#v: 0.09735, do#n: 0.02273, bong#n: -0.125, a#n: -0.0241, ham#n: -0.015, ]>
+<118130, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<118668, [now#r: 0.01928, available#a: 0.20455, international#a: -0.375, an#n: -0.125, ]>
+<118703, [now#r: 0.01928, available#a: 0.20455, poll#v: -0.06, key#n: 0.01884, ]>
+<119061, [action#n: 0.02027, law#n: 0.02009, action#n: 0.02027, court#n: 0.01505, division#n: 0.00671, section#n: 0.03844, period#n: 0.0241, a#n: -0.0241, price#n: 0.06026, lead#n: 0.05508, complaint#n: -0.24818, a#n: -0.0241, ma#n: 0.39, ]>
+<119168, [vice#n: 0.16667, performance#n: 0.08212, meeting#n: -0.01701, information#n: 0.02737, need#v: -0.04545, assistance#n: 0.25, ]>
+<119901, [room#n: 0.06, room#n: 0.06, room#n: 0.06, a#n: -0.0241, a#n: -0.0241, information#n: 0.02737, room#n: 0.06, sending#n: -0.125, ]>
+<120280, [room#n: 0.06, room#n: 0.06, room#n: 0.06, a#n: -0.0241, a#n: -0.0241, information#n: 0.02737, room#n: 0.06, sending#n: -0.125, ]>
+<120391, [problem#n: -0.38636, nature#n: 0.21898, about#r: 0.09642, have#v: 0.05021, record#n: 0.023, format#v: 0.04545, need#v: -0.04545, a#n: -0.0241, elizabeth#n: -0.08333, billy#n: -0.04167, initiative#n: 0.25, response#n: 0.07231, training#n: 0.29167, business#n: 0.03314, dick#n: -0.04167, a#n: -0.0241, training#n: 0.29167, basis#n: 0.04545, key#n: 0.01884, a#n: -0.0241, training#n: 0.29167, let#v: -0.02041, unique#a: 0.24, circumstances#n: 0.16667, know#n: 0.625, help#n: 0.2, first#n: 0.02721, possible#n: 0.25, a#n: -0.0241, applicability#n: 0.25, greatly#r: 0.125, move#n: -0.01825, beginning#n: 0.02737, ]>
+<120395, [off#v: -0.625, have#v: 0.05021, have#v: 0.05021, training#n: 0.29167, by#r: -0.16667, on#r: 0.03409, be#v: 0.03931, really#r: 0.47, h#n: -0.10949, george#n: 0.00528, response#n: 0.07231, a#n: -0.0241, time#n: 0.12092, james#n: 0.0061, a#n: -0.0241, meeting#n: -0.01701, a#n: -0.0241, a#n: -0.0241, training#n: 0.29167, know#n: 0.625, circumstances#n: 0.16667, let#v: -0.02041, provide#v: 0.03099, real#a: -0.01915, a#n: -0.0241, a#n: -0.0241, applicability#n: 0.25, move#n: -0.01825, provide#v: 0.03099, ]>
+<120742, [peter#n: -0.04167, by#r: -0.16667, rob#v: -0.33333, mark#v: 0.02314, now#r: 0.01928, ]>
+<120906, [performance#n: 0.08212, performance#n: 0.08212, be#v: 0.03931, process#n: -0.03827, training#n: 0.29167, communication#n: 0.02273, communication#n: 0.02273, on#r: 0.03409, ]>
+<121002, [likelihood#n: 0.25, energy#n: 0.10847, crisis#n: -0.08333, be#v: 0.03931, control#n: 0.01035, protect#v: -0.5, crisis#n: -0.08333, industry#n: 0.02273, spark#n: 0.08929, believe#v: 0.10219, a#n: -0.0241, force#n: 0.00406, response#n: 0.07231, emphasizing#n: 0.125, stance#n: -0.04167, virus#n: -0.03409, a#n: -0.0241, crisis#n: -0.08333, go#a: 0.25, smith#n: 0.00533, energy#n: 0.10847, exposed#a: -0.625, strategy#n: 0.08333, utility#n: 0.05102, believe#v: 0.10219, scrutiny#n: 0.04167, report#v: 0.04762, risk#v: -0.04167, abandon#n: -0.33333, have#v: 0.05021, example#n: 0.01701, justifiable#a: 0.625, confidence#n: 0.10493, higher#a: 0.20833, extended#a: 0.01369, energy#n: 0.10847, a#n: -0.0241, a#n: -0.0241, security#n: 0.14483, alter#v: -0.05474, a#n: -0.0241, transmission#n: 0.02737, manage#v: 0.03444, risk#v: -0.04167, energy#n: 0.10847, possible#n: 0.25, reliability#n: 0.625, a#n: -0.0241, billion#n: -0.03409, a#n: -0.0241, be#v: 0.03931, do#n: 0.02273, situation#n: -0.0365, reduced#a: -0.16667, spot#n: 0.01965, capacity#n: 0.03866, facing#n: -0.04, coverage#n: -0.06818, situation#n: -0.0365, value#v: 0.07299, emphasis#n: 0.375, supply#v: 0.02, face#n: -0.00715, disruption#n: -0.195, address#n: 0.01725, information#n: 0.02737, energy#n: 0.10847, crisis#n: -0.08333, be#v: 0.03931, ]>
+<126537, [off#v: -0.625, have#v: 0.05021, have#v: 0.05021, training#n: 0.29167, by#r: -0.16667, on#r: 0.03409, be#v: 0.03931, really#r: 0.47, h#n: -0.10949, george#n: 0.00528, response#n: 0.07231, a#n: -0.0241, time#n: 0.12092, james#n: 0.0061, a#n: -0.0241, meeting#n: -0.01701, a#n: -0.0241, a#n: -0.0241, training#n: 0.29167, know#n: 0.625, circumstances#n: 0.16667, let#v: -0.02041, provide#v: 0.03099, real#a: -0.01915, a#n: -0.0241, a#n: -0.0241, applicability#n: 0.25, move#n: -0.01825, provide#v: 0.03099, ]>
+<126538, [problem#n: -0.38636, nature#n: 0.21898, about#r: 0.09642, have#v: 0.05021, record#n: 0.023, format#v: 0.04545, need#v: -0.04545, a#n: -0.0241, elizabeth#n: -0.08333, billy#n: -0.04167, initiative#n: 0.25, response#n: 0.07231, training#n: 0.29167, business#n: 0.03314, dick#n: -0.04167, a#n: -0.0241, training#n: 0.29167, basis#n: 0.04545, key#n: 0.01884, a#n: -0.0241, training#n: 0.29167, let#v: -0.02041, unique#a: 0.24, circumstances#n: 0.16667, know#n: 0.625, help#n: 0.2, first#n: 0.02721, possible#n: 0.25, a#n: -0.0241, applicability#n: 0.25, greatly#r: 0.125, move#n: -0.01825, beginning#n: 0.02737, ]>
+<126584, [room#n: 0.06, room#n: 0.06, room#n: 0.06, a#n: -0.0241, a#n: -0.0241, information#n: 0.02737, room#n: 0.06, sending#n: -0.125, ]>
+<126585, [room#n: 0.06, room#n: 0.06, room#n: 0.06, a#n: -0.0241, a#n: -0.0241, information#n: 0.02737, room#n: 0.06, sending#n: -0.125, ]>
+<126842, [have#v: 0.05021, information#n: 0.02737, ]>
+<127126, [please#v: 0.34091, news#n: 0.04653, coverage#n: -0.06818, ]>
+<127359, [vice#n: 0.16667, performance#n: 0.08212, meeting#n: -0.01701, information#n: 0.02737, need#v: -0.04545, assistance#n: 0.25, ]>
+<127776, [performance#n: 0.08212, performance#n: 0.08212, be#v: 0.03931, process#n: -0.03827, training#n: 0.29167, communication#n: 0.02273, communication#n: 0.02273, on#r: 0.03409, ]>
+<128056, [job#v: -0.015, a#n: -0.0241, conscientious#a: -0.16667, read#v: 0.00414, name#n: 0.01531, count#v: -0.01841, say#v: 0.0069, hurry#n: -0.06818, address#n: 0.01725, a#n: -0.0241, king#n: 0.02561, water#n: 0.0085, now#r: 0.01928, boy#n: 0.105, a#n: -0.0241, a#n: -0.0241, peasant#n: -0.04545, note#v: 0.04, peasant#n: -0.04545, understand#v: 0.17518, an#n: -0.125, a#n: -0.0241, chance#v: 0.10227, brother#n: 0.01825, only#r: -0.03214, all#r: 0.5, a#n: -0.0241, voice#n: 0.0092, start#v: -0.00641, doctor#v: -0.125, thought#n: 0.015, ]>
+<128648, [peter#n: -0.04167, by#r: -0.16667, first#n: 0.02721, peter#n: -0.04167, ]>
+<128655, [peter#n: -0.04167, by#r: -0.16667, rob#v: -0.33333, mark#v: 0.02314, now#r: 0.01928, ]>
+<129528, [likelihood#n: 0.25, energy#n: 0.10847, crisis#n: -0.08333, be#v: 0.03931, control#n: 0.01035, protect#v: -0.5, crisis#n: -0.08333, industry#n: 0.02273, spark#n: 0.08929, believe#v: 0.10219, a#n: -0.0241, force#n: 0.00406, response#n: 0.07231, emphasizing#n: 0.125, stance#n: -0.04167, virus#n: -0.03409, a#n: -0.0241, crisis#n: -0.08333, go#a: 0.25, smith#n: 0.00533, energy#n: 0.10847, exposed#a: -0.625, strategy#n: 0.08333, utility#n: 0.05102, believe#v: 0.10219, scrutiny#n: 0.04167, report#v: 0.04762, risk#v: -0.04167, abandon#n: -0.33333, have#v: 0.05021, example#n: 0.01701, justifiable#a: 0.625, confidence#n: 0.10493, higher#a: 0.20833, extended#a: 0.01369, energy#n: 0.10847, a#n: -0.0241, a#n: -0.0241, security#n: 0.14483, alter#v: -0.05474, a#n: -0.0241, transmission#n: 0.02737, manage#v: 0.03444, risk#v: -0.04167, energy#n: 0.10847, possible#n: 0.25, reliability#n: 0.625, a#n: -0.0241, billion#n: -0.03409, a#n: -0.0241, be#v: 0.03931, do#n: 0.02273, situation#n: -0.0365, reduced#a: -0.16667, spot#n: 0.01965, capacity#n: 0.03866, facing#n: -0.04, coverage#n: -0.06818, situation#n: -0.0365, value#v: 0.07299, emphasis#n: 0.375, supply#v: 0.02, face#n: -0.00715, disruption#n: -0.195, address#n: 0.01725, information#n: 0.02737, energy#n: 0.10847, crisis#n: -0.08333, be#v: 0.03931, ]>
+<129676, [business#n: 0.03314, behalf#n: 0.04167, a#n: -0.0241, stock#n: 0.00404, traceable#a: 0.16667, action#n: 0.02027, a#n: -0.0241, have#v: 0.05021, information#n: 0.02737, complaint#n: -0.24818, a#n: -0.0241, a#n: -0.0241, statement#n: 0.00689, period#n: 0.0241, behalf#n: 0.04167, period#n: 0.0241, represented#a: 0.5, experience#v: -0.01369, reputation#n: 0.27273, all#r: 0.5, ]>
+<135003, [missed#a: -0.5, a#n: -0.0241, gold#n: 0.00365, frenzy#n: -0.125, high#n: 0.03214, all#r: 0.5, a#n: -0.0241, a#n: -0.0241, a#n: -0.0241, gold#n: 0.00365, make#v: 0.02063, add#v: 0.03401, day#n: 0.03794, ]>
+<141074, [harassment#n: -0.375, harassment#n: -0.375, ]>
+<141111, [confirmation#n: 0.19161, times#n: 0.33333, information#n: 0.02737, a#n: -0.0241, number#n: -0.11826, call#n: 0.01965, center#v: 0.03409, ]>
+<141608, [contract#v: -0.02209, don#n: 0.05952, ]>
+<142632, [like#v: 0.38047, am#n: -0.03409, plant#n: -0.06, minimum#n: -0.125, d#n: -0.06818, red#a: -0.14773, minimum#n: -0.125, design#v: 0.0241, design#v: 0.0241, compliance#n: 0.27273, respect#n: 0.29132, compliance#n: 0.27273, ]>
+<143715, [corporate#a: -0.06, times#n: 0.33333, am#n: -0.03409, look#n: -0.03, ]>
+<143932, [fee#n: 0.125, a#n: -0.0241, number#n: -0.11826, call#n: 0.01965, have#v: 0.05021, ]>
+<144561, [a#n: -0.0241, please#v: 0.34091, coverage#n: -0.06818, ]>
+<144732, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<145127, [information#n: 0.02737, use#v: 0.05442, ]>
+<145134, [information#n: 0.02737, use#v: 0.05442, ]>
+<145176, [business#n: 0.03314, times#n: 0.33333, ]>
+<152148, [set#v: 0.03943, training#n: 0.29167, equity#n: 0.09091, regency#n: -0.03409, ]>
+<152534, [be#v: 0.03931, an#n: -0.125, place#n: 0.00053, first#n: 0.02721, pick#n: 0.02946, all#r: 0.5, stand#n: -0.00671, don#n: 0.05952, have#v: 0.05021, want#v: 0.05474, moment#n: 0.02551, change#n: 0.03028, away#r: -0.02885, do#n: 0.02273, first#n: 0.02721, do#n: 0.02273, love#v: 0.61, offering#n: 0.015, knowing#a: 0.14, hard#r: -0.12993, drive#v: 0.01935, ontario#n: 0.125, ]>
+<153017, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<153134, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<153143, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<153740, [jones#n: 0.0102, interactive#a: 0.08333, interactive#a: 0.08333, fill#v: -0.0243, bring#v: -0.01725, have#v: 0.05021, a#n: -0.0241, training#n: 0.29167, training#n: 0.29167, ]>
+<153842, [have#v: 0.05021, pick#n: 0.02946, fun#n: 0.06, case#n: 0.00461, have#v: 0.05021, moment#n: 0.02551, note#v: 0.04, public#a: -0.08333, be#v: 0.03931, do#n: 0.02273, visit#v: -0.04216, bullshit#v: -0.875, space#v: 0.125, drive#v: 0.01935, ]>
+<154305, [make#v: 0.02063, sure#a: -0.00197, h#n: -0.10949, dick#n: -0.04167, ed#n: -0.5, edward#n: 0.01423, d#n: -0.06818, george#n: 0.00528, james#n: 0.0061, a#n: -0.0241, training#n: 0.29167, a#n: -0.0241, training#n: 0.29167, ]>
+<154346, [ed#n: -0.5, d#n: -0.06818, frank#a: 0.125, george#n: 0.00528, george#n: 0.00528, hunter#n: -0.015, james#n: 0.0061, e#n: 0.16423, theresa#n: -0.25, tom#n: 0.03409, tom#n: 0.03409, ]>
+<155704, [now#r: 0.01928, news#n: 0.04653, am#n: -0.03409, ]>
+<155983, [worldwide#a: -0.10227, communication#n: 0.02273, find#n: 0.41667, busy#a: 0.12318, exceed#v: -0.02273, a#n: -0.0241, call#n: 0.01965, day#n: 0.03794, ]>
+<157376, [time#n: 0.12092, training#n: 0.29167, still#a: -0.26276, ]>
+<157409, [please#v: 0.34091, let#v: -0.02041, must#n: 0.04545, ]>
+<157487, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<158046, [training#n: 0.29167, learning#n: 0.125, training#n: 0.29167, e#n: 0.16423, training#n: 0.29167, ]>
+<158053, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<158064, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<158283, [industrial#a: 0.135, fair#n: 0.03, am#n: -0.03409, help#n: 0.2, ]>
+<158446, [frost#n: -0.03, frost#n: -0.03, ability#n: 0.33333, ]>
+<158679, [be#v: 0.03931, respective#a: 0.25, ]>
+<158680, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<159450, [industrial#a: 0.135, fair#n: 0.03, am#n: -0.03409, help#n: 0.2, ]>
+<159453, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<159604, [contact#n: 0.13256, am#n: -0.03409, industrial#a: 0.135, appreciate#v: 0.08212, trying#a: -0.54167, ]>
+<159605, [load#v: -0.03285, a#n: -0.0241, information#n: 0.02737, ]>
+<159606, [address#n: 0.01725, box#n: 0.03201, ]>
+<159639, [fair#n: 0.03, provide#v: 0.03099, ]>
+<159722, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<159745, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<160688, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<160882, [color#a: 0.625, size#a: -0.125, face#n: -0.00715, size#a: -0.125, box#n: 0.03201, size#a: -0.125, effective#a: 0.22789, distribution#n: 0.12, training#n: 0.29167, next#a: -0.02273, training#n: 0.29167, face#n: -0.00715, correct#v: -0.02217, ]>
+<160921, [a#n: -0.0241, fact#n: 0.045, not#r: -0.625, let#v: -0.02041, hedge#v: -0.075, provide#v: 0.03099, need#v: -0.04545, a#n: -0.0241, strategy#n: 0.08333, ]>
+<160929, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, energy#n: 0.10847, day#n: 0.03794, refresher#n: -0.13636, a#n: -0.0241, buy#n: 0.5, high#n: 0.03214, logical#a: 0.43, cut#v: 0.04284, strategy#n: 0.08333, best#v: 0.125, training#n: 0.29167, ]>
+<161002, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<161019, [smith#n: 0.00533, form#n: 0.00792, buy#n: 0.5, divergence#n: -0.105, by#r: -0.16667, a#n: -0.0241, ]>
+<161027, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<161163, [enterprise#n: 0.13636, application#n: 0.01607, industry#n: 0.02273, enterprise#n: 0.13636, enterprise#n: 0.13636, use#v: 0.05442, order#v: -0.00491, privacy#n: 0.29167, unsolicited#a: -0.625, a#n: -0.0241, address#n: 0.01725, right#n: 0.03285, privacy#n: 0.29167, a#n: -0.0241, copy#v: -0.045, ]>
+<162514, [have#v: 0.05021, thanks#n: 0.04167, time#n: 0.12092, ]>
+<162617, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<162626, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<167408, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<168320, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<168321, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<168327, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<168336, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<169595, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<169611, [dear#n: 0.08333, business#n: 0.03314, find#n: 0.41667, popular#a: 0.08, ]>
+<169641, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<169668, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<169713, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<169771, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<169788, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, taylor#n: 0.06818, be#v: 0.03931, don#n: 0.05952, training#n: 0.29167, ]>
+<169928, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<169929, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<169935, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<169944, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<170053, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<170054, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<170055, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<170057, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<170078, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<170084, [jones#n: 0.0102, interactive#a: 0.08333, interactive#a: 0.08333, fill#v: -0.0243, bring#v: -0.01725, have#v: 0.05021, a#n: -0.0241, training#n: 0.29167, training#n: 0.29167, ]>
+<170090, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<170096, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<170566, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<170646, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<170675, [smith#n: 0.00533, form#n: 0.00792, buy#n: 0.5, divergence#n: -0.105, by#r: -0.16667, a#n: -0.0241, ]>
+<170767, [name#n: 0.01531, style#n: 0.01894, color#a: 0.625, face#n: -0.00715, face#n: -0.00715, full#a: 0.023, manner#n: 0.15909, methodical#a: -0.25, manner#n: 0.15909, face#n: -0.00715, face#n: -0.00715, award#n: 0.13636, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, size#a: -0.125, face#n: -0.00715, wave#n: 0.00552, size#a: -0.125, face#n: -0.00715, face#n: -0.00715, training#n: 0.29167, ]>
+<170917, [system#n: 0.01718, standardize#v: -0.25, information#n: 0.02737, ]>
+<171310, [place#n: 0.00053, a#n: -0.0241, description#n: -0.02273, have#v: 0.05021, contact#n: 0.13256, training#n: 0.29167, report#v: 0.04762, ]>
+<171362, [proud#a: 0.33333, training#n: 0.29167, special#a: 0.05223, pass#n: -0.02894, guide#n: 0.01276, industry#n: 0.02273, industry#n: 0.02273, introduction#n: 0.01928, industry#n: 0.02273, information#n: 0.02737, oxford#n: -0.03, contact#n: 0.13256, future#a: -0.02, have#v: 0.05021, please#v: 0.34091, ]>
+<171363, [name#n: 0.01531, style#n: 0.01894, color#a: 0.625, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, color#a: 0.625, style#n: 0.01894, introduction#n: 0.01928, experienced#a: 0.5, logical#a: 0.43, a#n: -0.0241, align#v: -0.045, style#n: 0.01894, face#n: -0.00715, find#n: 0.41667, award#n: 0.13636, style#n: 0.01894, face#n: -0.00715, divergence#n: -0.105, size#a: -0.125, face#n: -0.00715, wave#n: 0.00552, face#n: -0.00715, size#a: -0.125, now#r: 0.01928, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, size#a: -0.125, ]>
+<171389, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, day#n: 0.03794, logical#a: 0.43, buy#n: 0.5, real#a: -0.01915, cut#v: 0.04284, wave#n: 0.00552, early#a: -0.01701, information#n: 0.02737, ]>
+<171398, [proud#a: 0.33333, training#n: 0.29167, risk#v: -0.04167, move#n: -0.01825, deck#v: 0.27273, ]>
+<171448, [have#v: 0.05021, thanks#n: 0.04167, time#n: 0.12092, ]>
+<171476, [a#n: -0.0241, fact#n: 0.045, not#r: -0.625, let#v: -0.02041, hedge#v: -0.075, provide#v: 0.03099, need#v: -0.04545, a#n: -0.0241, strategy#n: 0.08333, ]>
+<171485, [learn#v: 0.03231, technical#a: 0.16423, full#a: 0.023, energy#n: 0.10847, day#n: 0.03794, refresher#n: -0.13636, a#n: -0.0241, buy#n: 0.5, high#n: 0.03214, logical#a: 0.43, cut#v: 0.04284, strategy#n: 0.08333, best#v: 0.125, training#n: 0.29167, ]>
+<171488, [proud#a: 0.33333, training#n: 0.29167, introduction#n: 0.01928, industry#n: 0.02273, industry#n: 0.02273, competency#n: 0.375, oxford#n: -0.03, a#n: -0.0241, ]>
+<171536, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<171547, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<171560, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<171567, [smith#n: 0.00533, form#n: 0.00792, buy#n: 0.5, divergence#n: -0.105, by#r: -0.16667, a#n: -0.0241, ]>
+<171587, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<171630, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<171635, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<171639, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<171640, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<171652, [an#n: -0.125, introduction#n: 0.01928, a#n: -0.0241, set#v: 0.03943, buy#n: 0.5, information#n: 0.02737, on#r: 0.03409, ]>
+<171708, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, taylor#n: 0.06818, be#v: 0.03931, don#n: 0.05952, training#n: 0.29167, ]>
+<171715, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<172664, [hoover#v: -0.125, better#v: 0.57955, hoover#v: -0.125, hoover#v: -0.125, taylor#n: 0.06818, training#n: 0.29167, am#n: -0.03409, please#v: 0.34091, e#n: 0.16423, taylor#n: 0.06818, training#n: 0.29167, ]>
+<172989, [e#n: 0.16423, following#a: 0.015, have#v: 0.05021, ]>
+<173210, [am#n: -0.03409, am#n: -0.03409, legal#a: 0.0365, am#n: -0.03409, am#n: -0.03409, a#n: -0.0241, public#a: -0.08333, now#r: 0.01928, am#n: -0.03409, please#v: 0.34091, request#v: 0.04545, law#n: 0.02009, protect#v: -0.5, deliver#v: 0.03021, a#n: -0.0241, financial#a: 0.25, following#a: 0.015, a#n: -0.0241, process#n: -0.03827, ]>
+<174036, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<174245, [a#n: -0.0241, please#v: 0.34091, coverage#n: -0.06818, ]>
+<174527, [am#n: -0.03409, business#n: 0.03314, have#v: 0.05021, do#n: 0.02273, let#v: -0.02041, protect#v: -0.5, bottom#n: -0.04821, fact#n: 0.045, a#n: -0.0241, name#n: 0.01531, question#v: 0.34672, tool#v: -0.12, information#n: 0.02737, insight#n: 0.09, risk#v: -0.04167, on#r: 0.03409, go#a: 0.25, ]>
+<175343, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<175351, [make#v: 0.02063, please#v: 0.34091, a#n: -0.0241, distribution#n: 0.12, ]>
+<175353, [information#n: 0.02737, please#v: 0.34091, privacy#n: 0.29167, contact#n: 0.13256, distribution#n: 0.12, address#n: 0.01725, distribution#n: 0.12, ]>
+<175354, [information#n: 0.02737, please#v: 0.34091, privacy#n: 0.29167, contact#n: 0.13256, distribution#n: 0.12, address#n: 0.01725, distribution#n: 0.12, ]>
+<175374, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<175384, [smith#n: 0.00533, form#n: 0.00792, buy#n: 0.5, divergence#n: -0.105, by#r: -0.16667, a#n: -0.0241, ]>
+<175422, [meet#a: 0.625, time#n: 0.12092, waste#v: 0.08353, hope#n: 0.08929, ]>
+<175787, [meet#a: 0.625, time#n: 0.12092, waste#v: 0.08353, hope#n: 0.08929, ]>
+<176788, [bankruptcy#n: -0.17045, focused#a: 0.20455, soon#r: -0.125, respond#v: 0.04545, street#n: 0.01369, ]>
+<177078, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<177358, [hoover#v: -0.125, better#v: 0.57955, hoover#v: -0.125, hoover#v: -0.125, taylor#n: 0.06818, training#n: 0.29167, am#n: -0.03409, please#v: 0.34091, e#n: 0.16423, taylor#n: 0.06818, training#n: 0.29167, ]>
+<177764, [am#n: -0.03409, a#n: -0.0241, wholesale#a: 0.25, street#n: 0.01369, ]>
+<177765, [like#v: 0.38047, possible#n: 0.25, respond#v: 0.04545, ]>
+<178305, [notice#n: 0.04017, hours#n: -0.16667, be#v: 0.03931, promptly#r: -0.01136, ]>
+<178377, [risk#v: -0.04167, an#n: -0.125, risk#v: -0.04167, determine#v: -0.00575, read#v: 0.00414, inflation#n: -0.04, poor#a: -0.48469, have#v: 0.05021, dollar#n: -0.015, invest#v: -0.02737, make#v: 0.02063, do#n: 0.02273, allocation#n: 0.06818, find#n: 0.41667, congratulations#n: 1, understand#v: 0.17518, first#n: 0.02721, understand#v: 0.17518, keep#v: -0.01129, make#v: 0.02063, reward#n: 0.27372, be#v: 0.03931, do#n: 0.02273, a#n: -0.0241, case#n: 0.00461, stock#n: 0.00404, another#a: -0.125, keeping#n: 0.34091, risk#v: -0.04167, interest#v: 0.26136, circumstances#n: 0.16667, want#v: 0.05474, bank#v: 0.01725, opportunity#n: 0.5, essence#n: 0.12, work#v: 0.01574, invest#v: -0.02737, a#n: -0.0241, be#v: 0.03931, make#v: 0.02063, high#n: 0.03214, be#v: 0.03931, a#n: -0.0241, buy#n: 0.5, a#n: -0.0241, invest#v: -0.02737, do#n: 0.02273, buy#n: 0.5, understanding#a: 0.375, successful#a: 0.625, use#v: 0.05442, learn#v: 0.03231, ]>
+<179989, [going#n: -0.06818, smith#n: 0.00533, street#n: 0.01369, confirmation#n: 0.19161, harassment#n: -0.375, avoidance#n: 0.5, am#n: -0.03409, prerequisite#n: 0.25, call#n: 0.01965, ]>
+<180020, [duplicate#v: 0.045, am#n: -0.03409, review#n: 0.05335, eligibility#n: 0.125, call#n: 0.01965, ]>
+<180214, [on#r: 0.03409, a#n: -0.0241, a#n: -0.0241, need#v: -0.04545, return#n: -0.00189, ]>
+<180221, [process#n: -0.03827, going#n: -0.06818, am#n: -0.03409, ]>
+<180226, [very#a: 0.45833, general#a: -0.0102, street#n: 0.01369, a#n: -0.0241, talk#n: -0.06569, ]>
+<182174, [thanks#n: 0.04167, contact#n: 0.13256, center#v: 0.03409, number#n: -0.11826, ]>
+<182247, [interested#a: 0.375, be#v: 0.03931, on#r: 0.03409, am#n: -0.03409, must#n: 0.04545, a#n: -0.0241, time#n: 0.12092, information#n: 0.02737, ]>
+<183254, [times#n: 0.33333, review#n: 0.05335, have#v: 0.05021, call#n: 0.01965, center#v: 0.03409, ]>
+<183265, [be#v: 0.03931, center#v: 0.03409, ]>
+<183291, [times#n: 0.33333, prevent#v: 0.16667, look#n: -0.03, ]>
+<183299, [confirmation#n: 0.19161, harassment#n: -0.375, prerequisite#n: 0.25, ]>
+<183522, [e#n: 0.16423, charge#v: 0.01956, training#n: 0.29167, ]>
+<183914, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, reserve#v: 0.03, e#n: 0.16423, taylor#n: 0.06818, please#v: 0.34091, bring#v: -0.01725, ]>
+<184050, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, taylor#n: 0.06818, be#v: 0.03931, don#n: 0.05952, training#n: 0.29167, ]>
+<184227, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<184228, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<184237, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<184338, [public#a: -0.08333, springer#n: -0.06818, room#n: 0.06, springer#n: -0.06818, ]>
+<184355, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<184462, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<184508, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<185343, [please#v: 0.34091, be#v: 0.03931, legal#a: 0.0365, times#n: 0.33333, ]>
+<185405, [have#v: 0.05021, do#n: 0.02273, see#v: 0.0271, am#n: -0.03409, by#r: -0.16667, ]>
+<185426, [focus#n: 0.1141, a#n: -0.0241, ]>
+<185998, [training#n: 0.29167, training#n: 0.29167, have#v: 0.05021, am#n: -0.03409, manage#v: 0.03444, name#n: 0.01531, a#n: -0.0241, investigation#n: 0.04167, an#n: -0.125, ]>
+<186069, [notice#n: 0.04017, training#n: 0.29167, only#r: -0.03214, have#v: 0.05021, browser#n: -0.33333, address#n: 0.01725, return#n: -0.00189, ]>
+<186079, [am#n: -0.03409, business#n: 0.03314, have#v: 0.05021, do#n: 0.02273, let#v: -0.02041, protect#v: -0.5, bottom#n: -0.04821, fact#n: 0.045, a#n: -0.0241, name#n: 0.01531, question#v: 0.34672, tool#v: -0.12, information#n: 0.02737, insight#n: 0.09, risk#v: -0.04167, on#r: 0.03409, go#a: 0.25, ]>
+<186964, [a#n: -0.0241, time#n: 0.12092, see#v: 0.0271, fortune#n: 0.04, information#n: 0.02737, contact#n: 0.13256, receive#v: 0.03517, ]>
+<187477, [training#n: 0.29167, number#n: -0.11826, approval#n: 0.255, fill#v: -0.0243, only#r: -0.03214, request#v: 0.04545, move#n: -0.01825, approval#n: 0.255, ]>
+<187489, [move#n: -0.01825, technical#a: 0.16423, training#n: 0.29167, administration#n: 0.17857, training#n: 0.29167, a#n: -0.0241, works#n: 0.03, vacancy#n: -0.16667, skill#n: 0.20833, safety#n: 0.05102, accuracy#n: 0.33333, training#n: 0.29167, other#a: -0.36, envision#v: -0.04167, skill#n: 0.20833, efficiency#n: 0.04167, am#n: -0.03409, ]>
+<187492, [a#n: -0.0241, execution#n: -0.02066, system#n: 0.01718, an#n: -0.125, administration#n: 0.17857, a#n: -0.0241, background#v: 0.5, work#v: 0.01574, training#n: 0.29167, training#n: 0.29167, skill#n: 0.20833, recommend#v: 0.13636, training#n: 0.29167, system#n: 0.01718, an#n: -0.125, vacancy#n: -0.16667, ]>
+<187663, [reduce#v: -0.00249, necessary#n: -0.125, training#n: 0.29167, assume#v: -0.17385, am#n: -0.03409, going#n: -0.06818, do#n: 0.02273, variety#n: 0.0085, a#n: -0.0241, provide#v: 0.03099, a#n: -0.0241, provide#v: 0.03099, on#r: 0.03409, idea#n: 0.02007, a#n: -0.0241, be#v: 0.03931, a#n: -0.0241, ]>
+<187666, [do#n: 0.02273, provide#v: 0.03099, hours#n: -0.16667, another#a: -0.125, a#n: -0.0241, turbine#n: -0.125, a#n: -0.0241, ]>
+<188140, [information#n: 0.02737, send#v: 0.01314, ]>
+<188543, [please#v: 0.34091, see#v: 0.0271, ]>
+<189888, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<190024, [now#r: 0.01928, available#a: 0.20455, international#a: -0.375, an#n: -0.125, ]>
+<190170, [now#r: 0.01928, available#a: 0.20455, poll#v: -0.06, key#n: 0.01884, ]>
+<191054, [now#r: 0.01928, center#v: 0.03409, fun#n: 0.06, a#n: -0.0241, hero#n: 0.16391, interest#v: 0.26136, a#n: -0.0241, help#n: 0.2, help#n: 0.2, gold#n: 0.00365, a#n: -0.0241, ]>
+<191132, [fill#v: -0.0243, rob#v: -0.33333, disconnect#n: -0.25, a#n: -0.0241, know#n: 0.625, together#a: 0.375, ]>
+<191382, [missed#a: -0.5, a#n: -0.0241, gold#n: 0.00365, frenzy#n: -0.125, high#n: 0.03214, hope#n: 0.08929, wonder#v: 0.22727, gold#n: 0.00365, music#n: 0.19161, interest#v: 0.26136, add#v: 0.03401, a#n: -0.0241, ]>
+<191985, [now#r: 0.01928, help#n: 0.2, last#a: -0.11932, million#n: -0.04167, a#n: -0.0241, contact#n: 0.13256, a#n: -0.0241, room#n: 0.06, off#v: -0.625, address#n: 0.01725, please#v: 0.34091, privacy#n: 0.29167, ]>
+<192135, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<192654, [first#n: 0.02721, mark#v: 0.02314, now#r: 0.01928, ]>
+<192655, [mark#v: 0.02314, peter#n: -0.04167, ]>
+<195628, [energy#n: 0.10847, buy#n: 0.5, not#r: -0.625, not#r: -0.625, hedge#v: -0.075, not#r: -0.625, hedge#v: -0.075, basis#n: 0.04545, strategy#n: 0.08333, risk#v: -0.04167, custom#n: 0.21, a#n: -0.0241, information#n: 0.02737, an#n: -0.125, information#n: 0.02737, ]>
+<195629, [face#n: -0.00715, face#n: -0.00715, color#a: 0.625, early#a: -0.01701, times#n: 0.33333, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, buy#n: 0.5, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, fact#n: 0.045, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, bull#n: -0.0476, style#n: 0.01894, face#n: -0.00715, style#n: 0.01894, face#n: -0.00715, a#n: -0.0241, style#n: 0.01894, face#n: -0.00715, ms#n: -0.05474, face#n: -0.00715, align#v: -0.045, face#n: -0.00715, style#n: 0.01894, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, yes#n: 0.25, face#n: -0.00715, style#n: 0.01894, yes#n: 0.25, style#n: 0.01894, go#a: 0.25, style#n: 0.01894, style#n: 0.01894, training#n: 0.29167, face#n: -0.00715, face#n: -0.00715, face#n: -0.00715, ]>
+<195636, [now#r: 0.01928, provide#v: 0.03099, a#n: -0.0241, a#n: -0.0241, organization#n: 0.01928, ]>
+<195640, [have#v: 0.05021, buy#n: 0.5, ]>
+<195676, [like#v: 0.38047, training#n: 0.29167, have#v: 0.05021, ]>
+<195880, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<196006, [a#n: -0.0241, meeting#n: -0.01701, meeting#n: -0.01701, ]>
+<196226, [training#n: 0.29167, energy#n: 0.10847, first#n: 0.02721, energy#n: 0.10847, ]>
+<196646, [training#n: 0.29167, stated#a: 0.5, block#n: -0.02877, fact#n: 0.045, approximately#r: 0.25, d#n: -0.06818, ]>
+<197041, [please#v: 0.34091, system#n: 0.01718, time#n: 0.12092, another#a: -0.125, please#v: 0.34091, mind#n: 0.13154, theresa#n: -0.25, ]>
+<197077, [training#n: 0.29167, training#n: 0.29167, room#n: 0.06, a#n: -0.0241, ]>
+<197305, [believe#v: 0.10219, hold#v: 0.05348, fun#n: 0.06, a#n: -0.0241, ]>
+<197325, [informative#a: 0.09091, provoking#a: -0.5, information#n: 0.02737, enjoy#v: 0.45255, cover#v: 0.00956, right#n: 0.03285, ]>
+<197444, [profitability#n: 0.75, profitability#n: 0.75, profitability#n: 0.75, system#n: 0.01718, ]>
+<197475, [congratulations#n: 1, center#v: 0.03409, ]>
+<197482, [energy#n: 0.10847, am#n: -0.03409, review#n: 0.05335, ]>
+<197552, [please#v: 0.34091, see#v: 0.0271, toby#n: 0.125, know#n: 0.625, training#n: 0.29167, capacity#n: 0.03866, design#v: 0.0241, ]>
+<197854, [an#n: -0.125, introduction#n: 0.01928, a#n: -0.0241, set#v: 0.03943, buy#n: 0.5, information#n: 0.02737, on#r: 0.03409, ]>
+<198011, [information#n: 0.02737, note#v: 0.04, change#n: 0.03028, ]>
+<198021, [technical#a: 0.16423, training#n: 0.29167, convention#n: -0.00456, price#n: 0.06026, price#n: 0.06026, training#n: 0.29167, adobe#n: 0.08333, acrobat#n: 0.25, have#v: 0.05021, ]>
+<198022, [technical#a: 0.16423, training#n: 0.29167, energy#n: 0.10847, ]>
+<198023, [form#n: 0.00792, a#n: -0.0241, ]>
+<198027, [technical#a: 0.16423, e#n: 0.16423, am#n: -0.03409, ]>
+<198050, [technical#a: 0.16423, information#n: 0.02737, a#n: -0.0241, ]>
+<198057, [technical#a: 0.16423, spots#n: -0.5, price#n: 0.06026, a#n: -0.0241, call#n: 0.01965, ]>
+<198058, [technical#a: 0.16423, training#n: 0.29167, convention#n: -0.00456, price#n: 0.06026, price#n: 0.06026, training#n: 0.29167, adobe#n: 0.08333, acrobat#n: 0.25, have#v: 0.05021, ]>
+<198063, [please#v: 0.34091, training#n: 0.29167, visit#v: -0.04216, ]>
+<198196, [division#n: 0.00671, have#v: 0.05021, compensation#n: -0.13636, a#n: -0.0241, have#v: 0.05021, ]>
+<198258, [please#v: 0.34091, see#v: 0.0271, toby#n: 0.125, know#n: 0.625, training#n: 0.29167, capacity#n: 0.03866, design#v: 0.0241, ]>
+<199267, [order#v: -0.00491, reserve#v: 0.03, taylor#n: 0.06818, training#n: 0.29167, ]>
+<199323, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, a#n: -0.0241, don#n: 0.05952, ]>
+<199333, [a#n: -0.0241, am#n: -0.03409, have#v: 0.05021, ]>
+<199411, [use#v: 0.05442, am#n: -0.03409, teresa#n: -0.25, meeting#n: -0.01701, be#v: 0.03931, training#n: 0.29167, be#v: 0.03931, be#v: 0.03931, encouraged#a: 0.375, meeting#n: -0.01701, call#n: 0.01965, ]>
+<200036, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<200055, [attention#n: 0.01531, ability#n: 0.33333, a#n: -0.0241, manage#v: 0.03444, work#v: 0.01574, help#n: 0.2, next#a: -0.02273, have#v: 0.05021, ]>
+<200153, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<200163, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<200169, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<200170, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<200182, [help#n: 0.2, difference#n: -0.28285, basis#n: 0.04545, ]>
+<200286, [information#n: 0.02737, taylor#n: 0.06818, training#n: 0.29167, ]>
+<200624, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<201805, [due#n: 0.25, focus#n: 0.1141, business#n: 0.03314, due#n: 0.25, please#v: 0.34091, an#n: -0.125, learning#n: 0.125, e#n: 0.16423, taylor#n: 0.06818, custom#n: 0.21, learn#v: 0.03231, news#n: 0.04653, custom#n: 0.21, be#v: 0.03931, business#n: 0.03314, put#v: 0.00552, time#n: 0.12092, training#n: 0.29167, ]>
+<201853, [now#r: 0.01928, center#v: 0.03409, fun#n: 0.06, mark#v: 0.02314, a#n: -0.0241, hero#n: 0.16391, interest#v: 0.26136, a#n: -0.0241, help#n: 0.2, help#n: 0.2, gold#n: 0.00365, a#n: -0.0241, ]>
+<203176, [approval#n: 0.255, grant#v: 0.19685, a#n: -0.0241, system#n: 0.01718, ]>
+<205039, [a#n: -0.0241, date#n: 0.0115, host#n: -0.02845, thanks#n: 0.04167, ]>
+<205124, [date#n: 0.0115, bit#n: -0.04731, suggestion#n: -0.0085, case#n: 0.00461, consider#v: 0.14623, case#n: 0.00461, do#n: 0.02273, do#n: 0.02273, case#n: 0.00461, business#n: 0.03314, information#n: 0.02737, have#v: 0.05021, observe#v: 0.08595, thanks#n: 0.04167, a#n: -0.0241, ]>
+<205344, [on#r: 0.03409, yes#n: 0.25, time#n: 0.12092, check#n: 0.0292, thanks#n: 0.04167, do#n: 0.02273, review#n: 0.05335, distribution#n: 0.12, contact#n: 0.13256, an#n: -0.125, an#n: -0.125, acceptance#n: 0.03214, do#n: 0.02273, a#n: -0.0241, ]>
+<205385, [a#n: -0.0241, trying#a: -0.54167, a#n: -0.0241, offset#n: 0.05102, a#n: -0.0241, training#n: 0.29167, a#n: -0.0241, advantage#n: 0.34091, ]>
+<205408, [a#n: -0.0241, be#v: 0.03931, be#v: 0.03931, now#r: 0.01928, reading#n: 0.023, an#n: -0.125, a#n: -0.0241, shared#a: 0.08333, look#n: -0.03, ]>
+<205509, [thomas#n: -0.04106, now#r: 0.01928, think#v: 0.06378, pick#n: 0.02946, james#n: 0.0061, d#n: -0.06818, thanks#n: 0.04167, specialty#n: 0.20455, thomas#n: -0.04106, be#v: 0.03931, scene#n: -0.04573, james#n: 0.0061, d#n: -0.06818, a#n: -0.0241, a#n: -0.0241, a#n: -0.0241, on#r: 0.03409, talking#n: -0.125, ]>
+<205526, [business#n: 0.03314, energy#n: 0.10847, a#n: -0.0241, d#n: -0.06818, learned#a: 0.40909, politics#n: 0.0292, utility#n: 0.05102, all#r: 0.5, appreciated#a: 0.375, ]>
+<205531, [politics#n: 0.0292, unlearned#a: -0.5, plant#n: -0.06, know#n: 0.625, have#v: 0.05021, talking#n: -0.125, ]>
+<205533, [must#n: 0.04545, thomas#n: -0.04106, think#v: 0.06378, might#n: -0.125, right#n: 0.03285, a#n: -0.0241, ]>
+<205918, [thanks#n: 0.04167, thanks#n: 0.04167, ]>
+<206174, [have#v: 0.05021, hope#n: 0.08929, all#r: 0.5, best#v: 0.125, ]>
+<206799, [just#r: 0.06973, time#n: 0.12092, time#n: 0.12092, thanks#n: 0.04167, connection#n: -0.04419, distribution#n: 0.12, by#r: -0.16667, contact#n: 0.13256, be#v: 0.03931, basis#n: 0.04545, connection#n: -0.04419, ]>
+<206959, [thanks#n: 0.04167, might#n: -0.125, let#v: -0.02041, be#v: 0.03931, spend#v: 0.11364, work#v: 0.01574, talk#n: -0.06569, learned#a: 0.40909, eliminate#v: 0.01205, a#n: -0.0241, think#v: 0.06378, right#n: 0.03285, rob#v: -0.33333, ]>
+<206982, [energy#n: 0.10847, transmission#n: 0.02737, vantage#n: 0.20833, a#n: -0.0241, off#v: -0.625, james#n: 0.0061, rob#v: -0.33333, a#n: -0.0241, plant#n: -0.06, know#n: 0.625, talking#n: -0.125, ]>
+<206986, [idea#n: 0.02007, a#n: -0.0241, freeman#n: -0.625, an#n: -0.125, be#v: 0.03931, reserves#n: -0.625, paul#n: -0.04167, politics#n: 0.0292, utility#n: 0.05102, plant#n: -0.06, know#n: 0.625, have#v: 0.05021, ]>
+<206990, [e#n: 0.16423, paul#n: -0.04167, james#n: 0.0061, paul#n: -0.04167, tom#n: 0.03409, on#r: 0.03409, learned#a: 0.40909, be#v: 0.03931, trying#a: -0.54167, a#n: -0.0241, ]>
+<206992, [eliminate#v: 0.01205, specialty#n: 0.20455, thomas#n: -0.04106, might#n: -0.125, a#n: -0.0241, learned#a: 0.40909, thomas#n: -0.04106, ]>
+<206996, [fill#v: -0.0243, rob#v: -0.33333, disconnect#n: -0.25, a#n: -0.0241, know#n: 0.625, together#a: 0.375, ]>
+<207329, [information#n: 0.02737, host#n: -0.02845, number#n: -0.11826, information#n: 0.02737, folder#n: -0.04167, number#n: -0.11826, host#n: -0.02845, host#n: -0.02845, reach#n: 0.15, following#a: 0.015, information#n: 0.02737, ]>
+<207878, [must#n: 0.04545, thomas#n: -0.04106, think#v: 0.06378, might#n: -0.125, right#n: 0.03285, a#n: -0.0241, ]>
+<207879, [politics#n: 0.0292, unlearned#a: -0.5, plant#n: -0.06, know#n: 0.625, have#v: 0.05021, talking#n: -0.125, ]>
+<207884, [business#n: 0.03314, energy#n: 0.10847, a#n: -0.0241, d#n: -0.06818, learned#a: 0.40909, politics#n: 0.0292, utility#n: 0.05102, all#r: 0.5, appreciated#a: 0.375, ]>
+<208328, [please#v: 0.34091, respond#v: 0.04545, energy#n: 0.10847, interesting#a: 0.375, information#n: 0.02737, experience#v: -0.01369, energy#n: 0.10847, a#n: -0.0241, on#r: 0.03409, browser#n: -0.33333, unit#n: -0.02551, however#r: -0.135, competition#n: 0.06, energy#n: 0.10847, scrutiny#n: 0.04167, competition#n: 0.06, exercise#v: -0.02737, a#n: -0.0241, spot#n: 0.01965, price#n: 0.06026, energy#n: 0.10847, lower#v: -0.0438, peak#n: 0.08035, price#n: 0.06026, even#r: -0.005, lower#v: -0.0438, by#r: -0.16667, a#n: -0.0241, able#a: 0.14, hours#n: -0.16667, compare#n: 0.25, paid#a: 0.32955, unable#a: -0.53409, electricity#n: 0.06818, forward#r: 0.10949, circumstances#n: 0.16667, deviation#n: -0.09763, deviation#n: -0.09763, less#a: -0.34091, continued#a: -0.375, time#n: 0.12092, demand#v: -0.10204, considerably#r: 0.125, demand#v: -0.10204, due#n: 0.25, higher#a: 0.20833, responsiveness#n: 0.08333, system#n: 0.01718, energy#n: 0.10847, report#v: 0.04762, conclusion#n: 0.00884, needed#a: 0.125, a#n: -0.0241, about#r: 0.09642, giving#a: 0.5, approval#n: 0.255, time#n: 0.12092, interval#n: 0.225, forward#r: 0.10949, spot#n: 0.01965, on#r: 0.03409, spot#n: 0.01965, spot#n: 0.01965, price#n: 0.06026, forward#r: 0.10949, reach#n: 0.15, form#n: 0.00792, lower#v: -0.0438, response#n: 0.07231, first#n: 0.02721, reprint#n: -0.25, other#a: -0.36, protect#v: -0.5, ]>
+<208578, [apologize#v: -0.41667, fellow#n: 0.00964, day#n: 0.03794, graduation#n: 0.06, experience#v: -0.01369, allow#v: 0.04481, even#r: -0.005, success#n: 0.27, time#n: 0.12092, bus#n: -0.015, award#n: 0.13636, price#n: 0.06026, fee#n: 0.125, basis#n: 0.04545, have#v: 0.05021, all#r: 0.5, return#n: -0.00189, address#n: 0.01725, thanks#n: 0.04167, ]>
+<208722, [find#n: 0.41667, first#n: 0.02721, lecture#n: -0.06818, competitive#a: 0.06818, financial#a: 0.25, global#a: -0.20833, read#v: 0.00414, high#n: 0.03214, read#v: 0.00414, following#a: 0.015, diversity#n: -0.08333, law#n: 0.02009, ]>
+<210007, [by#r: -0.16667, strategy#n: 0.08333, hesitate#v: -0.08333, contact#n: 0.13256, ]>
+<210176, [statement#n: 0.00689, look#n: -0.03, a#n: -0.0241, a#n: -0.0241, meeting#n: -0.01701, am#n: -0.03409, d#n: -0.06818, ]>
+<210385, [case#n: 0.00461, let#v: -0.02041, am#n: -0.03409, don#n: 0.05952, reading#n: 0.023, d#n: -0.06818, confidential#a: 0.14, protected#a: -0.75, ]>
+<211745, [some#r: 0.25, provide#v: 0.03099, ]>
+<211777, [worth#n: 0.20455, a#n: -0.0241, have#v: 0.05021, a#n: -0.0241, want#v: 0.05474, let#v: -0.02041, ]>
+<211899, [up#r: 0.05657, need#v: -0.04545, ]>
+<212441, [a#n: -0.0241, business#n: 0.03314, by#r: -0.16667, final#a: -0.11364, other#a: -0.36, ]>
+<212442, [appreciate#v: 0.08212, don#n: 0.05952, please#v: 0.34091, business#n: 0.03314, final#a: -0.11364, other#a: -0.36, best#v: 0.125, ]>
+<212447, [about#r: 0.09642, a#n: -0.0241, ]>
+<213211, [fellow#n: 0.00964, a#n: -0.0241, a#n: -0.0241, demand#v: -0.10204, information#n: 0.02737, format#v: 0.04545, time#n: 0.12092, a#n: -0.0241, man#n: 0.0069, ]>
+<213719, [energy#n: 0.10847, interesting#a: 0.375, information#n: 0.02737, energy#n: 0.10847, spot#n: 0.01965, hours#n: -0.16667, browser#n: -0.33333, competition#n: 0.06, do#n: 0.02273, reduce#v: -0.00249, reach#n: 0.15, revenue#n: 0.08333, spot#n: 0.01965, energy#n: 0.10847, price#n: 0.06026, price#n: 0.06026, spot#n: 0.01965, all#r: 0.5, spot#n: 0.01965, fact#n: 0.045, turn#n: 0.00366, less#a: -0.34091, electricity#n: 0.06818, spot#n: 0.01965, typical#a: 0.15909, circumstances#n: 0.16667, higher#a: 0.20833, adjusted#a: 0.06, adjusted#a: 0.06, lower#v: -0.0438, less#a: -0.34091, price#n: 0.06026, story#n: -0.02551, expensive#a: 0.5, an#n: -0.125, system#n: 0.01718, capacity#n: 0.03866, charge#v: 0.01956, outside#a: 0.00457, capacity#n: 0.03866, high#n: 0.03214, risk#v: -0.04167, an#n: -0.125, average#a: -0.02551, a#n: -0.0241, life#n: 0.00854, dying#n: -0.625, have#v: 0.05021, impossible#n: 0.125, high#n: 0.03214, reduce#v: -0.00249, under#a: -0.125, falling#a: -0.09091, have#v: 0.05021, emergency#n: -0.27273, electricity#n: 0.06818, need#v: -0.04545, be#v: 0.03931, public#a: -0.08333, ]>
+<214551, [an#n: -0.125, do#n: 0.02273, a#n: -0.0241, am#n: -0.03409, hours#n: -0.16667, date#n: 0.0115, advanced#a: 0.03504, strategic#a: 0.04167, learning#n: 0.125, center#v: 0.03409, must#n: 0.04545, be#v: 0.03931, hours#n: -0.16667, call#n: 0.01965, ]>
+<215114, [venture#n: 0.10227, a#n: -0.0241, true#n: 0.5, betrayal#n: -0.08333, intelligence#n: 0.21898, blue-eyed#a: 0.125, freedom#n: 0.04167, brutish#a: -0.375, by#r: -0.16667, china#n: 0.12, a#n: -0.0241, ]>
+<215393, [a#n: -0.0241, fee#n: 0.125, information#n: 0.02737, ]>
+<215410, [reading#n: 0.023, please#v: 0.34091, ]>
+<215412, [break#v: -0.01787, time#n: 0.12092, ]>
+<215520, [meeting#n: -0.01701, time#n: 0.12092, review#n: 0.05335, a#n: -0.0241, number#n: -0.11826, elizabeth#n: -0.08333, ]>
+<215668, [fall#v: 0.02038, address#n: 0.01725, information#n: 0.02737, ]>
+<216056, [fall#v: 0.02038, room#n: 0.06, a#n: -0.0241, only#r: -0.03214, center#v: 0.03409, room#n: 0.06, ]>
+<216104, [register#v: 0.03201, am#n: -0.03409, am#n: -0.03409, am#n: -0.03409, contact#n: 0.13256, ]>
+<216205, [likelihood#n: 0.25, energy#n: 0.10847, crisis#n: -0.08333, be#v: 0.03931, control#n: 0.01035, protect#v: -0.5, crisis#n: -0.08333, industry#n: 0.02273, spark#n: 0.08929, believe#v: 0.10219, a#n: -0.0241, force#n: 0.00406, response#n: 0.07231, emphasizing#n: 0.125, stance#n: -0.04167, virus#n: -0.03409, a#n: -0.0241, crisis#n: -0.08333, go#a: 0.25, smith#n: 0.00533, energy#n: 0.10847, exposed#a: -0.625, strategy#n: 0.08333, utility#n: 0.05102, believe#v: 0.10219, scrutiny#n: 0.04167, report#v: 0.04762, risk#v: -0.04167, abandon#n: -0.33333, have#v: 0.05021, example#n: 0.01701, justifiable#a: 0.625, confidence#n: 0.10493, higher#a: 0.20833, extended#a: 0.01369, energy#n: 0.10847, a#n: -0.0241, a#n: -0.0241, security#n: 0.14483, alter#v: -0.05474, a#n: -0.0241, transmission#n: 0.02737, manage#v: 0.03444, risk#v: -0.04167, energy#n: 0.10847, possible#n: 0.25, reliability#n: 0.625, a#n: -0.0241, billion#n: -0.03409, a#n: -0.0241, be#v: 0.03931, do#n: 0.02273, situation#n: -0.0365, reduced#a: -0.16667, spot#n: 0.01965, capacity#n: 0.03866, facing#n: -0.04, coverage#n: -0.06818, situation#n: -0.0365, value#v: 0.07299, emphasis#n: 0.375, supply#v: 0.02, face#n: -0.00715, disruption#n: -0.195, address#n: 0.01725, information#n: 0.02737, energy#n: 0.10847, crisis#n: -0.08333, be#v: 0.03931, ]>
+<216531, [see#v: 0.0271, value#v: 0.07299, ]>
+<216659, [center#v: 0.03409, be#v: 0.03931, date#n: 0.0115, affairs#n: 0.33333, be#v: 0.03931, contact#n: 0.13256, ]>
+<216706, [a#n: -0.0241, taxation#n: 0.06818, a#n: -0.0241, a#n: -0.0241, a#n: -0.0241, note#v: 0.04, focus#n: 0.1141, a#n: -0.0241, a#n: -0.0241, compensation#n: -0.13636, consider#v: 0.14623, ]>
+<217436, [be#v: 0.03931, please#v: 0.34091, criticize#v: -0.20833, ]>
+<217579, [training#n: 0.29167, an#n: -0.125, off#v: -0.625, quantification#n: 0.08333, case#n: 0.00461, analytical#a: 0.04167, frustration#n: -0.15909, recommend#v: 0.13636, rest#v: -0.04516, day#n: 0.03794, must#n: 0.04545, training#n: 0.29167, ]>
+<218174, [fox#n: -0.07231, action#n: 0.02027, jones#n: 0.0102, energy#n: 0.10847, energy#n: 0.10847, energy#n: 0.10847, williams#n: 0.07653, energy#n: 0.10847, billion#n: -0.03409, damages#n: -0.125, unit#n: -0.02551, suit#n: 0.02041, transmission#n: 0.02737, energy#n: 0.10847, williams#n: 0.07653, transmission#n: 0.02737, an#n: -0.125, electricity#n: 0.06818, electricity#n: 0.06818, by#r: -0.16667, such#a: -0.125, complaint#n: -0.24818, ]>
+<218396, [price#n: 0.06026, on#r: 0.03409, rob#v: -0.33333, want#v: 0.05474, ]>
+<218409, [thanks#n: 0.04167, be#v: 0.03931, right#n: 0.03285, a#n: -0.0241, let#v: -0.02041, don#n: 0.05952, ]>
+<218947, [center#v: 0.03409, on#r: 0.03409, ]>
+<219031, [talking#n: -0.125, room#n: 0.06, passing#n: -0.02755, do#n: 0.02273, room#n: 0.06, fully#r: 0.10227, request#v: 0.04545, passing#n: -0.02755, room#n: 0.06, above#r: 0.04167, help#n: 0.2, ]>
+<219040, [through#r: 0.0219, training#n: 0.29167, contact#n: 0.13256, ]>
+<219092, [day#n: 0.03794, day#n: 0.03794, on#r: 0.03409, ]>
+<219402, [please#v: 0.34091, delete#v: -0.06818, a#n: -0.0241, ]>
+<219539, [am#n: -0.03409, center#v: 0.03409, must#n: 0.04545, have#v: 0.05021, ]>
+<219670, [have#v: 0.05021, room#n: 0.06, a#n: -0.0241, ]>
+<219749, [training#n: 0.29167, room#n: 0.06, be#v: 0.03931, ]>
+<219753, [am#n: -0.03409, need#v: -0.04545, ]>
+<219807, [venture#n: 0.10227, ben#n: 0.125, strategy#n: 0.08333, leapfrog#v: -0.04167, venture#n: 0.10227, competition#n: 0.06, information#n: 0.02737, first#n: 0.02721, a#n: -0.0241, a#n: -0.0241, tasting#n: 0.01136, ]>
+<220006, [paul#n: -0.04167, back#v: 0.19442, variety#n: 0.0085, importance#n: 0.45833, a#n: -0.0241, admission#n: 0.12, paul#n: -0.04167, ]>
+<220054, [please#v: 0.34091, delete#v: -0.06818, a#n: -0.0241, other#a: -0.36, arrange#v: 0.08196, be#v: 0.03931, information#n: 0.02737, ]>
+<220077, [colleague#n: -0.08333, grading#n: 0.02273, information#n: 0.02737, faculty#n: 0.08333, contact#n: 0.13256, a#n: -0.0241, ]>
+<220170, [form#n: 0.00792, business#n: 0.03314, not#r: -0.625, respect#n: 0.29132, ]>
+<220171, [notice#n: 0.04017, am#n: -0.03409, am#n: -0.03409, ]>
+<220174, [dear#n: 0.08333, have#v: 0.05021, might#n: -0.125, be#v: 0.03931, problem#n: -0.38636, put#v: 0.00552, problem#n: -0.38636, first#n: 0.02721, first#n: 0.02721, on#r: 0.03409, ]>
+<220291, [think#v: 0.06378, groan#v: -0.875, friend#n: 0.10949, ]>
+<233223, [please#v: 0.34091, contact#n: 0.13256, williams#n: 0.07653, not#r: -0.625, be#v: 0.03931, be#v: 0.03931, all#r: 0.5, let#v: -0.02041, organization#n: 0.01928, review#n: 0.05335, information#n: 0.02737, please#v: 0.34091, by#r: -0.16667, ]>
+<233761, [cheek#n: -0.03, ascertain#v: -0.02, know#n: 0.625, h#n: -0.10949, ]>
+<233762, [please#v: 0.34091, deliver#v: 0.03021, an#n: -0.125, pass#n: -0.02894, need#v: -0.04545, by#r: -0.16667, ]>
+<234033, [am#n: -0.03409, a#n: -0.0241, a#n: -0.0241, ]>
+<234071, [name#n: 0.01531, strategic#a: 0.04167, business#n: 0.03314, integrity#n: 0.66667, receive#v: 0.03517, information#n: 0.02737, call#n: 0.01965, ]>
+<235584, [provide#v: 0.03099, please#v: 0.34091, distribute#v: 0.00047, affairs#n: 0.33333, forward#r: 0.10949, training#n: 0.29167, am#n: -0.03409, am#n: -0.03409, ed#n: -0.5, be#v: 0.03931, ]>
+<238354, [a#n: -0.0241, am#n: -0.03409, have#v: 0.05021, ]>
+<238533, [times#n: 0.33333, review#n: 0.05335, have#v: 0.05021, call#n: 0.01965, center#v: 0.03409, ]>
+<238673, [just#r: 0.06973, specialty#n: 0.20455, ]>
+<238700, [e#n: 0.16423, charge#v: 0.01956, training#n: 0.29167, ]>
+<238992, [jones#n: 0.0102, interactive#a: 0.08333, custom#n: 0.21, am#n: -0.03409, reserve#v: 0.03, taylor#n: 0.06818, please#v: 0.34091, ]>
+<239259, [information#n: 0.02737, a#n: -0.0241, am#n: -0.03409, fill#v: -0.0243, taylor#n: 0.06818, ]>
+<239260, [am#n: -0.03409, a#n: -0.0241, call#n: 0.01965, ]>
+<239265, [have#v: 0.05021, please#v: 0.34091, attention#n: 0.01531, financial#a: 0.25, ]>
+<239276, [global#a: -0.20833, information#n: 0.02737, query#n: -0.125, a#n: -0.0241, am#n: -0.03409, call#n: 0.01965, ]>
+<239286, [am#n: -0.03409, diligence#n: 0.21591, a#n: -0.0241, am#n: -0.03409, a#n: -0.0241, taylor#n: 0.06818, please#v: 0.34091, training#n: 0.29167, ]>
+<239390, [public#a: -0.08333, springer#n: -0.06818, room#n: 0.06, springer#n: -0.06818, ]>
+<239405, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<239449, [a#n: -0.0241, please#v: 0.34091, coverage#n: -0.06818, ]>
+<239479, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<239503, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<239745, [training#n: 0.29167, training#n: 0.29167, have#v: 0.05021, am#n: -0.03409, manage#v: 0.03444, name#n: 0.01531, a#n: -0.0241, investigation#n: 0.04167, an#n: -0.125, ]>
+<239878, [production#n: -0.00767, already#r: 0.125, going#n: -0.06818, communication#n: 0.02273, thinking#n: 0.125, nagging#a: -0.625, a#n: -0.0241, a#n: -0.0241, skill#n: 0.20833, acquire#v: 0.07163, water#n: 0.0085, retention#n: 0.01136, bacon#n: 0.03409, compliments#n: 0.125, information#n: 0.02737, ]>
+<239880, [date#n: 0.0115, a#n: -0.0241, a#n: -0.0241, training#n: 0.29167, training#n: 0.29167, silence#n: -0.06, final#a: -0.11364, man#n: 0.0069, introduction#n: 0.01928, ]>
+<240069, [please#v: 0.34091, be#v: 0.03931, legal#a: 0.0365, times#n: 0.33333, ]>
+<240326, [apologize#v: -0.41667, send#v: 0.01314, ]>
+<241911, [approval#n: 0.255, grant#v: 0.19685, a#n: -0.0241, name#n: 0.01531, number#n: -0.11826, system#n: 0.01718, fee#n: 0.125, training#n: 0.29167, ]>
+<241919, [grant#v: 0.19685, a#n: -0.0241, system#n: 0.01718, ]>
+<242055, [have#v: 0.05021, necessary#n: -0.125, system#n: 0.01718, be#v: 0.03931, let#v: -0.02041, worry#v: -0.06548, ]>
+<242079, [a#n: -0.0241, be#v: 0.03931, d#n: -0.06818, on#r: 0.03409, necessary#n: -0.125, times#n: 0.33333, know#n: 0.625, have#v: 0.05021, a#n: -0.0241, ]>
+<242081, [suggest#v: 0.16788, hours#n: -0.16667, following#a: 0.015, a#n: -0.0241, ]>
+<242175, [ted#n: -0.5, training#n: 0.29167, am#n: -0.03409, insight#n: 0.09, time#n: 0.12092, order#v: -0.00491, on#r: 0.03409, established#a: 0.13686, feel#n: 0.105, focus#n: 0.1141, change#n: 0.03028, an#n: -0.125, do#n: 0.02273, organization#n: 0.01928, seeing#a: -0.25, meeting#n: -0.01701, ]>
+<242194, [don#n: 0.05952, address#n: 0.01725, organization#n: 0.01928, process#n: -0.03827, communication#n: 0.02273, a#n: -0.0241, reasonable#a: 0.36364, be#v: 0.03931, executive#n: 0.13636, please#v: 0.34091, have#v: 0.05021, contact#n: 0.13256, ]>
+<242518, [not#r: -0.625, training#n: 0.29167, training#n: 0.29167, fix#n: -0.21898, sending#n: -0.125, name#n: 0.01531, name#n: 0.01531, screen#v: 0.14004, address#n: 0.01725, ]>
+<242556, [thanks#n: 0.04167, liability#n: 0.11364, hours#n: -0.16667, training#n: 0.29167, am#n: -0.03409, energy#n: 0.10847, on#r: 0.03409, training#n: 0.29167, a#n: -0.0241, simple#n: 0.08333, ]>
+<242800, [am#n: -0.03409, business#n: 0.03314, have#v: 0.05021, do#n: 0.02273, let#v: -0.02041, protect#v: -0.5, bottom#n: -0.04821, fact#n: 0.045, a#n: -0.0241, name#n: 0.01531, question#v: 0.34672, tool#v: -0.12, information#n: 0.02737, insight#n: 0.09, risk#v: -0.04167, on#r: 0.03409, go#a: 0.25, ]>
+<249275, [think#v: 0.06378, help#n: 0.2, am#n: -0.03409, must#n: 0.04545, am#n: -0.03409, ]>
+<249278, [am#n: -0.03409, times#n: 0.33333, fee#n: 0.125, call#n: 0.01965, have#v: 0.05021, ]>
+<249279, [please#v: 0.34091, contact#n: 0.13256, am#n: -0.03409, fee#n: 0.125, ]>
+<249489, [confirmation#n: 0.19161, times#n: 0.33333, am#n: -0.03409, fee#n: 0.125, call#n: 0.01965, center#v: 0.03409, ]>
+<249490, [spot#n: 0.01965, have#v: 0.05021, times#n: 0.33333, am#n: -0.03409, am#n: -0.03409, ]>
+<249542, [about#r: 0.09642, best#v: 0.125, mark#v: 0.02314, training#n: 0.29167, process#n: -0.03827, have#v: 0.05021, ]>
+<249613, [meeting#n: -0.01701, need#v: -0.04545, ]>
+<249816, [like#v: 0.38047, a#n: -0.0241, ]>
+<250237, [regret#n: -0.875, news#n: 0.04653, know#n: 0.625, have#v: 0.05021, thinking#n: 0.125, by#r: -0.16667, strategy#n: 0.08333, experience#v: -0.01369, business#n: 0.03314, ]>
+<250571, [information#n: 0.02737, am#n: -0.03409, e#n: 0.16423, training#n: 0.29167, ]>
+<250651, [jones#n: 0.0102, interactive#a: 0.08333, jones#n: 0.0102, am#n: -0.03409, call#n: 0.01965, ]>
+<250681, [attention#n: 0.01531, insight#n: 0.09, change#n: 0.03028, a#n: -0.0241, ]>
+<250826, [like#v: 0.38047, unit#n: -0.02551, ]>

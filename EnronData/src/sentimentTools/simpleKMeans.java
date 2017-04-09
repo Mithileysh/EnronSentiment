@@ -37,7 +37,7 @@ public class simpleKMeans {
 		options[2] = "-N";
 		options[3] = "3";
 		options[4] = "-S";
-		options[5] = "5000000";
+		options[5] = "3";
 		options[6] = "-I";
 		options[7] = "100";
 		
@@ -54,7 +54,7 @@ public class simpleKMeans {
 		skm.setDontReplaceMissingValues(true);
 		skm.setPreserveInstancesOrder(true);
 		skm.setNumClusters(3);
-		skm.setSeed(2);	
+		skm.setSeed(3);	
 		
 		skm.buildClusterer(newData);
 		
@@ -76,7 +76,7 @@ public class simpleKMeans {
 
 	}
 
-	/*
+	
 	public static void main (String[] args) throws Exception{
 		
 		if (args.length == 1){
@@ -85,7 +85,7 @@ public class simpleKMeans {
 		}
 		
 		simpleKMeans skm =  new simpleKMeans();
-		skm.cluster("enronemail_kmeans_features_2h_normalized.csv");
+		skm.cluster("results/results_enronemail_2001_01/kmeans_csv_files/enronemail_owl_tfidf_kmeans_2001_01.csv");
 		for(int classNum: skm.classNum()){
 			System.out.println("#" + classNum);
 		}
@@ -97,6 +97,6 @@ public class simpleKMeans {
 			System.out.println("#" + classNum);
 		}
 	}
-	*/
+	
 
 }

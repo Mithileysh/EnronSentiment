@@ -1,0 +1,365 @@
+@relation 'C:\\Users\\Sisi\\Documents\\GitHub\\EnronSentiment\\EnronData\\results\\polarity_dat_files\\enronemail_owl_bow_polarity_dataset3.dat'
+
+@attribute att_1 numeric
+@attribute att_2 numeric
+@attribute att_3 numeric
+@attribute att_4 numeric
+@attribute att_5 numeric
+@attribute att_6 numeric
+@attribute att_7 numeric
+@attribute att_8 numeric
+@attribute att_9 numeric
+@attribute att_10 numeric
+@attribute att_11 numeric
+@attribute att_12 numeric
+@attribute att_13 numeric
+@attribute att_14 numeric
+@attribute att_15 numeric
+@attribute att_16 numeric
+@attribute att_17 numeric
+@attribute att_18 numeric
+@attribute att_19 numeric
+@attribute att_20 numeric
+@attribute att_21 numeric
+@attribute att_22 numeric
+@attribute att_23 numeric
+@attribute att_24 numeric
+@attribute att_25 numeric
+@attribute att_26 numeric
+@attribute att_27 numeric
+@attribute att_28 numeric
+@attribute att_29 numeric
+@attribute att_30 numeric
+@attribute att_31 numeric
+@attribute att_32 numeric
+@attribute att_33 numeric
+@attribute att_34 numeric
+@attribute att_35 numeric
+@attribute att_36 numeric
+@attribute att_37 numeric
+@attribute att_38 numeric
+@attribute att_39 numeric
+@attribute att_40 numeric
+@attribute att_41 numeric
+@attribute att_42 numeric
+@attribute att_43 numeric
+@attribute att_44 numeric
+@attribute att_45 numeric
+@attribute att_46 numeric
+@attribute att_47 numeric
+@attribute att_48 numeric
+@attribute att_49 numeric
+@attribute att_50 numeric
+@attribute att_51 numeric
+@attribute att_52 numeric
+@attribute att_53 numeric
+@attribute att_54 numeric
+@attribute att_55 numeric
+@attribute att_56 numeric
+@attribute att_57 numeric
+@attribute att_58 numeric
+@attribute att_59 numeric
+@attribute att_60 numeric
+@attribute att_61 numeric
+@attribute att_62 numeric
+@attribute att_63 numeric
+@attribute att_64 numeric
+@attribute att_65 numeric
+@attribute att_66 numeric
+@attribute att_67 numeric
+@attribute att_68 numeric
+@attribute att_69 numeric
+@attribute att_70 numeric
+@attribute att_71 numeric
+@attribute att_72 numeric
+@attribute att_73 numeric
+@attribute att_74 numeric
+@attribute att_75 numeric
+@attribute att_76 numeric
+@attribute att_77 numeric
+@attribute att_78 numeric
+@attribute att_79 numeric
+@attribute att_80 numeric
+@attribute att_81 numeric
+@attribute att_82 numeric
+@attribute att_83 numeric
+@attribute att_84 numeric
+@attribute att_85 numeric
+@attribute att_86 numeric
+@attribute att_87 numeric
+@attribute att_88 numeric
+@attribute att_89 numeric
+@attribute att_90 numeric
+@attribute att_91 numeric
+@attribute att_92 numeric
+@attribute att_93 numeric
+@attribute att_94 numeric
+@attribute att_95 numeric
+@attribute att_96 numeric
+@attribute att_97 numeric
+@attribute att_98 numeric
+@attribute att_99 numeric
+@attribute att_100 numeric
+@attribute att_101 numeric
+@attribute att_102 numeric
+@attribute att_103 numeric
+@attribute att_104 numeric
+@attribute att_105 numeric
+@attribute att_106 numeric
+@attribute att_107 numeric
+@attribute att_108 numeric
+@attribute att_109 numeric
+@attribute att_110 numeric
+@attribute att_111 numeric
+@attribute att_112 numeric
+@attribute att_113 numeric
+@attribute att_114 numeric
+@attribute att_115 numeric
+@attribute att_116 numeric
+@attribute att_117 numeric
+@attribute att_118 numeric
+@attribute att_119 numeric
+@attribute att_120 numeric
+@attribute att_121 numeric
+@attribute att_122 numeric
+@attribute att_123 numeric
+@attribute att_124 numeric
+@attribute att_125 numeric
+@attribute att_126 numeric
+@attribute att_127 numeric
+@attribute att_128 numeric
+@attribute att_129 numeric
+@attribute att_130 numeric
+@attribute att_131 numeric
+@attribute att_132 numeric
+@attribute att_133 numeric
+@attribute att_134 numeric
+@attribute att_135 numeric
+@attribute att_136 numeric
+@attribute att_137 numeric
+@attribute att_138 numeric
+@attribute att_139 numeric
+@attribute att_140 numeric
+@attribute att_141 numeric
+@attribute att_142 numeric
+@attribute att_143 numeric
+@attribute att_144 numeric
+@attribute att_145 numeric
+@attribute att_146 numeric
+@attribute att_147 numeric
+@attribute att_148 numeric
+@attribute att_149 numeric
+@attribute att_150 numeric
+@attribute att_151 numeric
+@attribute att_152 numeric
+@attribute att_153 numeric
+@attribute att_154 numeric
+@attribute att_155 numeric
+@attribute att_156 numeric
+@attribute att_157 numeric
+@attribute att_158 numeric
+@attribute att_159 numeric
+@attribute att_160 numeric
+@attribute class {0,1,-1}
+
+@data
+{16 1,84 -1,114 -1,116 -1,160 -1}
+{10 1,110 -1}
+{69 1,86 -2,91 -2,101 -1,104 -1,110 -2,160 -1}
+{55 2,67 1,160 1}
+{84 -1,160 -1}
+{29 1,84 -1,100 -1,104 -1,160 -1}
+{16 1,20 1,160 1}
+{6 1,8 1,18 1,46 1,80 -1,104 -1,160 1}
+{74 1,89 -1}
+{61 1,108 -1}
+{18 2,22 2,29 1,62 1,66 1,72 1,94 -1,160 1}
+{}
+{2 1,3 1,8 1,16 1,18 1,23 1,29 1,36 3,37 1,60 1,61 1,108 -1,158 -2,160 1}
+{}
+{}
+{18 1,124 -2,160 -1}
+{71 1,160 1}
+{}
+{}
+{61 1,160 1}
+{8 1,18 1,35 1,155 -2,160 1}
+{}
+{38 1,72 1,91 -1,101 -1,107 -1,160 -1}
+{103 -1,160 -1}
+{1 1,8 1,28 1,38 1,72 1,91 -1,101 -2,107 -1,160 1}
+{100 -1,155 -1,160 -1}
+{8 1,71 1,160 1}
+{}
+{34 1,113 -1,121 -1,139 -1,160 -1}
+{8 1,71 1,160 1}
+{}
+{}
+{}
+{}
+{43 1,160 1}
+{18 1,108 -1}
+{66 1,160 1}
+{16 1,50 1,70 2,91 -1,160 1}
+{}
+{}
+{16 1,160 1}
+{8 1,74 1,141 -3,160 -1}
+{144 -2,160 -1}
+{16 1,66 1,154 -1,160 1}
+{16 1,32 1,75 1,122 -1,160 1}
+{18 1,160 1}
+{34 1,74 1,160 1}
+{}
+{}
+{89 -1,158 -1,160 -1}
+{8 1,91 -1,103 -1,115 -1,158 -1,160 -1}
+{}
+{48 1,71 1,160 1}
+{59 1,73 1,160 1}
+{123 -3,131 -1,160 -1}
+{16 1,160 1}
+{144 -2,160 -1}
+{}
+{74 1,160 1}
+{}
+{}
+{59 2,73 1,100 -1,160 1}
+{108 -1,160 -1}
+{100 -1,160 -1}
+{8 1,12 2,29 1,79 -1,100 -1,103 -1,104 -3,160 -1}
+{11 1,16 2,96 -1,160 1}
+{}
+{104 -1,160 -1}
+{73 1,79 -1}
+{}
+{}
+{73 1,79 -1}
+{}
+{4 1,100 -1}
+{73 1,160 1}
+{16 1,73 1,160 1}
+{56 1,78 -1,100 -1,160 -1}
+{61 1,100 -2,160 -1}
+{36 1,104 -5,111 -1,160 -1}
+{61 1,104 -1}
+{}
+{37 1,157 -1}
+{}
+{79 -1,160 -1}
+{112 -1,160 -1}
+{20 1,104 -1}
+{79 -1,100 -1,160 -1}
+{16 1,73 1,79 -2}
+{16 1,73 2,79 -1,160 1}
+{29 1,57 1,66 1,95 -1,160 1}
+{}
+{}
+{61 1,100 -1,132 -2,160 -1}
+{}
+{81 -1,160 -1}
+{104 -1,160 -1}
+{}
+{}
+{}
+{}
+{18 1,62 1,160 1}
+{8 1,97 -1,100 -1,104 -1,160 -1}
+{16 1,45 1,93 -1,108 -1,155 -1,160 -1}
+{16 1,104 -2,133 -1,138 -1,160 -1}
+{16 1,160 1}
+{131 -1,160 -1}
+{18 1,70 1,84 -1,89 -4,108 -1,138 -1,159 -1,160 -1}
+{0 1,8 1,18 1,22 1,29 1,30 1,34 2,53 1,55 1,57 1,61 1,62 2,66 1,69 2,74 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -11,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{0 1,8 1,18 1,22 1,29 1,30 1,34 2,53 1,55 1,57 1,61 1,62 2,66 1,69 2,74 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -11,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{}
+{0 1,8 1,18 1,29 1,30 1,34 1,53 1,55 1,57 1,61 1,62 2,64 1,69 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -9,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{155 -3,160 -1}
+{81 -1,160 -1}
+{73 1,79 -1}
+{}
+{}
+{16 1,73 1,79 -2}
+{16 1,73 2,79 -1,160 1}
+{4 1,100 -1}
+{79 -1,100 -1,160 -1}
+{}
+{16 1,73 1,160 1}
+{73 1,79 -1}
+{73 1,160 1}
+{65 1,160 1}
+{79 -1,160 -1}
+{79 -1,160 -1}
+{16 1,18 1,84 -1,89 -1}
+{1 1,18 1,100 -6,117 -3,138 -1,152 -1,160 -1}
+{61 1,100 -2,160 -1}
+{8 1,12 1,19 1,25 1,29 1,68 1,74 1,126 -1,160 1}
+{}
+{}
+{12 1,55 1,96 -1,113 -1,142 -1,144 -1,156 -1,160 -1}
+{16 2,72 1,74 1,104 -1,134 -1,160 1}
+{36 1,104 -5,111 -1,160 -1}
+{}
+{16 2,72 1,74 1,104 -1,134 -1,160 1}
+{104 -1,160 -1}
+{}
+{16 1,60 1,108 -1,160 1}
+{8 1,12 1,13 2,18 1,144 -1,158 -2,160 1}
+{154 -1,160 -1}
+{8 1,154 -1}
+{}
+{104 -3,160 -1}
+{0 1,8 1,18 1,29 1,30 1,34 1,53 1,55 1,57 1,61 1,62 2,64 1,69 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -9,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{56 1,78 -1,100 -1,160 -1}
+{131 -1,160 -1}
+{18 1,70 1,84 -1,89 -4,108 -1,138 -1,159 -1,160 -1}
+{18 1,70 1,84 -1,89 -4,108 -1,138 -1,159 -1,160 -1}
+{2 1,3 1,8 1,16 1,18 1,23 1,29 1,36 3,37 1,60 1,61 1,108 -1,158 -2,160 1}
+{18 1,62 1,160 1}
+{155 -3,160 -1}
+{0 1,8 1,18 1,29 1,30 1,34 1,53 1,55 1,57 1,61 1,62 2,64 1,69 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -9,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{69 1,86 -2,91 -2,101 -1,104 -1,110 -2,160 -1}
+{61 1,104 -1}
+{104 -1,160 -1}
+{61 1,100 -1,132 -2,160 -1}
+{72 1,160 1}
+{20 1,104 -1}
+{18 1,108 -1}
+{29 1,87 -1,92 -1,104 -1,155 -1,160 -1}
+{}
+{16 1,160 1}
+{16 1,45 1,93 -1,108 -1,155 -1,160 -1}
+{112 -1,160 -1}
+{8 1,12 2,29 1,79 -1,100 -1,103 -1,104 -3,160 -1}
+{8 1,16 1,18 1,29 1,80 -1,100 -2,126 -1}
+{8 1,18 1,62 1,74 1,146 -1,150 -1,160 1}
+{8 1,97 -1,100 -1,104 -1,160 -1}
+{}
+{8 1,18 1,29 3,44 1,47 1,61 1,104 -1,158 -1,160 1}
+{66 2,100 -7,108 -2,119 -1,134 -1,152 -1,160 -1}
+{16 1,18 1,30 1,40 1,74 1,86 -1,110 -2,158 -1,160 1}
+{29 1,57 1,66 1,95 -1,160 1}
+{}
+{8 2,10 2,12 1,14 1,16 2,51 1,52 1,70 1,85 -1,89 -1,103 -1,147 -1,158 -5,160 1}
+{}
+{}
+{16 1,104 -2,133 -1,138 -1,160 -1}
+{}
+{0 1,8 1,18 1,22 1,29 1,30 1,34 2,53 1,55 1,57 1,61 1,62 2,66 1,69 2,74 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -11,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{0 1,8 1,18 1,22 1,29 1,30 1,34 2,53 1,55 1,57 1,61 1,62 2,66 1,69 2,74 1,75 1,80 -1,86 -1,89 -2,92 -1,100 -2,103 -1,108 -11,121 -1,124 -1,128 -1,149 -1,158 -1,160 -1}
+{}
+{9 1,22 1,160 1}
+{22 3,23 1,29 1,53 1,69 1,92 -1,102 -1,104 -2,145 -1,160 1}
+{5 1,21 1,26 1,39 1,74 1,89 -1,91 -1,101 -1,138 -1,144 -2,158 -1,160 -1}
+{}
+{5 1,21 1,26 1,39 1,74 1,89 -1,91 -1,101 -1,138 -1,144 -2,158 -1,160 -1}
+{}
+{10 1,16 1,160 1}
+{}
+{}
+{}
+{12 1,18 1,74 1,101 -1,158 -2}
+{12 1,103 -1,158 -2,160 -1}
+{}
+{55 1,71 1,125 -1,160 1}
+{}

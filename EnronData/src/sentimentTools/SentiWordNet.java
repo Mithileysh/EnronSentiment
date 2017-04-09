@@ -26,7 +26,7 @@ import java.util.TreeMap;
     public class SentiWordNet {
 
         private Map<String, Double> sentiDictionary;
-        private Map<String,Double> sentiLexicon;
+        private HashMap<String,Double> sentiLexicon;
         private Map<String, String> wordList;
         private ArrayList<String> synList;
         static HashMap<String, HashMap<Integer, Double>> tempDictionary;
@@ -40,7 +40,6 @@ import java.util.TreeMap;
             // From String to list of doubles.
             tempDictionary = new HashMap<String, HashMap<Integer, Double>>();
             
-
             BufferedReader sentiCSV = null;
             try {
                 sentiCSV = new BufferedReader(new FileReader(filePath));
@@ -95,6 +94,7 @@ import java.util.TreeMap;
                             // Add synset link to synterm
                             tempDictionary.get(synTerm).put(synTermRank,
                                     synsetScore);
+               
                             
                         }
                     }
@@ -121,6 +121,7 @@ import java.util.TreeMap;
 
                     sentiDictionary.put(word, score);
                     //System.out.println(tempDictionary.keySet().toString());
+                    
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -161,8 +162,32 @@ import java.util.TreeMap;
         }
         
         //Create sentiment lexicon based on scores + to -
-        public Map<String, Double> lexicon() {
+        public HashMap<String, Integer> keyLexicon() {
         	sigma = 0.0001;
+        	double score = 0;
+        	
+            String[] termDict = tempDictionary.keySet().toString().split(",");
+            
+            synList = new ArrayList<String>();
+        	for (String terms: termDict){
+                //System.out.println(terms);
+        		synList.add(terms);        
+        	}
+        	HashMap<String, Integer> keyDictionary = new HashMap<String, Integer>();
+        	keyDictionary.put(synList.get(0).replace("[", ""), 0);
+        	
+        	for (int i = 1; i< synList.size()-2;i++){
+    			    		
+        	    keyDictionary.put(synList.get(i).replace(" ", ""), i);
+        	}
+        	keyDictionary.put(synList.get(synList.size()-1).replace("]", ""), synList.size()-1);
+        	//System.out.println(sentiLexicon.entrySet());
+        	
+        	return keyDictionary;
+        	
+        }
+        public HashMap<String, Double> swnLexicon() {
+        	
         	double score = 0;
         	
             String[] termDict = tempDictionary.keySet().toString().split(",");
@@ -192,14 +217,14 @@ import java.util.TreeMap;
         }
         
         public Map<String, String> wordLexicon(){
-        	Map<String, String> swnLexicon = new HashMap<String, String>();
-        	
-        	for (String terms: lexicon().keySet()){
-        		String[] termList = terms.split("#");
-        		swnLexicon.put(termList[0], terms);
-        		
-        	}
-        	return swnLexicon;
+        	Map<String, String> swnDictionary = new HashMap<String, String>();
+        	for (String terms: swnLexicon().keySet()){
+	        	String[] termList = terms.split("#");
+	        	swnDictionary.put(termList[0], terms);
+	        	
+	        }
+	        	
+        	return swnDictionary;
         }
 
         

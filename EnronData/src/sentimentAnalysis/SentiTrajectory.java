@@ -78,7 +78,8 @@ public class SentiTrajectory {
 	static TFIDFSimilarity tfidf;
 	
 	static int size;
-	//extract matching word
+	
+	//Create method for extracting matching word without frequency
     public static String recursion(int mIndex, String str, ArrayList<String> strList){
 		
 		
@@ -94,6 +95,8 @@ public class SentiTrajectory {
 		
 		
 	}
+    
+    //Same method with frequency
     public static ArrayList<Integer> recursionFreq(int mIndex, String str, ArrayList<String> strList){
 		
 		ArrayList<Integer> hs = new ArrayList<Integer>();
@@ -137,6 +140,8 @@ public class SentiTrajectory {
 		
 		return strList.indexOf(str);
 	}
+	
+	
 	public static double tfCalculator(ArrayList<String> totalterms, String termToCheck) {
         double count = 0;  //to count the overall occurrence of the term termToCheck
         for (String s : totalterms) {
@@ -267,20 +272,6 @@ public class SentiTrajectory {
 					
 					fileWriter.append("<" + id + ", ");
 					/*
-					stmt = myConn.createStatement();
-					
-					String newSql;
-					newSql = "SELECT employeelist.eid FROM enron.employeelist, enron.message Where message.sender = employeelist.Email_id OR message.sender = employeelist.Email2 OR message.sender = employeelist.Email3 AND message.sender = '" + address + "'LIMIT 1"; 
-					
-					ResultSet newRs = myStmt.executeQuery(newSql);
-					
-					if (newRs.wasNull()){
-						eid = 0;
-					}
-					eid = newRs.getInt("employeelist.eid");
-					
-					fileWriter.append(eid + ", " + address + ", " + "training, [");
-					*/
 					if (subject.contains("girl")|subject.contains("trip")|subject.contains("golf")|subject.contains("lunch") | subject.contains("daddy") |subject.contains("i m") |subject.contains("gift") | subject.contains("us") | subject.contains("private") | subject.contains("vacation") | subject.contains("birthday")| subject.contains("dinner") | subject.contains("?")){
 						fileWriter.append("Private Issue, ");
 					}else if (subject.contains("arrival")|subject.contains("hi")|subject.contains("good") | subject.contains("congrat") | subject.contains("i am here") | subject.contains("farewell") ){
@@ -313,6 +304,7 @@ public class SentiTrajectory {
 					else{
 						fileWriter.append("Other, ");
 					}
+					*/
 					
 					DateFormat df = new SimpleDateFormat("yyyy-MM-dd");
 					df.setTimeZone(TimeZone.getTimeZone("UTC"));

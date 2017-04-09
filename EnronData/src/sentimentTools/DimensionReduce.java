@@ -82,10 +82,11 @@ public class DimensionReduce {
 		
 		static String bodyStr;
 		
-		static Map<String, Double> reducedSWN;
+		static Map<String, Float> reducedSWN;
+		static Map<String, Integer> keySWN;
 		
-		public Map<String, Double> swnDictionary (String filePath) throws IOException{
-			reducedSWN = new HashMap<String, Double>();
+		public Map<String, Float> swnDictionary (String filePath) throws IOException{
+			reducedSWN = new HashMap<String, Float>();
 			BufferedReader reducedSWNTXT = null;
 			
 			try {
@@ -99,7 +100,7 @@ public class DimensionReduce {
 		            String[] data = line.split("\t");
 		            for (String item: data){
 		            	String[] itemList = item.split(",");
-		            	reducedSWN.put(itemList[0], Double.parseDouble(itemList[1]));
+		            	reducedSWN.put(itemList[1], Float.parseFloat(itemList[2]));
 		            }
         
 		        }
@@ -112,6 +113,35 @@ public class DimensionReduce {
 		        }
 		    }
 			return reducedSWN;
+		}
+		public Map<String, Integer> keyDictionary (String filePath) throws IOException{
+			keySWN = new HashMap<String, Integer>();
+			BufferedReader reducedSWNTXT = null;
+			
+			try {
+		        reducedSWNTXT = new BufferedReader(new FileReader(filePath));
+		        int lineNumber = 0;
+
+		        String line;
+		        while ((line = reducedSWNTXT.readLine()) != null) {
+		            lineNumber++;
+		            
+		            String[] data = line.split("\t");
+		            for (String item: data){
+		            	String[] itemList = item.split(",");
+		            	keySWN.put(itemList[1], Integer.parseInt(itemList[0]));
+		            }
+        
+		        }
+		       
+		    } catch (Exception e) {
+		        e.printStackTrace();
+		    } finally {
+		        if (reducedSWNTXT != null) {
+		            reducedSWNTXT.close();
+		        }
+		    }
+			return keySWN;
 		}
 		public static void main(String[] args) throws IOException, SQLException, InstantiationException, IllegalAccessException, ClassNotFoundException {
 			
@@ -133,12 +163,16 @@ public class DimensionReduce {
 				// Query from database
 				myStmt = myConn.createStatement();
 				String sql;
-				sql = "SELECT DISTINCT subject,body FROM enron.message WHERE YEAR(date) = 2001 AND MONTH(date) = 01";
-				
+				sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%sun devil%');";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%training%'OR subject LIKE '%lesson%'OR subject LIKE '%class%')";
+				//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%weekly update%' OR subject LIKE '%weekly report%')";
 				ResultSet rs = myStmt.executeQuery(sql);
 				
 				//String outputFile = "results/enronemail_owl_2001_01_idf.txt";
-				String outputFile = "results/enronemail_swn_2001_01.txt";
+				String outputFile = "singleTR/enronemail_swn_sundevil_00_02.txt";
+				//String outputFile = "singleTR/enronemail_swn_training_00_02.txt";
+				//String outputFile = "singleTR/enronemail_swn_weeklyupdate_00_02.txt";
+				
 				
 				FileWriter fileWriter = null;
 				//FileWriter fileWriter1 = null;
@@ -179,28 +213,30 @@ public class DimensionReduce {
 							  		  
 						String[] tokens = tokenizer.tokenize(bodyList.get(0));
 						for (String token : tokens){
-							stemmer.setCurrent(token);
-							stemmer.stem();
-										
-							tokenStr += stemmer.getCurrent() + " ";
-							if (stopWords.contains(stemmer.getCurrent())){
-								tokenStr.replaceFirst(stemmer.getCurrent(),"");
-							}else if (stemmer.getCurrent().contains("=") | stemmer.getCurrent().contains(".")|stemmer.getCurrent().contains("/")|stemmer.getCurrent().contains(":")){
-								stemmer.getCurrent().replace("=","").replace("/", "");
-								stemmer.getCurrent().replace(".", "").replace(":", "");
-							}
-							else{
-								tokenStr +="";
-							}	  
+							if (token.contains("=") | token.contains(".") | token.contains("/") | token.contains(":")){ 
+					    	    token.replaceAll(".", "").replaceAll("/", "").replaceAll("=", "").replaceAll(":", "");
+					    		stemmer.setCurrent(token);
+						        stemmer.stem();
+						        if ( ! stopWords.contains(stemmer.getCurrent())){
+
+									tokenStr += stemmer.getCurrent() + " ";
+								}
+						        
+					    	}else{
+							    stemmer.setCurrent(token);
+					    		tokenStr += stemmer.getCurrent() + " ";
+					    	}
+					    	  
 									
 						}
-						//System.out.println( tokenStr);
+						//System.out.println( tokenStr + " ");
 						tokenList.add(tokenStr);
 					}
 					
 					
 				}
 			    System.out.println(tokenList.size() + " ");
+			    //System.out.println(tokenList.toString() + " ");
 			    
 			    for (String tempWord: tempLexicon){
 					int frequency = 0;
@@ -212,12 +248,17 @@ public class DimensionReduce {
 					        }
 					    }
 					}
-					System.out.println(tempWord + ", " + frequency);
-			        if (frequency != 0){
-			           	//fileWriter.append(tempTerm + ", " + Math.log10(tokenList.size() / frequency) + "\n");
-			            fileWriter.append(swn.wordLexicon().get(tempWord)  + ", " + swn.lexicon().get(swn.wordLexicon().get(tempWord)) + "\n");
+					//System.out.println(swn.keyLexicon().get(swn.wordLexicon().get(tempWord)) + ", " + tempWord + ", " + frequency);
 			        
-				   }
+					if (frequency != 0){
+						System.out.println(swn.keyLexicon().get(swn.wordLexicon().get(tempWord)) + ", " + tempWord + ", " + frequency);
+				        
+			           	//fileWriter.append(tempTerm + ", " + Math.log10(tokenList.size() / frequency) + "\n");
+			        	//if (swn.swnLexicon().get(swn.wordLexicon().get(tempWord)) > 0)
+						fileWriter.append(swn.keyLexicon().get(swn.wordLexicon().get(tempWord)) + "," + swn.wordLexicon().get(tempWord)  + "," + swn.swnLexicon().get(swn.wordLexicon().get(tempWord)) + "\n");
+			        	
+				    }
+								        
 				}
 				    
 			    
