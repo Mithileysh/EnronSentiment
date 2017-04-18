@@ -1,0 +1,77 @@
+size:27
+<7913:Other-[effective, effective, satisfied, clear, -issue, free, qualify, -issue, free, -losses, -fall, top, -losses, effective, free]>
+<55361:Other-[enough, -strike, respect, -strike, respect, -strike, respect, -strike, respect, effective, effective, steady, -strike, -strike, -strike, effective]>
+<24914:Other-[-problems, thank]>
+<39236:Other-[properly, -inability]>
+<39238:Other-[-regression, reliable]>
+<54970:Other-[-sues, -conspiracy, -sued, recover, superior, -accuses, engaging, -conspiracy, -drained, -manipulate, -illegal, -deteriorating, -allegations, -defamatory, available, gained, feat, accomplished, -accuses, -emergency, like]>
+<34240:Other-[-hard, -strictly, thank]>
+<51861:Other-[glad, -knock, -dead]>
+<55360:Other-[like, -bad, -problems, -challenging, clearly]>
+<89648:Other-[thank, -inappropriate, -objectionable, -difficult, -mistake, -uncomfortable, -trash, -questionable, appreciate, thank]>
+<74349:Other-[-bad, -vice, -errors, correct, -lack]>
+<89362:Other-[-inappropriate, -objectionable, -difficult, -mistake, -uncomfortable, -trash, -questionable, appreciate, thank]>
+<89649:Other-[-inappropriate, -objectionable, -difficult, -mistake, -uncomfortable, -trash, -questionable, appreciate, thank]>
+<113109:Other-[-falls, -tank, like]>
+<174112:Other-[-breaking, -inundated, free, -opposition, -issue, -issue, -tired, perfect, consistently, leading, -warned, -issues, commitment, popular, -struggle, dedicated, booming, -issues, integrated]>
+<107084:Other-[-issues, thank]>
+<107087:Other-[-unable, remedy]>
+<144227:Other-[available, -rusty]>
+<160310:Other-[pretty, spacious, enough, humane, -unwanted, -lost, -lost, -afraid, likes, -destroy, kindly, endorsed]>
+<144223:Other-[free, best, -strictly]>
+<144226:Other-[fine, free, best, -strictly]>
+<168291:Other-[accurate, available, hot, -unable]>
+<169897:Other-[accurate, available, hot, -unable]>
+<169899:Other-[accurate, available, hot, -unable]>
+<174116:Other-[like, -mess, appropriate]>
+<174119:Other-[works, interesting, like, -alarmed, -revert, welcome]>
+<184198:Other-[-lacking, important, -incorrect]>
+
+size:9
+<10347:General Operation-[coherent, authoritative, work, works, -issues, -woefully, -inadequate, -issues, strong, commitment, flexibility, -limited, creative, works, work, -radical, satisfied, important, -dissatisfaction, -limit, spiritual, faith, coherence, recommendations, support, -complex, work, logical, -problem, strong, support, simplify, support, -frustrate, work]>
+<51862:General Operation-[good, -leak, -costly, fair, -scratches, like, progress, like, like, perfect]>
+<52594:General Operation-[available, available, available, -limited, available, available, available, available, -muddy, -muddy, grand, grand, grand, grand, available, available, available, available, -subordinate, -critical, -subordinate, -subordinate, available, -subordinate, -subordinate, available, -subordinate, -subordinate, exceed, -restrict, available, available, effective, available, available, available, available, available, available, available, -reject, award, awarded, available, -reject, award, awarded, available, -reject, award, awarded, right, available, available, available, available, available, available, available, right, awarded, awarded, -liable]>
+<157003:General Operation-[enough, available, -risk, -lost, appreciate]>
+<34904:General Operation-[recommend, -criminal, -adverse, fair, -destroy, privileged, privilege, -object, superior, proper, well, -refused, protective, -problem, -delay, work, -objection, -hard, work, -troubled, privileged, -destroy]>
+<89360:General Operation-[-crude, -issues, -deficiencies, diligence, recommended]>
+<157931:General Operation-[enough, available, -risk, -lost, appreciate]>
+<158090:General Operation-[enough, available, -risk, -lost, appreciate]>
+<158125:General Operation-[enough, available, -risk, -lost, appreciate]>
+
+size:16
+<10348:Other-[leading, benefits, accurate, like, -strictly, like, appropriate, thank, important, favorite]>
+<24913:Other-[competitive, strong]>
+<27269:Other-[competitive, strong]>
+<34905:Other-[regard, privileged, thank]>
+<85171:Other-[liked]>
+<95834:Other-[worth, like, happy]>
+<152189:Other-[like]>
+<152850:Other-[helpful]>
+<160312:Other-[pretty, enough]>
+<160441:Other-[pretty, enough]>
+<160442:Other-[enough]>
+<163875:Other-[good, super, perfect, great, win, super, great, hero, won, super, won, greatest, adoring]>
+<168053:Other-[good, super, perfect, great, win, super, great, hero, won, super, won, greatest, adoring]>
+<174118:Other-[timely, right]>
+<184197:Other-[important, sensitive]>
+<184199:Other-[significant]>
+
+size:6
+<39237:Private Issue-[correct]>
+<52595:Private Issue-[like, -risk, well, like, well, state-of-the-art, won, support, acclaimed]>
+<7914:Private Issue-[-spoiled, lovely, trust, free, won, good, happy, happy, -cheap, privileged]>
+<89766:Private Issue-[available, winners, winner, winners]>
+<163879:Private Issue-[like, good]>
+<168057:Private Issue-[like, good]>
+
+size:10
+<119336:Other-[-decline]>
+<128011:Other-[-decline]>
+<129558:Other-[-liable, -liable]>
+<162774:Other-[-drunk, -kill, -bad, -sick, -sorry, -shit]>
+<163870:Other-[-joke]>
+<163873:Other-[-drunk, -kill, -bad, -sick, -sorry, -shit]>
+<163874:Other-[-drunk, -kill, -bad, -sick, -sorry, -shit]>
+<168048:Other-[-joke]>
+<168051:Other-[-drunk, -kill, -bad, -sick, -sorry, -shit]>
+<168052:Other-[-drunk, -kill, -bad, -sick, -sorry, -shit]>

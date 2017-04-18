@@ -1,0 +1,253 @@
+size:39
+<3477:Private Issue-[approve, approve, supported, approve, important, approve, important, thank, important]>
+<3478:Private Issue-[approve, approve, approve, supported, approve, important, approve, important, thank, important]>
+<3479:Private Issue-[like, approve]>
+<3481:Private Issue-[approve, like, approve]>
+<3482:Private Issue-[approve]>
+<3483:Private Issue-[approve, approve]>
+<3484:Private Issue-[thank, approve]>
+<3485:Private Issue-[approve, approve]>
+<3487:Private Issue-[approve, approve, approve, supported, approve, important, approve, important, thank, important]>
+<3488:Private Issue-[approve, approve, approve]>
+<3489:Private Issue-[approve, approve, approve, approve, supported, approve, important, approve, important, thank, important]>
+<3490:Private Issue-[approve, approve, approve, approve, supported, approve, important, approve, important, thank, important]>
+<3492:Private Issue-[approve, approve, approve, approve, approve, supported, approve, important, approve, important, thank, important]>
+<3493:Private Issue-[works]>
+<3496:Private Issue-[approve]>
+<3498:Private Issue-[approve]>
+<3502:Private Issue-[support, improvement, appreciate]>
+<7957:Private Issue-[respect, effective, effective]>
+<54356:Private Issue-[work, appreciate]>
+<107498:Private Issue-[master, master]>
+<107511:Private Issue-[effective]>
+<140416:Private Issue-[good, privileged]>
+<140445:Private Issue-[approve, work, approve, approve, supported, approve, important, approve, important, thank, important]>
+<158691:Private Issue-[support, improvement, appreciate]>
+<158694:Private Issue-[successfully, -negative, available, lucky, positive, winning, glad, love, economical, stronger, clear, available]>
+<128005:Private Issue-[-wrong, work, secure, useful, support, free]>
+<89368:Private Issue-[-contamination, -concerns, fast, enough, clean, available, effectively, like]>
+<90590:Private Issue-[-contamination, -concerns, fast, enough, clean, available, effectively, like]>
+<140435:Private Issue-[-unable, work, compliant, approval, commitment]>
+<215822:Private Issue-[approval, approval, approval, -sue]>
+<158695:Private Issue-[winning, instantly, like]>
+<175920:Private Issue-[right]>
+<179615:Private Issue-[master, master, correctly, master]>
+<179624:Private Issue-[master, master, correctly, master]>
+<183953:Private Issue-[master, master, correctly, master]>
+<183956:Private Issue-[effective]>
+<183966:Private Issue-[support, improvement, appreciate]>
+<210129:Private Issue-[useful]>
+<239038:Private Issue-[support, improvement, appreciate]>
+
+size:8
+<3494:Other-[-slow]>
+<3501:Other-[-strike]>
+<39216:Other-[-disregard]>
+<112528:Other-[-rusty, -issues]>
+<140437:Other-[-bad, -tentatively]>
+<179623:Other-[-disregard]>
+<179625:Other-[-disregard]>
+<247933:Other-[-wrong]>
+
+size:32
+<3495:Other-[-inappropriate, well, excellence, victory]>
+<54894:Other-[-risk, master, master, master, -hard, masters, prefer, master, like, prefer, available]>
+<95295:Other-[tough, fun, cool, -expensive]>
+<95297:Other-[good, good, tough, fun, cool, -expensive]>
+<95301:Other-[bullish, strong, -concerned, strong]>
+<107505:Other-[thank, excellent, -poor]>
+<196676:Other-[available, approval, successful, reasonably, -wild, approval, exceed, excel, -wild, -wild, -wild, right, award, reasonable, convenience, -wild, excel, -wild, -wild, available, -wild, -hard, -wild, -wild]>
+<10283:Other-[masters, -hard]>
+<102604:Other-[masters, -hard]>
+<107508:Other-[-lost, -lost, -vanity, like, worthy, secure, -loss]>
+<29397:Other-[-imbalance, -beware, like]>
+<29400:Other-[-imbalance, -beware, like]>
+<34740:Other-[-crisis, -limited, -complex, -issues, -waste, -suffer, -delays, -loss, recovery, support, -delay, diligence, -excessive, assure]>
+<140410:Other-[great, better, -clueless, -hang, -cracked]>
+<107509:Other-[masters, -hard]>
+<172921:Other-[efficiently, protection, -proprietary, -proprietary, properly, -lose]>
+<175914:Other-[good, -dark]>
+<175919:Other-[-dark, like]>
+<183950:Other-[good, -disregard]>
+<183952:Other-[great, -disregard]>
+<210117:Other-[better, free, -lone, -sorry, -spurious, -lone, free]>
+<210118:Other-[-guilt, -lone, won]>
+<215844:Other-[-guilt, -lone, won]>
+<210119:Other-[best, -difficult, -problems, like, recommend]>
+<200540:Other-[thank, sensitive, convenient, best, -hassles, -hassles]>
+<200911:Other-[thank, sensitive, convenient, best, -hassles, -hassles]>
+<215829:Other-[-miss, -breakdown, top, top, winner]>
+<239030:Other-[lucky, secure, suitable, famous, like, -tank, like, -drunken, -ridiculous, best, free]>
+<172924:Other-[great, supreme, good, supreme, -rejected, appeal]>
+<172926:Other-[-risk, master, master, master, -hard, masters, prefer, master, like, prefer, available]>
+<236670:Other-[like, better, lucky, secure, suitable, famous, like, -tank, like, -drunken, -ridiculous, best, free]>
+<247151:Other-[thank, excellent, -poor, work]>
+
+size:8
+<3503:Private Issue-[-missed, -break, top, restructuring]>
+<113125:Private Issue-[-sarcastic, golden]>
+<129503:Private Issue-[-critical, -deny, rich, influential, helped, -crisis, advocates, -darkness, -criticized, -volatile, consistently, helped, protection, -scarcity, competitive, -aggressive, freedom, -excessive, -inflated, -flawed, -exploit, -severe, helped, helped, -emergency, accomplished, modest, helped, handsomely, -bumps, clearly, good, helped, consistently, -jam, -criminal, -criticized, -excessive, top, -excessive, recovery, -vice, -improperly, precisely, -criticized, -distorted, willing, -lost, comfortable, patient]>
+<158690:Private Issue-[-missed, -break, top, restructuring]>
+<172922:Private Issue-[-disadvantaged, -disadvantaged, supporting, available, work]>
+<183967:Private Issue-[-missed, -break, top, restructuring]>
+<236669:Private Issue-[well, -sue, -problem, free]>
+<239039:Private Issue-[-missed, -break, top, restructuring]>
+
+size:12
+<7958:General Operation-[free, benefit]>
+<10284:General Operation-[like, like, approval]>
+<54353:General Operation-[works]>
+<54354:General Operation-[work]>
+<102600:General Operation-[works, works]>
+<107496:General Operation-[works]>
+<107501:General Operation-[free, benefit]>
+<179619:General Operation-[master, promise, properly]>
+<183961:General Operation-[free, benefit]>
+<183962:General Operation-[free, benefit]>
+<215833:General Operation-[like, work, available]>
+<236668:General Operation-[work]>
+
+size:37
+<24871:Other-[work]>
+<24872:Other-[fine]>
+<24873:Other-[like]>
+<32943:Other-[pretty]>
+<34923:Other-[pretty]>
+<54355:Other-[free, comfortable]>
+<72435:Other-[well, best, glad]>
+<89136:Other-[grace]>
+<95296:Other-[free, free]>
+<95300:Other-[better]>
+<102607:Other-[outstanding]>
+<107499:Other-[appreciated]>
+<107513:Other-[outstanding]>
+<112524:Other-[advocate, work]>
+<112527:Other-[right]>
+<120011:Other-[secure]>
+<128909:Other-[secure]>
+<140415:Other-[free]>
+<140424:Other-[appreciates, good]>
+<140428:Other-[like]>
+<140441:Other-[welcome, glad]>
+<140443:Other-[good]>
+<154585:Other-[gain, gains]>
+<158095:Other-[reconciliation, reconciliation, reconciliation, reconciliation, reconciliation, reconciliation, reconciliation]>
+<158130:Other-[reconciliation, reconciliation, reconciliation, reconciliation, reconciliation, reconciliation]>
+<160498:Other-[sharp, great, work, appreciate]>
+<160499:Other-[like, won, balanced]>
+<175915:Other-[like]>
+<175917:Other-[like, like]>
+<175918:Other-[good, luck]>
+<183960:Other-[relief]>
+<215851:Other-[well, like]>
+<239027:Other-[complimentary, well, like, like, guidance, worked, convenience, thank]>
+<239032:Other-[helpful]>
+<239034:Other-[consistent]>
+<245415:Other-[master]>
+<247932:Other-[good]>
+
+size:14
+<29391:Company Strategy-[master]>
+<107503:Company Strategy-[convenience, free]>
+<107510:Company Strategy-[worth]>
+<112533:Company Strategy-[like, faith, dawn, work]>
+<127417:Company Strategy-[significant, leading, well, well, support, lead, well, -issues, lead, work, support, support]>
+<140434:Company Strategy-[like, privileged]>
+<140438:Company Strategy-[like, privileged]>
+<140439:Company Strategy-[privileged]>
+<150834:Company Strategy-[privileged]>
+<179616:Company Strategy-[faith, dawn, work]>
+<183964:Company Strategy-[faith, dawn, work]>
+<192051:Company Strategy-[significant, leading, well, well, support, lead, well, -issues, lead, work, support, support]>
+<192732:Company Strategy-[support, supported, work, significant, leading, well, well, support, lead, well, -issues, lead, work, support, support]>
+<245410:Company Strategy-[soft, soft]>
+
+size:5
+<29399:Company Strategy-[-issue]>
+<140418:Company Strategy-[-liability, -liability, -struck]>
+<140419:Company Strategy-[-liability, -liability, -liability, -liability, -struck]>
+<140429:Company Strategy-[-liability, -liability, -struck]>
+<215845:Company Strategy-[-cheap]>
+
+size:14
+<32946:General Operation-[-urgent, respect, -urgent, -debt, awarded, favor, successfully, accurate, effective, -impose, appropriate, work]>
+<32947:General Operation-[-urgent, privilege, recommendation, helped, fine, glad, like, work, happy, -urgent, -debt, awarded, favor, successfully, accurate, effective, -impose, appropriate, work]>
+<32948:General Operation-[-urgent, privilege, recommendation, helped, fine, glad, like, work, happy, -urgent, -debt, awarded, favor, successfully, accurate, effective, -impose, appropriate, work]>
+<32950:General Operation-[-urgent, -debt, awarded, favor, successfully, accurate, effective, -impose, appropriate, work]>
+<32949:General Operation-[-urgent, -urgent, -debt, awarded, favor, successfully, accurate, effective, -impose, appropriate, work]>
+<112531:General Operation-[promise, -tentative, works, great]>
+<179614:General Operation-[-dispute, good, great, support, nice]>
+<210115:General Operation-[benefits, clear, great, good, great, preferable, work, -loss, -abuse]>
+<215849:General Operation-[clear, great, good, great, preferable, work, -loss, -abuse]>
+<140444:General Operation-[-urgent, good, luck, -urgent, like, -alarm, -fool, -killed, -destroy, -urgent, -debt, awarded, favor, successfully, accurate, effective, -impose, appropriate, work]>
+<152293:General Operation-[-killing, -sorry, -missed, rewarding, good, fastest, -trouble, -discouragement, bright]>
+<140433:General Operation-[appropriate, -concerns, -issues]>
+<245416:General Operation-[-confused, master]>
+<247155:General Operation-[-unable, appreciate]>
+
+size:8
+<90591:Logistic Issue-[regard, -contamination]>
+<125140:Logistic Issue-[confident, adequate, -issues, confident, -deny, available, confident, -issue]>
+<140413:Logistic Issue-[outstanding, fine, -damages, right, -difficulty, willing, -risk, interesting]>
+<140414:Logistic Issue-[fine, -damages, right, -difficulty, willing, -risk, interesting]>
+<191808:Logistic Issue-[confident, adequate, -issues, confident, -deny, available, confident, -issue]>
+<158693:Logistic Issue-[recover, recovery, lead, -refuse]>
+<215839:Logistic Issue-[-concerns, important, -issue, protect, interests, thank]>
+<215843:Logistic Issue-[confident, adequate, -issues, confident, -deny, available, confident, -issue]>
+
+size:9
+<102603:Business Investment-[-crude, -vice, -crude, recommendation, -crude, -crude, sweet, -crude, -crude, -aggressive, benefit, enhance, efficient, -vice]>
+<106076:Business Investment-[-vice, -crude, recommendation, -crude, -crude, sweet, -crude, -crude, -aggressive, benefit, enhance, efficient, -vice]>
+<129502:Business Investment-[-blame, -blasted, -sharply, -cheap, reform, well, -sham, protect, praising, -impose, -impose, free, competitive, -bad, encourage, -madden]>
+<157683:Business Investment-[-split, great]>
+<183955:Business Investment-[-vice, -crude, recommendation, -crude, -crude, sweet, -crude, -crude, -aggressive, benefit, enhance, efficient, -vice]>
+<215841:Business Investment-[-issues, -sue, free]>
+<107502:Business Investment-[-vice, -sour, -crude, -sour, -crude, effective, available, -sour, -crude]>
+<102605:Business Investment-[-sour, -crude, -vice, -sour, -crude, -sour, -crude, effective, available, -sour, -crude]>
+<183959:Business Investment-[-vice, -sour, -crude, -sour, -crude, effective, available, -sour, -crude]>
+
+size:9
+<107504:Company Strategy-[-vice, effective, -crude, -vice, openly, -outcry, sweet, -crude]>
+<120228:Company Strategy-[-confusion, respect, -threat, like]>
+<128819:Company Strategy-[-confusion, respect, -threat, like]>
+<150833:Company Strategy-[privileged, -strictly]>
+<183958:Company Strategy-[-vice, effective, -crude, -vice, openly, -outcry, sweet, -crude]>
+<191725:Company Strategy-[-confusion, respect, -threat, like]>
+<215818:Company Strategy-[-cold, outshine, -critical, -deny, -weakening, -helplessly, best, -fell, -lost, -worthless, promised, strong, bonus, awards, cool, -failure, top, -failed, extraordinary, -sluggish, -scrambled, top, stupendous, -poor, exceeds, like, lucrative, -hefty, outstanding, generously, bonuses, -slower, -crash, -lost, like, -suffer, -lost, interesting, tough, -poor, well, bonuses, great, -conservative, -struggle, evenly, -hard-hit, tough, -fell, -worthless, -tumble, -stuck, -unprofitable, top, extraordinary, -restricted, -restricted, worth, strong, -decline, bonus, tough, top, worth, -lost, -dismal, like, helped, top, worth, -complained, benefit, -criticism, -worst, -distorted, good, -loss, -underpaid, boost, likes, rewarding, willing, -showdown, top, -burned, -risk, booming, gains, -restricted, bonuses, positively, eager, -pain, -struggles, -troubled, -suffer, -losses, -hard, -creak, bonus, advanced, -resigned, -resigned, -restricted, -poor, -refusal, -failed, -refusing, -penalty, -failure, -dispute, -warned, -failure, guarantee, -endanger, -cold, outshine, -troubled, strong, -cold, favorable, vibrant, -volatile, strong, -cold, led, favorable, well, -stormy, outshine, well, -cold, helped, -difficult, strong, solid, helping, best, -fall, -suspect, -cold, strong, -problems, -critical, -deny, rich, influential, helped, -crisis, advocates, -darkness, -criticized, -volatile, consistently, like, helped, protection, -scarcity, competitive, -aggressive, freedom, -excessive, -inflated, -flawed, -exploit, -severe, helped, helped, -emergency, accomplished, modest, helped, handsomely, -bumps, clearly, good, helped, consistently, -jam, -criminal, -criticized, -excessive, top, -excessive, recovery, -vice, -improperly, precisely, -criticized, -distorted, willing, -lost, comfortable, patient, top, -volatile, top, -limited, like, success, helped, boost, free, -lags, -drags, available, -limited, -limit, competitive, -scarcity, available, -lengthy, -limited, integrated, great, mighty, great, -crisis, -suffered, -losses, helped, improve, -incompatible, effectively, worth, clear, proves, recommended, recommended, -criticism, -bleeding, reliably, -split, -contention, -concessions, well, -rumours, abound, -issue]>
+<215842:Company Strategy-[honor, great, honor, honor, reliable, -subjected, right, honor, appeal, appeal, -suffered, -rip, -sued, -obsolete, helping, like, -losses, -breach, -cheap, -concern, free, -emergency, appeal, -overturn, promised, -failed, -steal, -lose, strong, success, -breach, restructuring, restructuring, cleanly, -leaks, -rumors, quicker, variety, -stuck, -layoff, -rumors, -scramble, -embarrassing, -rumor, -rumors, -involuntary, restructuring, -issue, -issue, right, -refuse, effective, -defunct, good, -vice, selective, -limits, -rumor, -fell, -rumors, -vice, clear, proactive, -rumors, better, -denied, -rumors, -rumors, helped, blockbuster, -rumors, -dirty, top, -layoff, -ax, -anxiety, -scrap, -rumors, -lost, great, -uncompetitive, convincing, willingly, -crisis, lead, contribution, contribution, -blow, like, robust, revolutionize, powerful, awarded, -aggressive, subsidizing, work, -fallen, competitive, improve, like, enough, competitive, -fall, robust, enough, -intermittent, lead, -volatility, -uncomfortably, -volatile, right, relish, prefer, -limited, -dispute, -unhappy, -failed, clear, -dispute, -fail, -confrontation, -struggling, -critics, -object, -severe, -shortage, -issues, secure, -cheap, -lies, -expensive, -split, guarantee, well, right, -worse, clear, -liability, like, accomplish, best, tough, -regrets, -flawed, well, well, -terrible, -froze, helping, -punitive, encourage, -debt, gains, well]>
+<215853:Company Strategy-[promised, promise, -hurt, -risk, successfully, right, protection, -risks, -emergency, -suffered, -losses, qualify]>
+
+size:9
+<119384:Logistic Issue-[pretty]>
+<119432:Logistic Issue-[pretty]>
+<125139:Logistic Issue-[pretty]>
+<125937:Logistic Issue-[pretty]>
+<210133:Logistic Issue-[pretty]>
+<215820:Logistic Issue-[pretty]>
+<245413:Logistic Issue-[like]>
+<245414:Logistic Issue-[master]>
+<245417:Logistic Issue-[ready]>
+
+size:8
+<140411:Daily Greeting-[good]>
+<150832:Daily Greeting-[clean, satisfied, privileged]>
+<157684:Daily Greeting-[productive]>
+<157685:Daily Greeting-[significant, -issues, safely, protect, savings, support, approve, protection]>
+<112532:Daily Greeting-[glad, -sorry, -bad, better, pretty, great, won, great, fun]>
+<158096:Daily Greeting-[masters]>
+<158131:Daily Greeting-[masters]>
+<239031:Daily Greeting-[beloved, congratulate, well, sincere, dedicated]>
+
+size:5
+<140420:News/Press/Media-[convenient, privileged]>
+<140421:News/Press/Media-[convenient, privileged, privileged]>
+<140423:News/Press/Media-[convenient, privileged]>
+<215834:News/Press/Media-[lead, valuable, eminent]>
+<239033:News/Press/Media-[thank]>
+
+size:5
+<210132:Technical Issue-[-sue, -issues, -protest, work, support, competitive, liked, complementary, -congestion, -rejected, available, -detriment, benefits, good, -adverse, -losing, -problematic, -limited, -poor, fairly, decent, fairly, -rigid, satisfy, reasonable, reasonably, -delays, -unforeseen, -delays, reasonably, satisfying, -exclusion, -issues, won, appropriate, -complained, -wrong]>
+<215819:Technical Issue-[-sue, -issues, -protest, work, support, competitive, liked, complementary, -congestion, -rejected, available, -detriment, benefits, good, -adverse, -losing, -problematic, -limited, -poor, fairly, decent, fairly, -rigid, satisfy, reasonable, reasonably, -delays, -unforeseen, -delays, reasonably, satisfying, -exclusion, -issues, won, appropriate, -complained, -wrong]>
+<215825:Technical Issue-[happy, like, -sue, -issues, -sue, -sue, -issues, -protest, work, support, competitive, liked, complementary, -congestion, -rejected, available, -detriment, benefits, good, -adverse, -losing, -problematic, -limited, -poor, fairly, decent, fairly, -rigid, satisfy, reasonable, reasonably, -delays, -unforeseen, -delays, reasonably, satisfying, -exclusion, -issues, won, appropriate, -complained, -wrong]>
+<215826:Technical Issue-[-sorry, work]>
+<215832:Technical Issue-[-sorry, work]>

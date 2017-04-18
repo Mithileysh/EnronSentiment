@@ -1,0 +1,48 @@
+size:14
+<2500:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<3537:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, -liability, important, enjoy, recommended, rapid]>
+<5216:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<68657:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<81333:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<81342:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, -liability, important, enjoy, recommended, rapid]>
+<107321:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, -liability, important, enjoy, recommended, rapid]>
+<168258:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, -liability, important, enjoy, recommended, rapid]>
+<169801:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<171696:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<183059:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, -liability, important, enjoy, recommended, rapid]>
+<200266:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, important, enjoy, recommended, rapid]>
+<239156:Company Strategy-[awarded, leverage, favorable, awarded, recommended, awarded, recommended, comprehensive, -damage, -liability, important, enjoy, recommended, rapid]>
+<247926:Company Strategy-[commitment]>
+
+size:8
+<3535:Daily Greeting-[like, innovation, great]>
+<107323:Daily Greeting-[like, innovation, great]>
+<160351:Daily Greeting-[like, innovation, great]>
+<169799:Daily Greeting-[like, innovation, great]>
+<170037:Daily Greeting-[like, innovation, great]>
+<171698:Daily Greeting-[like, innovation, great]>
+<184069:Daily Greeting-[like, innovation, great]>
+<239154:Daily Greeting-[like, innovation, great]>
+
+size:13
+<3536:Other-[celebrate, celebration, celebration]>
+<32896:Other-[privilege, regard, respect]>
+<32897:Other-[like]>
+<52575:Other-[celebrate, celebration, celebration]>
+<89709:Other-[celebrate, celebration, celebration]>
+<107322:Other-[celebrate, celebration, celebration]>
+<140224:Other-[good]>
+<169800:Other-[celebrate, celebration, celebration]>
+<171697:Other-[celebrate, celebration, celebration]>
+<189482:Other-[celebrate, celebration, celebration]>
+<200267:Other-[celebrate, celebration, celebration]>
+<216112:Other-[like]>
+<239155:Other-[celebrate, celebration, celebration]>
+
+size:6
+<3538:Technical Issue-[winners, -miss]>
+<107320:Technical Issue-[winners, -miss]>
+<158667:Technical Issue-[winners, -miss]>
+<169802:Technical Issue-[winners, -miss]>
+<171695:Technical Issue-[winners, -miss]>
+<184070:Technical Issue-[winners, -miss]>

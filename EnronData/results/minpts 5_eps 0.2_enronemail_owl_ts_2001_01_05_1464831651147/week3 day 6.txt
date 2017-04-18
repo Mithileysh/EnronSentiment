@@ -1,6 +1,0 @@
-size:5
-<98666:Other-[best, classic, well, classic, like, good, well, good]>
-<98667:Other-[classic, well, classic, like, good, well, good]>
-<98669:Other-[approve, diligent]>
-<203280:Other-[beautiful, like, like, important, works, -outrageously, like, work, works, proper]>
-<211250:Other-[thank]>

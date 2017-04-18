@@ -1,0 +1,106 @@
+size:6
+<8133:Private Issue-[privileged, privileged]>
+<9816:Private Issue-[privileged, privileged]>
+<33229:Private Issue-[clearly, like, recovery]>
+<78132:Private Issue-[awards, awards, right, like, awards, awards, grand]>
+<78136:Private Issue-[free]>
+<238222:Private Issue-[progress, work]>
+
+size:68
+<8134:Other-[available, supported, willing, -hard, available, -negative, support, -kill, support, -breach, -breach, -suffer, -debt, exceeding, -debt, -debt, -debt, -debt, secure, exceeding, -detract, exceed, -debt, -debt, exceed]>
+<33234:Other-[-objections, -allegations, -damages, trust, -critical, silent]>
+<33231:Other-[-limited, -noise, -ruffle, -strictly, thank]>
+<33228:Other-[-complaint, -risk, -risk, -risk, superior, -complaint]>
+<103284:Other-[-unable, -unsuccessfully, right]>
+<35247:Other-[-risk, responsive, responsive, progress, -complaint, -risk, -risk, -risk, superior, -complaint]>
+<35325:Other-[-negative, -worse, -unacceptable, likes, -concern, elite, -beware, respect, favor, -dispute]>
+<85053:Other-[proud, healthy, -lying, -wreck, -hard, -ruins, -pain, like, -wrong, -lie, love, love, -selfishness, promise, -sue, rich, -burden, dawn, -killed, dawn, -died, -killed, -drunk, -killed, joy, beloved, -killed, work, dedicated, helping, -injury, -drunk, -sue, loving, -drunk, gratitude, -drunk, -kill, -injure, -drunk]>
+<103286:Other-[-concerned, approval]>
+<24696:Other-[-worse, -cold, clear, support, exceed]>
+<22652:Other-[fabulous, interesting, -hang]>
+<24697:Other-[like, fair, like, benefit, -suffers, -split, favorable, free]>
+<33232:Other-[appeal, appeal, supreme, appreciate, appreciate, -exhaustion, available]>
+<33235:Other-[-problem, right, like, right, like]>
+<33236:Other-[like, -issues, lead, work]>
+<78126:Other-[work, best, -explode, -poor, great, -crazy, -hate, great, free, fun, -blow, ready, happy, great]>
+<78130:Other-[great, -difficulty, fairly, evenly, -split, prefer, prefer, strong, important]>
+<78140:Other-[love, right, work, best, -explode, -poor, great, -crazy, -hate, great, free, fun, -blow, ready, happy, great]>
+<78139:Other-[-sorry, work, exciting, -hard, consistently]>
+<80139:Other-[-sorry, work, exciting, -hard, consistently]>
+<125255:Other-[support, excellent, well, supporting, strong, -pan, -waste, -concern, -problem, work, -negative, work, -issue, -difficulties, strong, prefer, strong, restructuring, -vice, -vice, advocated, restructuring, excellent, support]>
+<80081:Other-[won, enough, good, -sorry, work, exciting, -hard, consistently]>
+<95043:Other-[hot, accurate, available, hot, -unable]>
+<159926:Other-[outstanding, -risk, clearly]>
+<164646:Other-[-lost, clear, hot, clear]>
+<236984:Other-[won, diligence, diligence, -issue, interesting, diligence, diligence, -conflict]>
+<238231:Other-[diligence, -issue, interesting, diligence, diligence, -conflict]>
+<238224:Other-[diligence, regard, master, thank, diligence, master, right, -damages, comfortable, properly, correct, master, significant]>
+<9818:Other-[free]>
+<9822:Other-[helping, free, diligence, exciting]>
+<47681:Other-[like, willing]>
+<78128:Other-[pretty, like, afford, good, strongest, energetic]>
+<78138:Other-[cool, well]>
+<78143:Other-[great, like, like, good, quiet, approval, good, enough, good, like]>
+<78144:Other-[ready]>
+<80080:Other-[well, like]>
+<80135:Other-[master, master, like, thank]>
+<103281:Other-[like, like]>
+<103285:Other-[works]>
+<103288:Other-[like, works, respect]>
+<103289:Other-[correct]>
+<120536:Other-[ready, like]>
+<125152:Other-[ready, like]>
+<154683:Other-[awards, bonus, bonus, bonus]>
+<159925:Other-[correct]>
+<164641:Other-[luck]>
+<199351:Other-[honor, pleased]>
+<199352:Other-[top, top]>
+<201043:Other-[happy, right]>
+<214363:Other-[great, better, better, happy]>
+<236985:Other-[decent]>
+<238232:Other-[love, interests, decent]>
+<238238:Other-[top, top]>
+<238240:Other-[honor, pleased]>
+<245927:Other-[master]>
+<245932:Other-[well]>
+<245933:Other-[good, appropriate, assure]>
+<247391:Other-[master, master]>
+<247735:Other-[master, master]>
+<180321:Other-[-absence, master]>
+<180322:Other-[like, enough, thank, -afraid, -risk, productive, -risk, -risk, -sorry, worth]>
+<211286:Other-[-struggling, -concerned, -issue, favor, encourage]>
+<211289:Other-[better, like, -concerns, better, well, -risks, -hard, -oversight, -oversight, -drags, available]>
+<211294:Other-[great, good, earnest, right, easing, -problems, -disappointed, -crisis, -issue, -disagree, -problems, -insufficient, -insufficient, -unstable, support, -rhetoric, -detracts, better, strong, -failed, -issue]>
+<197073:Other-[-strike, exceeds, -strike, -worthless]>
+<214369:Other-[-undermine, -issues, leading, -issues, -omission, -conflicts, -confusion, -problems, -declines, -alarmed, leads, -concern, support]>
+<238229:Other-[diligence, -conflict]>
+<238230:Other-[better, -sick]>
+
+size:6
+<22654:Other-[-hate]>
+<78131:Other-[-seriousness, -problems]>
+<152805:Other-[-violate]>
+<153952:Other-[-violate]>
+<236986:Other-[-sick]>
+<245928:Other-[-issues]>
+
+size:10
+<33233:General Operation-[thank]>
+<85439:General Operation-[wonderful, loved, work]>
+<103279:General Operation-[like, simplest]>
+<120470:General Operation-[available]>
+<152806:General Operation-[strong]>
+<153953:General Operation-[strong]>
+<211288:General Operation-[like, good]>
+<211293:General Operation-[important]>
+<214372:General Operation-[like]>
+<214373:General Operation-[mercy]>
+
+size:7
+<78127:Business Investment-[easier]>
+<160972:Business Investment-[available, available, available, -remorse, lucky, winning, won, redeem, like]>
+<211292:Business Investment-[supporter]>
+<238221:Business Investment-[helping, correctly]>
+<238223:Business Investment-[well]>
+<238226:Business Investment-[comfort, happy, helpful, well]>
+<247389:Business Investment-[clean]>

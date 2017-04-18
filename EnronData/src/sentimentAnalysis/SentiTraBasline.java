@@ -54,7 +54,7 @@ public class SentiTraBasline {
 	
 	//Create driver and url
 	static final String DB_DRIVER = "com.mysql.jdbc.Driver";
-	static final String URL = "jdbc:mysql://localhost:3306/enron";	
+	static final String URL = "jdbc:mysql://127.0.0.1:3306/enron";	
 	
 	//Database credentials
 	static final String USER = "root";
@@ -75,16 +75,16 @@ public class SentiTraBasline {
 	static CharArraySet STOP_WORDS_SET;
 	
 	static DimensionReduce dr;
-	static String SWNLEXICON = "singleTR/enronemail_swn_sundevil_00_02.txt";
+	static String SWNLEXICON = "revisedTR/enronemail_swn_weeklyupdate_00_02.txt";
 	static Map<String, Integer> swnLexicon;
 	static ArrayList<String> swnDictionary;
 	
 	static double sigma;
 	static double score;
 	
+	//CREATE METHOD FOR EXTRACTING FEATURE WORDS
 	public static String recursion(int mIndex, String str, ArrayList<String> strList){
-		
-		
+				
 		int index = findPosition(str, strList);
 		
 		if (index == -1){
@@ -97,54 +97,42 @@ public class SentiTraBasline {
 		
 		
 	}
-	
-	
+		
 	public static int findPosition(String str, ArrayList<String> strList){
 		
 		return strList.indexOf(str);
 	}
-	//create method for converting features into longitude(-180,180) and latitude(-90,90)
-	/*
+	
+	//create method for converting features into longitude[-180,180] and latitude[-90,90]
 	public static double normalizeLon(double value){
-		double norValue = 0.0;
-		if (value >= 978307.20){
-			norValue = (value - 978307.20) *360 / (980899.20 - 978307.20) -180;
-		}
-		else{
-			norValue = (value - 495) *360 / (155220 - 495) -180;
-		}
-					
-		return norValue;
-	}
-	*/
-	public static double normalizeLon(double value){
+		ArrayList<Double> doubleList = new ArrayList<Double>();
+		//doubleList.add(1.0); //training
+		//doubleList.add(1087.0);
+		
+		doubleList.add(1.0); //business
+		doubleList.add(2236.0);
+				
+		//doubleList.add(-0.75); //sundevil
+		//doubleList.add(0.75);
+		
 		double norValue = 0.0;
 		
-		//norValue = (value - 368) *360 / (155216 - 368) -180; //training
-		//return norValue;
 		
-		norValue = (value - 47) *360 / (155276 - 47) -180; //training refined
+		double divident = doubleList.get(1) - doubleList.get(0) ;
+		norValue = (value - doubleList.get(0)) * 360 / divident - 180;
 		return norValue;
-		
-		//norValue = (value - 368) *360 / (155093 - 368) -180; // business
-		//return norValue;
-		
-		
-		//norValue = (value - 1475) *360 / (155093 - 1475) -180; // sundevil
-		//return norValue;
-		
 		
 	}
 	
 	public static double normalizeLat(double value){
 		ArrayList<Double> doubleList = new ArrayList<Double>();
 		
-		doubleList.add(-0.875); //training
-		doubleList.add(0.75);
+		//doubleList.add(-0.875); //training
+		//doubleList.add(1.0);
 		
 		
-		//doubleList.add(-0.75); //business
-		//doubleList.add(0.875);
+		doubleList.add(-0.75); //business
+		doubleList.add(0.875);
 		
 		
 		//doubleList.add(-0.75); //sundevil
@@ -153,15 +141,8 @@ public class SentiTraBasline {
 		
 		double norValue = 0.0;
 		
-		double divident = doubleList.get(doubleList.size()-1) - doubleList.get(0) ;
-		if (divident == 0 ){
-			divident = 0.5;
-			norValue = (value - doubleList.get(0)) * 180 / divident - 90;
-		}
-				
-		else{
-			norValue = (value - doubleList.get(0)) * 180 / divident - 90;
-		}
+		double divident = doubleList.get(1) - doubleList.get(0) ;
+		norValue = (value - doubleList.get(0)) * 180 / divident - 90;
 			
 		return norValue;
 	}
@@ -173,16 +154,28 @@ public class SentiTraBasline {
 
 		// get x value
 		double x = (longitude+180)*(mapWidth/360);
-
-		// convert from degrees to radians
-		double latRad = latitude*(Math.PI)/180;
-
-		// get y value
-		double mercN = Math.log(Math.tan((Math.PI/4)+(latRad/2)));
-		double y = (mapHeight/2)-(mapWidth*mercN/(2*(Math.PI)));
 		
-		pixelLL.add(x);
-		pixelLL.add(y);
+		if (latitude == 90){
+			pixelLL.add(x);
+			pixelLL.add(900.0);
+			
+		}else if (latitude == -90){
+			pixelLL.add(x);
+			pixelLL.add(0.0);
+			
+		}else{
+			// convert from degrees to radians
+			double latRad = latitude*(Math.PI)/180;
+
+			// get y value
+			double mercN = Math.log(Math.tan((Math.PI/4)+(latRad/2)));
+			double y = (mapHeight/2)-(mapWidth*mercN/(2*(Math.PI)));
+			
+			pixelLL.add(x);
+			pixelLL.add(y);
+
+		}
+
 		return pixelLL;
 	}
 		
@@ -206,9 +199,9 @@ public class SentiTraBasline {
 			String sql;
 			// Select from database
 			//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE YEAR(date) = 2000 AND MONTH(date) = 01";
-			sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%sun devil%' )LIMIT 20;";
+			//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%sun devil%');";
 			//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%training%'OR subject LIKE '%lesson%'OR subject LIKE '%class%')";
-			//sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%weekly update%' OR subject LIKE '%weekly report%')";
+			sql = "SELECT DISTINCT mid, subject, date, body FROM enron.message WHERE (YEAR(date) between 2000 and 2002) AND (subject LIKE '%weekly update%' OR subject LIKE '%weekly report%')";
 						
 			ResultSet rs = myStmt.executeQuery(sql);
 			
@@ -216,28 +209,28 @@ public class SentiTraBasline {
 			//String outputFile1 = "simpleTR/enronemail_swn_2001_01/enronemail_swn_tra_tempiv_pixel_2001_01.txt";
 			//String outputFile2 = "simpleTR/enronemail_swn_2001_01/enronemail_swn_tra_tempiv_origin_2001_01.txt";
 			//String outputFile3 = "simpleTR/enronemail_swn_2001_01/enronemail_swn_tra_temp_tv_pixel_2001_01.txt";
-			String outputFile = "revisedTR/enronemail_swn_sundevil_00_02/enronemail_swn_simpletra_sundevil.txt";
-			//String outputFile1 = "singleTR/enronemail_swn_00_02/enronemail_swn_simpletra_training_display_refined.txt";
-			//String outputFile1 = "singleTR/enronemail_swn_00_02/enronemail_swn_simpletra_training_display.txt";
+			//String outputFile = "revisedTR/enronemail_swn_00_02/enronemail_swn_sundevil_pixel.tra";
+			//String outputFile = "revisedTR/enronemail_swn_00_02/enronemail_swn_training_pixel.tra";
+			//String outputFile1 = "revisedTR/enronemail_swn_00_02/enronemail_swn_training_origin.txt";
+			//String outputFile2 = "revisedTR/enronemail_swn_00_02/enronemail_swn_training_feature.txt";
+			//String outputFile3 = "revisedTR/enronemail_swn_00_02/enronemail_swn_training_temporal_pixel.tra";
 			
-			//String outputFile = "singleTR/enronemail_swn_00_02/enronemail_swn_simpletra_business.txt";
-			//String outputFile = "singleTR/enronemail_swn_00_02/enronemail_swn_simpletra_business_pixel.tra";
-			//String outputFile = "singleTR/enronemail_swn_00_02/enronemail_swn_simpletra_sundevil_pixel.tra";
-			//String outputFile1 = "singleTR/enronemail_swn_00_02/enronemail_swn_simpletra_business_count.csv";
-			//String outputFile = "revisedTR/enronemail_swn_00_02/enronemail_swn_simpletra_training_pixel_refined.tra";
-			//
-			//String outputFile = "singleTR/enronemail_swn_sundevil_00_02/enronemail_swn_tra_temp_vt_pixel_sundevil.txt";
+			String outputFile = "revisedTR/enronemail_swn_00_02/enronemail_swn_weekly_pixel.tra";
+			String outputFile1 = "revisedTR/enronemail_swn_00_02/enronemail_swn_weekly_origin.txt";
+			String outputFile2 = "revisedTR/enronemail_swn_00_02/enronemail_swn_weekly_feature.txt";
+			String outputFile3 = "revisedTR/enronemail_swn_00_02/enronemail_swn_weekly_temporal_pixel.tra";
+			
 			
 			
 			FileWriter fileWriter = null;
-			//FileWriter fileWriter1 = null;
-			//FileWriter fileWriter2 = null;
-			//FileWriter fileWriter3 = null;
+			FileWriter fileWriter1 = null;
+			FileWriter fileWriter2 = null;
+			FileWriter fileWriter3 = null;
 			
 			fileWriter = new FileWriter (outputFile);
-			//fileWriter1 = new FileWriter (outputFile1);
-			//fileWriter2 = new FileWriter (outputFile2);
-			//fileWriter3 = new FileWriter (outputFile3);
+			fileWriter1 = new FileWriter (outputFile1);
+			fileWriter2 = new FileWriter (outputFile2);
+			fileWriter3 = new FileWriter (outputFile3);
 			//fileWriter.append("id, ");
 			
 			StopAnalyzer stopAnalyzer = new StopAnalyzer();
@@ -277,9 +270,9 @@ public class SentiTraBasline {
 				
 		        //if (subject != "" && subject.contains("fw:") == false && subject != "re:"){	
 					try {
-						//fileWriter.append(id + ", ");
 						
 				        //System.out.println(id + ", ");
+						
 						bodyList = new ArrayList<String>();	
 				        bodyList.add(body);
 		                TokenizerModel tokenModel = new TokenizerModel(tokenmodelIn);
@@ -359,43 +352,39 @@ public class SentiTraBasline {
 								
 					    }
 					    
-					    
+					    int count = 0;
 					    if (size > 1){
 					    	System.out.println(id + " ");
 					    	fileWriter.append(id + " " + size + " ");
-					    	//fileWriter1.append("<" + id + ", [");
-					    	//fileWriter1.append("<" + id + ", " + size + ", " + datemilli + ", [");
-					    	//fileWriter2.append("<" + id + ", " + size + ", " + datemilli + ", [");
-					    	//fileWriter3.append("<" + id + ", " + size + ", " + datemilli + ", [");
+					    	fileWriter1.append("<" + id + ", [" + body);
+					    	fileWriter2.append("<" + id + ", " + size + ", " + datemilli + ", [");
+					    	fileWriter3.append("<" + id + ", " + size + ", " + datemilli + ", [");
+					    	
+					    	
 					    	
 						    for (String tempTerm: tokenTag){
+						    	count++;
 						    	
 						    	if (recursion(0,tempTerm, swnDictionary) != null){
-						    		/*
-						    		fileWriter.append(normalizeLon(swnLexicon.get(tempTerm)) + " " + new DecimalFormat("#.##").format(normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))) + " ");
-									fileWriter1.append(pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0) + " " + pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1) + " ");
-									//fileWriter1.append(datemilli + " " + new DecimalFormat("#.##").format(dr.swnDictionary(SWNLEXICON).get(tempTerm)*1000) + " ");
-									fileWriter2.append(datemilli/1000000 + " " + pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0) + " " + pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1) + " ");
-									fileWriter3.append(pixelConvert(normalizeLon(datemilli), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0) + " " + pixelConvert(normalizeLon(datemilli), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1) + " ");
-									*/
+						    	
 						    		//fileWriter.append(new DecimalFormat("#.##").format(normalizeLon(swnLexicon.get(tempTerm))) + " " + new DecimalFormat("#.##").format(normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))) + " ");
-									//fileWriter1.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " ");
-									//fileWriter2.append(swnLexicon.get(tempTerm) + " " + new DecimalFormat("#.#####").format(dr.swnDictionary(SWNLEXICON).get(tempTerm)) + " ");
-									//fileWriter3.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(datenor), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(datenor), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " ");
-						    		//fileWriter.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(datenor), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(datenor), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " ");
+									//fileWriter.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(datenor), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(datenor), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " ");
 									//fileWriter.append(dr.keyDictionary(SWNLEXICON).get(tempTerm) + " " + new DecimalFormat("#.#####").format(dr.swnDictionary(SWNLEXICON).get(tempTerm)) + " ");
-						    		fileWriter.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(dr.keyDictionary(SWNLEXICON).get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(dr.keyDictionary(SWNLEXICON).get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " ");
-						    		//fileWriter1.append(tempTerm + ": " + new DecimalFormat("#.#####").format(dr.swnDictionary(SWNLEXICON).get(tempTerm)) + ", ");
-						    		//fileWriter1.append(dr.keyDictionary(SWNLEXICON).get(tempTerm) + ", ");
+						    		fileWriter.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(count), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(count), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " ");
+						    		//fileWriter.append(count + " " + new DecimalFormat("#.##").format(dr.swnDictionary(SWNLEXICON).get(tempTerm)) + " ");
+						    		
+						    		fileWriter1.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(swnLexicon.get(tempTerm)), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " ");
+									fileWriter2.append(tempTerm + ": " + new DecimalFormat("#.###").format(dr.swnDictionary(SWNLEXICON).get(tempTerm)) + " ");
+									fileWriter3.append(new DecimalFormat("#.##").format(pixelConvert(normalizeLon(count), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(0)) + " " + new DecimalFormat("#.##").format(pixelConvert(normalizeLon(count), normalizeLat(dr.swnDictionary(SWNLEXICON).get(tempTerm))).get(1)) + " ");
 						    		
 						    	}
 							}
 						    
 						    
 						    fileWriter.append("" + System.getProperty("line.separator"));
-						    //fileWriter1.append("]>" + System.getProperty("line.separator"));
-						    //fileWriter2.append("]>" + System.getProperty("line.separator"));
-						    //fileWriter3.append("]>" + System.getProperty("line.separator"));
+						    fileWriter1.append("]>" + System.getProperty("line.separator"));
+						    fileWriter2.append("]>" + System.getProperty("line.separator"));
+						    fileWriter3.append("]>" + System.getProperty("line.separator"));
 						    
 					    }
 					}
@@ -422,12 +411,12 @@ public class SentiTraBasline {
 			try{
 			  fileWriter.flush();
 			  fileWriter.close();
-			  //fileWriter1.flush();
-			  //fileWriter1.close();
-			  //fileWriter2.flush();
-			  //fileWriter2.close();
-			  //fileWriter3.flush();
-			  //fileWriter3.close();
+			  fileWriter1.flush();
+			  fileWriter1.close();
+			  fileWriter2.flush();
+			  fileWriter2.close();
+			  fileWriter3.flush();
+			  fileWriter3.close();
 			  
 			  stopAnalyzer.close();
 			}catch (IOException e) {

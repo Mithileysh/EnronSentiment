@@ -1,0 +1,49 @@
+size:7
+<3559:Daily Greeting-[-issue]>
+<107172:Daily Greeting-[-issue]>
+<169861:Daily Greeting-[-issue]>
+<170041:Daily Greeting-[-issue]>
+<171665:Daily Greeting-[-issue]>
+<200245:Daily Greeting-[-issue]>
+<239201:Daily Greeting-[-issue]>
+
+size:12
+<3560:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<52585:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<89740:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<107171:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<168275:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<169859:Private Issue-[-risk, like, perfect, great, savings, free, fun, -stranger, loves, loves, loves, darling, famous, benefits, -cancer, enjoyed]>
+<169862:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<171664:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<184157:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<200244:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+<216388:Private Issue-[-risk, like, great, savings, free, fun, appreciate, -stranger, -vice, darling, famous, -cancer, enjoyed]>
+<239202:Private Issue-[cool, colorful, -hard, win, exciting, good, -crisis, won, -craziness, win]>
+
+size:6
+<32875:General Operation-[significant, diligence, -issues, -damages, easy, top, -hard, good, -threatening, -expensive, good, -limit, -hard, work, -complex, -problem, contribution, -fraud, works, -fault, powerful, -strictly, thank]>
+<39231:General Operation-[good, -unavailable, -crisis, willing]>
+<89741:General Operation-[-tired, -demeaning, -sick, reward, enough, -afraid, work, good, work, extraordinary, support, -failed, courage]>
+<189652:General Operation-[-embarrassment, optimistic, commitment, -dispute, leading, improve, -dispute, -dispute, -interference, -risks, -issue, hopeful, quicker, -split, -issues, welcome, -dispute, clear, -dispute, -interference, -overrun, ready, bright, -conservative, -issue]>
+<191406:General Operation-[-embarrassment, optimistic, commitment, -dispute, leading, improve, -dispute, -dispute, -interference, -risks, -issue, hopeful, quicker, -split, -issues, welcome, -dispute, clear, -dispute, -interference, -overrun, ready, bright, -conservative, -issue]>
+<216384:General Operation-[like, -sorry]>
+
+size:8
+<32877:Other-[significant, assurances, appropriate, -adverse, -fraud, -negligent, -misrepresentation, -allege, -failing, respect, supreme, -improper, -deny, affirmative, strong, assurances, -adverse, -damage, superior, -damages, -wrongful, -interruption, -damage, lawful, -damages, assurances, -adverse, recovery, supreme, reform, recovery, support, significant, -adverse, recovery, assurances, -adverse, clean]>
+<32881:Other-[-slaughter, work, thank]>
+<135120:Other-[fine, stronger, -fall, good]>
+<140065:Other-[fine, stronger, -fall, good]>
+<209820:Other-[great, -fear, -crack, graciously, excel, pride]>
+<216387:Other-[great, -fear, -crack, graciously, excel, pride]>
+<233428:Other-[-dispute, respect, good]>
+<113112:Other-[-wrong, -limited, worth, best, cure, -gloom]>
+
+size:7
+<94196:Other-[favor]>
+<95341:Other-[favor]>
+<140060:Other-[consistent]>
+<157757:Other-[like]>
+<216383:Other-[best]>
+<216386:Other-[helpful, well, worked, prefer]>
+<233427:Other-[right, diligence, diligence, motivated, diligence]>

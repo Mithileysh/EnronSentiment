@@ -1,0 +1,178 @@
+size:13
+<3574:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<52596:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<89772:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<107083:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<144229:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<144233:Company Strategy-[-rough, appreciated, -missed]>
+<160307:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<168295:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<169903:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<170044:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<171656:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+<174120:Company Strategy-[-issues, -issues, -hard, restructure, -torturous, -issues, -issue, respect, clearly, -worried, -splitting, -risk, -split, restructured, like, -concern, -issues, protect, -concerns, well, -hard, right, respect, -skinny, significant, -worry, -hard]>
+<184202:Company Strategy-[-risk, -risk, advantage, -risk, -risk, -vice, -vice, -risk, work, effective, congratulate]>
+
+size:14
+<3575:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+<3576:Business Document-[-difficulties, -risk, support]>
+<52597:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+<52601:Business Document-[-difficulties, -risk, support]>
+<89773:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+<89783:Business Document-[-difficulties, -risk, support]>
+<168296:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+<168306:Business Document-[-difficulties, -risk, support]>
+<169904:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+<169914:Business Document-[-difficulties, -risk, support]>
+<170045:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+<170046:Business Document-[-difficulties, -risk, support]>
+<171654:Business Document-[-difficulties, -risk, support]>
+<171655:Business Document-[integrated, -static, -static, stabilize, -issues, -risk, support]>
+
+size:16
+<3577:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, cure, friendly, honor, friendly, celebrate, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, love, miracles, proud, work]>
+<52602:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, cure, friendly, honor, friendly, celebrate, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, love, miracles, proud, work]>
+<55363:Company Strategy-[promised, guarantee]>
+<89784:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, cure, friendly, honor, friendly, celebrate, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, love, miracles, proud, work]>
+<107070:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, cure, friendly, honor, friendly, celebrate, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, love, miracles, proud, work]>
+<107082:Company Strategy-[good, effective, thank]>
+<120118:Company Strategy-[recommendation, like, recommendation]>
+<126010:Company Strategy-[recommendation, like, recommendation]>
+<139991:Company Strategy-[like, work]>
+<168307:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, cure, friendly, honor, friendly, celebrate, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, love, miracles, proud, work]>
+<160306:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, -limited, led, cure, friendly, honor, friendly, supported, celebrate, friendly, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, -fall, love, miracles, proud, available, work]>
+<169915:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, -limited, led, cure, friendly, honor, friendly, supported, celebrate, friendly, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, -fall, love, miracles, proud, available, work]>
+<170047:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, cure, friendly, honor, friendly, celebrate, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, love, miracles, proud, work]>
+<171653:Company Strategy-[fine, fine, enjoy, exciting, magic, free, magic, -myth, -hate, thrive, fragrant, ready, celebrate, complimentary, celebration, -limited, led, cure, friendly, honor, friendly, supported, celebrate, friendly, like, facilitate, fun, free, thank, miracles, miracles, -concerned, -problems, -fall, love, miracles, proud, available, work]>
+<184203:Company Strategy-[guarantee, patience, respect, -issues, consistent, outstanding]>
+<188250:Company Strategy-[-sap, like, like, support, recommend, well, consistent, workable, work, clean, -problems]>
+
+size:49
+<10349:Other-[-proprietary, distinction, -oversight, dedicated, supporting, -concerned, like, clearly, -concern, -risk, -risk, -issue]>
+<27270:Other-[-problems, thank]>
+<55362:Other-[free, free, -virus, -virus, free, -loss, -damage]>
+<94209:Other-[like, -punch]>
+<94212:Other-[-concerned, nice]>
+<95354:Other-[like, -punch]>
+<95357:Other-[-concerned, nice]>
+<107079:Other-[-hard, fast, like, -liability, -concerns]>
+<54973:Other-[-issues, -marginal, -problematic, master, assure, promised, -issues, -nervous, good, -butcher, -limitation, -damages, -damages, -negligence, -liability, -gross, -negligence, -lost, -damages, -limited, worked, proper, work, -liable, exemplary, -lost, -interruption, -limit, -liability]>
+<89785:Other-[-beware, -beware, -virus, -virus, -virus, free]>
+<107077:Other-[-vice, -violate, permissible, -limits, -vice, -falls, -limited, openly, exceed, -limits, -limited, -limit, good, -expired, -expired]>
+<94217:Other-[-smell, -problem, right]>
+<95362:Other-[-smell, -problem, right]>
+<128012:Other-[-protest, like, -bait, -fraudulent, -oppose]>
+<168303:Other-[-vice, -violate, permissible, -limits, -vice, -falls, -limited, openly, exceed, -limits, -limited, good]>
+<169911:Other-[-vice, -violate, permissible, -limits, -vice, -falls, -limited, openly, exceed, -limits, -limited, good]>
+<184206:Other-[-vice, -violate, permissible, -limits, -vice, -falls, -limited, openly, exceed, -limits, -limited, -limit, good, -expired, -expired]>
+<174125:Other-[supreme, -violate]>
+<112430:Other-[love, -indulge, -fear, fairly, -frustration, engaging, engrossing, coherent, like, -missed, right, work, -missed]>
+<54972:Other-[guarantee, master, master, master, -problems, guarantee, -expire, appropriate, guarantee, effectiveness, -liability, effective, -liability, respect, guarantee, efficient]>
+<72401:Other-[-risks, willing, ready]>
+<94215:Other-[good, fun, like, -punch]>
+<95360:Other-[good, fun, like, -punch]>
+<112427:Other-[like, good, -strike]>
+<112428:Other-[like, good, -strike]>
+<112429:Other-[like, good, -strike]>
+<120256:Other-[-sue, like, recommendation]>
+<120800:Other-[like, -objections, advanced]>
+<126000:Other-[-tentatively, thrilled, pretty, thank]>
+<112432:Other-[-mistaken, right, fun, won, glad, advantage, incredible, great, safe, surreal, fondness, -bad, -overwhelming, well, well, gaining, confidence, good, glad, correctly, thrilled, happy, -issues, fortunately, steady, free, -lose, -kill, pretty, works, better, work, success]>
+<151995:Other-[-kill, like, fun, like, strong, like]>
+<168297:Other-[accurate, available, hot, -unable]>
+<126004:Other-[like, -objections, advanced]>
+<126009:Other-[-sue, like, recommendation]>
+<161266:Other-[-bugs, best, -itch, -weary, smile, hug, free]>
+<161267:Other-[led, -unfamiliar, -scary, like, enough, like, like, -difficult, -bugs, best, -itch, -weary, smile, hug, free]>
+<161268:Other-[led, -unfamiliar, -scary, like, enough, like, like, -difficult, -bugs, best, -itch, -weary, smile, hug, free]>
+<168293:Other-[accurate, available, hot, -unable, -crude]>
+<168294:Other-[accurate, available, hot, -unable, -crude]>
+<168299:Other-[accurate, available, hot, -unable, -crude]>
+<169901:Other-[accurate, available, hot, -unable, -crude]>
+<169902:Other-[accurate, available, hot, -unable, -crude]>
+<169907:Other-[accurate, available, hot, -unable, -crude]>
+<175461:Other-[like, tough, -hang, -problems, like]>
+<175827:Other-[like, tough, -hang, -problems, like]>
+<184201:Other-[-problem, significant]>
+<169905:Other-[accurate, available, hot, -unable]>
+<175459:Other-[maturity, -concerned, maturity, free, won, important, important]>
+<175825:Other-[maturity, -concerned, maturity, free, won, important, important]>
+
+size:14
+<10350:General Operation-[strong, -lengthy, helpful, useful, available, like, -issues, regard, work, powerful, pleased, support, -stiff, helping, strong, valuable, successfully, -fall, integrated, important, realistic, important, like, -deny, like, -hard, classic, like, sensitive, helpful, strong, like, well, attraction, wonder, dynamic, flexible, fast, outstanding, good, exciting, thoughtful, -issue, available, comprehensive, commitment, thank, support, encouragement, -lengthy, helped, fast, work, -issue, congenial, ready, powerful, impressed, progress, worked, variety, significant, best, effective, like]>
+<107075:General Operation-[effective, effective, guarantee, effective, guarantee]>
+<119954:General Operation-[fair, prestigious, top, talent, respect, top, well, work]>
+<126007:General Operation-[fair, prestigious, top, talent, respect, top, well, work]>
+<168302:General Operation-[thank]>
+<169910:General Operation-[thank]>
+<184208:General Operation-[effective, effective, guarantee, effective, guarantee]>
+<119852:General Operation-[-issues, interests, best, important, best, available]>
+<120745:General Operation-[fine, happy, like, top, -hard, -hard, easier]>
+<126001:General Operation-[-issues, interests, best, important, best, available]>
+<126003:General Operation-[fine, happy, like, top, -hard, -hard, easier]>
+<174123:General Operation-[easy, -critical, -issues, honored, successful, articulate, -rejection, regard, -rejected, favor, preeminent, leading, -conflict, illuminate, -curt, supporter, supported, clear, -limit, stability, successfully, -desert, -contention, regard, patience, steadfastly, -impose, -fall, clearly, best, unity, -issue, -issues, progress, -rejected, -rejected, approval, -rejection, approval, approval, approval, -issue, -concerned, clearly, -isolated, clear, approval, support, -problems, easy, -divergent, available, available, available, pleased, like, reputation]>
+<27272:General Operation-[work, work, -issues, available, free, -subpoenas, -unable]>
+<81331:General Operation-[work, work, -issues, available, free, -subpoenas, -unable]>
+
+size:18
+<24915:Other-[fun, honest, productive, stimulate, quiet, better]>
+<27271:Other-[fun, honest, productive, stimulate, quiet, better]>
+<52599:Other-[like]>
+<54971:Other-[reconcile]>
+<73095:Other-[useful, support]>
+<73105:Other-[useful, support]>
+<73108:Other-[support, support]>
+<73109:Other-[support, support, support]>
+<94216:Other-[promise]>
+<95361:Other-[promise]>
+<126008:Other-[love, like, thank]>
+<139990:Other-[great]>
+<144231:Other-[master, approval]>
+<144232:Other-[trust]>
+<151992:Other-[fun, honest, productive, stimulate, quiet, better]>
+<157794:Other-[nice]>
+<163860:Other-[free, like, worth, like, happy]>
+<168037:Other-[free, like, worth, like, happy]>
+
+size:10
+<24916:Business Investment-[work, work, -issues, available, free, -subpoenas, -unable]>
+<39241:Business Investment-[work, work, -issues, available, free, -subpoenas, -unable]>
+<52598:Business Investment-[work, work, -issues, available, free, -subpoenas, -unable]>
+<81338:Business Investment-[work, work, -issues, available, free, -subpoenas, -unable]>
+<85221:Business Investment-[work, work, -issues, available, free, -subpoenas, -unable]>
+<162773:Business Investment-[work, work, -issues, available, free, -subpoenas, -unable]>
+<168300:Business Investment-[accurate, available, hot, -unable, -crack, -crack]>
+<169908:Business Investment-[accurate, available, hot, -unable, -crack, -crack]>
+<168308:Business Investment-[-hard, best, like, -contradict, -gross, -crisis, -horrific, -confusion, important, -bad, -declining, -hard, -bad, meaningful, good, -recession, positive, easier, encourage, timely, -defensive, good, easier, recommended, work, restructuring, attractive, -depressed, won, solid, gain, upgraded, pretty, successful, restructuring, fortune, risk-free, -issue, prefer, toll-free, prefer, prefer]>
+<169916:Business Investment-[-hard, best, like, -contradict, -gross, -crisis, -horrific, -confusion, important, -bad, -declining, -hard, -bad, meaningful, good, -recession, positive, easier, encourage, timely, -defensive, good, easier, recommended, work, restructuring, attractive, -depressed, won, solid, gain, upgraded, pretty, successful, restructuring, fortune, risk-free, -issue, prefer, toll-free, prefer, prefer]>
+
+size:12
+<73090:Other-[-desert]>
+<89770:Other-[-hoax]>
+<89771:Other-[-deficiency, -deficiency, -deficiency, -deficiency]>
+<112426:Other-[-heck, -crap]>
+<156945:Other-[-unable]>
+<157793:Other-[-hard]>
+<163862:Other-[-heck, -crap]>
+<163863:Other-[-weed]>
+<163865:Other-[-strike]>
+<168039:Other-[-heck, -crap]>
+<168040:Other-[-weed]>
+<168042:Other-[-strike]>
+
+size:6
+<73113:Commercial/Advertising-[support, free]>
+<89777:Commercial/Advertising-[important, appropriate, well, -lie, right, right, savings, right]>
+<89782:Commercial/Advertising-[love, fresh, pretty, perfect, enjoying, benefits, right]>
+<89786:Commercial/Advertising-[better, free]>
+<89788:Commercial/Advertising-[lush, like, perfect, like, paradise, win, super, free, bonus, win, romantic, leading, free, -issue, recommended, romantic, paradise, enjoy, win, romantic, super, wonders, enjoy, savings, free, beautiful, bonus, perfect, romantic, likes, like, lively, complemented, easy, -crowded, clear, abundant, pretty, paradise, best, perfect, win, romantic, wholesome, well, enjoy, -cheap, -loose, lavish, affordable, luxury, -rollercoaster, convenient, enjoy, incredible, like, scenic, beauty, stylish, spectacular, elegant, unbeatable, warm, best, classy, unforgettable, savings, benefits, best, enjoying, free, bonus, leading, leading, honor, awards, awards, top, honor, free, -issue, intriguing, -miss, -issue, complimentary, savings, trust, like, best, free, best, top, applaud, exciting, best, recommended, recommended, talented, fine, free, -cloud, welcome, right, spectacular, perfect, -notorious, -trouble, -obstinate, -bored, -refuse, -threat, -ruined, right, useful, like, enjoy, fine, free, paradise, like, top]>
+<89787:Commercial/Advertising-[-toll, free, free, win, bonus]>
+
+size:7
+<94214:Daily Greeting-[right, recommend, good, nicely, important, work]>
+<95359:Daily Greeting-[right, recommend, good, nicely, important, work]>
+<161269:Daily Greeting-[smile, great]>
+<163867:Daily Greeting-[best]>
+<163868:Daily Greeting-[better]>
+<168045:Daily Greeting-[best]>
+<168046:Daily Greeting-[better]>

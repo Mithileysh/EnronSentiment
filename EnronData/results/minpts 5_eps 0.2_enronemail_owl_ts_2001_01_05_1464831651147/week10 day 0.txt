@@ -1,6 +1,0 @@
-size:5
-<121179:General Operation-[like]>
-<125807:General Operation-[like]>
-<203373:General Operation-[sharp, great, masters]>
-<238649:General Operation-[thank, recommend]>
-<238652:General Operation-[grace]>

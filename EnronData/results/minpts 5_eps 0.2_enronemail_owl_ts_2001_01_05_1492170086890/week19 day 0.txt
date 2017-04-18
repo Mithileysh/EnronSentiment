@@ -1,0 +1,28 @@
+size:9
+<3581:Daily Greeting-[-vice]>
+<52603:Daily Greeting-[-vice]>
+<89794:Daily Greeting-[-vice]>
+<107067:Daily Greeting-[-vice]>
+<160305:Daily Greeting-[-vice]>
+<168310:Daily Greeting-[-vice]>
+<169918:Daily Greeting-[-vice]>
+<170048:Daily Greeting-[-vice]>
+<171650:Daily Greeting-[-vice]>
+
+size:8
+<3582:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<52604:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<89795:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<107066:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<168311:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<169919:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<170049:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+<171649:Company Strategy-[ready, celebrate, complimentary, celebration, -limited, led]>
+
+size:6
+<32861:General Operation-[favor]>
+<120842:General Operation-[appropriate, best, top, improve, like]>
+<120867:General Operation-[top, top]>
+<126013:General Operation-[top, top]>
+<127204:General Operation-[appropriate, best, top, improve, like]>
+<135113:General Operation-[master]>

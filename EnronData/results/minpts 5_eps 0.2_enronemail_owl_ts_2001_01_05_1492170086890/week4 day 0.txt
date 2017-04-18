@@ -1,0 +1,36 @@
+size:6
+<9917:Other-[privileged, -strictly]>
+<33195:Other-[-hard, well, -interference, -critical, -failed, respect, constructive, like]>
+<33196:Other-[-suffered, available, reliable, comprehensive, -coerce, right, cleverly, -volatility, -limitations, variety, -interference, -interference, -breach, good, -conspiracy, -difficult, relief, -damages, willing, happy, -conflicted, recommendation, best]>
+<203281:Other-[dominated, -losing, best, -excuse, -worst, -loss, pretty, good, -mad, -sick]>
+<214460:Other-[enjoyed, -crashing, great, enjoyed, like, -issues, -issues, useful, -loud, -issues, reasonably]>
+<214464:Other-[-curt, good, -negative, promised, -shake, good, better, commitment, -issues]>
+
+size:10
+<33194:Other-[superior, superior, -complaint, ready]>
+<33198:Other-[superior, superior, -complaint, ready]>
+<119170:Other-[kindly, right, available, facilitate, welcome, -set-up, fast, right, appreciate]>
+<119226:Other-[better, fine, best, appreciate]>
+<125628:Other-[kindly, right, available, facilitate, welcome, -set-up, fast, right, appreciate]>
+<125629:Other-[better, fine, best, appreciate]>
+<199342:Other-[hot, cool, powerful, available, good, like]>
+<198109:Other-[thank, important, improved, fortune, respect, dignity, believable, fairly, benefits, satisfying, well-managed, pleased, strong, enough, work, -concern, better, -unnecessary, work, effectively, encourage, variety, available, -concerns, -concerns, improvements, improving, free, -vice, -issues, -critical, -fall, best]>
+<198211:Other-[thank, important, improved, fortune, respect, dignity, believable, fairly, benefits, satisfying, well-managed, pleased, work, -concern, better, -unnecessary, work, encourage, available, -concerns, free, -issues, -critical]>
+<211245:Other-[best, -sue, like, positive, like]>
+
+size:5
+<120386:Business Document-[merit, -complicated, -concessions, great, willing, work, better, pleasure, pleasure, success, -concerned, -lose, gain, worked, -missed, confident, support, constructive, preferable, free]>
+<125636:Business Document-[merit, -complicated, -concessions, great, willing, work, better, pleasure, pleasure, success, -concerned, -lose, gain, worked, -missed, confident, support, constructive, preferable, free]>
+<129009:Business Document-[merit, -complicated, -concessions, great, willing, work, better, pleasure, pleasure, success, -concerned, -lose, gain, worked, -missed, confident, support, constructive, preferable, free]>
+<214458:Business Document-[merit, -complicated, -concessions, great, willing, work, better, pleasure, pleasure, success, -concerned, -lose, gain, worked, -missed, confident, support, constructive, preferable, free]>
+<214465:Business Document-[good, worked, merit, -complicated, -concessions, great, willing, work, better, pleasure, pleasure, success, -concerned, -lose, gain, worked, -missed, confident, support, constructive, preferable, free]>
+
+size:8
+<125626:General Operation-[important, important, important, -failed, worthiness, blessing, approval, work]>
+<125632:General Operation-[important, important, important, -failed, worthiness, blessing, approval, work]>
+<129008:General Operation-[important, important, important, -failed, worthiness, blessing, approval, work]>
+<129135:General Operation-[important, important, -failed, worthiness, blessing, approval, work]>
+<211242:General Operation-[important, important, important, important, -failed, worthiness, blessing, approval, work]>
+<211248:General Operation-[important, important, -failed, worthiness, blessing, approval, work]>
+<214456:General Operation-[important, important, important, -failed, worthiness, blessing, approval, work]>
+<214463:General Operation-[support, support, support, dedicated, like, good, work, good, support, pretty, pretty, -reluctant, convincing]>

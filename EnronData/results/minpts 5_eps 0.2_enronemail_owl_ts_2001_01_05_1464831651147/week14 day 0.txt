@@ -1,6 +1,0 @@
-size:5
-<3413:Other-[proud, available, work]>
-<3414:Other-[good, innovation, better, efficient, like]>
-<107631:Other-[good, innovation, better, efficient, like]>
-<140630:Other-[privileged]>
-<238955:Other-[good, innovation, better, efficient, like]>

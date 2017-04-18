@@ -1,0 +1,74 @@
+size:29
+<3506:General Operation-[confident, ambitious, cost-effective, friendly, appropriate, best, ready, right, appreciate, best]>
+<54343:General Operation-[great, like]>
+<54904:General Operation-[great, like]>
+<82266:General Operation-[significant, useful, work]>
+<120778:General Operation-[ready, available]>
+<129638:General Operation-[ready, available]>
+<144032:General Operation-[prefer, effectively, well]>
+<179104:General Operation-[welcome, top]>
+<191790:General Operation-[confident, ambitious, cost-effective, friendly, appropriate, best, ready, right, appreciate, best]>
+<192644:General Operation-[ready, available]>
+<196681:General Operation-[significant, like, thank]>
+<215901:General Operation-[well, like, like, available, thank]>
+<215907:General Operation-[enough, favorable]>
+<215915:General Operation-[enough, favorable]>
+<215920:General Operation-[enough, favorable]>
+<215927:General Operation-[keen, happy, like, capability, available, guidance, best, cooperatively, -issues, guarantee, assure, well, like, -issues, like, available, thank]>
+<107464:General Operation-[effective, -limited, master, master]>
+<179590:General Operation-[-weaker, satisfactory, support, satisfies, like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<179591:General Operation-[-weaker, satisfactory, support, satisfies, like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<179594:General Operation-[good, -sorry, -dispute, good, great, support, nice]>
+<179598:General Operation-[like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<179599:General Operation-[like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<183988:General Operation-[like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<183989:General Operation-[like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<183991:General Operation-[good, -sorry, -dispute, good, great, support, nice]>
+<191871:General Operation-[work, work, -limited]>
+<215934:General Operation-[good, -lengthy, great]>
+<215932:General Operation-[thank, productive, great, available, helpful, keen, happy, like, capability, available, guidance, best, cooperatively, -issues, thank, guarantee, assure, well, like, -issues, like, available, thank]>
+<215933:General Operation-[significant, like, thank]>
+
+size:33
+<34739:Other-[-limited, benefits]>
+<54903:Other-[-refused, -limited, like, guarantee]>
+<215893:Other-[pros, -cons, -loss, -loss, -bad, quiet, -forceful, best, -troubles, comfortable, -payback, -unclear, -confusing, win, victory, supporting, work, best, best, -worst, work, best, pros, pros, -cons, leverage, easier, -loose, support, positive, supporting, popular, -negative, -risk, properly, -issue, -risk, -loss, -problem]>
+<210091:Other-[-killing, support, nice]>
+<150826:Other-[nice, significant, work, refund, -issue]>
+<58022:Other-[-failed, appropriate, right, recover, like, recommend, available]>
+<97150:Other-[pleased, benevolent, noble, good, success, good, good, good, happy, best, love, happy, -worrying, glad, well, hot, exceptionally, hot, good, luck, perfectly, -failure, -problem, good, -problem, hot, hot, useful, love, free, free]>
+<54341:Other-[helpful, like, love, great]>
+<54342:Other-[fine]>
+<82267:Other-[work, cohesive]>
+<135148:Other-[pretty]>
+<150824:Other-[respect, privileged]>
+<150825:Other-[privileged]>
+<183993:Other-[qualify]>
+<210086:Other-[good]>
+<210095:Other-[right]>
+<215902:Other-[promised]>
+<215906:Other-[good]>
+<215909:Other-[love, work, good, love, love, work, work]>
+<215913:Other-[good, good, honor]>
+<215929:Other-[good]>
+<233475:Other-[happy, appreciate, thank, available, important, work, refine, wonderfully, happy]>
+<215925:Other-[responsive, reasonable, successful, reform, reform, responsive, -vice, -vice]>
+<179597:Other-[master, like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<183990:Other-[master, like, better, -limit, good, -sorry, -dispute, good, great, support, nice]>
+<215926:Other-[-difficult, good, thank, great, -miss]>
+<215930:Other-[nice, good, -difficult, good, thank, great, -miss]>
+<215931:Other-[fun, -excuse, like]>
+<215937:Other-[work, -sue]>
+<215903:Other-[regard, -freeze, -frozen, -freeze, assurance, -limited, regard, -issue, respect, -issues]>
+<113123:Other-[-wound, powerful, -broken, available, -painful, -dark]>
+<215935:Other-[reform, -oversight, -volatile, -troubled, protection, -partisan, -touted, supported, -facetiously, reputation, -partisan, -foe, hot, -crisis, -warned, -curt, support, -wrong, -expensive, clear, reform, work, gain, gain, -unjust, clear, -crisis, -vice, correctly]>
+<233476:Other-[-lost, appreciate]>
+
+size:7
+<54902:Company Strategy-[effective, clearly, -limits, clearly, -liability, -liable]>
+<215894:Company Strategy-[-debt, merry, -debt, sweeping, -warning, willing, -questionable, afford, worth, reforms, -debt, -debt, afford, top, -disputed, -denied, -unusually, -concerned, -difficulties, -splitting, -bankrupt, -bankrupt, secure, adequate, protect, outstanding, -debts, good, protection, -debts, -crisis, confident, wisdom, guarantee, -setback, low-cost, -troubled, -dump, -lose, -emergency, appeal, -overturn, honoring, right, -troubled, adequate, protect, outstanding, -debts, secure, -debts, protection, -crisis, -setback, low-cost, -troubled, merry, classic, -controversy, -issue, -scrap, -bitter, -critic, -dust, -bankrupt, -unable, perfectly, correct, -dispute, -failed, -penalty, led, recommended, -haste, silent, guarantee, -twist, clearly, -failures, reforms, like, -problem, -poor, reform, assurance, correct, -imbalance, -ridiculously, like, -unable, -losses, -loses, recommended, recommended, restructured, -limit, recommended, reforms, better, freedom, maturity, -debt, preferably, -debt, maturity, -debt, -debt, restructured, restructured, -critical, recommended, reform, -critical, -bankrupt, secure, protection, -debt, -excuse]>
+<215910:Company Strategy-[reaffirm, reputation, -hurts, benefits, -kill, -foolish, willing, -strike, right, -negative, success, right]>
+<215914:Company Strategy-[like, -falls, -failure, -problem, top, reaffirm, reputation, -hurts, benefits, -kill, -foolish, willing, -strike, right, -negative, success, right]>
+<215917:Company Strategy-[cute, won, like, -falls, -failure, -problem, top, reaffirm, reputation, -hurts, benefits, -kill, -foolish, willing, -strike, right, -negative, success, right]>
+<215919:Company Strategy-[thank, appropriate, reaffirm, reputation, -hurts, benefits, -kill, -foolish, willing, -strike, right, -negative, success, right]>
+<210089:Company Strategy-[optimal, appropriate, optimal, -issues]>

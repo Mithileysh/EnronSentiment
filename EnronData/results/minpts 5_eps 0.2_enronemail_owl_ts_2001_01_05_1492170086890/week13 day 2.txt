@@ -1,0 +1,135 @@
+size:46
+<3368:Other-[appropriate, like, improvement, free, better]>
+<3376:Other-[top, helped, supported, clean]>
+<10196:Other-[works, available, qualified, pretty]>
+<54405:Other-[love]>
+<73326:Other-[clear, afford, great, significant, strong, appreciate, flexibility]>
+<73349:Other-[clear, afford, great, significant, strong, appreciate, flexibility]>
+<102695:Other-[happy]>
+<102698:Other-[master]>
+<107742:Other-[master]>
+<112471:Other-[appreciate, happy, favor, good, luck, well]>
+<140707:Other-[right]>
+<140708:Other-[right]>
+<144092:Other-[respect]>
+<179719:Other-[glad, cheaper, decent]>
+<183776:Other-[angel, serene, pleased, led, effective]>
+<194016:Other-[fresh]>
+<196653:Other-[positive, free]>
+<215532:Other-[respect, free, smarter, comprehensive, like, right, advantage, free, comprehensive, prefer]>
+<215534:Other-[work, -confused, luck, fairly, respect, fairly, confident, like]>
+<112475:Other-[-weird, great, wonder, likes, likes, prudence, -lack, like, -misses, happy, loves, smile, pleasant, pleasant, trust, -weird, -pitiful, enjoying, right, honest, cleverly, good, won, -mar, advantage, -hung, fun, free]>
+<3374:Other-[refund, -problems, well]>
+<10195:Other-[-difficult, like, great, like, -issue, like, like]>
+<112472:Other-[advantage, -hung, fun]>
+<112477:Other-[glad, right, pretty, -unlikely, tough, -cracks, regard, -mar, -weird, great, wonder, likes, likes, -lack, like, -misses, happy, loves, smile, pleasant, trust, -pitiful, enjoying, right, honest, cleverly, good, won, -mar, advantage, -hung, fun, free, free]>
+<113136:Other-[fresh, -mar, heaven]>
+<172963:Other-[fair, -expensive, good, master, -limited, guarantee, guarantee, well, -limited]>
+<191868:Other-[available, effective, approval, effective, -sue]>
+<158718:Other-[like, top, top, -destroy, kindly, endorsed]>
+<215535:Other-[advantage, advantage, flexibility, -complex, compliant, dazzling, dynamic, super, convenient, affordable, available, intelligent, great, unmatched, capability, free, advantage]>
+<236725:Other-[fine]>
+<236728:Other-[well, works, fun, free]>
+<238905:Other-[well, works, fun, free]>
+<238908:Other-[free]>
+<245501:Other-[masters, fine]>
+<245503:Other-[like]>
+<245504:Other-[master]>
+<247718:Other-[promise]>
+<247721:Other-[master]>
+<247723:Other-[master]>
+<236726:Other-[love, pretty, nicer, -smelled, like]>
+<238902:Other-[love, pretty, nicer, -smelled, like]>
+<241830:Other-[like, -implication, flexible]>
+<241827:Other-[-sorry, graciously, encourage, encourage, -rumor]>
+<85116:Other-[-restricted, thank]>
+<238910:Other-[clear, -limited]>
+<245509:Other-[master, appreciate, -problems]>
+
+size:11
+<3371:General Operation-[leverage, competitive, gain, competitive, -issues, available, exceeding, -expensive, abundant, -concerns, brighter, -lie, -costly, integrated, -burns, like, interesting, advanced, great, -problem, led, selective, improvement, -issues, -limit, supreme, supported, right, significant, lead, fine, great, abundant, well, available, pleased, like, reputation]>
+<3377:General Operation-[work, restructured, -critical, work, -critical, work, work, -congestion, work, work, integrated, -issues, worthiness, work, work, work, -critical, helpful]>
+<3378:General Operation-[work, restructured, -critical, work, -critical, work, work, like, valuable, -critical]>
+<10193:General Operation-[-vice, available, qualified]>
+<107737:General Operation-[-vice, available, qualified]>
+<120808:General Operation-[best, privileged, -strictly]>
+<127822:General Operation-[best, privileged, -strictly]>
+<183777:General Operation-[-vice, available, qualified]>
+<192389:General Operation-[best, privileged, -strictly]>
+<215530:General Operation-[-sue, like, significant, -issues, like, appropriate, like, appreciate]>
+<215531:General Operation-[work, -issue, courageous]>
+
+size:5
+<3372:Company Strategy-[-vice, -vice]>
+<3373:Company Strategy-[-vice, -vice]>
+<102691:Company Strategy-[-confusing, -poor]>
+<107735:Company Strategy-[-mar, -mar, -mar]>
+<183775:Company Strategy-[-confusing, -poor]>
+
+size:16
+<3375:Private Issue-[rich, -sue, enjoyed, best]>
+<3380:Private Issue-[good, luck, loved, -mar, enjoyed, best]>
+<73237:Private Issue-[better, hopeful, valuable, work, greatest, -issues]>
+<102686:Private Issue-[approval, dawn, approval, approve, -set-up, right]>
+<102687:Private Issue-[approval, dawn, approval, approval, approval, approval, respect, respect, respect, respect, respect, -set-up, right]>
+<107730:Private Issue-[dawn, approval, approve, -set-up, right]>
+<107732:Private Issue-[dawn, approval, approval, approval, approval, respect, respect, respect, respect, respect, -set-up, right]>
+<112474:Private Issue-[like, interesting, like, fun, fine, fine, enjoy, great, free, cool, good]>
+<112478:Private Issue-[good, enjoyment]>
+<112480:Private Issue-[like, good, great, -mar, like, interesting, like, fun, fine, fine, enjoy, free, good, free]>
+<197838:Private Issue-[like]>
+<215529:Private Issue-[appreciate, useful, work]>
+<215536:Private Issue-[best, wisdom]>
+<112473:Private Issue-[-sorry, work, good, work, -worries, free]>
+<233298:Private Issue-[proud, -unusual, creative, -fiction, good, qualified, honored, -strictly, thank]>
+<241829:Private Issue-[willingness, best, work, well, -prohibit, encourage, encourage, -rumor, appropriate, -sap, ease, success]>
+
+size:6
+<3379:Other-[-vice]>
+<10198:Other-[-vice]>
+<95247:Other-[-cold]>
+<112479:Other-[-mar]>
+<164112:Other-[-break, -wrong]>
+<215537:Other-[-hang]>
+
+size:7
+<10197:Daily Greeting-[strong, work, successful, available, support, achievement]>
+<32985:Daily Greeting-[liked]>
+<84673:Daily Greeting-[good]>
+<112481:Daily Greeting-[like, thank]>
+<172964:Daily Greeting-[strong, work, successful, available, support, achievement]>
+<172966:Daily Greeting-[good, decent, won, commitment, glad, fine, refund, won, fine, thank]>
+<238914:Daily Greeting-[respect, well, appreciate, free]>
+
+size:7
+<24844:Other-[boost, -sunk, -declines, -debt]>
+<34250:Other-[-problem, -strictly, thank]>
+<34933:Other-[-disregard, -mar, successful]>
+<160475:Other-[-incorrectly, appreciate, -trouble]>
+<179722:Other-[appropriate, -bombard, -confusing, -issues, -deprived, wonder]>
+<179725:Other-[-bombard, -confusing, -issues, -deprived, wonder]>
+<183772:Other-[-issues, -deprived, wonder]>
+
+size:5
+<53804:General Operation-[-risk, -issue]>
+<121029:General Operation-[-strictly]>
+<125893:General Operation-[-strictly]>
+<215533:General Operation-[-negative]>
+<248323:General Operation-[-limit]>
+
+size:7
+<102685:Company Strategy-[favour]>
+<107726:Company Strategy-[favour]>
+<107728:Company Strategy-[favour]>
+<183780:Company Strategy-[favour]>
+<236727:Company Strategy-[clean]>
+<238911:Company Strategy-[agreeable, clean]>
+<248456:Company Strategy-[appropriate]>
+
+size:6
+<102697:General Operation-[available, available]>
+<121143:General Operation-[good]>
+<125892:General Operation-[good]>
+<179163:General Operation-[best]>
+<183773:General Operation-[work]>
+<233299:General Operation-[like]>
